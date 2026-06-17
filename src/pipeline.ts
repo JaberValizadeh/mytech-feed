@@ -43,8 +43,11 @@ export async function runAggregation(): Promise<AggregationResult> {
   console.log(`      → ${raw.length} items fetched.`);
 
   console.log("\n[2/4] Deduplicating…");
-  const { unique, duplicateOf } = deduplicate(raw);
-  console.log(`      → ${unique.length} unique, ${duplicateOf.size} duplicates removed.`);
+  const { unique, duplicateOf, sourceCount } = deduplicate(raw);
+  const hot = [...sourceCount.values()].filter((n) => n >= 2).length;
+  console.log(
+    `      → ${unique.length} unique, ${duplicateOf.size} duplicates removed, ${hot} hot (2+ sources).`,
+  );
 
   // Reuse previously enriched articles so we only pay for genuinely new stories.
   // A cached article also counts as "fresh" if it predates a field we now
@@ -59,12 +62,21 @@ export async function runAggregation(): Promise<AggregationResult> {
   console.log(
     `\n[3/4] AI enrichment — ${fresh.length} new/backfill, ${unique.length - fresh.length} reused from cache…`,
   );
-  const enriched = await enrichAll(fresh, duplicateOf);
+  // Stamp the freshly enriched canonicals with how many sources carried them.
+  const enriched = (await enrichAll(fresh, duplicateOf)).map((a) => ({
+    ...a,
+    sourceCount: sourceCount.get(a.id) ?? 1,
+  }));
 
-  // Items in this run we've already fully enriched: keep them, refresh dup flag.
+  // Items in this run we've already fully enriched: keep them, but refresh the
+  // dup flag and source count (more outlets may have picked up the story since).
   const reusedItems: ProcessedArticle[] = unique
     .filter((a) => isComplete(cache.get(a.id)))
-    .map((a) => ({ ...cache.get(a.id)!, duplicateOf: duplicateOf.get(a.id) }));
+    .map((a) => ({
+      ...cache.get(a.id)!,
+      duplicateOf: duplicateOf.get(a.id),
+      sourceCount: sourceCount.get(a.id) ?? 1,
+    }));
 
   // Merge this run with older stored items, unique by id, newest first, capped.
   const byId = new Map<string, ProcessedArticle>();

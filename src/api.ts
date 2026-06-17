@@ -67,6 +67,23 @@ app.get("/feed", async (req, res) => {
   res.json({ generatedAt, count: result.length, articles: result.slice(off, off + max) });
 });
 
+/**
+ * Hot news: stories carried by 2+ sources (>= 60% content similarity, clustered
+ * during dedup). Sorted by how many sources covered it, then recency.
+ */
+app.get("/trending", async (_req, res) => {
+  const { articles } = await loadArticles();
+  const hot = articles
+    .filter((a) => !a.duplicateOf && (a.sourceCount ?? 1) >= 2)
+    .sort(
+      (a, b) =>
+        (b.sourceCount ?? 1) - (a.sourceCount ?? 1) ||
+        +new Date(b.publishedAt) - +new Date(a.publishedAt),
+    )
+    .slice(0, 20);
+  res.json({ count: hot.length, articles: hot });
+});
+
 /** A single article by id. */
 app.get("/articles/:id", async (req, res) => {
   const { articles } = await loadArticles();

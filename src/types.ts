@@ -96,6 +96,8 @@ export interface ProcessedArticle extends RawArticle {
   readingMinutes: number;
   /** ids of other articles judged to be the same story (deduplication). */
   duplicateOf?: string;
+  /** Distinct sources that carried this story; >= 2 marks it as "hot news". */
+  sourceCount?: number;
   /** When the AI processing happened. */
   processedAt: string;
 }
