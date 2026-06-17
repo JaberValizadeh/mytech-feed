@@ -47,18 +47,23 @@ export async function runAggregation(): Promise<AggregationResult> {
   console.log(`      → ${unique.length} unique, ${duplicateOf.size} duplicates removed.`);
 
   // Reuse previously enriched articles so we only pay for genuinely new stories.
+  // A cached article also counts as "fresh" if it predates a field we now
+  // generate (e.g. summaryEn) — that way a schema addition backfills itself on
+  // the next refresh instead of leaving old items half-translated.
   const prior = await loadArticles();
   const cache = new Map(prior.articles.map((a) => [a.id, a]));
-  const fresh = unique.filter((a) => !cache.has(a.id));
+  const isComplete = (a: ProcessedArticle | undefined): a is ProcessedArticle =>
+    !!a && typeof a.summaryEn === "string" && a.summaryEn.length > 0;
+  const fresh = unique.filter((a) => !isComplete(cache.get(a.id)));
 
   console.log(
-    `\n[3/4] AI enrichment — ${fresh.length} new, ${unique.length - fresh.length} reused from cache…`,
+    `\n[3/4] AI enrichment — ${fresh.length} new/backfill, ${unique.length - fresh.length} reused from cache…`,
   );
   const enriched = await enrichAll(fresh, duplicateOf);
 
-  // Items in this run we've seen before: keep their translation, refresh dup flag.
+  // Items in this run we've already fully enriched: keep them, refresh dup flag.
   const reusedItems: ProcessedArticle[] = unique
-    .filter((a) => cache.has(a.id))
+    .filter((a) => isComplete(cache.get(a.id)))
     .map((a) => ({ ...cache.get(a.id)!, duplicateOf: duplicateOf.get(a.id) }));
 
   // Merge this run with older stored items, unique by id, newest first, capped.

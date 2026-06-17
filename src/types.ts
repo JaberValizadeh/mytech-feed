@@ -82,6 +82,8 @@ export interface ProcessedArticle extends RawArticle {
   titleFa: string;
   /** 2-3 sentence Persian summary. */
   summaryFa: string;
+  /** 2-3 sentence English summary (shown in the app's English mode). */
+  summaryEn: string;
   /** Bullet-point key insights in Persian. */
   insightsFa: string[];
   /** Why this matters, in Persian — the editorial angle. */

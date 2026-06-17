@@ -55,7 +55,10 @@ app.get("/feed", async (req, res) => {
   if (typeof q === "string" && q.trim()) {
     const needle = q.trim().toLowerCase();
     result = result.filter((a) =>
-      [a.titleFa, a.summaryFa, ...a.tagsFa].join(" ").toLowerCase().includes(needle),
+      [a.titleFa, a.summaryFa, a.title, a.summaryEn ?? "", ...a.tagsFa]
+        .join(" ")
+        .toLowerCase()
+        .includes(needle),
     );
   }
 
