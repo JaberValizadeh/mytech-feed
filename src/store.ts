@@ -1,12 +1,21 @@
-import { readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import type { ProcessedArticle, Video } from "./types.js";
 
 const here = dirname(fileURLToPath(import.meta.url));
-const DATA_FILE = join(here, "..", "data", "articles.json");
-const VIDEOS_FILE = join(here, "..", "data", "videos.json");
+// Where the JSON store lives. On Railway, set DATA_DIR=/data (the mounted
+// persistent volume) so the feed survives restarts/redeploys; locally it
+// falls back to ./data next to the source.
+const DATA_DIR = process.env.DATA_DIR ?? join(here, "..", "data");
+const DATA_FILE = join(DATA_DIR, "articles.json");
+const VIDEOS_FILE = join(DATA_DIR, "videos.json");
+
+/** Ensure the data directory exists before writing (it may be an empty volume). */
+async function ensureDataDir(): Promise<void> {
+  await mkdir(DATA_DIR, { recursive: true });
+}
 
 export interface ArticleStore {
   generatedAt: string;
@@ -24,6 +33,7 @@ export async function saveArticles(articles: ProcessedArticle[]): Promise<void> 
     generatedAt: new Date().toISOString(),
     articles,
   };
+  await ensureDataDir();
   await writeFile(DATA_FILE, JSON.stringify(store, null, 2), "utf8");
 }
 
@@ -42,6 +52,7 @@ export async function saveVideos(videos: Video[]): Promise<void> {
     generatedAt: new Date().toISOString(),
     videos,
   };
+  await ensureDataDir();
   await writeFile(VIDEOS_FILE, JSON.stringify(store, null, 2), "utf8");
 }
 
