@@ -40,6 +40,17 @@ async function refresh(reason: string): Promise<void> {
   }
 }
 
+/**
+ * Kick off a refresh on demand (e.g. from the admin endpoint). Fire-and-forget:
+ * aggregation takes minutes, so we return immediately and let it run in the
+ * background. Returns false if a refresh is already in progress.
+ */
+export function triggerRefresh(reason: string): boolean {
+  if (running) return false;
+  void refresh(reason);
+  return true;
+}
+
 function sydneyDateParts(d: Date) {
   const parts = new Intl.DateTimeFormat("en-AU", {
     timeZone: TZ,
