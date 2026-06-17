@@ -1,0 +1,83 @@
+import "dotenv/config";
+import { enrichAll } from "./ai.js";
+import { deduplicate } from "./dedup.js";
+import { fetchAll } from "./rss.js";
+import { SOURCES } from "./sources.js";
+import { loadArticles, saveArticles } from "./store.js";
+import type { ProcessedArticle } from "./types.js";
+
+/** Thrown when aggregation can't run because no OpenAI key is configured. */
+export class MissingApiKeyError extends Error {
+  constructor() {
+    super("OPENAI_API_KEY is not set. Copy .env.example to .env and add your key.");
+    this.name = "MissingApiKeyError";
+  }
+}
+
+/** Keep at most this many articles in the rolling store (newest first). */
+const MAX_STORED = Number(process.env.MAX_STORED_ARTICLES ?? 300);
+
+export interface AggregationResult {
+  fetched: number;
+  newlyEnriched: number;
+  reused: number;
+  total: number;
+}
+
+/**
+ * One full aggregation cycle:
+ *   fetch RSS → dedupe → AI-enrich only NEW items → merge into a rolling store.
+ *
+ * Article ids are a stable hash of the canonical link, so anything we already
+ * translated in a previous run is reused as-is — the model is only called for
+ * stories we haven't seen before. This keeps the daily refresh cheap and lets
+ * the feed accumulate history instead of being rebuilt from scratch each time.
+ */
+export async function runAggregation(): Promise<AggregationResult> {
+  if (!process.env.OPENAI_API_KEY) throw new MissingApiKeyError();
+
+  const maxItems = Number(process.env.MAX_ITEMS_PER_SOURCE ?? 8);
+
+  console.log(`\n[1/4] Fetching ${SOURCES.length} sources (max ${maxItems} each)…`);
+  const raw = await fetchAll(SOURCES, maxItems);
+  console.log(`      → ${raw.length} items fetched.`);
+
+  console.log("\n[2/4] Deduplicating…");
+  const { unique, duplicateOf } = deduplicate(raw);
+  console.log(`      → ${unique.length} unique, ${duplicateOf.size} duplicates removed.`);
+
+  // Reuse previously enriched articles so we only pay for genuinely new stories.
+  const prior = await loadArticles();
+  const cache = new Map(prior.articles.map((a) => [a.id, a]));
+  const fresh = unique.filter((a) => !cache.has(a.id));
+
+  console.log(
+    `\n[3/4] AI enrichment — ${fresh.length} new, ${unique.length - fresh.length} reused from cache…`,
+  );
+  const enriched = await enrichAll(fresh, duplicateOf);
+
+  // Items in this run we've seen before: keep their translation, refresh dup flag.
+  const reusedItems: ProcessedArticle[] = unique
+    .filter((a) => cache.has(a.id))
+    .map((a) => ({ ...cache.get(a.id)!, duplicateOf: duplicateOf.get(a.id) }));
+
+  // Merge this run with older stored items, unique by id, newest first, capped.
+  const byId = new Map<string, ProcessedArticle>();
+  for (const a of [...enriched, ...reusedItems, ...prior.articles]) {
+    if (!byId.has(a.id)) byId.set(a.id, a);
+  }
+  const merged = [...byId.values()]
+    .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
+    .slice(0, MAX_STORED);
+
+  console.log("\n[4/4] Saving…");
+  await saveArticles(merged);
+  console.log(`      → ${merged.length} articles in data/articles.json.\n`);
+
+  return {
+    fetched: raw.length,
+    newlyEnriched: enriched.length,
+    reused: reusedItems.length,
+    total: merged.length,
+  };
+}
