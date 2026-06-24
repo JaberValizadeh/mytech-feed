@@ -2,7 +2,7 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
-import type { ProcessedArticle, Video } from "./types.js";
+import type { ProcessedArticle, Sponsor, Video } from "./types.js";
 
 const here = dirname(fileURLToPath(import.meta.url));
 // Where the JSON store lives. On Railway, set DATA_DIR=/data (the mounted
@@ -11,6 +11,7 @@ const here = dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = process.env.DATA_DIR ?? join(here, "..", "data");
 const DATA_FILE = join(DATA_DIR, "articles.json");
 const VIDEOS_FILE = join(DATA_DIR, "videos.json");
+const SPONSORS_FILE = join(DATA_DIR, "sponsors.json");
 
 /** Ensure the data directory exists before writing (it may be an empty volume). */
 async function ensureDataDir(): Promise<void> {
@@ -63,4 +64,17 @@ export async function loadVideos(): Promise<VideoStore> {
   }
   const raw = await readFile(VIDEOS_FILE, "utf8");
   return JSON.parse(raw) as VideoStore;
+}
+
+/** Load all sponsored posts (including inactive); empty if none configured. */
+export async function loadSponsors(): Promise<Sponsor[]> {
+  if (!existsSync(SPONSORS_FILE)) return [];
+  const raw = await readFile(SPONSORS_FILE, "utf8");
+  return JSON.parse(raw) as Sponsor[];
+}
+
+/** Persist the full list of sponsored posts. */
+export async function saveSponsors(sponsors: Sponsor[]): Promise<void> {
+  await ensureDataDir();
+  await writeFile(SPONSORS_FILE, JSON.stringify(sponsors, null, 2), "utf8");
 }

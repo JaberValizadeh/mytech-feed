@@ -25,6 +25,33 @@ export interface Video {
   processedAt: string;
 }
 
+/**
+ * A paid native ad / sponsored post, managed by the app owner (not from RSS).
+ * Rendered inline in the feed as a clearly-labeled card that links to the
+ * advertiser. Stored separately so the RSS pipeline never touches it.
+ */
+export interface Sponsor {
+  id: string;
+  /** Brand/advertiser name shown in small print on the card. */
+  advertiser: string;
+  titleFa: string;
+  titleEn: string;
+  bodyFa: string;
+  bodyEn: string;
+  /** Creative image URL (optional). */
+  imageUrl?: string;
+  /** Where tapping the card sends the user. */
+  ctaUrl: string;
+  ctaTextFa?: string;
+  ctaTextEn?: string;
+  /** Off switches the ad without deleting it. */
+  active: boolean;
+  /** Optional flight window (ISO 8601). Outside it, the ad is not served. */
+  startsAt?: string;
+  endsAt?: string;
+  createdAt: string;
+}
+
 /** Canonical content categories. Persian labels live in the app (see app/lib/categories.ts). */
 export type CategoryId =
   | "ai"
