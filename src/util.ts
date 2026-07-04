@@ -65,32 +65,75 @@ export function truncate(text: string, max: number): string {
   return text.slice(0, max).replace(/\s+\S*$/, "") + "…";
 }
 
+/** Ordered patterns for the social/share image in a page's <head>. */
+const IMAGE_META_PATTERNS: RegExp[] = [
+  /<meta[^>]+property=["']og:image:secure_url["'][^>]+content=["']([^"']+)["']/i,
+  /<meta[^>]+property=["']og:image:url["'][^>]+content=["']([^"']+)["']/i,
+  /<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i,
+  /<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i,
+  /<meta[^>]+name=["']og:image["'][^>]+content=["']([^"']+)["']/i,
+  /<meta[^>]+name=["']twitter:image(?::src)?["'][^>]+content=["']([^"']+)["']/i,
+  /<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image(?::src)?["']/i,
+  /<meta[^>]+itemprop=["']image["'][^>]+content=["']([^"']+)["']/i,
+  /<link[^>]+rel=["']image_src["'][^>]+href=["']([^"']+)["']/i,
+];
+
 /**
- * Fetch the og:image from an article URL by scraping the HTML <head>.
- * Returns undefined on any error or timeout (always safe to call).
+ * Fetch the share image (og:image / twitter:image / …) from an article URL.
+ * Reads a generous slice of the HTML because modern sites have large <head>s and
+ * often place og:image well past the first several KB. Returns undefined on any
+ * error or timeout (always safe to call).
  */
 export async function fetchOgImage(url: string): Promise<string | undefined> {
   try {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 5000);
+    const timer = setTimeout(() => controller.abort(), 8000);
     const res = await fetch(url, {
       signal: controller.signal,
-      headers: { "User-Agent": "Mozilla/5.0 (compatible; TechNewsPersian/1.0)" },
+      headers: {
+        // A real browser UA — some CDNs 403/406 generic agents.
+        "User-Agent":
+          "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        Accept: "text/html,application/xhtml+xml",
+      },
+      redirect: "follow",
     });
     clearTimeout(timer);
     if (!res.ok) return undefined;
-    // Only parse enough of the HTML to find <head> — avoids loading the body.
     const text = await res.text();
-    const head = text.slice(0, 8000);
-    const match =
-      head.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) ??
-      head.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["']/i) ??
-      head.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["']/i);
-    const imageUrl = match?.[1];
-    if (!imageUrl || imageUrl.startsWith("data:")) return undefined;
-    // Resolve relative URLs.
-    return new URL(imageUrl, url).href;
+    // <head> can be large; scan up to 200 KB (og:image is always in the head).
+    const head = text.slice(0, 200_000);
+    for (const re of IMAGE_META_PATTERNS) {
+      const imageUrl = head.match(re)?.[1]?.trim();
+      if (imageUrl && !imageUrl.startsWith("data:")) {
+        try {
+          return new URL(imageUrl, url).href; // resolve relative URLs
+        } catch {
+          // malformed URL — try the next pattern
+        }
+      }
+    }
+    return undefined;
   } catch {
     return undefined;
   }
+}
+
+/** First usable <img> src from a chunk of article HTML (RSS content). */
+export function firstImageInHtml(html: string | undefined, baseUrl: string): string | undefined {
+  if (!html) return undefined;
+  const re = /<img[^>]+src=["']([^"']+)["']/gi;
+  let m: RegExpExecArray | null;
+  while ((m = re.exec(html)) !== null) {
+    const src = m[1]?.trim();
+    if (!src || src.startsWith("data:")) continue;
+    // Skip tiny tracking pixels / spacers by obvious name hints.
+    if (/(1x1|pixel|spacer|blank|tracking)\.(gif|png)/i.test(src)) continue;
+    try {
+      return new URL(src, baseUrl).href;
+    } catch {
+      // keep scanning
+    }
+  }
+  return undefined;
 }

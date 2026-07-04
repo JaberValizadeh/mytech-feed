@@ -1,6 +1,6 @@
 import Parser from "rss-parser";
 import type { RawArticle, Source } from "./types.js";
-import { fetchOgImage, fingerprint, hashId, stripHtml, truncate } from "./util.js";
+import { fetchOgImage, fingerprint, firstImageInHtml, hashId, stripHtml, truncate } from "./util.js";
 
 type MediaItem = { $?: { url?: string } };
 type RssItem = Parser.Item & {
@@ -72,7 +72,9 @@ export async function fetchSource(
         author: item.creator ?? (item as { author?: string }).author,
         publishedAt,
         fingerprint: fingerprint(title),
-        imageUrl: rssImageUrl(item),
+        // Prefer a real media field; else an <img> embedded in the feed's HTML.
+        // Anything still missing is scraped from og:image later.
+        imageUrl: rssImageUrl(item) ?? firstImageInHtml(rawContent, link),
       };
     })
     .filter((a): a is RawArticle => a !== null);

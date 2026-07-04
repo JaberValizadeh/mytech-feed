@@ -69,14 +69,19 @@ export async function runAggregation(): Promise<AggregationResult> {
   }));
 
   // Items in this run we've already fully enriched: keep them, but refresh the
-  // dup flag and source count (more outlets may have picked up the story since).
+  // dup flag and source count (more outlets may have picked up the story since),
+  // and backfill an image if the stored copy had none but we found one now.
   const reusedItems: ProcessedArticle[] = unique
     .filter((a) => isComplete(cache.get(a.id)))
-    .map((a) => ({
-      ...cache.get(a.id)!,
-      duplicateOf: duplicateOf.get(a.id),
-      sourceCount: sourceCount.get(a.id) ?? 1,
-    }));
+    .map((a) => {
+      const cached = cache.get(a.id)!;
+      return {
+        ...cached,
+        duplicateOf: duplicateOf.get(a.id),
+        sourceCount: sourceCount.get(a.id) ?? 1,
+        imageUrl: cached.imageUrl ?? a.imageUrl,
+      };
+    });
 
   // Merge this run with older stored items, unique by id, newest first, capped.
   const byId = new Map<string, ProcessedArticle>();
