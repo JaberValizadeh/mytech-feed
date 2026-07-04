@@ -12,8 +12,19 @@ let _client: OpenAI | null = null;
 function client(): OpenAI {
   // maxRetries: the SDK retries 429s with exponential backoff, honoring the
   // Retry-After header — this self-throttles us under the account's TPM limit.
-  if (!_client) _client = new OpenAI({ maxRetries: 8 }); // reads OPENAI_API_KEY from env
+  // Kept modest so a hard quota-exhausted 429 doesn't stall the whole run.
+  if (!_client) {
+    _client = new OpenAI({ maxRetries: Number(process.env.OPENAI_MAX_RETRIES ?? 3) });
+  }
   return _client;
+}
+
+/** True for the "insufficient_quota / billing" 429 — retrying it is pointless. */
+function isQuotaError(err: unknown): boolean {
+  const e = err as { status?: number; code?: string; message?: string } | undefined;
+  if (!e) return false;
+  if (e.code === "insufficient_quota") return true;
+  return e.status === 429 && /quota|billing/i.test(e.message ?? "");
 }
 
 /**
@@ -132,9 +143,13 @@ export async function enrichAll(
 ): Promise<ProcessedArticle[]> {
   const out: ProcessedArticle[] = [];
   let index = 0;
+  // When the account's quota is exhausted, stop hammering the API — every call
+  // will fail identically. We abort the batch so the pipeline can still save the
+  // reused articles (and their newly-found images) instead of stalling.
+  let quotaExhausted = false;
 
   async function worker(): Promise<void> {
-    while (index < articles.length) {
+    while (index < articles.length && !quotaExhausted) {
       const article = articles[index++];
       const n = index;
       try {
@@ -148,6 +163,14 @@ export async function enrichAll(
         });
         console.log(`  ✓ [${n}/${articles.length}] ${e.titleFa}`);
       } catch (err) {
+        if (isQuotaError(err)) {
+          quotaExhausted = true;
+          console.warn(
+            "  ✗ OpenAI quota exhausted — stopping enrichment. Existing articles " +
+              "(and recovered images) are still served; add billing to resume.",
+          );
+          break;
+        }
         console.warn(
           `  ✗ [${n}/${articles.length}] ${article.title}: ${String(err).slice(0, 120)}`,
         );
