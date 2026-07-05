@@ -15,6 +15,14 @@ const VIDEO_CATEGORIES: VideoCategory[] = ["ai", "robotics", "hardware", "softwa
 /** Channels whose videos are always robotics, regardless of AI guess. */
 const ROBOTICS_CHANNELS = new Set(["Boston Dynamics", "Adam Savage’s Tested"]);
 
+/** Keyword classifier so robotics videos from ANY channel land in the category. */
+const ROBOTICS_RE =
+  /robot|robotic|humanoid|cobot|quadruped|exoskeleton|ربات|رباتیک|انسان‌نما/i;
+
+function isRoboticsVideo(v: Video): boolean {
+  return ROBOTICS_RE.test(`${v.title} ${v.titleFa} ${v.captionEn ?? ""}`);
+}
+
 let _client: OpenAI | null = null;
 function client(): OpenAI {
   if (!_client) _client = new OpenAI({ maxRetries: 8 });
@@ -243,7 +251,9 @@ export async function runVideoAggregation(): Promise<{ newlyEnriched: number; to
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
     .slice(0, MAX_STORED_VIDEOS)
     .map((v) =>
-      ROBOTICS_CHANNELS.has(v.channelName) ? { ...v, category: "robotics" as VideoCategory } : v,
+      ROBOTICS_CHANNELS.has(v.channelName) || isRoboticsVideo(v)
+        ? { ...v, category: "robotics" as VideoCategory }
+        : v,
     );
 
   console.log("\n[videos 3/4] Saving…");
