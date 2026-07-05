@@ -18,7 +18,15 @@ export class MissingApiKeyError extends Error {
 const MAX_STORED = Number(process.env.MAX_STORED_ARTICLES ?? 300);
 
 /** Sources that are always robotics, regardless of the AI's category guess. */
-const ROBOTICS_SOURCES = new Set(["robohub", "ieee-robotics"]);
+const ROBOTICS_SOURCES = new Set([
+  "robohub",
+  "ieee-robotics",
+  "robotics-automation-news",
+  "techxplore-robotics",
+  "sciencedaily-robotics",
+  "newatlas-robotics",
+  "hackaday-robots",
+]);
 
 /** Keyword classifier so robotics stories from ANY source land in the category. */
 const ROBOTICS_RE =

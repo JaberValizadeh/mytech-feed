@@ -317,6 +317,36 @@ export const SOURCES: Source[] = [
     homepage: "https://spectrum.ieee.org/robotics",
     feedUrl: "https://spectrum.ieee.org/feeds/topic/robotics.rss",
   },
+  {
+    id: "robotics-automation-news",
+    name: "Robotics & Automation News",
+    homepage: "https://roboticsandautomationnews.com",
+    feedUrl: "https://roboticsandautomationnews.com/feed/",
+  },
+  {
+    id: "techxplore-robotics",
+    name: "TechXplore Robotics",
+    homepage: "https://techxplore.com/robotics-news/",
+    feedUrl: "https://techxplore.com/rss-feed/robotics-news/",
+  },
+  {
+    id: "sciencedaily-robotics",
+    name: "ScienceDaily Robotics",
+    homepage: "https://www.sciencedaily.com/news/matter_energy/robotics/",
+    feedUrl: "https://www.sciencedaily.com/rss/computers_math/robotics.xml",
+  },
+  {
+    id: "newatlas-robotics",
+    name: "New Atlas Robotics",
+    homepage: "https://newatlas.com/robotics/",
+    feedUrl: "https://newatlas.com/robotics/index.rss",
+  },
+  {
+    id: "hackaday-robots",
+    name: "Hackaday Robots",
+    homepage: "https://hackaday.com/category/robots-hacks/",
+    feedUrl: "https://hackaday.com/category/robots-hacks/feed/",
+  },
 
   // ── Developer / Open Source ───────────────────────────────────────────────
   {

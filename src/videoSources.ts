@@ -92,6 +92,24 @@ export const VIDEO_SOURCES: VideoSource[] = [
     channelId: "UCiDJtJKMICpb9B1qf7qjEOA",
     defaultCategory: "robotics",
   },
+  {
+    id: "mark-rober",
+    name: "Mark Rober",
+    channelId: "UCY1kMZp36IQSyNx_9h4mpCg",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "hacksmith",
+    name: "Hacksmith Industries",
+    channelId: "UCjgpFI5dU-D1-kh9H1muoxQ",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "simone-giertz",
+    name: "Simone Giertz",
+    channelId: "UC3KEoMzNz8eYnwBC34RaKCQ",
+    defaultCategory: "robotics",
+  },
 
   // ── Hardware / Gadgets ────────────────────────────────────────────────────
   {

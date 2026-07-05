@@ -13,7 +13,13 @@ const MAX_VIDEOS_PER_CHANNEL = Number(process.env.MAX_VIDEOS_PER_CHANNEL ?? 5);
 const VIDEO_CATEGORIES: VideoCategory[] = ["ai", "robotics", "hardware", "software", "science", "general"];
 
 /** Channels whose videos are always robotics, regardless of AI guess. */
-const ROBOTICS_CHANNELS = new Set(["Boston Dynamics", "Adam Savage’s Tested"]);
+const ROBOTICS_CHANNELS = new Set([
+  "Boston Dynamics",
+  "Adam Savage’s Tested",
+  "Mark Rober",
+  "Hacksmith Industries",
+  "Simone Giertz",
+]);
 
 /** Keyword classifier so robotics videos from ANY channel land in the category. */
 const ROBOTICS_RE =
