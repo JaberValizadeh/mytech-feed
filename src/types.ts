@@ -1,5 +1,5 @@
 /** Video categories (subset used for the video feed). */
-export type VideoCategory = "ai" | "hardware" | "software" | "science" | "general";
+export type VideoCategory = "ai" | "robotics" | "hardware" | "software" | "science" | "general";
 
 /** A YouTube channel we pull videos from. */
 export interface VideoSource {
@@ -55,6 +55,7 @@ export interface Sponsor {
 /** Canonical content categories. Persian labels live in the app (see app/lib/categories.ts). */
 export type CategoryId =
   | "ai"
+  | "robotics"
   | "startups"
   | "hardware"
   | "software"
@@ -66,6 +67,7 @@ export type CategoryId =
 
 export const CATEGORY_IDS: CategoryId[] = [
   "ai",
+  "robotics",
   "startups",
   "hardware",
   "software",

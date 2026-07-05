@@ -10,7 +10,10 @@ const MODEL = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
 const MAX_STORED_VIDEOS = Number(process.env.MAX_STORED_VIDEOS ?? 150);
 const MAX_VIDEOS_PER_CHANNEL = Number(process.env.MAX_VIDEOS_PER_CHANNEL ?? 5);
 
-const VIDEO_CATEGORIES: VideoCategory[] = ["ai", "hardware", "software", "science", "general"];
+const VIDEO_CATEGORIES: VideoCategory[] = ["ai", "robotics", "hardware", "software", "science", "general"];
+
+/** Channels whose videos are always robotics, regardless of AI guess. */
+const ROBOTICS_CHANNELS = new Set(["Boston Dynamics", "Adam Savage’s Tested"]);
 
 let _client: OpenAI | null = null;
 function client(): OpenAI {
@@ -78,7 +81,7 @@ async function enrichVideo(
 عنوان ویدیو: ${title}
 توضیحات: ${truncate(description, 800) || "(توضیحاتی در دسترس نیست)"}
 
-راهنمای دسته: ai=هوش مصنوعی و یادگیری ماشین، hardware=سخت‌افزار و گجت، software=نرم‌افزار و برنامه‌نویسی، science=علم و پژوهش، general=فناوری عمومی.
+راهنمای دسته: ai=هوش مصنوعی و یادگیری ماشین، robotics=رباتیک و ربات‌ها و اتوماسیون، hardware=سخت‌افزار و گجت، software=نرم‌افزار و برنامه‌نویسی، science=علم و پژوهش، general=فناوری عمومی.
 دسته پیش‌فرض این کانال: ${defaultCategory}`;
 
   const response = await client().chat.completions.create({
@@ -238,7 +241,10 @@ export async function runVideoAggregation(): Promise<{ newlyEnriched: number; to
   }
   const merged = [...byId.values()]
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
-    .slice(0, MAX_STORED_VIDEOS);
+    .slice(0, MAX_STORED_VIDEOS)
+    .map((v) =>
+      ROBOTICS_CHANNELS.has(v.channelName) ? { ...v, category: "robotics" as VideoCategory } : v,
+    );
 
   console.log("\n[videos 3/4] Saving…");
   await saveVideos(merged);

@@ -78,7 +78,7 @@ export const VIDEO_SOURCES: VideoSource[] = [
     id: "boston-dynamics",
     name: "Boston Dynamics",
     channelId: "UC7vVhkEfw4nOGp8TyDk7RcQ",
-    defaultCategory: "general",
+    defaultCategory: "robotics",
   },
   {
     id: "real-engineering",
@@ -90,7 +90,7 @@ export const VIDEO_SOURCES: VideoSource[] = [
     id: "tested",
     name: "Adam Savage’s Tested",
     channelId: "UCiDJtJKMICpb9B1qf7qjEOA",
-    defaultCategory: "general",
+    defaultCategory: "robotics",
   },
 
   // ── Hardware / Gadgets ────────────────────────────────────────────────────
