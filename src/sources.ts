@@ -255,6 +255,68 @@ export const SOURCES: Source[] = [
     homepage: "https://ai.meta.com/blog/",
     feedUrl: "https://ai.meta.com/blog/feed/",
   },
+  {
+    id: "marktechpost",
+    name: "MarkTechPost",
+    homepage: "https://www.marktechpost.com",
+    feedUrl: "https://www.marktechpost.com/feed/",
+  },
+  {
+    id: "the-decoder",
+    name: "The Decoder",
+    homepage: "https://the-decoder.com",
+    feedUrl: "https://the-decoder.com/feed/",
+  },
+  {
+    id: "ai-news",
+    name: "AI News",
+    homepage: "https://www.artificialintelligence-news.com",
+    feedUrl: "https://www.artificialintelligence-news.com/feed/",
+  },
+  {
+    id: "synced",
+    name: "Synced",
+    homepage: "https://syncedreview.com",
+    feedUrl: "https://syncedreview.com/feed/",
+  },
+  {
+    id: "bair-berkeley",
+    name: "Berkeley AI Research",
+    homepage: "https://bair.berkeley.edu/blog/",
+    feedUrl: "https://bair.berkeley.edu/blog/feed.xml",
+  },
+  {
+    id: "the-gradient",
+    name: "The Gradient",
+    homepage: "https://thegradient.pub",
+    feedUrl: "https://thegradient.pub/rss/",
+  },
+  {
+    id: "venturebeat-ai",
+    name: "VentureBeat AI",
+    homepage: "https://venturebeat.com/category/ai/",
+    feedUrl: "https://venturebeat.com/category/ai/feed/",
+  },
+  {
+    id: "nvidia-developer",
+    name: "NVIDIA Developer",
+    homepage: "https://developer.nvidia.com/blog",
+    feedUrl: "https://developer.nvidia.com/blog/feed/",
+  },
+
+  // ── Robotics ──────────────────────────────────────────────────────────────
+  {
+    id: "robohub",
+    name: "Robohub",
+    homepage: "https://robohub.org",
+    feedUrl: "https://robohub.org/feed/",
+  },
+  {
+    id: "ieee-robotics",
+    name: "IEEE Spectrum Robotics",
+    homepage: "https://spectrum.ieee.org/robotics",
+    feedUrl: "https://spectrum.ieee.org/feeds/topic/robotics.rss",
+  },
 
   // ── Developer / Open Source ───────────────────────────────────────────────
   {

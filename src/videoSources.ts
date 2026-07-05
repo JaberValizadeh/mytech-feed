@@ -36,6 +36,62 @@ export const VIDEO_SOURCES: VideoSource[] = [
     channelId: "UCKWaEZ-_VweaEx1j62do_vQ",
     defaultCategory: "ai",
   },
+  {
+    id: "andrej-karpathy",
+    name: "Andrej Karpathy",
+    channelId: "UCPk8m_r6fkUSYmvgCBwq-sw",
+    defaultCategory: "ai",
+  },
+  {
+    id: "ml-street-talk",
+    name: "Machine Learning Street Talk",
+    channelId: "UCMLtBahI5DMrt0NPvDSoIRQ",
+    defaultCategory: "ai",
+  },
+  {
+    id: "robert-miles-ai",
+    name: "Robert Miles AI Safety",
+    channelId: "UCLB7AzTwc6VFZrBsO2ucBMg",
+    defaultCategory: "ai",
+  },
+  {
+    id: "matt-wolfe",
+    name: "Matt Wolfe",
+    channelId: "UChpleBmo18P08aKCIgti38g",
+    defaultCategory: "ai",
+  },
+  {
+    id: "wes-roth",
+    name: "Wes Roth",
+    channelId: "UCqcbQf6yw5KzRoDDcZ_wBSw",
+    defaultCategory: "ai",
+  },
+  {
+    id: "sentdex",
+    name: "sentdex",
+    channelId: "UCfzlCWGWYyIQ0aLC5w48gBQ",
+    defaultCategory: "ai",
+  },
+
+  // ── Robotics / Engineering ────────────────────────────────────────────────
+  {
+    id: "boston-dynamics",
+    name: "Boston Dynamics",
+    channelId: "UC7vVhkEfw4nOGp8TyDk7RcQ",
+    defaultCategory: "general",
+  },
+  {
+    id: "real-engineering",
+    name: "Real Engineering",
+    channelId: "UCR1IuLEqb6UEA_zQ81kwXfg",
+    defaultCategory: "science",
+  },
+  {
+    id: "tested",
+    name: "Adam Savage’s Tested",
+    channelId: "UCiDJtJKMICpb9B1qf7qjEOA",
+    defaultCategory: "general",
+  },
 
   // ── Hardware / Gadgets ────────────────────────────────────────────────────
   {
