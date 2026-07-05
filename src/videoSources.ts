@@ -73,7 +73,7 @@ export const VIDEO_SOURCES: VideoSource[] = [
     defaultCategory: "ai",
   },
 
-  // ── Robotics / Engineering ────────────────────────────────────────────────
+  // ── Robotics (pure — real robots only) ────────────────────────────────────
   {
     id: "boston-dynamics",
     name: "Boston Dynamics",
@@ -81,27 +81,39 @@ export const VIDEO_SOURCES: VideoSource[] = [
     defaultCategory: "robotics",
   },
   {
-    id: "real-engineering",
-    name: "Real Engineering",
-    channelId: "UCR1IuLEqb6UEA_zQ81kwXfg",
-    defaultCategory: "science",
-  },
-  {
-    id: "tested",
-    name: "Adam Savage’s Tested",
-    channelId: "UCiDJtJKMICpb9B1qf7qjEOA",
+    id: "unitree-robotics",
+    name: "Unitree Robotics",
+    channelId: "UCsMbp4V8oxzHCMdOUP-3oWw",
     defaultCategory: "robotics",
   },
   {
-    id: "mark-rober",
-    name: "Mark Rober",
-    channelId: "UCY1kMZp36IQSyNx_9h4mpCg",
+    id: "agility-robotics",
+    name: "Agility Robotics",
+    channelId: "UCN-StetwWuVYf-MU2_NVj4A",
     defaultCategory: "robotics",
   },
   {
-    id: "hacksmith",
-    name: "Hacksmith Industries",
-    channelId: "UCjgpFI5dU-D1-kh9H1muoxQ",
+    id: "anybotics",
+    name: "ANYbotics",
+    channelId: "UC1B-ML60I2hKTvygvMjubnw",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "skyentific",
+    name: "Skyentific",
+    channelId: "UCcgqJ1blFKqbC2bWGY4Opmg",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "james-bruton",
+    name: "James Bruton",
+    channelId: "UCUbDcUPed50Y_7KmfCXKohA",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "kscale-labs",
+    name: "K-Scale Labs",
+    channelId: "UCykPnpAHwDZgX-hHqw0lcgQ",
     defaultCategory: "robotics",
   },
   {
@@ -109,6 +121,32 @@ export const VIDEO_SOURCES: VideoSource[] = [
     name: "Simone Giertz",
     channelId: "UC3KEoMzNz8eYnwBC34RaKCQ",
     defaultCategory: "robotics",
+  },
+
+  // ── Engineering / Maker (attractive, but not pure robotics) ───────────────
+  {
+    id: "real-engineering",
+    name: "Real Engineering",
+    channelId: "UCR1IuLEqb6UEA_zQ81kwXfg",
+    defaultCategory: "science",
+  },
+  {
+    id: "mark-rober",
+    name: "Mark Rober",
+    channelId: "UCY1kMZp36IQSyNx_9h4mpCg",
+    defaultCategory: "science",
+  },
+  {
+    id: "hacksmith",
+    name: "Hacksmith Industries",
+    channelId: "UCjgpFI5dU-D1-kh9H1muoxQ",
+    defaultCategory: "general",
+  },
+  {
+    id: "tested",
+    name: "Adam Savage’s Tested",
+    channelId: "UCiDJtJKMICpb9B1qf7qjEOA",
+    defaultCategory: "general",
   },
 
   // ── Hardware / Gadgets ────────────────────────────────────────────────────

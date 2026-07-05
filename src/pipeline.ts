@@ -4,6 +4,7 @@ import { deduplicate } from "./dedup.js";
 import { fetchAll } from "./rss.js";
 import { SOURCES } from "./sources.js";
 import { loadArticles, saveArticles } from "./store.js";
+import { mentionsPhysicalRobot } from "./util.js";
 import type { ProcessedArticle } from "./types.js";
 
 /** Thrown when aggregation can't run because no OpenAI key is configured. */
@@ -28,14 +29,6 @@ const ROBOTICS_SOURCES = new Set([
   "hackaday-robots",
 ]);
 
-/** Keyword classifier so robotics stories from ANY source land in the category. */
-const ROBOTICS_RE =
-  /robot|robotic|humanoid|cobot|quadruped|exoskeleton|boston dynamics|ربات|رباتیک|انسان‌نما|بازوی رباتیک/i;
-
-function isRoboticsArticle(a: ProcessedArticle): boolean {
-  const hay = `${a.title} ${a.titleFa} ${a.summaryEn ?? ""} ${(a.tagsFa ?? []).join(" ")}`;
-  return ROBOTICS_RE.test(hay);
-}
 
 export interface AggregationResult {
   fetched: number;
@@ -111,11 +104,16 @@ export async function runAggregation(): Promise<AggregationResult> {
   const merged = [...byId.values()]
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
     .slice(0, MAX_STORED)
-    .map((a) =>
-      ROBOTICS_SOURCES.has(a.sourceId) || isRoboticsArticle(a)
-        ? { ...a, category: "robotics" as const }
-        : a,
-    );
+    .map((a) => {
+      const text = `${a.title} ${a.summaryEn ?? ""} ${a.titleFa} ${(a.tagsFa ?? []).join(" ")}`;
+      // Robotics = dedicated robotics feeds, or a genuine physical-robot mention.
+      if (ROBOTICS_SOURCES.has(a.sourceId) || mentionsPhysicalRobot(text)) {
+        return { ...a, category: "robotics" as const };
+      }
+      // Demote software-bot stories the AI mislabeled robotics (Persian ربات=bot).
+      if (a.category === "robotics") return { ...a, category: "ai" as const };
+      return a;
+    });
 
   console.log("\n[4/4] Saving…");
   await saveArticles(merged);

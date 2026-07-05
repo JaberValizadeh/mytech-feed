@@ -53,6 +53,20 @@ export function similarity(a: string, b: string): number {
   return intersection / union;
 }
 
+/**
+ * True if text mentions a *physical* robot (not a software "bot"/chatbot).
+ * "robot" also covers robotic/robotics/robots/humanoid-arm etc.; deliberately
+ * excludes bare "bot" so chatbots/AI-agents/botnets don't count as robotics.
+ */
+// English "robot" also covers robotic/robotics/robots and never matches
+// "chatbot". Persian «ربات» is intentionally excluded because it means both
+// "robot" and "bot"; only unambiguous Persian robotics terms are kept.
+const PHYSICAL_ROBOT_TERMS =
+  /robot|humanoid|cobot|quadruped|exoskeleton|\bdrone|automaton|رباتیک|پهپاد|انسان‌نما|بازوی رباتیک/i;
+export function mentionsPhysicalRobot(text: string): boolean {
+  return PHYSICAL_ROBOT_TERMS.test(text);
+}
+
 /** Rough reading time in minutes for an English source text (~220 wpm). */
 export function readingMinutes(text: string): number {
   const words = text.trim().split(/\s+/).filter(Boolean).length;

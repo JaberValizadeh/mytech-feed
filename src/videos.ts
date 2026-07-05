@@ -4,7 +4,7 @@ import OpenAI from "openai";
 import type { Video, VideoCategory } from "./types.js";
 import { VIDEO_SOURCES } from "./videoSources.js";
 import { loadVideos, saveVideos } from "./store.js";
-import { truncate } from "./util.js";
+import { mentionsPhysicalRobot, truncate } from "./util.js";
 
 const MODEL = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
 const MAX_STORED_VIDEOS = Number(process.env.MAX_STORED_VIDEOS ?? 150);
@@ -12,22 +12,18 @@ const MAX_VIDEOS_PER_CHANNEL = Number(process.env.MAX_VIDEOS_PER_CHANNEL ?? 5);
 
 const VIDEO_CATEGORIES: VideoCategory[] = ["ai", "robotics", "hardware", "software", "science", "general"];
 
-/** Channels whose videos are always robotics, regardless of AI guess. */
+/** Channels whose videos are always robotics (real-robot channels only). */
 const ROBOTICS_CHANNELS = new Set([
   "Boston Dynamics",
-  "Adam Savage’s Tested",
-  "Mark Rober",
-  "Hacksmith Industries",
+  "Unitree Robotics",
+  "Agility Robotics",
+  "ANYbotics",
+  "Skyentific",
+  "James Bruton",
+  "K-Scale Labs",
   "Simone Giertz",
 ]);
 
-/** Keyword classifier so robotics videos from ANY channel land in the category. */
-const ROBOTICS_RE =
-  /robot|robotic|humanoid|cobot|quadruped|exoskeleton|ربات|رباتیک|انسان‌نما/i;
-
-function isRoboticsVideo(v: Video): boolean {
-  return ROBOTICS_RE.test(`${v.title} ${v.titleFa} ${v.captionEn ?? ""}`);
-}
 
 let _client: OpenAI | null = null;
 function client(): OpenAI {
@@ -95,7 +91,7 @@ async function enrichVideo(
 عنوان ویدیو: ${title}
 توضیحات: ${truncate(description, 800) || "(توضیحاتی در دسترس نیست)"}
 
-راهنمای دسته: ai=هوش مصنوعی و یادگیری ماشین، robotics=رباتیک و ربات‌ها و اتوماسیون، hardware=سخت‌افزار و گجت، software=نرم‌افزار و برنامه‌نویسی، science=علم و پژوهش، general=فناوری عمومی.
+راهنمای دسته: ai=هوش مصنوعی و یادگیری ماشین (شامل چت‌بات و ایجنت)، robotics=فقط ربات‌های فیزیکی واقعی (ربات انسان‌نما، بازوی رباتیک، پهپاد، ربات صنعتی، ربات چهارپا)؛ چت‌بات و بات نرم‌افزاری robotics نیستند، hardware=سخت‌افزار و گجت، software=نرم‌افزار و برنامه‌نویسی، science=علم و پژوهش، general=فناوری عمومی.
 دسته پیش‌فرض این کانال: ${defaultCategory}`;
 
   const response = await client().chat.completions.create({
@@ -256,11 +252,15 @@ export async function runVideoAggregation(): Promise<{ newlyEnriched: number; to
   const merged = [...byId.values()]
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
     .slice(0, MAX_STORED_VIDEOS)
-    .map((v) =>
-      ROBOTICS_CHANNELS.has(v.channelName) || isRoboticsVideo(v)
-        ? { ...v, category: "robotics" as VideoCategory }
-        : v,
-    );
+    .map((v) => {
+      const text = `${v.title} ${v.captionEn ?? ""} ${v.titleFa}`;
+      if (ROBOTICS_CHANNELS.has(v.channelName) || mentionsPhysicalRobot(text)) {
+        return { ...v, category: "robotics" as VideoCategory };
+      }
+      // Demote software-bot videos the AI mislabeled robotics.
+      if (v.category === "robotics") return { ...v, category: "general" as VideoCategory };
+      return v;
+    });
 
   console.log("\n[videos 3/4] Saving…");
   await saveVideos(merged);
