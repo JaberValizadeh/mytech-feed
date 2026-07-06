@@ -350,12 +350,6 @@ export const SOURCES: Source[] = [
 
   // ── Developer / Open Source ───────────────────────────────────────────────
   {
-    id: "dev-to",
-    name: "DEV Community",
-    homepage: "https://dev.to",
-    feedUrl: "https://dev.to/feed",
-  },
-  {
     id: "github-blog",
     name: "GitHub Blog",
     homepage: "https://github.blog",

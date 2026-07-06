@@ -18,6 +18,9 @@ export class MissingApiKeyError extends Error {
 /** Keep at most this many articles in the rolling store (newest first). */
 const MAX_STORED = Number(process.env.MAX_STORED_ARTICLES ?? 300);
 
+/** Currently-configured source ids; articles from removed sources are dropped. */
+const SOURCE_IDS = new Set(SOURCES.map((s) => s.id));
+
 /** Sources that are always robotics, regardless of the AI's category guess. */
 const ROBOTICS_SOURCES = new Set([
   "robohub",
@@ -102,6 +105,7 @@ export async function runAggregation(): Promise<AggregationResult> {
     if (!byId.has(a.id)) byId.set(a.id, a);
   }
   const merged = [...byId.values()]
+    .filter((a) => SOURCE_IDS.has(a.sourceId))
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
     .slice(0, MAX_STORED)
     .map((a) => {
