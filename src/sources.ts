@@ -218,6 +218,30 @@ export const SOURCES: Source[] = [
     homepage: "https://blog.google/innovation-and-ai/",
     feedUrl: "https://blog.google/innovation-and-ai/rss/",
   },
+  {
+    id: "bloomberg-tech",
+    name: "Bloomberg Technology",
+    homepage: "https://www.bloomberg.com/technology",
+    feedUrl: "https://feeds.bloomberg.com/technology/news.rss",
+  },
+  {
+    id: "wsj-tech",
+    name: "WSJ Tech",
+    homepage: "https://www.wsj.com/tech",
+    feedUrl: "https://feeds.a.dj.com/rss/RSSWSJD.xml",
+  },
+  {
+    id: "ft-tech",
+    name: "Financial Times Tech",
+    homepage: "https://www.ft.com/technology",
+    feedUrl: "https://www.ft.com/technology?format=rss",
+  },
+  {
+    id: "the-information",
+    name: "The Information",
+    homepage: "https://www.theinformation.com",
+    feedUrl: "https://www.theinformation.com/feed",
+  },
 
   // ── Security ──────────────────────────────────────────────────────────────
   {
