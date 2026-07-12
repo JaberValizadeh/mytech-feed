@@ -271,10 +271,28 @@ export const SOURCES: Source[] = [
 
   // ── AI & Research ─────────────────────────────────────────────────────────
   {
-    id: "anthropic",
-    name: "Anthropic Blog",
-    homepage: "https://www.anthropic.com/news",
-    feedUrl: "https://www.anthropic.com/news/rss.xml",
+    id: "aws-ml",
+    name: "AWS Machine Learning",
+    homepage: "https://aws.amazon.com/blogs/machine-learning/",
+    feedUrl: "https://aws.amazon.com/blogs/machine-learning/feed/",
+  },
+  {
+    id: "cloudflare",
+    name: "Cloudflare Blog",
+    homepage: "https://blog.cloudflare.com",
+    feedUrl: "https://blog.cloudflare.com/rss/",
+  },
+  {
+    id: "databricks",
+    name: "Databricks",
+    homepage: "https://www.databricks.com/blog",
+    feedUrl: "https://www.databricks.com/feed",
+  },
+  {
+    id: "stripe-blog",
+    name: "Stripe Blog",
+    homepage: "https://stripe.com/blog",
+    feedUrl: "https://stripe.com/blog/feed.rss",
   },
   {
     id: "huggingface",
@@ -299,12 +317,6 @@ export const SOURCES: Source[] = [
     name: "ScienceDaily AI",
     homepage: "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
     feedUrl: "https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml",
-  },
-  {
-    id: "meta-ai",
-    name: "Meta AI Blog",
-    homepage: "https://ai.meta.com/blog/",
-    feedUrl: "https://ai.meta.com/blog/feed/",
   },
   {
     id: "marktechpost",
