@@ -36,7 +36,10 @@ const ROBOTICS_CHANNELS = new Set([
 
 let _client: OpenAI | null = null;
 function client(): OpenAI {
-  if (!_client) _client = new OpenAI({ maxRetries: 8 });
+  // 8 retries with exponential backoff turns a rate-limited batch into a crawl.
+  if (!_client) {
+    _client = new OpenAI({ maxRetries: Number(process.env.OPENAI_MAX_RETRIES ?? 3) });
+  }
   return _client;
 }
 
