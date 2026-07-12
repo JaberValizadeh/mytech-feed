@@ -122,6 +122,66 @@ export const VIDEO_SOURCES: VideoSource[] = [
     channelId: "UC3KEoMzNz8eYnwBC34RaKCQ",
     defaultCategory: "robotics",
   },
+  {
+    id: "articulated-robotics",
+    name: "Articulated Robotics",
+    channelId: "UCx9vSJTSZGFrErfPtut5GNQ",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "pro-robots",
+    name: "PRO ROBOTS",
+    channelId: "UCu8luTDe_Xxd2ahAXsCWX5g",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "abb-robotics",
+    name: "ABB Robotics",
+    channelId: "UCM_CsBtYQd5zVuYdwmNpT6g",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "fanuc-america",
+    name: "FANUC America",
+    channelId: "UC1FuphciagC13Oz__5UPSYw",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "dobot-robotics",
+    name: "Dobot Robotics",
+    channelId: "UCgGlyaPWWxKtjHeI-khbHWg",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "vex-robotics",
+    name: "VEX Robotics",
+    channelId: "UC7jrVEiBjPrOM7-RZSAoebg",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "robocup",
+    name: "RoboCup",
+    channelId: "UCu0u7DbHJlvATLHjoANa3wQ",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "ihmc-robotics",
+    name: "IHMC Robotics",
+    channelId: "UCgjUL69W5z_650hcltUX6Qg",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "dronebot-workshop",
+    name: "DroneBot Workshop",
+    channelId: "UCzml9bXoEM0itbcE96CB03w",
+    defaultCategory: "robotics",
+  },
+  {
+    id: "nvidia-developer-yt",
+    name: "NVIDIA Developer",
+    channelId: "UCBHcMCGaiJhv-ESTcWGJPcw",
+    defaultCategory: "ai",
+  },
 
   // ── Engineering / Maker (attractive, but not pure robotics) ───────────────
   {

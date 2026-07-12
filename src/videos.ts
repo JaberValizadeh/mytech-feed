@@ -22,6 +22,15 @@ const ROBOTICS_CHANNELS = new Set([
   "James Bruton",
   "K-Scale Labs",
   "Simone Giertz",
+  "Articulated Robotics",
+  "PRO ROBOTS",
+  "ABB Robotics",
+  "FANUC America",
+  "Dobot Robotics",
+  "VEX Robotics",
+  "RoboCup",
+  "IHMC Robotics",
+  "DroneBot Workshop",
 ]);
 
 
