@@ -43,6 +43,9 @@ jobs:
           # pays OpenAI for genuinely new articles.
           DATA_DIR: ${{ github.workspace }}/data
           FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '0' }}
+          # 42 channels x 5 videos = 210 raw; the 150 default would silently
+          # crowd whole channels out of the store.
+          MAX_STORED_VIDEOS: "250"
         run: npm run publish
 
       - name: Commit refreshed cache
