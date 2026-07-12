@@ -72,6 +72,48 @@ export const VIDEO_SOURCES: VideoSource[] = [
     channelId: "UCfzlCWGWYyIQ0aLC5w48gBQ",
     defaultCategory: "ai",
   },
+  {
+    id: "deeplearning-ai",
+    name: "DeepLearningAI",
+    channelId: "UCcIXc5mJsHVYTZR1maL5l9w",
+    defaultCategory: "ai",
+  },
+  {
+    id: "statquest",
+    name: "StatQuest with Josh Starmer",
+    channelId: "UCtYLUTtgS3k1Fg4y5tAhLbw",
+    defaultCategory: "ai",
+  },
+  {
+    id: "assemblyai-yt",
+    name: "AssemblyAI",
+    channelId: "UCtatfZMf-8EkIwASXM4ts0A",
+    defaultCategory: "ai",
+  },
+  {
+    id: "huggingface-yt",
+    name: "Hugging Face",
+    channelId: "UCHlNU7kIZhRgSbhHvFoy72w",
+    defaultCategory: "ai",
+  },
+  {
+    id: "google-deepmind-yt",
+    name: "Google DeepMind",
+    channelId: "UCP7jMXSY2xbc3KCAE0MHQ-A",
+    defaultCategory: "ai",
+  },
+  {
+    id: "nicholas-renotte",
+    name: "Nicholas Renotte",
+    channelId: "UCHXa4OpASJEwrHrLeIzw7Yg",
+    defaultCategory: "ai",
+  },
+  {
+    id: "krish-naik",
+    name: "Krish Naik",
+    channelId: "UCNU_lfiiWBdtULKOw6X0Dig",
+    defaultCategory: "ai",
+  },
 
   // ── Robotics (pure — real robots only) ────────────────────────────────────
   {
