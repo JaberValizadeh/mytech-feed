@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-07-12T08:20:03.577Z",
+  "generatedAt": "2026-07-12T20:13:29.045Z",
   "videos": [
+    {
+      "id": "b2vI8IjSWxY",
+      "title": "How many Tabs with 1.5 TB of RAM?",
+      "titleFa": "چند تب با ۱.۵ ترابایت رم می‌توان باز کرد؟",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/b2vI8IjSWxY/hqdefault.jpg",
+      "publishedAt": "2026-07-12T17:00:18.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=b2vI8IjSWxY",
+      "captionFa": "در این ویدیو به آزمایش باز کردن چندین تب در مرورگر با استفاده از ۱.۵ ترابایت رم پرداخته می‌شود. بینندگان شاهد ظرفیت بالای حافظه و تأثیر آن بر کارایی مرورگر خواهند بود.",
+      "captionEn": "This video experiments with opening multiple tabs in a browser using 1.5 TB of RAM. Viewers will witness the high memory capacity and its impact on browser performance.",
+      "category": "hardware",
+      "processedAt": "2026-07-12T20:13:28.178Z"
+    },
+    {
+      "id": "Ae9q7KsRbuI",
+      "title": "Minecraft Was Missing One Brilliant Idea",
+      "titleFa": "Minecraft یک ایده درخشان را کم داشت",
+      "channelName": "Two Minute Papers",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Ae9q7KsRbuI/hqdefault.jpg",
+      "publishedAt": "2026-07-12T15:48:43.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Ae9q7KsRbuI",
+      "captionFa": "این ویدیو به بررسی یک ایده نوآورانه در بازی Minecraft می‌پردازد که می‌تواند تجربه بازی را به شدت بهبود بخشد. ایده‌ای که ممکن است باعث تحول در نحوه تعامل بازیکنان با محیط بازی شود.",
+      "captionEn": "This video explores an innovative idea in Minecraft that could drastically enhance the gaming experience. An idea that might transform how players interact with the game environment.",
+      "category": "ai",
+      "processedAt": "2026-07-12T20:13:10.769Z"
+    },
+    {
+      "id": "dNadDhVf-Kg",
+      "title": "Text to Speech on ESP32 - Wit.ai & OpenAI TTS",
+      "titleFa": "تبدیل متن به گفتار در ESP32 - Wit.ai و OpenAI TTS",
+      "channelName": "DroneBot Workshop",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dNadDhVf-Kg/hqdefault.jpg",
+      "publishedAt": "2026-07-12T14:27:24.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=dNadDhVf-Kg",
+      "captionFa": "این ویدیو به آموزش تبدیل متن به گفتار با استفاده از ماژول ESP32 می‌پردازد. در این فرایند از سرویس‌های Wit.ai و OpenAI TTS برای تولید صدای طبیعی بهره‌گیری می‌شود.",
+      "captionEn": "This video focuses on text-to-speech conversion using the ESP32 module. It utilizes Wit.ai and OpenAI TTS services to produce natural-sounding speech.",
+      "category": "robotics",
+      "processedAt": "2026-07-12T20:13:25.725Z"
+    },
+    {
+      "id": "f-XyJ3GlrWw",
+      "title": "The Riddle of the Spherical Cow",
+      "titleFa": "معماي گاو کروی",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/f-XyJ3GlrWw/hqdefault.jpg",
+      "publishedAt": "2026-07-12T14:00:01.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=f-XyJ3GlrWw",
+      "captionFa": "در این ویدیو، آدام ساویت از معمای گاو کروی صحبت می‌کند و چگونگی استفاده از مدل‌های ساده برای فهم مسائل پیچیده‌تر را بررسی می‌کند. او با مثال‌های جذاب نشان می‌دهد که چگونه می‌توان برخی از مفاهیم علمی را به سادگی درک کرد.",
+      "captionEn": "In this video, Adam Savage discusses the riddle of the spherical cow and explores how simple models can be used to understand more complex issues. He illustrates how some scientific concepts can be grasped easily with engaging examples.",
+      "category": "general",
+      "processedAt": "2026-07-12T20:13:27.464Z"
+    },
+    {
+      "id": "SVAwzodyFUo",
+      "title": "How to Manage Your AI Before It Makes the Wrong Decision",
+      "titleFa": "چگونه هوش مصنوعی خود را مدیریت کنیم تا تصمیمات اشتباه نگیرد",
+      "channelName": "IBM Technology",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SVAwzodyFUo/hqdefault.jpg",
+      "publishedAt": "2026-07-12T11:00:09.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SVAwzodyFUo",
+      "captionFa": "این ویدیو به بررسی راهکارهایی برای مدیریت هوش مصنوعی پرداخته و اهمیت کنترل روی تصمیم‌گیری‌های آن را توضیح می‌دهد. همچنین به نکات کلیدی برای جلوگیری از اشتباهات در فرآیند تصمیم‌گیری این سیستم‌ها اشاره می‌کند.",
+      "captionEn": "This video explores strategies for managing AI and emphasizes the importance of controlling its decision-making. It also highlights key points to prevent errors in the decision-making process of these systems.",
+      "category": "ai",
+      "processedAt": "2026-07-12T20:13:12.706Z"
+    },
     {
       "id": "nZmoq_XJW6Y",
       "title": "Big Tech is Acting Kind of Dodgy At the Moment",
@@ -2940,32 +3005,6 @@
       "processedAt": "2026-07-12T08:08:27.542Z"
     },
     {
-      "id": "umXECLiGxEQ",
-      "title": "From Laid-Off Network Engineer to Platform Engineer: Patryk’s DevOps Journey",
-      "titleFa": "از مهندس شبکه بروزرسانی‌شده به مهندس پلتفرم: سفر DevOps پتریک",
-      "channelName": "TechWorld with Nana",
-      "thumbnailUrl": "https://i.ytimg.com/vi/umXECLiGxEQ/hqdefault.jpg",
-      "publishedAt": "2026-06-10T13:58:21.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=umXECLiGxEQ",
-      "captionFa": "این ویدیو داستان پتریک را روایت می‌کند که پس از اخراج از شغل مهندسی شبکه‌اش، به سمت مهندسی پلتفرم و به‌خصوص DevOps سوق پیدا کرده است. او تجربیات و چالش‌های این سفر شغلی را با بینندگان به اشتراک می‌گذارد.",
-      "captionEn": "This video tells the story of Patryk, who transitioned from being a laid-off network engineer to a platform engineer focusing on DevOps. He shares his experiences and the challenges he faced during this career journey.",
-      "category": "software",
-      "processedAt": "2026-07-12T08:09:11.414Z"
-    },
-    {
-      "id": "7L_eTem1SQ4",
-      "title": "What's the perfect encoding? How do you know?",
-      "titleFa": "بهترین کدگذاری چیست؟ چطور می‌دانید؟",
-      "channelName": "3Blue1Brown",
-      "thumbnailUrl": "https://i.ytimg.com/vi/7L_eTem1SQ4/hqdefault.jpg",
-      "publishedAt": "2026-06-10T13:26:34.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/7L_eTem1SQ4",
-      "captionFa": "این ویدیو به بررسی مفهوم کدگذاری و نحوه تعیین بهترین روش‌ها برای انتقال داده می‌پردازد. بینش‌های ریاضی و علمی جذابی در این زمینه ارائه می‌دهد.",
-      "captionEn": "This video explores the concept of encoding and how to determine the best methods for data transmission. It provides intriguing mathematical and scientific insights in this field.",
-      "category": "science",
-      "processedAt": "2026-07-12T08:20:02.664Z"
-    },
-    {
       "id": "mIlw5j3WyVk",
       "title": "StatQuest: Random Forests Part 2: Missing data and clustering",
       "titleFa": "ویدیوهای درخت تصادفی: قسمت ۲ - داده‌های گمشده و خوشه‌بندی",
@@ -2977,32 +3016,6 @@
       "captionEn": "This video explores how to handle missing data in random forest methods and introduces clustering techniques. It also discusses ways to enhance data analysis using these approaches.",
       "category": "ai",
       "processedAt": "2026-07-12T08:08:33.644Z"
-    },
-    {
-      "id": "L3nlGfSyHV0",
-      "title": "False Discovery Rates, FDR, clearly explained",
-      "titleFa": "نرخ کشف نادرست، FDR، به وضوح توضیح داده شده",
-      "channelName": "StatQuest with Josh Starmer",
-      "thumbnailUrl": "https://i.ytimg.com/vi/L3nlGfSyHV0/hqdefault.jpg",
-      "publishedAt": "2026-06-08T15:01:35.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=L3nlGfSyHV0",
-      "captionFa": "در این ویدیو، مفهوم نرخ کشف نادرست یا FDR به زبان ساده و با مثال‌هایی روشن توضیح داده شده است. بینندگان با اهمیت این موضوع در تحلیل داده‌ها و نتایج پژوهش‌ها آشنا می‌شوند.",
-      "captionEn": "This video clearly explains the concept of False Discovery Rates (FDR) with simple language and illustrative examples. Viewers will understand the importance of FDR in data analysis and research outcomes.",
-      "category": "ai",
-      "processedAt": "2026-07-12T08:08:33.819Z"
-    },
-    {
-      "id": "l6DKRf-fAAM",
-      "title": "Reinventing Entropy | Compression is Intelligence Part 1",
-      "titleFa": "بازآفرینی آنتروپی | فشرده‌سازی هوش است بخش اول",
-      "channelName": "3Blue1Brown",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l6DKRf-fAAM/hqdefault.jpg",
-      "publishedAt": "2026-06-07T11:49:51.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=l6DKRf-fAAM",
-      "captionFa": "در این ویدیو، مفهوم آنتروپی و چگونگی ارتباط آن با فشرده‌سازی داده‌ها بررسی می‌شود. نویسنده نشان می‌دهد که چگونه فشرده‌سازی می‌تواند به ما کمک کند تا هوش را به شیوه‌ای جدید درک کنیم.",
-      "captionEn": "This video explores the concept of entropy and its connection to data compression. The creator demonstrates how compression can provide a new understanding of intelligence.",
-      "category": "science",
-      "processedAt": "2026-07-12T08:20:03.228Z"
     },
     {
       "id": "lCFVuyHgmmc",
@@ -3055,19 +3068,6 @@
       "captionEn": "In this video, Don Lincoln discusses the biggest mysteries in physics, including antimatter and dark energy. He also explores the Theory of Everything (ToE) and the challenges in gaining a deeper understanding of the universe.",
       "category": "science",
       "processedAt": "2026-07-12T08:08:24.463Z"
-    },
-    {
-      "id": "DYIlM0nRLT0",
-      "title": "ESP32 Low Power Modes Explained: Active vs Deep Sleep vs Hibernate",
-      "titleFa": "توضیحات حالت‌های کم‌مصرف ESP32: فعال در برابر خواب عمیق در برابر خواب موقت",
-      "channelName": "DroneBot Workshop",
-      "thumbnailUrl": "https://i.ytimg.com/vi/DYIlM0nRLT0/hqdefault.jpg",
-      "publishedAt": "2026-05-24T15:18:49.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=DYIlM0nRLT0",
-      "captionFa": "در این ویدیو، به بررسی حالت‌های کم‌مصرف ESP32 پرداخته می‌شود. تفاوت بین حالت‌های فعال، خواب عمیق و خواب موقت به وضوح تشریح شده است و کاربردهای هر یک معرفی می‌شود.",
-      "captionEn": "This video explains the low power modes of the ESP32 microcontroller, including the differences between active, deep sleep, and hibernate modes. It highlights the benefits and use cases for each mode of operation.",
-      "category": "robotics",
-      "processedAt": "2026-07-12T08:09:02.135Z"
     },
     {
       "id": "fy0HRViXZnE",
