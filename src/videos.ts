@@ -9,6 +9,8 @@ import { mentionsPhysicalRobot, truncate } from "./util.js";
 const MODEL = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
 const MAX_STORED_VIDEOS = Number(process.env.MAX_STORED_VIDEOS ?? 150);
 const MAX_VIDEOS_PER_CHANNEL = Number(process.env.MAX_VIDEOS_PER_CHANNEL ?? 5);
+/** Slots every channel is guaranteed in the store, before recency fills the rest. */
+const MIN_PER_CHANNEL = Number(process.env.MIN_VIDEOS_PER_CHANNEL ?? 2);
 
 const VIDEO_CATEGORIES: VideoCategory[] = ["ai", "robotics", "hardware", "software", "science", "general"];
 
@@ -261,9 +263,35 @@ export async function runVideoAggregation(): Promise<{ newlyEnriched: number; to
   for (const v of [...enriched, ...reused, ...prior.videos]) {
     if (!byId.has(v.id)) byId.set(v.id, v);
   }
-  const merged = [...byId.values()]
+  // A pure newest-first cap silently starves slow-posting channels (Karpathy,
+  // 3Blue1Brown, Boston Dynamics…) because high-volume channels fill every slot.
+  // Guarantee each channel its newest few, then fill the remainder by recency.
+  const byDate = [...byId.values()].sort(
+    (a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt),
+  );
+  const kept: Video[] = [];
+  const keptIds = new Set<string>();
+  const perChannel = new Map<string, number>();
+
+  for (const v of byDate) {
+    if (kept.length >= MAX_STORED_VIDEOS) break;
+    const n = perChannel.get(v.channelName) ?? 0;
+    if (n < MIN_PER_CHANNEL) {
+      kept.push(v);
+      keptIds.add(v.id);
+      perChannel.set(v.channelName, n + 1);
+    }
+  }
+  for (const v of byDate) {
+    if (kept.length >= MAX_STORED_VIDEOS) break;
+    if (!keptIds.has(v.id)) {
+      kept.push(v);
+      keptIds.add(v.id);
+    }
+  }
+
+  const merged = kept
     .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt))
-    .slice(0, MAX_STORED_VIDEOS)
     .map((v) => {
       const text = `${v.title} ${v.captionEn ?? ""} ${v.titleFa}`;
       if (ROBOTICS_CHANNELS.has(v.channelName) || mentionsPhysicalRobot(text)) {

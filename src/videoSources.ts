@@ -295,7 +295,7 @@ export const VIDEO_SOURCES: VideoSource[] = [
   {
     id: "3blue1brown",
     name: "3Blue1Brown",
-    channelId: "UCYO_jab_esuFRV4b17AJtAg",
+    channelId: "UCYO_jab_esuFRV4b17AJtAw",
     defaultCategory: "science",
   },
   {
