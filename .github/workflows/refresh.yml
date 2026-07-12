@@ -46,6 +46,9 @@ jobs:
           # 42 channels x 5 videos = 210 raw; the 150 default would silently
           # crowd whole channels out of the store.
           MAX_STORED_VIDEOS: "250"
+          # Default of 2 makes a large backlog crawl. The runner is not the
+          # bottleneck; OpenAI rate limits are, and the SDK backs off on 429.
+          AI_CONCURRENCY: "6"
         run: npm run publish
 
       - name: Commit refreshed cache
