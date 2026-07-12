@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T08:08:21.228Z",
+  "generatedAt": "2026-07-12T08:19:44.699Z",
   "articles": [
     {
       "id": "ee9a8ebe5a3a42b7",
@@ -101,6 +101,39 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-07-12T08:08:21.097Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "18191ef7d8ac2a8c",
+      "sourceId": "the-register",
+      "sourceName": "The Register",
+      "title": "It's an AI web, and we're just rats in the walls",
+      "link": "https://www.theregister.com/columnists/2026/07/12/its-an-ai-web-and-were-just-rats-in-the-walls/5269760",
+      "content": "OPINION Things you might not know about me. I was the first person to write a popular article about the web. Little did I, or anyone else, know how it would change everything. Our lives were transformed when all of human knowledge became just a click away. That was then. This is now. Today, more web traffic now comes from bots than humans. We're just picking up AI's crumbs. That was not how it was meant to be. Mind you, I was never an internet idealist. I didn't think the internet would set us free and lead us to a technological paradise. I did think, however, we'd do better than we have. The internet quickly became, as the song goes, for porn. That was relatively harmless, though, compared to doxxing, targeted misinformation, and automated botnets and troll farms. But there was still some good, although it was hard to find at times. And it was all driven by people. Now it's another story. Cloudflare's public Radar \"Bot vs Human\" tracker is reporting that bots now account for roughly 57-58 percent of HTTP requests for HTML content, compared with about 42-43 percent from humans. Meanwhile, Imperva's Bad Bot Report based on 2025 data put bots at about 53 percent of measured web traffic for the second year in a row, with humans at 47 percent. Separately, according to Pangram, an AI detection company, on websites such as LinkedIn, Medium, Twitter, and Reddit, \"about one in four long-form items were fully AI-generated.\" The company went on to report that \"LinkedIn was the most AI-saturated platform, where more than 40 percent of long-form posts [were] flagged as fully AI-generated. However, if we included mixed AI and human content, X/Twitter was the worst off: almost half of X articles were either fully AI-generated (23.9 percent) or AI-assisted/mixed (22.9 percent), with only 53.2 percent of X articles flagging as fully human-authored.\" There are that many flesh-and-blood people still posting on LinkedIn and Twitter? Based on what I've been seeing, I'd have guessed there were fewer. So, with the web increasingly written and consumed by AI, where does that leave us, exactly? Nowhere good. It's not just online. AI is everywhere. A non-fiction writer friend of mine \"wrote\" a novel last year using AI as a goof. It was, well, awful. But he put it online to see what would happen. A year and a half later, it's still bringing in a few thousand dollars a month. That's a lot better than many full-time, mid-tier novelists I know are doing. Of course, AI isn't actually writing anything. It's really a copy-and-paste scam on an industrial scale. OpenAI and the other AI powers claim it's not so. However, a recent court filing by the New York Times and others alleges that Vincent Monaco, who leads privacy engineering at OpenAI, acknowledged in a deposition that \"OpenAI had searched training datasets and output data despite the company's initial claims that it couldn't access that data. The outlets also alleged OpenAI deleted logs, a violation of the court's preservation orders.\" As it happens, one of the publishers suing OpenAI is Ziff-Davis, which published my web article back in 1993. Since then, it's published thousands of my Linux and open source news stories, how-tos, interviews, and features. So, when someone accuses me of using AI in my Linux stories, my reply is \"Where do you think AI got that information and phrasing in the first place? Hello! It was me.\" Just go ahead and cut me a check, OpenAI, and all will be forgiven. That said, another AI problem I'm all too painfully aware of is that you can't trust AI's answers. When AI tells you something about Linux, for example, it's not just quoting me, the Linux Kernel Mailing List, or Linux Weekly News. No, it's also pulling data from Ima Moron, a poster from a deservedly obscure subreddit. Repeat after me: AI isn't intelligent at all. It's just a copy-and-paste of words that are likely to go together. It may sound right, but it often isn't. Confidence is why so many buy AI garbage as…",
+      "publishedAt": "2026-07-12T07:34:00.000Z",
+      "fingerprint": "just rats walls web",
+      "imageUrl": "https://image.theregister.com/?imageId=5269833&width=800",
+      "titleFa": "این یک وب‌سایت هوش مصنوعی است و ما فقط موش‌های دیواره آن هستیم",
+      "summaryFa": "روزگار ما در دنیای دیجیتال به گونه‌ای تغییر یافته است که امروزه بیش از نیمی از ترافیک وب از ربات‌ها است نه انسان‌ها. این مقاله به بررسی چگونگی و تحولات اینترنت از زمان آغاز آن می‌پردازد و نشان می‌دهد که وب‌سایت‌هایی مانند LinkedIn و Twitter به شدت تحت تأثیر محتوای تولیدشده توسط هوش مصنوعی قرار گرفته‌اند.",
+      "summaryEn": "Our digital landscape has transformed so much that today over half of web traffic comes from bots rather than humans. This article explores the evolution of the internet since its inception and highlights how platforms like LinkedIn and Twitter are heavily impacted by AI-generated content.",
+      "insightsFa": [
+        "بیش از 57-58 درصد درخواست‌های HTTP از ربات‌ها می‌آید.",
+        "بیش از 40 درصد پست‌های طولانی در LinkedIn به‌طور کامل توسط هوش مصنوعی تولید شده‌اند.",
+        "نزدیک به نیمی از مقالات X (Twitter) یا به‌طور کامل AI-generated یا AI-assisted هستند.",
+        "ترافیک وب از ربات‌ها نسبت به انسان‌ها رو به افزایش است.",
+        "تأثیرات منفی و مثبت تولید محتوا توسط هوش مصنوعی بر جامعه مجازی. "
+      ],
+      "whyItMattersFa": "این خبر به چالش‌های فعلی و آینده فضای آنلاین می‌پردازد و نشان می‌دهد که چگونه هوش مصنوعی ممکن است در آینده بر ارتباطات انسانی و تولید محتوا تأثیر بگذارد.",
+      "category": "ai",
+      "tagsFa": [
+        "هوش مصنوعی",
+        "تولید محتوا",
+        "وب‌سایت",
+        "ترافیک وب",
+        "رسانه‌های اجتماعی"
+      ],
+      "readingMinutes": 3,
+      "processedAt": "2026-07-12T08:19:44.691Z",
       "sourceCount": 1
     },
     {
@@ -509,36 +542,6 @@
       "sourceCount": 1
     },
     {
-      "id": "192608e0baaf6f36",
-      "sourceId": "ft-tech",
-      "sourceName": "Financial Times Tech",
-      "title": "Quantum is exciting, but watch out for the Schrödinger’s cat bounce",
-      "link": "https://www.ft.com/content/b85769b5-ca03-466a-a76c-13a772d8bcf4",
-      "content": "The ‘fault tolerant’ computer — one that is acceptably error-free — is still some time away",
-      "publishedAt": "2026-07-12T04:00:14.000Z",
-      "fingerprint": "bounce cat dinger exciting out quantum schr watch",
-      "titleFa": "کمپیوترهای مقاوم به خطا: انتظارات واقع‌بینانه درباره فناوری کوانتوم",
-      "summaryFa": "کامیابی در فناوری کوانتوم و توسعه رایانه‌های مقاوم به خطا هنوز زمان‌بر است. این نوع رایانه‌ها باید به حدی کارایی داشته باشند که خطاها در آنها قابل قبول باشد، اما به نظر می‌رسد که هنوز راهی طولانی پیش رو داریم.",
-      "summaryEn": "Success in quantum technology and the development of fault-tolerant computers are still some time away. Such computers need to be error-free to an acceptable level, but it seems that there is still a long road ahead.",
-      "insightsFa": [
-        "رایانه‌های مقاوم به خطا به حدی لازم است که خطاها در آن‌ها قابل قبول باشد.",
-        "فناوری کوانتوم به عنوان یک پیشرفت هیجان‌انگیز معرفی می‌شود.",
-        "توسعه این فناوری نیازمند زمان و تحقیق بیشتر است."
-      ],
-      "whyItMattersFa": "این خبر بر اهمیت انتظارهای واقع‌بینانه از فناوری کوانتوم تأکید می‌کند و نشان می‌دهد که تولید فناوری‌های پایدار و کارآمد نیازمند زمان و تلاش است.",
-      "category": "ai",
-      "tagsFa": [
-        "فناوری کوانتوم",
-        "رایانه‌های مقاوم به خطا",
-        "تحقیق و توسعه",
-        "نوآوری",
-        "بخش فناوری"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-07-12T08:08:08.272Z",
-      "sourceCount": 1
-    },
-    {
       "id": "4eb2b65bc3aa5589",
       "sourceId": "ft-tech",
       "sourceName": "Financial Times Tech",
@@ -568,6 +571,36 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-07-12T08:08:08.677Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "192608e0baaf6f36",
+      "sourceId": "ft-tech",
+      "sourceName": "Financial Times Tech",
+      "title": "Quantum is exciting, but watch out for the Schrödinger’s cat bounce",
+      "link": "https://www.ft.com/content/b85769b5-ca03-466a-a76c-13a772d8bcf4",
+      "content": "The ‘fault tolerant’ computer — one that is acceptably error-free — is still some time away",
+      "publishedAt": "2026-07-12T04:00:14.000Z",
+      "fingerprint": "bounce cat dinger exciting out quantum schr watch",
+      "titleFa": "کمپیوترهای مقاوم به خطا: انتظارات واقع‌بینانه درباره فناوری کوانتوم",
+      "summaryFa": "کامیابی در فناوری کوانتوم و توسعه رایانه‌های مقاوم به خطا هنوز زمان‌بر است. این نوع رایانه‌ها باید به حدی کارایی داشته باشند که خطاها در آنها قابل قبول باشد، اما به نظر می‌رسد که هنوز راهی طولانی پیش رو داریم.",
+      "summaryEn": "Success in quantum technology and the development of fault-tolerant computers are still some time away. Such computers need to be error-free to an acceptable level, but it seems that there is still a long road ahead.",
+      "insightsFa": [
+        "رایانه‌های مقاوم به خطا به حدی لازم است که خطاها در آن‌ها قابل قبول باشد.",
+        "فناوری کوانتوم به عنوان یک پیشرفت هیجان‌انگیز معرفی می‌شود.",
+        "توسعه این فناوری نیازمند زمان و تحقیق بیشتر است."
+      ],
+      "whyItMattersFa": "این خبر بر اهمیت انتظارهای واقع‌بینانه از فناوری کوانتوم تأکید می‌کند و نشان می‌دهد که تولید فناوری‌های پایدار و کارآمد نیازمند زمان و تلاش است.",
+      "category": "ai",
+      "tagsFa": [
+        "فناوری کوانتوم",
+        "رایانه‌های مقاوم به خطا",
+        "تحقیق و توسعه",
+        "نوآوری",
+        "بخش فناوری"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-07-12T08:08:08.272Z",
       "sourceCount": 1
     },
     {
@@ -9967,40 +10000,6 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-07-11T08:11:47.928Z",
-      "sourceCount": 1
-    },
-    {
-      "id": "c75ce236064cfcc5",
-      "sourceId": "wired",
-      "sourceName": "Wired",
-      "title": "Apple Is Suing OpenAI for Allegedly Stealing Hardware Secrets",
-      "link": "https://www.wired.com/story/apple-sues-openai-allegedly-stealing-ip-hardware/",
-      "content": "The iPhone maker claims OpenAI encouraged poached employees to bring over confidential presentations, secret prototypes, and key supplier details.",
-      "author": "Maxwell Zeff",
-      "publishedAt": "2026-07-10T20:44:05.000Z",
-      "fingerprint": "allegedly apple hardware openai secrets stealing suing",
-      "imageUrl": "https://media.wired.com/photos/6a51395dba309b253cb3d458/master/pass/GettyImages-2233062347.jpg",
-      "titleFa": "اپل به خاطر دزدیدن اسرار سخت‌افزاری از OpenAI شکایت کرد",
-      "summaryFa": "شرکت اپل ادعا می‌کند که OpenAI کارکنانی را تشویق کرده که اطلاعات محرمانه، طرح‌های مخفی و جزئیات تأمین‌کنندگان کلیدی را به شرکت جدید خود منتقل کنند. این شکایت به‌دنبال نگرانی‌ها از سرقت اطلاعات و دانش فنی در صنعت فناوری رخ داده است.",
-      "summaryEn": "Apple claims that OpenAI encouraged poached employees to bring confidential presentations, secret prototypes, and key supplier details. The lawsuit highlights concerns over intellectual property theft in the tech industry.",
-      "insightsFa": [
-        "اپل به OpenAI بابت دزدیدن اسرار سخت‌افزاری شکایت کرده است.",
-        "ادعای اپل شامل انتقال اطلاعات محرمانه از کارکنان است.",
-        "این شکایت نگرانی‌های جدی از سرقت اطلاعات در صنعت فناوری را مطرح می‌کند.",
-        "OpenAI متهم به جذب کارکنان اپل و انتقال اسرار این شرکت شده است.",
-        "این پرونده می‌تواند بر روابط بین دو شرکت بزرگ فناوری تأثیر بگذارد."
-      ],
-      "whyItMattersFa": "این خبر به‌دلیل نگرانی‌های مربوط به سرقت اطلاعات و حفاظت از حقوق مالکیت معنوی در صنعت فناوری بسیار مهم است. پیروزی اپل در این پرونده می‌تواند تأثیرات گسترده‌ای بر نحوه عملکرد شرکت‌های فناوری داشته باشد.",
-      "category": "business",
-      "tagsFa": [
-        "اپل",
-        "OpenAI",
-        "شکایت",
-        "سرقت اطلاعات",
-        "صنعت فناوری"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-07-11T08:11:45.115Z",
       "sourceCount": 1
     }
   ]
