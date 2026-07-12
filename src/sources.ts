@@ -236,12 +236,6 @@ export const SOURCES: Source[] = [
     homepage: "https://www.ft.com/technology",
     feedUrl: "https://www.ft.com/technology?format=rss",
   },
-  {
-    id: "the-information",
-    name: "The Information",
-    homepage: "https://www.theinformation.com",
-    feedUrl: "https://www.theinformation.com/feed",
-  },
 
   // ── Security ──────────────────────────────────────────────────────────────
   {
