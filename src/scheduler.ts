@@ -4,7 +4,7 @@ import { runVideoAggregation } from "./videos.js";
 
 const TZ = "Australia/Sydney";
 // Must stay ascending: nextRunDate() picks the first hour greater than "now".
-const DAILY_HOURS = [0, 18]; // 12 AM (midnight) and 6 PM Sydney time
+const DAILY_HOURS = [6, 18]; // 6 AM and 6 PM Sydney time
 
 let running = false;
 
@@ -84,18 +84,18 @@ function sydneyHourOf(d: Date): number {
   );
 }
 
-/** Returns the UTC Date of the next scheduled run (12 AM or 6 PM Sydney). */
+/** Returns the UTC Date of the next scheduled run (6 AM or 6 PM Sydney). */
 function nextRunDate(): Date {
   const now = new Date();
   const p = sydneyDateParts(now);
   const nowH = p.hour + p.minute / 60 + p.second / 3600;
 
-  // Pick the next target hour: either later today or midnight tomorrow
+  // Pick the next target hour: either later today or 6 AM tomorrow
   let targetH = DAILY_HOURS.find((h) => h > nowH);
   let base = { year: p.year, month: p.month, day: p.day };
 
   if (targetH === undefined) {
-    targetH = DAILY_HOURS[0]; // midnight
+    targetH = DAILY_HOURS[0]; // 6 AM
     // Advance by 24 h to land in Sydney's tomorrow
     const tp = sydneyDateParts(new Date(now.getTime() + 24 * 3600 * 1000));
     base = { year: tp.year, month: tp.month, day: tp.day };
@@ -120,17 +120,17 @@ function scheduleNext(): void {
   const label = next.toLocaleString("en-AU", { timeZone: TZ });
   console.log(`[scheduler] next run at ${label} Sydney (in ${Math.round(ms / 60000)} min)`);
   const timer = setTimeout(async () => {
-    await refresh("scheduled: 12AM/6PM Sydney");
+    await refresh("scheduled: 6AM/6PM Sydney");
     scheduleNext();
   }, ms);
   timer.unref?.();
 }
 
-/** True if articles are missing or older than 19 h (just over the longest 18 h gap). */
+/** True if articles are missing or older than 13 h (just over the 12 h window). */
 async function articlesStale(): Promise<boolean> {
   const { generatedAt, articles } = await loadArticles();
   if (articles.length === 0) return true;
-  return Date.now() - new Date(generatedAt).getTime() >= 19 * 3600 * 1000;
+  return Date.now() - new Date(generatedAt).getTime() >= 13 * 3600 * 1000;
 }
 
 /** True if the video store has never been populated. */
@@ -140,7 +140,7 @@ async function videosMissing(): Promise<boolean> {
 }
 
 /**
- * Refresh at 12 AM (midnight) and 6 PM Australia/Sydney every day.
+ * Refresh at 6 AM and 6 PM Australia/Sydney every day.
  * On boot, refreshes articles if stale and always seeds videos if the store is empty.
  */
 export async function startAutoRefresh(): Promise<void> {
@@ -149,7 +149,7 @@ export async function startAutoRefresh(): Promise<void> {
     return;
   }
 
-  console.log(`[scheduler] scheduled at 12 AM and 6 PM ${TZ}.`);
+  console.log(`[scheduler] scheduled at 6 AM and 6 PM ${TZ}.`);
 
   const stale = await articlesStale();
   const noVideos = await videosMissing();
