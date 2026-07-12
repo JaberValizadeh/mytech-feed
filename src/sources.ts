@@ -191,7 +191,7 @@ export const SOURCES: Source[] = [
     id: "fox-tech",
     name: "Fox News Tech",
     homepage: "https://www.foxnews.com/tech",
-    feedUrl: "https://moxie.foxnews.com/google-publisher/tech.xml",
+    feedUrl: "https://feeds.foxnews.com/foxnews/tech",
   },
   {
     id: "cnn-tech",
