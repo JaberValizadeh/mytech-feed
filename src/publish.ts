@@ -79,10 +79,12 @@ async function main(): Promise<void> {
     .slice(0, 20);
   await emit("trending.json", { count: hot.length, articles: hot });
 
-  const live = sponsors
-    .filter(isLiveSponsor)
-    .sort((a, b) => +new Date(b.createdAt) - +new Date(a.createdAt));
-  await emit("sponsors.json", { count: live.length, sponsors: live });
+  // Ship every sponsor and let the app evaluate active/startsAt/endsAt at
+  // runtime. Filtering here would freeze flight windows to build time, so an
+  // ad that expires between builds would keep running for hours.
+  const live = sponsors.filter(isLiveSponsor);
+  const all = [...sponsors].sort((a, b) => +new Date(b.createdAt) - +new Date(a.createdAt));
+  await emit("sponsors.json", { count: all.length, sponsors: all });
 
   await writeFile(
     join(OUT_DIR, "index.html"),
