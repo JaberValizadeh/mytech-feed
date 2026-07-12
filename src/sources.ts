@@ -186,6 +186,39 @@ export const SOURCES: Source[] = [
     feedUrl: "https://siliconangle.com/feed/",
   },
 
+  // ── Mainstream Tech Desks ─────────────────────────────────────────────────
+  {
+    id: "fox-tech",
+    name: "Fox News Tech",
+    homepage: "https://www.foxnews.com/tech",
+    feedUrl: "https://moxie.foxnews.com/google-publisher/tech.xml",
+  },
+  {
+    id: "cnn-tech",
+    name: "CNN Technology",
+    homepage: "https://edition.cnn.com/business/tech",
+    feedUrl: "http://rss.cnn.com/rss/edition_technology.rss",
+  },
+  {
+    id: "cnbc-tech",
+    name: "CNBC Technology",
+    homepage: "https://www.cnbc.com/technology/",
+    feedUrl:
+      "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=19854910",
+  },
+  {
+    id: "levelup-coding",
+    name: "Level Up Coding",
+    homepage: "https://levelup.gitconnected.com",
+    feedUrl: "https://levelup.gitconnected.com/feed",
+  },
+  {
+    id: "google-innovation-ai",
+    name: "Google Innovation & AI",
+    homepage: "https://blog.google/innovation-and-ai/",
+    feedUrl: "https://blog.google/innovation-and-ai/rss/",
+  },
+
   // ── Security ──────────────────────────────────────────────────────────────
   {
     id: "dark-reading",

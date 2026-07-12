@@ -216,4 +216,10 @@ export const VIDEO_SOURCES: VideoSource[] = [
     channelId: "UCeeFfhMcJa1kjtfZAGskOCA",
     defaultCategory: "general",
   },
+  {
+    id: "cybernews",
+    name: "Cybernews",
+    channelId: "UCCsREoj8rSRkEvxWqxr74rQ",
+    defaultCategory: "general",
+  },
 ];
