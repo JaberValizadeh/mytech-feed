@@ -62,6 +62,9 @@ jobs:
             echo "No data change (skipped slot or nothing new)."
           else
             git commit -m "chore(data): refresh feed [skip ci]"
+            # The aggregate step takes minutes; a code push landing meanwhile
+            # would make this push non-fast-forward and fail the whole run.
+            git pull --rebase origin main
             git push
           fi
 
