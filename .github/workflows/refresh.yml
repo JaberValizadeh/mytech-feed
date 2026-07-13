@@ -2,9 +2,9 @@ name: Refresh feed
 
 on:
   schedule:
-    # UTC-only cron can't follow Sydney DST, so fire four slots that bracket
-    # 6 AM / 6 PM Sydney year-round. publish.ts gates on the real Sydney hour,
-    # so exactly two of these do work each day (the rest exit immediately).
+    # Around 6 AM / 6 PM Sydney (AEST/AEDT). GitHub fires these late — often by
+    # hours — so publish.ts gates on FEED AGE (>=10h), not the clock: whichever
+    # cron eventually runs does the refresh, the rest exit in seconds.
     - cron: "0 7,8,19,20 * * *"
   workflow_dispatch: # manual "refresh now"
 

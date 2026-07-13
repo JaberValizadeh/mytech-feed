@@ -29,32 +29,34 @@ function isLiveSponsor(s: { active: boolean; startsAt?: string; endsAt?: string 
 }
 
 const TZ = "Australia/Sydney";
-const RUN_HOURS = [6, 18]; // 6 AM / 6 PM Sydney
 
 /**
- * GitHub cron is UTC-only and cannot follow Sydney DST, so the workflow fires
- * four UTC crons that bracket both targets year-round; this gate lets exactly
- * the two correct ones through. FORCE=1 (workflow_dispatch) bypasses it.
+ * Refresh when the stored feed is at least this old. GitHub cron regularly
+ * fires minutes-to-hours late, so matching the exact Sydney hour misses runs
+ * (it did: two skipped slots on 12–13 Jul). A staleness gate is delay-proof:
+ * whichever cron eventually fires, it refreshes iff a ~12h window has passed.
+ * The workflow's concurrency group stops back-to-back crons from doubling up.
  */
-function shouldRunNow(): boolean {
+const MIN_AGE_HOURS = Number(process.env.MIN_REFRESH_AGE_HOURS ?? 10);
+
+async function shouldRunNow(): Promise<boolean> {
   if (process.env.FORCE === "1") return true;
-  const hour = Number(
-    new Intl.DateTimeFormat("en-GB", { timeZone: TZ, hour: "2-digit", hour12: false }).format(
-      new Date(),
-    ),
-  );
-  return RUN_HOURS.includes(hour);
+  const { generatedAt, articles } = await loadArticles();
+  if (articles.length === 0) return true;
+  const ageHours = (Date.now() - new Date(generatedAt).getTime()) / 3_600_000;
+  console.log(`Feed age: ${ageHours.toFixed(1)}h (refresh at >= ${MIN_AGE_HOURS}h).`);
+  return ageHours >= MIN_AGE_HOURS;
 }
 
 async function main(): Promise<void> {
   // Gate only the expensive aggregation. The static files are always re-emitted
   // so the Pages deploy step has something to publish on every run.
-  if (shouldRunNow()) {
+  if (await shouldRunNow()) {
     await runAggregation();
     await runVideoAggregation();
   } else {
     const now = new Date().toLocaleString("en-AU", { timeZone: TZ });
-    console.log(`Not a scheduled slot (${now} Sydney; want 6 AM / 6 PM). Re-publishing existing data.`);
+    console.log(`Feed still fresh (${now} Sydney). Re-publishing existing data.`);
   }
 
   await mkdir(OUT_DIR, { recursive: true });
