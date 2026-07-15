@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-07-14T09:13:54.636Z",
+  "generatedAt": "2026-07-15T05:13:05.154Z",
   "videos": [
+    {
+      "id": "aAOgZ6cjrio",
+      "title": "The GOD-KING of TVs - Sony TrueRGB 115”",
+      "titleFa": "خدای تلویزیون‌ها - Sony TrueRGB 115 اینچی",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aAOgZ6cjrio/hqdefault.jpg",
+      "publishedAt": "2026-07-14T17:00:11.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aAOgZ6cjrio",
+      "captionFa": "در این ویدیو به بررسی تلویزیون جدید Sony TrueRGB 115 اینچی پرداخته می‌شود. ویژگی‌های منحصر به فرد این تلویزیون و کیفیت تصویری که ارائه می‌دهد، نمایش داده می‌شود.",
+      "captionEn": "This video reviews the new Sony TrueRGB 115-inch TV. It highlights the unique features and the picture quality that this television offers.",
+      "category": "hardware",
+      "processedAt": "2026-07-15T05:13:04.691Z"
+    },
+    {
+      "id": "nQPY77WHwZw",
+      "title": "Adam Savage Meets the 2001: A Space Odyssey Spacesuit Helmet!",
+      "titleFa": "لقای آدام ساویج با کلاه‌خود فضانوردی فیلم 2001: ادیسه فضایی!",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nQPY77WHwZw/hqdefault.jpg",
+      "publishedAt": "2026-07-14T14:00:12.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nQPY77WHwZw",
+      "captionFa": "در این ویدیو، آدام ساویج به بررسی کلاه‌خود فضانوردی مشهور فیلم 2001: ادیسه فضایی می‌پردازد. او به جزئیات طراحی و ساخت این کلاه‌خود و تأثیر آن بر دنیای سینما می‌پردازد.",
+      "captionEn": "In this video, Adam Savage explores the iconic spacesuit helmet from the film 2001: A Space Odyssey. He delves into the design details and significance of this helmet in the cinematic world.",
+      "category": "general",
+      "processedAt": "2026-07-15T05:13:05.152Z"
+    },
     {
       "id": "TE2rcfvJFZU",
       "title": "Waymo self-driving taxi vandalized in East Hollywood ⤵️",
@@ -2862,19 +2888,6 @@
       "processedAt": "2026-07-05T10:33:49.493Z"
     },
     {
-      "id": "a2i9h2ip-nY",
-      "title": "Midjourney wants to delete 30% of all death...",
-      "titleFa": "میجیورنی می‌خواهد ۳۰٪ از تمامی مرگ‌ها را حذف کند...",
-      "channelName": "Fireship",
-      "thumbnailUrl": "https://i.ytimg.com/vi/a2i9h2ip-nY/hqdefault.jpg",
-      "publishedAt": "2026-06-23T16:46:50.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=a2i9h2ip-nY",
-      "captionFa": "در این ویدیو به بررسی ادعای میجیورنی در مورد حذف درصد قابل توجهی از مرگ‌ها پرداخته می‌شود. این ادعا پرسش‌های مهمی را در مورد تأثیرات هوش مصنوعی بر زندگی انسان‌ها و آینده فناوری مطرح می‌کند.",
-      "captionEn": "This video discusses Midjourney's claim about wanting to eliminate a significant percentage of deaths, raising important questions about the impact of AI on human life and the future of technology.",
-      "category": "ai",
-      "processedAt": "2026-06-23T20:17:29.308Z"
-    },
-    {
       "id": "V04bm-3d6EQ",
       "title": "When millions of AI agents meet",
       "titleFa": "زمانی که میلیون‌ها عامل هوش مصنوعی ملاقات می‌کنند",
@@ -2886,19 +2899,6 @@
       "captionEn": "This video explores the interactions among millions of AI agents. It provides insights into the potentials and challenges of such interactions.",
       "category": "ai",
       "processedAt": "2026-07-12T08:08:38.254Z"
-    },
-    {
-      "id": "VzZQz0cOMsc",
-      "title": "$1 vs $50 Phone Charger. What’s the difference?",
-      "titleFa": "شارژر گوشی ۱ دلار در مقابل ۵۰ دلار. تفاوت‌ها چیست؟",
-      "channelName": "Real Engineering",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VzZQz0cOMsc/hqdefault.jpg",
-      "publishedAt": "2026-06-23T13:36:46.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/VzZQz0cOMsc",
-      "captionFa": "در این ویدیو به بررسی تفاوت‌های کلیدی بین شارژرهای ارزان‌قیمت و گران‌قیمت پرداخته می‌شود. از کیفیت ساخت تا سرعت شارژ، عوامل مختلفی که بر انتخاب یک شارژر تأثیر می‌گذارند، بررسی خواهند شد.",
-      "captionEn": "This video explores the key differences between cheap and expensive phone chargers. It examines various factors that influence charger selection, from build quality to charging speed.",
-      "category": "science",
-      "processedAt": "2026-07-05T01:55:06.117Z"
     },
     {
       "id": "HJ1OYJmtV3Y",
