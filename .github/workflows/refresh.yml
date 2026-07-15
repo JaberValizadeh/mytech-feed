@@ -2,10 +2,11 @@ name: Refresh feed
 
 on:
   schedule:
-    # Around 6 AM / 6 PM Sydney (AEST/AEDT). GitHub fires these late — often by
-    # hours — so publish.ts gates on FEED AGE (>=10h), not the clock: whichever
-    # cron eventually runs does the refresh, the rest exit in seconds.
-    - cron: "0 7,8,19,20 * * *"
+    # Every 2 hours. GitHub fires crons late (minutes to hours) and sparse slots
+    # let the refresh anchor drift into a once-a-day rhythm. publish.ts gates on
+    # FEED AGE (>=11h): the first slot past the threshold refreshes, the rest
+    # exit in ~2 min. Net cadence: every 11-13h regardless of delays or anchor.
+    - cron: "0 */2 * * *"
   workflow_dispatch: # manual "refresh now"
 
 # Only one refresh at a time; never cancel a run mid-way (it would waste the

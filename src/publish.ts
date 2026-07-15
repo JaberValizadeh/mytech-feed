@@ -37,7 +37,7 @@ const TZ = "Australia/Sydney";
  * whichever cron eventually fires, it refreshes iff a ~12h window has passed.
  * The workflow's concurrency group stops back-to-back crons from doubling up.
  */
-const MIN_AGE_HOURS = Number(process.env.MIN_REFRESH_AGE_HOURS ?? 10);
+const MIN_AGE_HOURS = Number(process.env.MIN_REFRESH_AGE_HOURS ?? 11);
 
 async function shouldRunNow(): Promise<boolean> {
   if (process.env.FORCE === "1") return true;
