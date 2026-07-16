@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-15T17:20:18.253Z",
+  "generatedAt": "2026-07-16T00:40:02.729Z",
   "videos": [
+    {
+      "id": "MDy_b9F7oUc",
+      "title": "Complete Guide to ChatGPT 5.6 + Prompting Guide",
+      "titleFa": "راهنمای کامل ChatGPT 5.6 + راهنمای پرامپت‌ها",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/MDy_b9F7oUc/hqdefault.jpg",
+      "publishedAt": "2026-07-15T22:17:52.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=MDy_b9F7oUc",
+      "captionFa": "این ویدیو به بررسی کامل نسخه 5.6 ChatGPT می‌پردازد و نکات و استراتژی‌هایی برای نوشتن پرامپت‌های مؤثر ارائه می‌دهد.",
+      "captionEn": "This video provides a comprehensive overview of ChatGPT version 5.6, along with tips and strategies for crafting effective prompts.",
+      "category": "ai",
+      "processedAt": "2026-07-16T00:39:32.200Z"
+    },
+    {
+      "id": "EOK_haQSMIA",
+      "title": "New Model: Inkling by Thinking Machine on Hugging Face",
+      "titleFa": "مدل جدید: Inkling اثر Thinking Machine در Hugging Face",
+      "channelName": "Hugging Face",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EOK_haQSMIA/hqdefault.jpg",
+      "publishedAt": "2026-07-15T18:02:16.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=EOK_haQSMIA",
+      "captionFa": "در این ویدیو، به معرفی مدل جدید Inkling پرداخته می‌شود که توسط Think Machine توسعه یافته است. این مدل به طور خاص برای بهبود عملکرد در زمینه‌های مختلف هوش مصنوعی طراحی شده و مزیت‌های آن بررسی می‌شود.",
+      "captionEn": "This video introduces the new model Inkling developed by Thinking Machine. It focuses on improving performance in various fields of artificial intelligence and explores its advantages.",
+      "category": "ai",
+      "processedAt": "2026-07-16T00:39:36.900Z"
+    },
+    {
+      "id": "CXSvKcLovAk",
+      "title": "The most controversial rewrite in history just shipped...",
+      "titleFa": "پرچم‌داری جنجالی‌ترین بازنویسی تاریخ به تازگی منتشر شد...",
+      "channelName": "Fireship",
+      "thumbnailUrl": "https://i.ytimg.com/vi/CXSvKcLovAk/hqdefault.jpg",
+      "publishedAt": "2026-07-15T17:39:02.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=CXSvKcLovAk",
+      "captionFa": "این ویدیو درباره بازنویسی جدید در دنیای نرم‌افزار که بحث‌های زیادی را برانگیخته است، صحبت می‌کند. این تغییرات به طور مستقیم بر توسعه و استفاده از نرم‌افزارها تأثیر خواهد گذاشت.",
+      "captionEn": "The video discusses a controversial new rewrite in the software world that has sparked significant discussions. These changes will directly impact the development and use of software.",
+      "category": "software",
+      "processedAt": "2026-07-16T00:39:55.106Z"
+    },
     {
       "id": "VRpP4_lKjEc",
       "title": "Daily Driving the Steam Machine",
@@ -2847,45 +2886,6 @@
       "captionEn": "This video explores data centers operating in space, analyzing their challenges and benefits. It also discusses the key tools and programs essential for advancing this technology.",
       "category": "science",
       "processedAt": "2026-07-05T01:55:05.830Z"
-    },
-    {
-      "id": "st_HMMt0T7g",
-      "title": "Hermes AI Setup (plus business skills)",
-      "titleFa": "راه‌اندازی Hermes AI (به همراه مهارت‌های کسب‌وکار)",
-      "channelName": "Wes Roth",
-      "thumbnailUrl": "https://i.ytimg.com/vi/st_HMMt0T7g/hqdefault.jpg",
-      "publishedAt": "2026-06-27T15:46:01.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=st_HMMt0T7g",
-      "captionFa": "در این ویدیو، نحوه راه‌اندازی هوش مصنوعی Hermes آموزش داده می‌شود و همچنین به مهارت‌های مهم برای موفقیت در کسب‌وکار پرداخته می‌شود.",
-      "captionEn": "This video demonstrates how to set up Hermes AI and discusses essential business skills for success.",
-      "category": "ai",
-      "processedAt": "2026-07-05T01:54:54.432Z"
-    },
-    {
-      "id": "o4ub_WOWFoo",
-      "title": "I Love The Steam Machine More Already - WAN Show June 26, 2026",
-      "titleFa": "من بیشتر از پیش عاشق Steam Machine هستم - نمایش WAN 26 ژوئن 2026",
-      "channelName": "Linus Tech Tips",
-      "thumbnailUrl": "https://i.ytimg.com/vi/o4ub_WOWFoo/hqdefault.jpg",
-      "publishedAt": "2026-06-27T03:49:54.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=o4ub_WOWFoo",
-      "captionFa": "در این ویدیو، لینوس درباره تجربه‌هایش با Steam Machine صحبت می‌کند و به مزایای آن نسبت به سایر کنسول‌ها اشاره می‌کند. همچنین، او نظرات جالبی در مورد آینده فناوری گیم و انتظاراتش دارد.",
-      "captionEn": "In this video, Linus shares his experiences with the Steam Machine and highlights its advantages over other consoles. He also gives interesting insights into the future of gaming technology and his expectations.",
-      "category": "hardware",
-      "processedAt": "2026-06-27T08:10:47.997Z"
-    },
-    {
-      "id": "5rGdKKjjizw",
-      "title": "WINDOWS 10 WILL NEVER DIE",
-      "titleFa": "ویندوز ۱۰ هرگز نخواهد مرد",
-      "channelName": "TechLinked",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5rGdKKjjizw/hqdefault.jpg",
-      "publishedAt": "2026-06-27T00:34:13.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5rGdKKjjizw",
-      "captionFa": "این ویدیو به بررسی پشتیبانی و زندگی طولانی‌مدت ویندوز ۱۰ می‌پردازد و نشان می‌دهد که چگونه این سیستم عامل همچنان در دنیا مورد استفاده قرار خواهد گرفت. همچنین به دلایل ادامه حضور آن در بازار و تبعات آن برای کاربران اشاره می‌کند.",
-      "captionEn": "This video examines the long-term support and enduring presence of Windows 10, discussing how this operating system will continue to be used globally. It also highlights reasons for its persistence in the market and implications for users.",
-      "category": "general",
-      "processedAt": "2026-06-27T08:10:59.567Z"
     },
     {
       "id": "7D3w87YqfA8",
