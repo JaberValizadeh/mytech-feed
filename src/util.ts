@@ -1,4 +1,5 @@
 import { createHash } from "node:crypto";
+import type { ProcessedArticle, Sponsor, Video } from "./types.js";
 
 /** Short, stable, URL-safe id from any string (e.g. an article link). */
 export function hashId(input: string): string {
@@ -65,6 +66,63 @@ const PHYSICAL_ROBOT_TERMS =
   /robot|humanoid|cobot|quadruped|exoskeleton|\bdrone|automaton|رباتیک|پهپاد|انسان‌نما|بازوی رباتیک/i;
 export function mentionsPhysicalRobot(text: string): boolean {
   return PHYSICAL_ROBOT_TERMS.test(text);
+}
+
+/**
+ * Fix bidirectional rendering of Persian text that contains Latin names.
+ * Persian is RTL, but React Native (and most renderers) pick the paragraph
+ * direction from the first strong character — so a headline starting with
+ * "OpenAI" lays out left-to-right and the Persian word order scrambles.
+ *
+ * Two-part fix, applied at the API layer so every stored article benefits:
+ *  - wrap each Latin run (e.g. "OpenAI", "Galaxy S25 Ultra") in Unicode
+ *    directional isolates (LRI … PDI) so it can't flip surrounding text;
+ *  - prepend an RLM so the paragraph base direction is always RTL.
+ * Idempotent: existing bidi marks are stripped before re-applying.
+ */
+const RLM = "\u200F"; // right-to-left mark
+const LRI = "\u2066"; // left-to-right isolate
+const PDI = "\u2069"; // pop directional isolate
+const BIDI_MARKS = /[\u200E\u200F\u2066-\u2069]/g;
+// A run: Latin/digit tokens (with internal - . / + # & ') joined by single
+// spaces. Trailing punctuation stays outside the isolate.
+const LATIN_RUN =
+  /[A-Za-z0-9]+(?:[-.\/+#&'’][A-Za-z0-9]+)*(?: [A-Za-z0-9]+(?:[-.\/+#&'’][A-Za-z0-9]+)*)*/g;
+
+export function faBidi(text: string): string {
+  if (!text) return text;
+  const wrapped = text
+    .replace(BIDI_MARKS, "")
+    // Digit-only runs (years, prices) render fine without isolation.
+    .replace(LATIN_RUN, (run) => (/[A-Za-z]/.test(run) ? LRI + run + PDI : run));
+  return RLM + wrapped;
+}
+
+/** Persian fields of an article fixed for RTL rendering. */
+export function articleBidi(a: ProcessedArticle): ProcessedArticle {
+  return {
+    ...a,
+    titleFa: faBidi(a.titleFa),
+    summaryFa: faBidi(a.summaryFa),
+    insightsFa: (a.insightsFa ?? []).map(faBidi),
+    whyItMattersFa: faBidi(a.whyItMattersFa),
+    tagsFa: (a.tagsFa ?? []).map(faBidi),
+  };
+}
+
+/** Persian fields of a video fixed for RTL rendering. */
+export function videoBidi(v: Video): Video {
+  return { ...v, titleFa: faBidi(v.titleFa), captionFa: faBidi(v.captionFa) };
+}
+
+/** Persian fields of a sponsor fixed for RTL rendering. */
+export function sponsorBidi(s: Sponsor): Sponsor {
+  return {
+    ...s,
+    titleFa: faBidi(s.titleFa),
+    bodyFa: faBidi(s.bodyFa),
+    ctaTextFa: s.ctaTextFa ? faBidi(s.ctaTextFa) : s.ctaTextFa,
+  };
 }
 
 /** Rough reading time in minutes for an English source text (~220 wpm). */

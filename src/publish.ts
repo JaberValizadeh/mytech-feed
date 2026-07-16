@@ -4,6 +4,7 @@ import { join } from "node:path";
 import { runAggregation } from "./pipeline.js";
 import { runVideoAggregation } from "./videos.js";
 import { loadArticles, loadSponsors, loadVideos } from "./store.js";
+import { articleBidi, sponsorBidi, videoBidi } from "./util.js";
 
 /**
  * Static-site build: run the full aggregation, then emit the JSON files the app
@@ -66,10 +67,16 @@ async function main(): Promise<void> {
   const sponsors = await loadSponsors();
 
   // The app filters/paginates client-side, so ship the whole (deduped) feed.
-  const feed = articles.filter((a) => !a.duplicateOf);
+  // Persian fields go through the bidi fixer (articleBidi) so headlines mixing
+  // Persian and Latin names render RTL correctly; stored data stays raw.
+  const feed = articles.filter((a) => !a.duplicateOf).map(articleBidi);
   await emit("feed.json", { generatedAt, count: feed.length, articles: feed });
 
-  await emit("videos.json", { generatedAt: videosAt, count: videos.length, videos });
+  await emit("videos.json", {
+    generatedAt: videosAt,
+    count: videos.length,
+    videos: videos.map(videoBidi),
+  });
 
   const hot = feed
     .filter((a) => (a.sourceCount ?? 1) >= 2)
@@ -85,7 +92,9 @@ async function main(): Promise<void> {
   // runtime. Filtering here would freeze flight windows to build time, so an
   // ad that expires between builds would keep running for hours.
   const live = sponsors.filter(isLiveSponsor);
-  const all = [...sponsors].sort((a, b) => +new Date(b.createdAt) - +new Date(a.createdAt));
+  const all = [...sponsors]
+    .sort((a, b) => +new Date(b.createdAt) - +new Date(a.createdAt))
+    .map(sponsorBidi);
   await emit("sponsors.json", { count: all.length, sponsors: all });
 
   await writeFile(

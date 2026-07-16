@@ -7,6 +7,7 @@ import { startAutoRefresh, triggerRefresh } from "./scheduler.js";
 import { SOURCES } from "./sources.js";
 import { CATEGORY_IDS } from "./types.js";
 import type { ProcessedArticle, Sponsor } from "./types.js";
+import { articleBidi, sponsorBidi, videoBidi } from "./util.js";
 
 const app = express();
 app.use(cors());
@@ -84,7 +85,11 @@ app.get("/feed", async (req, res) => {
 
   const max = Math.min(Number(limit ?? 50), 500);
   const off = Math.max(Number(offset ?? 0), 0);
-  res.json({ generatedAt, count: result.length, articles: result.slice(off, off + max) });
+  res.json({
+    generatedAt,
+    count: result.length,
+    articles: result.slice(off, off + max).map(articleBidi),
+  });
 });
 
 /**
@@ -101,7 +106,7 @@ app.get("/trending", async (_req, res) => {
         +new Date(b.publishedAt) - +new Date(a.publishedAt),
     )
     .slice(0, 20);
-  res.json({ count: hot.length, articles: hot });
+  res.json({ count: hot.length, articles: hot.map(articleBidi) });
 });
 
 /** A single article by id. */
@@ -112,7 +117,7 @@ app.get("/articles/:id", async (req, res) => {
     res.status(404).json({ error: "not_found" });
     return;
   }
-  res.json(article);
+  res.json(articleBidi(article));
 });
 
 /**
@@ -132,7 +137,11 @@ app.get("/videos", async (req, res) => {
 
   const max = Math.min(Number(limit ?? 50), 200);
   const off = Math.max(Number(offset ?? 0), 0);
-  res.json({ generatedAt, count: result.length, videos: result.slice(off, off + max) });
+  res.json({
+    generatedAt,
+    count: result.length,
+    videos: result.slice(off, off + max).map(videoBidi),
+  });
 });
 
 /**
@@ -157,7 +166,7 @@ app.get("/sponsors", async (_req, res) => {
   const live = sponsors
     .filter((s) => sponsorIsLive(s))
     .sort((a, b) => +new Date(b.createdAt) - +new Date(a.createdAt));
-  res.json({ count: live.length, sponsors: live });
+  res.json({ count: live.length, sponsors: live.map(sponsorBidi) });
 });
 
 /** Owner: list all sponsored posts, including inactive/expired ones. */
