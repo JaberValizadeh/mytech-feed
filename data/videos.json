@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-16T19:08:53.594Z",
+  "generatedAt": "2026-07-17T09:58:34.091Z",
   "videos": [
+    {
+      "id": "s1TK1lNGsHI",
+      "title": "Inside the URKL Arena: The EngineAI T800 Robot Battles ⤵️",
+      "titleFa": "درون آرنای URKL: نبرد ربات T800 EngineAI",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/s1TK1lNGsHI/hqdefault.jpg",
+      "publishedAt": "2026-07-17T06:35:31.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/s1TK1lNGsHI",
+      "captionFa": "این ویدیو به بررسی نبردهای ربات T800 EngineAI در آرنای URKL می‌پردازد. تماشا کنید که چگونه این ربات در مسابقات مختلف به چالش کشیده می‌شود و توانایی‌های منحصر به فرد آن به نمایش گذاشته می‌شود.",
+      "captionEn": "This video explores the battles of the T800 EngineAI robot in the URKL Arena. Watch as this robot faces challenges in various competitions, showcasing its unique abilities.",
+      "category": "robotics",
+      "processedAt": "2026-07-17T09:58:34.086Z"
+    },
+    {
+      "id": "930DlHopjws",
+      "title": "Build and Optimize Robotics and Edge AI with the New Jetson Thor T2000 and T3000",
+      "titleFa": "ساخت و بهینه‌سازی رباتیک و هوش مصنوعی لبه با Jetson Thor T2000 و T3000 جدید",
+      "channelName": "NVIDIA Developer",
+      "thumbnailUrl": "https://i.ytimg.com/vi/930DlHopjws/hqdefault.jpg",
+      "publishedAt": "2026-07-17T05:05:03.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=930DlHopjws",
+      "captionFa": "این ویدیو به بررسی قابلیت‌های جدید Jetson Thor T2000 و T3000 می‌پردازد و راه‌های بهینه‌سازی رباتیک و هوش مصنوعی لبه را معرفی می‌کند.",
+      "captionEn": "This video explores the new capabilities of the Jetson Thor T2000 and T3000, highlighting ways to optimize robotics and edge AI.",
+      "category": "robotics",
+      "processedAt": "2026-07-17T09:58:24.873Z"
+    },
+    {
+      "id": "mJhJLBBFBOs",
+      "title": "Useful Websites: AISafety.com",
+      "titleFa": "وب‌سایت‌های مفید: AISafety.com",
+      "channelName": "Robert Miles AI Safety",
+      "thumbnailUrl": "https://i.ytimg.com/vi/mJhJLBBFBOs/hqdefault.jpg",
+      "publishedAt": "2026-07-17T03:43:20.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/mJhJLBBFBOs",
+      "captionFa": "این ویدیو به معرفی وب‌سایت AISafety.com می‌پردازد که منابع و ابزارهای مفیدی برای اطمینان از ایمنی در توسعه فناوری هوش مصنوعی ارائه می‌دهد. بینندگان می‌توانند از این وب‌سایت برای دسترسی به اطلاعات و مقالات مرتبط با ایمنی هوش مصنوعی بهره‌مند شوند.",
+      "captionEn": "This video introduces AISafety.com, a website that provides useful resources and tools for ensuring safety in AI development. Viewers can access information and relevant articles on AI safety from this site.",
+      "category": "ai",
+      "processedAt": "2026-07-17T09:58:08.813Z"
+    },
     {
       "id": "nt4eQU7MG9c",
       "title": "My biggest Home Theater Upgrade is NOT Expensive",
@@ -2836,32 +2875,6 @@
       "processedAt": "2026-07-01T20:13:24.047Z"
     },
     {
-      "id": "qks6dGQFd_c",
-      "title": "This New AI Model Changes Everything",
-      "titleFa": "مدل جدید هوش مصنوعی همه چیز را تغییر می‌دهد",
-      "channelName": "Two Minute Papers",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qks6dGQFd_c/hqdefault.jpg",
-      "publishedAt": "2026-07-01T05:23:54.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=qks6dGQFd_c",
-      "captionFa": "این ویدیو به بررسی یک مدل جدید هوش مصنوعی می‌پردازد که تمایزات عمده‌ای با مدل‌های قبلی دارد. این مدل قابلیت‌های شگفت‌انگیزی را ارائه می‌دهد که می‌تواند نحوه تعامل ما با فناوری را متحول کند.",
-      "captionEn": "This video explores a groundbreaking new AI model that stands out from previous ones. It offers remarkable capabilities that could revolutionize our interaction with technology.",
-      "category": "ai",
-      "processedAt": "2026-07-01T08:12:37.643Z"
-    },
-    {
-      "id": "73RZkEgC3AE",
-      "title": "FABLE 5 IS BACK",
-      "titleFa": "FABLE 5 بازگشته است",
-      "channelName": "Wes Roth",
-      "thumbnailUrl": "https://i.ytimg.com/vi/73RZkEgC3AE/hqdefault.jpg",
-      "publishedAt": "2026-07-01T03:13:15.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=73RZkEgC3AE",
-      "captionFa": "در این ویدیو اعلام می‌شود که بازی FABLE 5 دوباره در حال توسعه است. تیم سازندگان جزئیاتی از بهبودها و تغییرات جدید در این نسخه را ارائه می‌دهند.",
-      "captionEn": "This video announces that the game FABLE 5 is back in development. The creators share details about improvements and new changes in this version.",
-      "category": "ai",
-      "processedAt": "2026-07-05T01:54:53.037Z"
-    },
-    {
       "id": "pv1TUJSEM2k",
       "title": "The Rise and Fall of the Roman Empire and the Byzantine Empire | Lex Fridman Podcast #498",
       "titleFa": "افول و اوج امپراتوری روم و امپراتوری بیزانس | پادکست لکس فریدمن #498",
@@ -2873,19 +2886,6 @@
       "captionEn": "In this video, Lex Fridman explores the historical trajectory of the Roman Empire and the Byzantine Empire. He analyzes the factors that led to the rise and fall of these empires and extracts lessons for contemporary societies.",
       "category": "general",
       "processedAt": "2026-07-01T08:12:38.279Z"
-    },
-    {
-      "id": "VUh3HDSsS5g",
-      "title": "WTF is China building now 😂",
-      "titleFa": "چین حالا چه می‌سازد؟ 😂",
-      "channelName": "Matt Wolfe",
-      "thumbnailUrl": "https://i.ytimg.com/vi/VUh3HDSsS5g/hqdefault.jpg",
-      "publishedAt": "2026-06-30T18:43:44.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/VUh3HDSsS5g",
-      "captionFa": "در این ویدیو به پروژه‌های جدید و جالب چین پرداخته شده است. چین با ساخت زیرساخت‌های مدرن و قابل توجهی، توجه جهانیان را جلب کرده است.",
-      "captionEn": "This video explores the latest interesting construction projects in China. China is drawing global attention with its modern and significant infrastructure developments.",
-      "category": "general",
-      "processedAt": "2026-07-05T01:54:50.881Z"
     },
     {
       "id": "AgpeggCsRH4",
