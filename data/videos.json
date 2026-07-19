@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-07-18T16:55:47.121Z",
+  "generatedAt": "2026-07-19T06:29:50.677Z",
   "videos": [
+    {
+      "id": "LoF0rtxuGrQ",
+      "title": "Full-size humanoid robot scales a 1-meter-high obstacle ⤵️",
+      "titleFa": "ربات انسان‌نمای کامل‌سایز از مانع ۱ متری عبور می‌کند",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LoF0rtxuGrQ/hqdefault.jpg",
+      "publishedAt": "2026-07-19T05:00:38.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/LoF0rtxuGrQ",
+      "captionFa": "این ویدیو به نمایش ربات انسان‌نمایی می‌پردازد که توانسته است از یک مانع ۱ متری بالا برود. عملکرد این ربات نشان‌دهنده پیشرفت‌های اخیر در تکنولوژی رباتیک و قابلیت‌های حرکتی آن است.",
+      "captionEn": "This video showcases a full-size humanoid robot successfully scaling a 1-meter-high obstacle. The performance of this robot highlights recent advancements in robotics technology and its mobility capabilities.",
+      "category": "robotics",
+      "processedAt": "2026-07-19T06:29:50.674Z"
+    },
+    {
+      "id": "qZ7OjpjGVGs",
+      "title": "It’s Time to Commit to Linux…But which one?",
+      "titleFa": "زمانی برای تعهد به لینوکس فرا رسیده است... اما کدام یک؟",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qZ7OjpjGVGs/hqdefault.jpg",
+      "publishedAt": "2026-07-18T16:56:52.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qZ7OjpjGVGs",
+      "captionFa": "این ویدیو به بررسی انتخاب‌های مختلف لینوکس می‌پردازد و به مخاطبان کمک می‌کند تا بهترین توزیع را بر اساس نیازهای خود را انتخاب کنند. همچنین نکاتی درباره مزایا و معایب هر توزیع ارائه می‌دهد.",
+      "captionEn": "This video explores various Linux distributions and helps viewers choose the best one based on their needs. It also discusses the pros and cons of each distribution.",
+      "category": "general",
+      "processedAt": "2026-07-19T06:29:47.159Z"
+    },
     {
       "id": "DHmgu738Wig",
       "title": "Why Adam Savage Builds the Same Thing Multiple Times",
@@ -2795,32 +2821,6 @@
       "captionEn": "This video explores innovations at Agility Robotics in the field of robotics. It showcases how robots are designed to assist humans during lunchtime and take on related tasks.",
       "category": "robotics",
       "processedAt": "2026-07-05T10:33:47.883Z"
-    },
-    {
-      "id": "tV5zXS78HzU",
-      "title": "GPT-5.6 Sol, FIFA AI & Wall Street’s AI nerves",
-      "titleFa": "GPT-5.6 Sol، هوش مصنوعی فیفا و استرس‌های هوش مصنوعی در وال استریت",
-      "channelName": "IBM Technology",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tV5zXS78HzU/hqdefault.jpg",
-      "publishedAt": "2026-07-03T10:00:27.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=tV5zXS78HzU",
-      "captionFa": "این ویدیو به بررسی نسخه جدید GPT-5.6 و تأثیرات آن بر هوش مصنوعی در فوتبال و چالش های هوش مصنوعی در وال استریت می‌پردازد. همچنین به تحلیل کاربردهای این فناوری در صنایع مختلف و واکنش‌های سرمایه‌گذاران اشاره می‌کند.",
-      "captionEn": "This video explores the new GPT-5.6 version and its implications for AI in football, along with the challenges faced by AI in Wall Street. It also analyzes the applications of this technology in various industries and investors' reactions.",
-      "category": "ai",
-      "processedAt": "2026-07-03T20:13:27.110Z"
-    },
-    {
-      "id": "CqZiFrRohGw",
-      "title": "Spark Hack Toronto Winner Spotlight: Belong & City Flow",
-      "titleFa": "معرفی برندگان مسابقه Spark Hack تورنتو: Belong و City Flow",
-      "channelName": "NVIDIA Developer",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CqZiFrRohGw/hqdefault.jpg",
-      "publishedAt": "2026-07-03T06:51:12.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CqZiFrRohGw",
-      "captionFa": "این ویدیو به معرفی برندگان مسابقه Spark Hack در تورنتو می‌پردازد. پروژه‌های Belong و City Flow با استفاده از فناوری‌های نوین به حل مشکلات اجتماعی و شهری کمک می‌کنند.",
-      "captionEn": "This video highlights the winners of the Spark Hack competition in Toronto. The projects Belong and City Flow aim to address social and urban challenges using innovative technologies.",
-      "category": "ai",
-      "processedAt": "2026-07-12T08:09:04.553Z"
     },
     {
       "id": "y24lF1q4SFY",
