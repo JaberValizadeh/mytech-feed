@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-19T22:49:25.424Z",
+  "generatedAt": "2026-07-20T17:31:36.688Z",
   "articles": [
     {
       "id": "a952296379df5a0b",
@@ -1872,6 +1872,40 @@
       "sourceCount": 1
     },
     {
+      "id": "ed75aab4128bb43c",
+      "sourceId": "the-new-stack",
+      "sourceName": "The New Stack",
+      "title": "Spark 4.2 has a feature that could retire your vector database",
+      "link": "https://thenewstack.io/spark-4-2-ai-workloads/",
+      "content": "Apache Spark 4.2 launched last week, and it signals an expansion of Spark&#8217;s decade-plus role at the center of enterprise data processing With new features for AI workloads, including governed metrics, vector retrieval primitives, real-time processing, improved Python support and native geospatial analytics, Spark 4.2 builds on a recent history of new AI and streaming features, reflecting how many engineering teams use the platform today. The release builds on Spark&#8217;s traditional role as a data processing engine by adding more of the capabilities needed to support production AI applications . The launch introduced several features that enable developers to do more without leaving the platform, and for teams already using Spark, that could mean fewer systems to manage. Governed metrics prevent conflicts One team&#8217;s definition of a business metric isn&#8217;t always the same as another&#8217;s. Over time, those differences can lead to conflicting reports and uncertainty about which number to trust. That becomes even more problematic when AI applications start consuming the same enterprise data that analysts and business intelligence tools use. If different teams define the same metric differently, AI systems can produce inconsistent results for the same question. Spark 4.2 introduces governed metric views to address that issue. Organizations can define a business metric once and reuse that definition across applications. A metric view makes dimensions and measures first-class objects that Spark understands, so the engine can preserve the intended aggregation semantics regardless of who or what is querying it. Organizations can define a business metric once and reuse that definition across applications. Vector search goes native One of the more significant additions is native vector search, which reduces the need to move data between Spark and a separate vector database. Spark 4.2 introduces vector distance and similarity functions, vector normalization, vector aggregation, and NEAREST BY, a new SQL operator for top-K similarity searches. By bringing vector search into Spark, developers can keep more of their retrieval pipeline on the same platform. By bringing vector search into Spark, developers can keep more of their retrieval pipeline in the same platform. Python interoperability gets easier Spark 4.2 makes it easier to move data between Spark and Arrow-native tools. With support for the Arrow C Data Interface and the PyCapsule protocol, Spark DataFrames can be passed directly to tools like Polars and DuckDB without copying or serializing the underlying data, as long as both sides support the standards. Python also gets a few other updates. PySpark has been expanded; Arrow-optimized UDF execution is now the default, and Python Data Sources now include built-in time and memory profiling to help developers troubleshoot custom connectors. Spark Connect makes the engine callable by agents Spark Connect, which separates the client from the Spark server via a gRPC- and Arrow-based protocol, receives several updates in 4.2. The key idea is that a client builds a logical plan, the server handles analysis, optimization, and execution, and the results come back as Arrow batches. The client doesn&#8217;t need a full Spark runtime or a colocated JVM. This update includes several changes to Spark Connect, the project&#8217;s client-server interface. AI applications can send processing requests to a remote Spark cluster while the work continues to run inside Spark. The release improves RDD API compatibility, error handling, and status reporting along that path. Streaming powers real-time AI Streaming gets several updates in Spark 4.2, including Auto CDC and Real-Time Mode. Many AI applications depend on continuously updated data rather than scheduled batch jobs. Auto CDC brings first-class change data capture to Spark Declarative Pipelines, handling the merge logic for keeping target tables current as source data changes…",
+      "author": "Amanda Caswell",
+      "publishedAt": "2026-07-19T16:00:00.000Z",
+      "fingerprint": "could database feature retire spark vector your",
+      "imageUrl": "https://cdn.thenewstack.io/media/2022/07/c372c76c-depositphotos_315346876_l-1024x540.jpg",
+      "titleFa": "نسخه ۴.۲ اسپارک ویژگی‌هایی دارد که می‌تواند بانک اطلاعاتی وکتوری شما را بازنشسته کند",
+      "summaryFa": "نسخه جدید Apache Spark 4.2 با ویژگی‌های جدیدی برای پردازش داده‌های هوش مصنوعی به بازار عرضه شده است. این نسخه امکاناتی مانند متریک‌های governed، قابلیت‌های جستجوی وکتور، پردازش بلادرنگ و تحلیل‌های جغرافیایی بومی را معرفی می‌کند که به تیم‌ها کمک می‌کند تا کمتر به سیستم‌های خارجی متکی باشند. با معرفی این ویژگی‌ها، اسپارک به یک موتور پردازش داده جامع‌تر برای اپلیکیشن‌های هوش مصنوعی تبدیل شده است.",
+      "summaryEn": "The newly released Apache Spark 4.2 introduces various features for AI data processing, including governed metrics, native vector search capabilities, real-time processing, and enhanced geospatial analytics. These advancements allow teams to rely less on external systems and position Spark as a more comprehensive data processing engine for AI applications.",
+      "insightsFa": [
+        "معرفی امکانات جدید برای پردازش داده‌های هوش مصنوعی",
+        "امکان استفاده از متریک‌های مدیریتی برای جلوگیری از بی‌نظمی در داده‌ها",
+        "جستجوی وکتور به طور بومی در اسپارک به اجرا درآمده است.",
+        "کاهش نیاز به نقل و انتقال داده‌ها بین اسپارک و بانک اطلاعاتی وکتوری",
+        "اسپارک ۴.۲ به یک پلتفرم جامع برای توسعه‌دهندگان تبدیل شده است."
+      ],
+      "whyItMattersFa": "این خبر مهم است زیرا با معرفی ویژگی‌های جدید، اسپارک به عنوان یک پلتفرم پردازش داده‌های هوش مصنوعی بهبود یافته و می‌تواند نیازهای پیچیده‌تری را بدون نیاز به سیستم‌های اضافی برآورده کند.",
+      "category": "ai",
+      "tagsFa": [
+        "Apache Spark",
+        "هوش مصنوعی",
+        "پلتفرم پردازش داده",
+        "مدیریت داده",
+        "جستجوی وکتور"
+      ],
+      "readingMinutes": 3,
+      "processedAt": "2026-07-19T22:48:54.459Z",
+      "sourceCount": 1
+    },
+    {
       "id": "04aa6fdefcb187bc",
       "sourceId": "toms-guide",
       "sourceName": "Tom's Guide",
@@ -1937,40 +1971,6 @@
       ],
       "readingMinutes": 3,
       "processedAt": "2026-07-19T22:48:52.147Z",
-      "sourceCount": 1
-    },
-    {
-      "id": "ed75aab4128bb43c",
-      "sourceId": "the-new-stack",
-      "sourceName": "The New Stack",
-      "title": "Spark 4.2 has a feature that could retire your vector database",
-      "link": "https://thenewstack.io/spark-4-2-ai-workloads/",
-      "content": "Apache Spark 4.2 launched last week, and it signals an expansion of Spark&#8217;s decade-plus role at the center of enterprise data processing With new features for AI workloads, including governed metrics, vector retrieval primitives, real-time processing, improved Python support and native geospatial analytics, Spark 4.2 builds on a recent history of new AI and streaming features, reflecting how many engineering teams use the platform today. The release builds on Spark&#8217;s traditional role as a data processing engine by adding more of the capabilities needed to support production AI applications . The launch introduced several features that enable developers to do more without leaving the platform, and for teams already using Spark, that could mean fewer systems to manage. Governed metrics prevent conflicts One team&#8217;s definition of a business metric isn&#8217;t always the same as another&#8217;s. Over time, those differences can lead to conflicting reports and uncertainty about which number to trust. That becomes even more problematic when AI applications start consuming the same enterprise data that analysts and business intelligence tools use. If different teams define the same metric differently, AI systems can produce inconsistent results for the same question. Spark 4.2 introduces governed metric views to address that issue. Organizations can define a business metric once and reuse that definition across applications. A metric view makes dimensions and measures first-class objects that Spark understands, so the engine can preserve the intended aggregation semantics regardless of who or what is querying it. Organizations can define a business metric once and reuse that definition across applications. Vector search goes native One of the more significant additions is native vector search, which reduces the need to move data between Spark and a separate vector database. Spark 4.2 introduces vector distance and similarity functions, vector normalization, vector aggregation, and NEAREST BY, a new SQL operator for top-K similarity searches. By bringing vector search into Spark, developers can keep more of their retrieval pipeline on the same platform. By bringing vector search into Spark, developers can keep more of their retrieval pipeline in the same platform. Python interoperability gets easier Spark 4.2 makes it easier to move data between Spark and Arrow-native tools. With support for the Arrow C Data Interface and the PyCapsule protocol, Spark DataFrames can be passed directly to tools like Polars and DuckDB without copying or serializing the underlying data, as long as both sides support the standards. Python also gets a few other updates. PySpark has been expanded; Arrow-optimized UDF execution is now the default, and Python Data Sources now include built-in time and memory profiling to help developers troubleshoot custom connectors. Spark Connect makes the engine callable by agents Spark Connect, which separates the client from the Spark server via a gRPC- and Arrow-based protocol, receives several updates in 4.2. The key idea is that a client builds a logical plan, the server handles analysis, optimization, and execution, and the results come back as Arrow batches. The client doesn&#8217;t need a full Spark runtime or a colocated JVM. This update includes several changes to Spark Connect, the project&#8217;s client-server interface. AI applications can send processing requests to a remote Spark cluster while the work continues to run inside Spark. The release improves RDD API compatibility, error handling, and status reporting along that path. Streaming powers real-time AI Streaming gets several updates in Spark 4.2, including Auto CDC and Real-Time Mode. Many AI applications depend on continuously updated data rather than scheduled batch jobs. Auto CDC brings first-class change data capture to Spark Declarative Pipelines, handling the merge logic for keeping target tables current as source data changes…",
-      "author": "Amanda Caswell",
-      "publishedAt": "2026-07-19T16:00:00.000Z",
-      "fingerprint": "could database feature retire spark vector your",
-      "imageUrl": "https://cdn.thenewstack.io/media/2022/07/c372c76c-depositphotos_315346876_l-1024x540.jpg",
-      "titleFa": "نسخه ۴.۲ اسپارک ویژگی‌هایی دارد که می‌تواند بانک اطلاعاتی وکتوری شما را بازنشسته کند",
-      "summaryFa": "نسخه جدید Apache Spark 4.2 با ویژگی‌های جدیدی برای پردازش داده‌های هوش مصنوعی به بازار عرضه شده است. این نسخه امکاناتی مانند متریک‌های governed، قابلیت‌های جستجوی وکتور، پردازش بلادرنگ و تحلیل‌های جغرافیایی بومی را معرفی می‌کند که به تیم‌ها کمک می‌کند تا کمتر به سیستم‌های خارجی متکی باشند. با معرفی این ویژگی‌ها، اسپارک به یک موتور پردازش داده جامع‌تر برای اپلیکیشن‌های هوش مصنوعی تبدیل شده است.",
-      "summaryEn": "The newly released Apache Spark 4.2 introduces various features for AI data processing, including governed metrics, native vector search capabilities, real-time processing, and enhanced geospatial analytics. These advancements allow teams to rely less on external systems and position Spark as a more comprehensive data processing engine for AI applications.",
-      "insightsFa": [
-        "معرفی امکانات جدید برای پردازش داده‌های هوش مصنوعی",
-        "امکان استفاده از متریک‌های مدیریتی برای جلوگیری از بی‌نظمی در داده‌ها",
-        "جستجوی وکتور به طور بومی در اسپارک به اجرا درآمده است.",
-        "کاهش نیاز به نقل و انتقال داده‌ها بین اسپارک و بانک اطلاعاتی وکتوری",
-        "اسپارک ۴.۲ به یک پلتفرم جامع برای توسعه‌دهندگان تبدیل شده است."
-      ],
-      "whyItMattersFa": "این خبر مهم است زیرا با معرفی ویژگی‌های جدید، اسپارک به عنوان یک پلتفرم پردازش داده‌های هوش مصنوعی بهبود یافته و می‌تواند نیازهای پیچیده‌تری را بدون نیاز به سیستم‌های اضافی برآورده کند.",
-      "category": "ai",
-      "tagsFa": [
-        "Apache Spark",
-        "هوش مصنوعی",
-        "پلتفرم پردازش داده",
-        "مدیریت داده",
-        "جستجوی وکتور"
-      ],
-      "readingMinutes": 3,
-      "processedAt": "2026-07-19T22:48:54.459Z",
       "sourceCount": 1
     },
     {
@@ -2777,40 +2777,6 @@
       "sourceCount": 1
     },
     {
-      "id": "c4619a8d04328df7",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
-      "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
-      "content": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
-      "author": "Kate Park",
-      "publishedAt": "2026-07-19T14:00:00.000Z",
-      "fingerprint": "all build current free nonprofit racing web wide world",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1370479417.jpg?resize=1200,806",
-      "titleFa": "پروژه غیرانتفاعی Current AI در حال ساخت وب‌سایت جهانی هوش مصنوعی برای همه",
-      "summaryFa": "Current AI، یک نهاد غیرانتفاعی که به دنبال توسعه هوش مصنوعی بدون فراموشی فرهنگ‌هاست، در زمینه‌های مختلف از جمله دستگاه‌ها و چت‌بات‌های هوش مصنوعی پیشرفت‌های چشمگیری داشته است. این پروژه به ایجاد دسترسی برابر به فناوری‌های هوش مصنوعی برای تمام فرهنگ‌ها متعهد است.",
-      "summaryEn": "Current AI, a nonprofit organization focused on developing AI that doesn't leave any culture behind, has made significant progress in various areas including devices and AI chat. The project is committed to providing equal access to AI technologies for all cultures.",
-      "insightsFa": [
-        "Current AI یک نهاد غیرانتفاعی است.",
-        "این پروژه به فرهنگ‌های مختلف توجه ویژه‌ای دارد.",
-        "پیشرفت‌های مهمی در دستگاه‌ها و چت‌بات‌های هوش مصنوعی صورت گرفته است.",
-        "هدف از این پروژه ایجاد دسترسی برابر به هوش مصنوعی است.",
-        "Web of AI به دنبال ایجاد زیرساختی جهانی برای هوش مصنوعی است."
-      ],
-      "whyItMattersFa": "این خبر مهم است زیرا نسل جدیدی از هوش مصنوعی را با وعده دسترسی عادلانه برای تمامی فرهنگ‌ها معرفی می‌کند، که می‌تواند تأثیر عمیقی بر جامعه جهانی داشته باشد.",
-      "category": "ai",
-      "tagsFa": [
-        "هوش مصنوعی",
-        "چت‌بات",
-        "فرهنگ",
-        "دستگاه‌های هوشمند",
-        "دسترسی برابر"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-07-19T22:48:36.335Z",
-      "sourceCount": 1
-    },
-    {
       "id": "6282bc86da67ce99",
       "sourceId": "the-new-stack",
       "sourceName": "The New Stack",
@@ -2842,6 +2808,40 @@
       ],
       "readingMinutes": 3,
       "processedAt": "2026-07-19T22:48:36.770Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "c4619a8d04328df7",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "title": "Nonprofit Current AI is racing to build the World Wide Web of AI, free for all",
+      "link": "https://techcrunch.com/2026/07/19/nonprofit-current-ai-is-racing-to-build-the-world-wide-web-of-ai-free-for-all/",
+      "content": "Current AI, a non-profit building AI that leaves no one culture behind, has made remarkable progress across devices, AI chat and more.",
+      "author": "Kate Park",
+      "publishedAt": "2026-07-19T14:00:00.000Z",
+      "fingerprint": "all build current free nonprofit racing web wide world",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2025/10/GettyImages-1370479417.jpg?resize=1200,806",
+      "titleFa": "پروژه غیرانتفاعی Current AI در حال ساخت وب‌سایت جهانی هوش مصنوعی برای همه",
+      "summaryFa": "Current AI، یک نهاد غیرانتفاعی که به دنبال توسعه هوش مصنوعی بدون فراموشی فرهنگ‌هاست، در زمینه‌های مختلف از جمله دستگاه‌ها و چت‌بات‌های هوش مصنوعی پیشرفت‌های چشمگیری داشته است. این پروژه به ایجاد دسترسی برابر به فناوری‌های هوش مصنوعی برای تمام فرهنگ‌ها متعهد است.",
+      "summaryEn": "Current AI, a nonprofit organization focused on developing AI that doesn't leave any culture behind, has made significant progress in various areas including devices and AI chat. The project is committed to providing equal access to AI technologies for all cultures.",
+      "insightsFa": [
+        "Current AI یک نهاد غیرانتفاعی است.",
+        "این پروژه به فرهنگ‌های مختلف توجه ویژه‌ای دارد.",
+        "پیشرفت‌های مهمی در دستگاه‌ها و چت‌بات‌های هوش مصنوعی صورت گرفته است.",
+        "هدف از این پروژه ایجاد دسترسی برابر به هوش مصنوعی است.",
+        "Web of AI به دنبال ایجاد زیرساختی جهانی برای هوش مصنوعی است."
+      ],
+      "whyItMattersFa": "این خبر مهم است زیرا نسل جدیدی از هوش مصنوعی را با وعده دسترسی عادلانه برای تمامی فرهنگ‌ها معرفی می‌کند، که می‌تواند تأثیر عمیقی بر جامعه جهانی داشته باشد.",
+      "category": "ai",
+      "tagsFa": [
+        "هوش مصنوعی",
+        "چت‌بات",
+        "فرهنگ",
+        "دستگاه‌های هوشمند",
+        "دسترسی برابر"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-07-19T22:48:36.335Z",
       "sourceCount": 1
     },
     {
@@ -3109,39 +3109,6 @@
       "sourceCount": 1
     },
     {
-      "id": "550085691827b457",
-      "sourceId": "bloomberg-tech",
-      "sourceName": "Bloomberg Technology",
-      "title": "Big Tech Needs to Justify AI Spending as Investors Dump Stocks",
-      "link": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
-      "content": "After last week’s wipeout in chips and the broader selloff in technology stocks, pressure is building for the biggest spenders on artificial intelligence to justify their expenditures to beleaguered traders with increasingly itchy fingers hovering over their sell buttons.",
-      "author": "Jeran Wittenstein and Ryan Vlastelica",
-      "publishedAt": "2026-07-19T13:00:00.000Z",
-      "fingerprint": "big dump investors justify needs spending stocks tech",
-      "titleFa": "تکنولوژی‌های بزرگ باید هزینه‌های هوش مصنوعی را توجیه کنند",
-      "summaryFa": "فشار بر روی شرکت‌های بزرگ فناوری برای توجیه هزینه‌های خود در حوزه هوش مصنوعی در حال افزایش است. بعد از کاهش ارزش سهام مرتبط با فناوری و صنعت تراشه‌ها، سرمایه‌گذاران به دنبال دلایل موجه برای ادامه سرمایه‌گذاری در این حوزه هستند.",
-      "summaryEn": "Pressure is mounting on major tech companies to justify their AI spending as recent declines in tech stocks and chips have left investors wary. With traders hovering over their sell buttons, justifying these expenses has become crucial for AI spenders.",
-      "insightsFa": [
-        "سقوط ارزش سهام فناوری و تراشه‌ها",
-        "سرمایه‌گذاران به دنبال توجیه هزینه‌ها هستند",
-        "اهمیت گزارش‌دهی شفاف برای شرکت‌های بزرگ",
-        "فشار مضاعف بر روی هزینه‌های هوش مصنوعی",
-        "نقش بازار سرمایه در تصمیمات سرمایه‌گذاری"
-      ],
-      "whyItMattersFa": "این خبر به دلیل تأثیر سرمایه‌گذاران بر تصمیم‌گیری‌های شرکت‌های فناوری و زنجیره‌ تأمین هوش مصنوعی مهم است. توجیه هزینه‌ها می‌تواند روند سرمایه‌گذاری و آینده توسعه این فناوری را متأثر کند.",
-      "category": "ai",
-      "tagsFa": [
-        "هوش مصنوعی",
-        "سهام فناوری",
-        "سرمایه‌گذاری",
-        "بازار سرمایه",
-        "شرکت‌های بزرگ"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-07-19T22:48:31.483Z",
-      "sourceCount": 1
-    },
-    {
       "id": "593071aefe2e0a0e",
       "sourceId": "the-new-stack",
       "sourceName": "The New Stack",
@@ -3173,6 +3140,39 @@
       ],
       "readingMinutes": 3,
       "processedAt": "2026-07-19T22:48:33.429Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "550085691827b457",
+      "sourceId": "bloomberg-tech",
+      "sourceName": "Bloomberg Technology",
+      "title": "Big Tech Needs to Justify AI Spending as Investors Dump Stocks",
+      "link": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
+      "content": "After last week’s wipeout in chips and the broader selloff in technology stocks, pressure is building for the biggest spenders on artificial intelligence to justify their expenditures to beleaguered traders with increasingly itchy fingers hovering over their sell buttons.",
+      "author": "Jeran Wittenstein and Ryan Vlastelica",
+      "publishedAt": "2026-07-19T13:00:00.000Z",
+      "fingerprint": "big dump investors justify needs spending stocks tech",
+      "titleFa": "تکنولوژی‌های بزرگ باید هزینه‌های هوش مصنوعی را توجیه کنند",
+      "summaryFa": "فشار بر روی شرکت‌های بزرگ فناوری برای توجیه هزینه‌های خود در حوزه هوش مصنوعی در حال افزایش است. بعد از کاهش ارزش سهام مرتبط با فناوری و صنعت تراشه‌ها، سرمایه‌گذاران به دنبال دلایل موجه برای ادامه سرمایه‌گذاری در این حوزه هستند.",
+      "summaryEn": "Pressure is mounting on major tech companies to justify their AI spending as recent declines in tech stocks and chips have left investors wary. With traders hovering over their sell buttons, justifying these expenses has become crucial for AI spenders.",
+      "insightsFa": [
+        "سقوط ارزش سهام فناوری و تراشه‌ها",
+        "سرمایه‌گذاران به دنبال توجیه هزینه‌ها هستند",
+        "اهمیت گزارش‌دهی شفاف برای شرکت‌های بزرگ",
+        "فشار مضاعف بر روی هزینه‌های هوش مصنوعی",
+        "نقش بازار سرمایه در تصمیمات سرمایه‌گذاری"
+      ],
+      "whyItMattersFa": "این خبر به دلیل تأثیر سرمایه‌گذاران بر تصمیم‌گیری‌های شرکت‌های فناوری و زنجیره‌ تأمین هوش مصنوعی مهم است. توجیه هزینه‌ها می‌تواند روند سرمایه‌گذاری و آینده توسعه این فناوری را متأثر کند.",
+      "category": "ai",
+      "tagsFa": [
+        "هوش مصنوعی",
+        "سهام فناوری",
+        "سرمایه‌گذاری",
+        "بازار سرمایه",
+        "شرکت‌های بزرگ"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-07-19T22:48:31.483Z",
       "sourceCount": 1
     },
     {
@@ -7733,40 +7733,6 @@
       "sourceCount": 1
     },
     {
-      "id": "09dc450588285706",
-      "sourceId": "9to5mac",
-      "sourceName": "9to5Mac",
-      "title": "Your personal data is for sale: here is how to take it off the internet",
-      "link": "https://9to5mac.com/2026/07/18/your-personal-data-is-for-sale-here-is-how-to-take-it-off-the-internet/",
-      "content": "If you could go back to the early days of the internet, would you handle your privacy differently? Most of us would. We would be more cautious about the services we joined and the information we shared. Since a time machine is not an option, we have to deal with the reality of the present. Your personal data is currently available and for sale at this very moment. Right now, your phone number, email address, home address, and even your family connections are being packaged and sold to marketers, insurers, and hackers. While Apple’s privacy protections in Safari and Mail help block some tracking as you browse the web, they cannot undo years of information already scraped and spread across hundreds of broker databases. Data brokers have built a multi-billion-dollar industry by collecting your digital data, packaging it, and selling it. It’s time to take your personal information off the market and off the internet. Let’s look at how.",
-      "author": "Sponsored Post",
-      "publishedAt": "2026-07-18T16:00:00.000Z",
-      "fingerprint": "data here internet off personal sale take your",
-      "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/danger-angle-4.jpg?quality=82&#038;strip=all&#038;w=1600",
-      "titleFa": "چگونه اطلاعات شخصی خود را از اینترنت حذف کنیم؟",
-      "summaryFa": "در حال حاضر، اطلاعات شخصی ما از جمله شماره تلفن، آدرس ایمیل و حتی روابط خانوادگی به طور فعال فروخته می‌شود. با وجود اقدامات حریم خصوصی اپل، سال‌ها اطلاعات جمع‌آوری شده هنوز در دسترس بروکرهای داده است. در این مطلب به بررسی روش‌هایی برای حذف اطلاعات شخصی از اینترنت پرداخته می‌شود.",
-      "summaryEn": "At present, our personal information, including phone numbers, email addresses, and even family connections, is actively being sold. Despite Apple's privacy measures, years of collected data are still accessible to data brokers. This article explores ways to remove personal information from the internet.",
-      "insightsFa": [
-        "اطلاعات شخصی به راحتی در دسترس بروکرهای داده قرار دارد.",
-        "بروکرهای داده یک صنعت چند میلیارد دلاری ساخته‌اند.",
-        "اقدامات حریم خصوصی اپل تنها بخشی از مشکل را حل می‌کند.",
-        "حذف اطلاعات شخصی نیازمند آگاهی و اقدام است.",
-        "این مقاله روش‌های موثری برای حفاظت از حریم شخصی ارائه می‌دهد."
-      ],
-      "whyItMattersFa": "حذف اطلاعات شخصی از اینترنت می‌تواند به حفظ حریم خصوصی و کاهش خطراتی مانند سرقت هویت و کلاهبرداری کمک کند. در دنیای دیجیتال امروز، آگاهی از این موضوع بسیار حیاتی است.",
-      "category": "security",
-      "tagsFa": [
-        "حریم خصوصی",
-        "حذف اطلاعات",
-        "بروکر داده",
-        "امنیت دیجیتال",
-        "کلاهبرداری"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-07-18T16:55:03.837Z",
-      "sourceCount": 1
-    },
-    {
       "id": "c9d13c71ac709b2f",
       "sourceId": "the-new-stack",
       "sourceName": "The New Stack",
@@ -7798,6 +7764,40 @@
       ],
       "readingMinutes": 3,
       "processedAt": "2026-07-18T16:55:04.753Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "09dc450588285706",
+      "sourceId": "9to5mac",
+      "sourceName": "9to5Mac",
+      "title": "Your personal data is for sale: here is how to take it off the internet",
+      "link": "https://9to5mac.com/2026/07/18/your-personal-data-is-for-sale-here-is-how-to-take-it-off-the-internet/",
+      "content": "If you could go back to the early days of the internet, would you handle your privacy differently? Most of us would. We would be more cautious about the services we joined and the information we shared. Since a time machine is not an option, we have to deal with the reality of the present. Your personal data is currently available and for sale at this very moment. Right now, your phone number, email address, home address, and even your family connections are being packaged and sold to marketers, insurers, and hackers. While Apple’s privacy protections in Safari and Mail help block some tracking as you browse the web, they cannot undo years of information already scraped and spread across hundreds of broker databases. Data brokers have built a multi-billion-dollar industry by collecting your digital data, packaging it, and selling it. It’s time to take your personal information off the market and off the internet. Let’s look at how.",
+      "author": "Sponsored Post",
+      "publishedAt": "2026-07-18T16:00:00.000Z",
+      "fingerprint": "data here internet off personal sale take your",
+      "imageUrl": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/danger-angle-4.jpg?quality=82&#038;strip=all&#038;w=1600",
+      "titleFa": "چگونه اطلاعات شخصی خود را از اینترنت حذف کنیم؟",
+      "summaryFa": "در حال حاضر، اطلاعات شخصی ما از جمله شماره تلفن، آدرس ایمیل و حتی روابط خانوادگی به طور فعال فروخته می‌شود. با وجود اقدامات حریم خصوصی اپل، سال‌ها اطلاعات جمع‌آوری شده هنوز در دسترس بروکرهای داده است. در این مطلب به بررسی روش‌هایی برای حذف اطلاعات شخصی از اینترنت پرداخته می‌شود.",
+      "summaryEn": "At present, our personal information, including phone numbers, email addresses, and even family connections, is actively being sold. Despite Apple's privacy measures, years of collected data are still accessible to data brokers. This article explores ways to remove personal information from the internet.",
+      "insightsFa": [
+        "اطلاعات شخصی به راحتی در دسترس بروکرهای داده قرار دارد.",
+        "بروکرهای داده یک صنعت چند میلیارد دلاری ساخته‌اند.",
+        "اقدامات حریم خصوصی اپل تنها بخشی از مشکل را حل می‌کند.",
+        "حذف اطلاعات شخصی نیازمند آگاهی و اقدام است.",
+        "این مقاله روش‌های موثری برای حفاظت از حریم شخصی ارائه می‌دهد."
+      ],
+      "whyItMattersFa": "حذف اطلاعات شخصی از اینترنت می‌تواند به حفظ حریم خصوصی و کاهش خطراتی مانند سرقت هویت و کلاهبرداری کمک کند. در دنیای دیجیتال امروز، آگاهی از این موضوع بسیار حیاتی است.",
+      "category": "security",
+      "tagsFa": [
+        "حریم خصوصی",
+        "حذف اطلاعات",
+        "بروکر داده",
+        "امنیت دیجیتال",
+        "کلاهبرداری"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-07-18T16:55:03.837Z",
       "sourceCount": 1
     },
     {
