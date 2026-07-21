@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-20T17:31:36.688Z",
+  "generatedAt": "2026-07-21T06:24:05.935Z",
   "articles": [
     {
       "id": "a952296379df5a0b",
@@ -3077,38 +3077,6 @@
       "sourceCount": 1
     },
     {
-      "id": "4f6e1c1cb711421d",
-      "sourceId": "9to5google",
-      "sourceName": "9to5Google",
-      "title": "OnePlus died with a whimper, not a bang",
-      "link": "https://9to5google.com/2026/07/19/oneplus-died-with-a-whimper-not-a-bang/",
-      "content": "OnePlus is dead – actually for real this time. It’s got me looking back on my experiences with the brand’s smartphones, the absolute roller coaster that it was, and how OnePlus briefly sparked joy in a way that no one else way, resulting in two of my favorite Android phones of all time. And dang it, I’m a little sad now. This issue of 9to5Google Weekender is a part of our newsletter that highlights the biggest Google stories with added commentary and more. Sign up here to get Weekender delivered to your inbox every weekend, and catch our weekday roundups too!",
-      "author": "Ben Schoon",
-      "publishedAt": "2026-07-19T13:00:00.000Z",
-      "fingerprint": "bang died not oneplus whimper",
-      "imageUrl": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/oneplus-open-and-13.jpg?quality=82&#038;strip=all&#038;w=1600",
-      "titleFa": "مرگ آرام OnePlus",
-      "summaryFa": "شرکت OnePlus به طور واقعی به پایان راه خود رسید و این موضوع باعث شد تا نگاهی به تجربیات گذشته از گوشی‌های هوشمند این برند بیندازم. OnePlus در دوره‌ای به دلیل کیفیت بالای محصولات خود خوشحالی زیادی را به همراه داشت و به عنوان یکی از برندهای محبوب اندروید شناخته می‌شد، اما حالا احساس تأسف می‌کنم.",
-      "summaryEn": "OnePlus has officially reached the end of its journey, prompting a reflection on past experiences with the brand's smartphones. At one time, OnePlus brought joy and was recognized as a leading Android brand due to its high-quality products, but now it leaves behind a sense of nostalgia.",
-      "insightsFa": [
-        "OnePlus به‌طور رسمی به پایان رسید.",
-        "این برند روزگاری در عرصه گوشی‌های اندرویدی خوش نام و با کیفیت بود.",
-        "احساس تأسف و نوستالژی در میان کاربران باقی مانده است."
-      ],
-      "whyItMattersFa": "این خبر نشان‌دهنده تغییرات در صنعت گوشی‌های هوشمند است و یادآور خاطرات خوب کاربران با این برند معتبر می‌باشد.",
-      "category": "general",
-      "tagsFa": [
-        "OnePlus",
-        "گوشی هوشمند",
-        "نوستالژی",
-        "تجربه کاربری",
-        "فناوری"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-07-19T22:48:29.015Z",
-      "sourceCount": 1
-    },
-    {
       "id": "593071aefe2e0a0e",
       "sourceId": "the-new-stack",
       "sourceName": "The New Stack",
@@ -3140,6 +3108,38 @@
       ],
       "readingMinutes": 3,
       "processedAt": "2026-07-19T22:48:33.429Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "4f6e1c1cb711421d",
+      "sourceId": "9to5google",
+      "sourceName": "9to5Google",
+      "title": "OnePlus died with a whimper, not a bang",
+      "link": "https://9to5google.com/2026/07/19/oneplus-died-with-a-whimper-not-a-bang/",
+      "content": "OnePlus is dead – actually for real this time. It’s got me looking back on my experiences with the brand’s smartphones, the absolute roller coaster that it was, and how OnePlus briefly sparked joy in a way that no one else way, resulting in two of my favorite Android phones of all time. And dang it, I’m a little sad now. This issue of 9to5Google Weekender is a part of our newsletter that highlights the biggest Google stories with added commentary and more. Sign up here to get Weekender delivered to your inbox every weekend, and catch our weekday roundups too!",
+      "author": "Ben Schoon",
+      "publishedAt": "2026-07-19T13:00:00.000Z",
+      "fingerprint": "bang died not oneplus whimper",
+      "imageUrl": "https://9to5google.com/wp-content/uploads/sites/4/2026/07/oneplus-open-and-13.jpg?quality=82&#038;strip=all&#038;w=1600",
+      "titleFa": "مرگ آرام OnePlus",
+      "summaryFa": "شرکت OnePlus به طور واقعی به پایان راه خود رسید و این موضوع باعث شد تا نگاهی به تجربیات گذشته از گوشی‌های هوشمند این برند بیندازم. OnePlus در دوره‌ای به دلیل کیفیت بالای محصولات خود خوشحالی زیادی را به همراه داشت و به عنوان یکی از برندهای محبوب اندروید شناخته می‌شد، اما حالا احساس تأسف می‌کنم.",
+      "summaryEn": "OnePlus has officially reached the end of its journey, prompting a reflection on past experiences with the brand's smartphones. At one time, OnePlus brought joy and was recognized as a leading Android brand due to its high-quality products, but now it leaves behind a sense of nostalgia.",
+      "insightsFa": [
+        "OnePlus به‌طور رسمی به پایان رسید.",
+        "این برند روزگاری در عرصه گوشی‌های اندرویدی خوش نام و با کیفیت بود.",
+        "احساس تأسف و نوستالژی در میان کاربران باقی مانده است."
+      ],
+      "whyItMattersFa": "این خبر نشان‌دهنده تغییرات در صنعت گوشی‌های هوشمند است و یادآور خاطرات خوب کاربران با این برند معتبر می‌باشد.",
+      "category": "general",
+      "tagsFa": [
+        "OnePlus",
+        "گوشی هوشمند",
+        "نوستالژی",
+        "تجربه کاربری",
+        "فناوری"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-07-19T22:48:29.015Z",
       "sourceCount": 1
     },
     {
@@ -3677,6 +3677,40 @@
       "sourceCount": 1
     },
     {
+      "id": "58510d7b65f3c562",
+      "sourceId": "fast-company-tech",
+      "sourceName": "Fast Company Tech",
+      "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
+      "link": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
+      "content": "In ads, influencer partnerships, and blog posts, Anthropic has continued to position itself as the intellectual, even creative, AI platform. “There’s hope in hard questions,” explicates one ad . “Keep thinking with Claude,” suggests another . Anthropic’s models, notably, are named after literary forms, while its CEO, Dario Amodei, has styled himself as a thought leader through a series of heady blog posts. The company’s message is that AI should enhance human cognition rather than offload it. Thinking Machines, the AI lab founded last year by former OpenAI leader Mira Murati, is now putting its own spin on that approach. Earlier this week, the startup announced the release of its first AI model, Inkling, which it says can be fine-tuned via its Tinker platform (released last fall). The company says Inkling has 975 billion parameters, including 41 billion active parameters. It’s also an open-weights model, meaning that core aspects of the model are publicly available. Thinking Machines concedes that Inkling is not the most powerful AI model on the market. Instead, the company aims to compete on customization. It also emphasizes that its goal is to enhance human intelligence rather than replace it. The approach echoes some of Anthropic’s language and appears aimed at a more intellectual vision of AI. “For artificial intelligence to benefit from distributed knowledge, it must itself be distributed. Every organization is powered by the expert knowledge of its people, gained and expressed through their work,” a recent company blog said. “We believe in AI that helps the organization cultivate that unique knowledge, not AI that extracts a snapshot of it and replaces it with a standard offering,” the blog continued. “This cultivation is an ongoing process that requires AI to work with people, not in their stead.” With Inkling, Thinking Machines says consumers and enterprises can shape the AI in their own image rather than use a system that reflects the average preferences of the broader population. Inkling’s terminal even includes an option to instruct the model to communicate and organize its responses according to the user’s preferences, such as writing in the style of a New Yorker article or communicating only in riddles. The model also communicates extensively about how it’s processing prompts. Users can control how much reasoning effort and token capacity Inkling expends on a task. All of this suggests that AI companies don’t believe they’ll get far by selling consumers technology that replaces their thinking. Consumers appear to prefer something closer to an intellectual superpower.",
+      "author": "Rebecca Heilweil",
+      "publishedAt": "2026-07-19T11:00:00.000Z",
+      "fingerprint": "anthropic coming intellectual machines thinking vibe",
+      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91575110-mira-muratis-thinking-machines-debuts-first-ai-model.jpg",
+      "titleFa": "ورود Thinking Machines به عرصه هوش مصنوعی با مدل جدید Inkling",
+      "summaryFa": "شرکت Thinking Machines به تازگی مدل هوش مصنوعی جدیدی به نام Inkling را معرفی کرده است که قابلیت سفارشی‌سازی بالایی دارد و بر اساس شناخت عمیق انسانی طراحی شده است. این مدل به جای اینکه به‌طور مستقیم با ظرفیت‌های انسانی رقابت کند، هدفش افزایش هوش انسانی و همکاری با افراد است. این رویکرد به‌صورت مستقیم در تضاد با دیدگاه‌های سنتی است که هوش مصنوعی را جایگزین انسان‌ها می‌دانند.",
+      "summaryEn": "Thinking Machines has unveiled its new AI model called Inkling, which emphasizes high customization and is designed to enhance human understanding rather than compete with it. This model contrasts with traditional views of AI by focusing on collaboration with humans instead of replacement.",
+      "insightsFa": [
+        "مدل Inkling با 975 میلیارد پارامتر طراحی شده است.",
+        "این مدل به‌صورت عمومی در دسترس است و زیرساخت‌های سفارشی‌سازی آن از طریق پلتفرم Tinker ارائه می‌شود.",
+        "شرکت برای رقابت بر روی قابلیت‌های سفارشی‌سازی و همکاری با انسان‌ها تمرکز دارد.",
+        "رویکرد این شرکت به دنیای هوش مصنوعی تأکید بر استفاده از دانش جمعی افراد دارد.",
+        "این مدل با زبان و بیانی مشابه Anthropic طراحی شده است."
+      ],
+      "whyItMattersFa": "این خبر اهمیت دارد زیرا Thinking Machines با معرفی مدل Inkling رویکردی جدید در عرصه هوش مصنوعی را ارائه می‌دهد که به دنبال همکاری با انسان‌ها و افزایش هوش انسانی است، نه جایگزینی آن. این رویکرد می‌تواند بر آینده توسعه سیستم‌های هوش مصنوعی تأثیر زیادی بگذارد.",
+      "category": "ai",
+      "tagsFa": [
+        "هوش مصنوعی",
+        "توسعه نرم‌افزار",
+        "مدل هوش مصنوعی",
+        "سفارشی‌سازی",
+        "تکنولوژی آینده"
+      ],
+      "readingMinutes": 2,
+      "processedAt": "2026-07-19T22:48:22.710Z",
+      "sourceCount": 1
+    },
+    {
       "id": "d61b3b258fec0636",
       "sourceId": "wired",
       "sourceName": "Wired",
@@ -3738,40 +3772,6 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-07-19T22:48:21.229Z",
-      "sourceCount": 1
-    },
-    {
-      "id": "58510d7b65f3c562",
-      "sourceId": "fast-company-tech",
-      "sourceName": "Fast Company Tech",
-      "title": "Thinking Machines is coming for Anthropic’s intellectual vibe",
-      "link": "https://www.fastcompany.com/91575110/thinking-machines-is-coming-for-anthropics-intellectual-vibe?partner=rss&amp;utm_source=rss&amp;utm_medium=feed&amp;utm_campaign=rss+fastcompany&amp;utm_content=rss",
-      "content": "In ads, influencer partnerships, and blog posts, Anthropic has continued to position itself as the intellectual, even creative, AI platform. “There’s hope in hard questions,” explicates one ad . “Keep thinking with Claude,” suggests another . Anthropic’s models, notably, are named after literary forms, while its CEO, Dario Amodei, has styled himself as a thought leader through a series of heady blog posts. The company’s message is that AI should enhance human cognition rather than offload it. Thinking Machines, the AI lab founded last year by former OpenAI leader Mira Murati, is now putting its own spin on that approach. Earlier this week, the startup announced the release of its first AI model, Inkling, which it says can be fine-tuned via its Tinker platform (released last fall). The company says Inkling has 975 billion parameters, including 41 billion active parameters. It’s also an open-weights model, meaning that core aspects of the model are publicly available. Thinking Machines concedes that Inkling is not the most powerful AI model on the market. Instead, the company aims to compete on customization. It also emphasizes that its goal is to enhance human intelligence rather than replace it. The approach echoes some of Anthropic’s language and appears aimed at a more intellectual vision of AI. “For artificial intelligence to benefit from distributed knowledge, it must itself be distributed. Every organization is powered by the expert knowledge of its people, gained and expressed through their work,” a recent company blog said. “We believe in AI that helps the organization cultivate that unique knowledge, not AI that extracts a snapshot of it and replaces it with a standard offering,” the blog continued. “This cultivation is an ongoing process that requires AI to work with people, not in their stead.” With Inkling, Thinking Machines says consumers and enterprises can shape the AI in their own image rather than use a system that reflects the average preferences of the broader population. Inkling’s terminal even includes an option to instruct the model to communicate and organize its responses according to the user’s preferences, such as writing in the style of a New Yorker article or communicating only in riddles. The model also communicates extensively about how it’s processing prompts. Users can control how much reasoning effort and token capacity Inkling expends on a task. All of this suggests that AI companies don’t believe they’ll get far by selling consumers technology that replaces their thinking. Consumers appear to prefer something closer to an intellectual superpower.",
-      "author": "Rebecca Heilweil",
-      "publishedAt": "2026-07-19T11:00:00.000Z",
-      "fingerprint": "anthropic coming intellectual machines thinking vibe",
-      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/07/p-1-91575110-mira-muratis-thinking-machines-debuts-first-ai-model.jpg",
-      "titleFa": "ورود Thinking Machines به عرصه هوش مصنوعی با مدل جدید Inkling",
-      "summaryFa": "شرکت Thinking Machines به تازگی مدل هوش مصنوعی جدیدی به نام Inkling را معرفی کرده است که قابلیت سفارشی‌سازی بالایی دارد و بر اساس شناخت عمیق انسانی طراحی شده است. این مدل به جای اینکه به‌طور مستقیم با ظرفیت‌های انسانی رقابت کند، هدفش افزایش هوش انسانی و همکاری با افراد است. این رویکرد به‌صورت مستقیم در تضاد با دیدگاه‌های سنتی است که هوش مصنوعی را جایگزین انسان‌ها می‌دانند.",
-      "summaryEn": "Thinking Machines has unveiled its new AI model called Inkling, which emphasizes high customization and is designed to enhance human understanding rather than compete with it. This model contrasts with traditional views of AI by focusing on collaboration with humans instead of replacement.",
-      "insightsFa": [
-        "مدل Inkling با 975 میلیارد پارامتر طراحی شده است.",
-        "این مدل به‌صورت عمومی در دسترس است و زیرساخت‌های سفارشی‌سازی آن از طریق پلتفرم Tinker ارائه می‌شود.",
-        "شرکت برای رقابت بر روی قابلیت‌های سفارشی‌سازی و همکاری با انسان‌ها تمرکز دارد.",
-        "رویکرد این شرکت به دنیای هوش مصنوعی تأکید بر استفاده از دانش جمعی افراد دارد.",
-        "این مدل با زبان و بیانی مشابه Anthropic طراحی شده است."
-      ],
-      "whyItMattersFa": "این خبر اهمیت دارد زیرا Thinking Machines با معرفی مدل Inkling رویکردی جدید در عرصه هوش مصنوعی را ارائه می‌دهد که به دنبال همکاری با انسان‌ها و افزایش هوش انسانی است، نه جایگزینی آن. این رویکرد می‌تواند بر آینده توسعه سیستم‌های هوش مصنوعی تأثیر زیادی بگذارد.",
-      "category": "ai",
-      "tagsFa": [
-        "هوش مصنوعی",
-        "توسعه نرم‌افزار",
-        "مدل هوش مصنوعی",
-        "سفارشی‌سازی",
-        "تکنولوژی آینده"
-      ],
-      "readingMinutes": 2,
-      "processedAt": "2026-07-19T22:48:22.710Z",
       "sourceCount": 1
     },
     {
