@@ -3,7 +3,7 @@ import type { CategoryId, ProcessedArticle, RawArticle } from "./types.js";
 import { CATEGORY_IDS } from "./types.js";
 import { readingMinutes, truncate } from "./util.js";
 
-const MODEL = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
+const MODEL = process.env.OPENAI_MODEL ?? "gpt-4.1-nano";
 
 // Constructed lazily: the OpenAI SDK throws if no key is set, and we only call
 // it once the pipeline has confirmed OPENAI_API_KEY exists. This keeps the API
