@@ -1,6 +1,110 @@
 {
-  "generatedAt": "2026-07-25T09:44:36.721Z",
+  "generatedAt": "2026-07-26T02:11:24.125Z",
   "videos": [
+    {
+      "id": "wgyGVMN8Hxw",
+      "title": "What Happened to Dropbox?",
+      "titleFa": "چه بر سر Dropbox آمد؟",
+      "channelName": "ColdFusion",
+      "thumbnailUrl": "https://i.ytimg.com/vi/wgyGVMN8Hxw/hqdefault.jpg",
+      "publishedAt": "2026-07-25T20:29:31.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=wgyGVMN8Hxw",
+      "captionFa": "این ویدیو به بررسی تحولات Dropbox و چالش‌های پیش روی این سرویس ابری می‌پردازد. به تحلیل وضعیت فعلی این شرکت و اینکه چگونه با رقبای جدید کنار آمده است، می‌پردازد.",
+      "captionEn": "This video examines the changes that have taken place at Dropbox and the challenges the cloud service has faced. It analyzes the current state of the company and how it has adapted to new competitors.",
+      "category": "general",
+      "processedAt": "2026-07-26T02:11:23.205Z"
+    },
+    {
+      "id": "tL9Lw250spc",
+      "title": "Why does every mammal get 1 billion heartbeats in their life?",
+      "titleFa": "چرا هر پستانداری در طول زندگی خود ۱ میلیارد بار تپش قلب دارد؟",
+      "channelName": "Veritasium",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tL9Lw250spc/hqdefault.jpg",
+      "publishedAt": "2026-07-25T17:29:09.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tL9Lw250spc",
+      "captionFa": "در این ویدیو به دلیل اینکه چرا هر پستاندار به طور متوسط ۱ میلیارد بار تپش قلب دارد پرداخته شده است. این موضوع به متابولیسم، اندازه بدن و طول عمر مرتبط است.",
+      "captionEn": "The video explores the intriguing reason why every mammal experiences approximately 1 billion heartbeats in their lifetime. This phenomenon is linked to metabolism, body size, and lifespan.",
+      "category": "science",
+      "processedAt": "2026-07-26T02:11:22.827Z"
+    },
+    {
+      "id": "sVvS--u24GM",
+      "title": "\"There's probably a model for that.\"",
+      "titleFa": "احتمالاً یک مدل برای آن وجود دارد.",
+      "channelName": "NVIDIA Developer",
+      "thumbnailUrl": "https://i.ytimg.com/vi/sVvS--u24GM/hqdefault.jpg",
+      "publishedAt": "2026-07-25T16:00:25.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/sVvS--u24GM",
+      "captionFa": "این ویدیو به بررسی چگونگی ایجاد و استفاده از مدل‌های هوش مصنوعی برای حل مشکلات مختلف می‌پردازد. بینندگان با کاربردهای متنوع مدل‌های یادگیری ماشین آشنا می‌شوند.",
+      "captionEn": "This video explores how to create and use AI models to solve various problems. Viewers will learn about the diverse applications of machine learning models.",
+      "category": "ai",
+      "processedAt": "2026-07-26T02:11:18.143Z"
+    },
+    {
+      "id": "eM843JMXjyQ",
+      "title": "Ryoko PRO review | A Wi-Fi hotspot that gives you internet anywhere?",
+      "titleFa": "بررسی Ryoko PRO | یک هات‌اسپات وای‌فای که اینترنت را در هر جایی به شما می‌دهد؟",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eM843JMXjyQ/hqdefault.jpg",
+      "publishedAt": "2026-07-25T14:00:20.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eM843JMXjyQ",
+      "captionFa": "در این ویدیو، Ryoko PRO به عنوان یک هات‌اسپات وای‌فای بررسی می‌شود که آیا قادر است اینترنت را در هر مکان و زمانی فراهم کند یا خیر. عملکرد و ویژگی‌های این دستگاه به طور کامل بررسی شده است.",
+      "captionEn": "This video reviews the Ryoko PRO as a Wi-Fi hotspot that claims to provide internet access anywhere. The performance and features of the device are thoroughly evaluated.",
+      "category": "general",
+      "processedAt": "2026-07-26T02:11:23.846Z"
+    },
+    {
+      "id": "n9WHUvQrtp8",
+      "title": "Realistic enough, or still uncanny valley?",
+      "titleFa": "به‌قدری واقعی یا همچنان در دره‌ی عجیبی؟",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n9WHUvQrtp8/hqdefault.jpg",
+      "publishedAt": "2026-07-25T14:00:15.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/n9WHUvQrtp8",
+      "captionFa": "این ویدیو به بررسی وجوه مختلف واقعیت مجازی و انسان‌نماها می‌پردازد و سوال می‌کند که آیا این تکنولوژی‌ها به اندازه کافی واقعی به نظر می‌رسند یا هنوز هم در دره‌ی عجب قرار دارند. به تحلیل کیفیت تعاملات انسانی با این فناوری‌ها و تأثیرات آن‌ها بر روانشناسی انسان می‌پردازد.",
+      "captionEn": "This video explores the different aspects of virtual reality and humanoids, questioning whether these technologies appear realistic enough or if they still reside in the uncanny valley. It analyzes the quality of human interactions with these technologies and their psychological impacts.",
+      "category": "robotics",
+      "processedAt": "2026-07-26T02:11:24.120Z"
+    },
+    {
+      "id": "VOGZNLlYeTU",
+      "title": "How Watching YouTube Has Changed Adam Savage",
+      "titleFa": "چگونه تماشای یوتیوب زندگی آدام ساوج تغییر داده است",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VOGZNLlYeTU/hqdefault.jpg",
+      "publishedAt": "2026-07-25T14:00:09.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VOGZNLlYeTU",
+      "captionFa": "آدام ساوج در این ویدیو به بررسی تأثیر تماشای یوتیوب بر زندگی و کار خود می‌پردازد. او به تأثیرات مثبت و منفی این پلتفرم در جهت یادگیری و خلاقیت اشاره می‌کند.",
+      "captionEn": "Adam Savage discusses how watching YouTube has influenced his life and work. He reflects on the positive and negative impacts of the platform on his learning and creativity.",
+      "category": "general",
+      "processedAt": "2026-07-26T02:11:19.675Z"
+    },
+    {
+      "id": "n0JhhZyGP_w",
+      "title": "Literally everyone hated this feature",
+      "titleFa": "واقعاً همه از این ویژگی متنفر بودند",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/n0JhhZyGP_w/hqdefault.jpg",
+      "publishedAt": "2026-07-25T13:38:23.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/n0JhhZyGP_w",
+      "captionFa": "این ویدیو به بررسی ویژگی خاصی می‌پردازد که مورد تنفر عمومی قرار گرفته است. Matt Wolfe نظرات و واکنش‌های مختلف را نسبت به این ویژگی تحلیل می‌کند و به دلایل نفرت مردم از آن می‌پردازد.",
+      "captionEn": "This video explores a specific feature that everyone seems to hate. Matt Wolfe analyzes various opinions and reactions towards this feature and delves into the reasons behind the public's dislike.",
+      "category": "ai",
+      "processedAt": "2026-07-26T02:11:05.297Z"
+    },
+    {
+      "id": "_JGMgpyCTsY",
+      "title": "I Tried Coding my own Graphics Library",
+      "titleFa": "به‌سراغ کدنویسی کتابخانه گرافیکی خود رفتم",
+      "channelName": "Sebastian Lague",
+      "thumbnailUrl": "https://i.ytimg.com/vi/_JGMgpyCTsY/hqdefault.jpg",
+      "publishedAt": "2026-07-25T12:51:04.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_JGMgpyCTsY",
+      "captionFa": "در این ویدیو، من تحت چالش قرار گرفتم که یک کتابخانه گرافیکی را از صفر کدنویسی کنم. تجربیات، چالش‌ها و نتایج کارهایم را با شما به اشتراک می‌گذارم.",
+      "captionEn": "In this video, I take on the challenge of coding my own graphics library from scratch. I share my experiences, challenges, and the results of my work.",
+      "category": "software",
+      "processedAt": "2026-07-26T02:11:20.958Z"
+    },
     {
       "id": "XewfVdagS_s",
       "title": "New Udemy Course-AI Security Bootcamp-Guardrails,LLM Gateways,Observability",
@@ -2706,32 +2810,6 @@
       "processedAt": "2026-07-10T20:17:05.848Z"
     },
     {
-      "id": "2i28ig-n3T0",
-      "title": "Complete NordVPN tutorial 2026 | All new NordVPN features covered!",
-      "titleFa": "آموزش کامل NordVPN 2026 | بررسی همه ویژگی‌های جدید NordVPN!",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2i28ig-n3T0/hqdefault.jpg",
-      "publishedAt": "2026-07-10T14:00:06.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=2i28ig-n3T0",
-      "captionFa": "در این ویدیو، به آموزش کامل استفاده از NordVPN پرداخته می‌شود و تمامی ویژگی‌های جدید این نرم‌افزار بررسی می‌شود. این آموزش شامل نکات و ترفندهایی است که کاربران برای به حداکثر رساندن امنیت و حریم خصوصی خود می‌توانند از آن استفاده کنند.",
-      "captionEn": "This video provides a comprehensive tutorial on NordVPN, covering all the new features introduced in 2026. It includes tips and tricks for users to maximize their security and privacy using the software.",
-      "category": "general",
-      "processedAt": "2026-07-12T03:08:52.979Z"
-    },
-    {
-      "id": "so6MK2XAVHY",
-      "title": "Flexible Product Packaging Automation Featuring FANUC Vision and Robotics",
-      "titleFa": "اتوماسیون بسته‌بندی محصول انعطاف‌پذیر با استفاده از بینایی و رباتیک FANUC",
-      "channelName": "FANUC America",
-      "thumbnailUrl": "https://i.ytimg.com/vi/so6MK2XAVHY/hqdefault.jpg",
-      "publishedAt": "2026-07-10T13:44:08.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=so6MK2XAVHY",
-      "captionFa": "این ویدیو به بررسی نحوه استفاده از تکنولوژی‌های بینایی و رباتیک FANUC در اتوماسیون بسته‌بندی محصولات می‌پردازد. بینایی رباتیک باعث افزایش دقت و کارایی در فرآیند بسته‌بندی می‌شود.",
-      "captionEn": "This video showcases the use of FANUC's vision and robotics technology in flexible product packaging automation. It highlights how robotic vision enhances accuracy and efficiency in the packaging process.",
-      "category": "robotics",
-      "processedAt": "2026-07-12T08:08:54.468Z"
-    },
-    {
       "id": "q3nD5qD758o",
       "title": "I Discovered a Lost Plane",
       "titleFa": "من یک هواپیمای گم‌شده را کشف کردم",
@@ -2756,58 +2834,6 @@
       "captionEn": "This video introduces new AI models like GPT 5.6, Grok 4.5, and Meta Muse, which experts claim can revolutionize current machine learning practices. These models offer significant improvements in performance and efficacy of artificial intelligence.",
       "category": "ai",
       "processedAt": "2026-07-10T20:16:15.227Z"
-    },
-    {
-      "id": "kv6JfvjfXa8",
-      "title": "AMR Studio®: turning design ideas into real performance",
-      "titleFa": "AMR Studio®: تبدیل ایده‌های طراحی به عملکرد واقعی",
-      "channelName": "ABB Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/kv6JfvjfXa8/hqdefault.jpg",
-      "publishedAt": "2026-07-10T06:58:55.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=kv6JfvjfXa8",
-      "captionFa": "این ویدیو به بررسی AMR Studio® می‌پردازد و نشان می‌دهد که چگونه می‌توان ایده‌های طراحی را به عملکرد واقعی تبدیل کرد. با استفاده از این ابزار، کاربران قادر خواهند بود ربات‌های خودکار را طراحی و بهینه‌سازی کنند.",
-      "captionEn": "This video explores AMR Studio® and demonstrates how design ideas can be transformed into real performance. With this tool, users will be able to design and optimize their autonomous robots.",
-      "category": "robotics",
-      "processedAt": "2026-07-12T08:08:52.018Z"
-    },
-    {
-      "id": "zk8H0DjhC9g",
-      "title": "Robotics One Service App | Monitor Your ABB Robots Anytime, Anywhere",
-      "titleFa": "اپلیکیشن خدمات رباتیک One | در هر زمان و مکان ربات‌های ABB خود را نظارت کنید",
-      "channelName": "ABB Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zk8H0DjhC9g/hqdefault.jpg",
-      "publishedAt": "2026-07-10T06:15:33.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=zk8H0DjhC9g",
-      "captionFa": "با اپلیکیشن خدمات رباتیک ABB، کاربران می‌توانند به سادگی ربات‌های خود را در هر زمان و مکانی نظارت و مدیریت کنند. این ابزار به آن‌ها اجازه می‌دهد تا اطلاعات لازم را به طور لحظه‌ای دریافت کنند و عملکرد ربات‌ها را بهینه سازند.",
-      "captionEn": "The Robotics One Service App allows users to monitor and manage their ABB robots anytime and anywhere. This tool provides them with real-time data and insights to optimize the performance of their robots.",
-      "category": "robotics",
-      "processedAt": "2026-07-12T08:08:52.543Z"
-    },
-    {
-      "id": "gzlUY3S_5Ws",
-      "title": "🚘 Smarter Automotive Door Panel Assembly with DOBOT CR16A",
-      "titleFa": "مجموعه هوشمند پنل درب خودرو با DOBOT CR16A",
-      "channelName": "Dobot Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gzlUY3S_5Ws/hqdefault.jpg",
-      "publishedAt": "2026-07-10T02:04:30.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=gzlUY3S_5Ws",
-      "captionFa": "در این ویدیو به نحوه استفاده از ربات DOBOT CR16A برای مونتاژ پنل درب خودرو پرداخته می‌شود. این ربات با دقت و سرعت بالا می‌تواند به فرآیند تولید خودرو کمک کند.",
-      "captionEn": "This video showcases how the DOBOT CR16A robot is used for the assembly of automotive door panels. The robot enhances production efficiency through precision and speed.",
-      "category": "robotics",
-      "processedAt": "2026-07-12T08:08:54.359Z"
-    },
-    {
-      "id": "Vg-N4xcgI3k",
-      "title": "How to Run RL Autoresearch with Agent Skills | Nemotron Labs",
-      "titleFa": "نحوه راه‌اندازی RL Autoresearch با مهارت‌های ایجنت | آزمایشگاه‌های نمترو",
-      "channelName": "NVIDIA Developer",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Vg-N4xcgI3k/hqdefault.jpg",
-      "publishedAt": "2026-07-10T00:31:59.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Vg-N4xcgI3k",
-      "captionFa": "این ویدیو به بررسی چگونگی اجرای RL Autoresearch با استفاده از مهارت‌های ایجنت در آزمایشگاه‌های نمترو می‌پردازد. بینندگان با جنبه‌های مختلف این فرایند آشنا خواهند شد و نحوه به‌کارگیری آن را یاد می‌گیرند.",
-      "captionEn": "This video explores how to run RL Autoresearch using agent skills at Nemotron Labs. Viewers will learn about various aspects of this process and how to implement it.",
-      "category": "ai",
-      "processedAt": "2026-07-12T08:09:03.142Z"
     },
     {
       "id": "HBVvcCSk1vw",
@@ -2966,19 +2992,6 @@
       "processedAt": "2026-07-12T08:08:45.084Z"
     },
     {
-      "id": "k31J6icKRUA",
-      "title": "How Flappy Bird Ruined The Life of its Creator",
-      "titleFa": "چگونه Flappy Bird زندگی خالقش را ویران کرد",
-      "channelName": "ColdFusion",
-      "thumbnailUrl": "https://i.ytimg.com/vi/k31J6icKRUA/hqdefault.jpg",
-      "publishedAt": "2026-06-19T04:24:09.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=k31J6icKRUA",
-      "captionFa": "این ویدیو داستان خالق بازی محبوب Flappy Bird و چالش‌های زندگی‌اش پس از موفقیت ناگهانی این بازی را بررسی می‌کند. او با فشارهای روانی و انتظارات بالا مواجه شد که تأثیرات عمیقی بر زندگی شخصی و حرفه‌ایش گذاشت.",
-      "captionEn": "This video explores the story of the creator of the popular game Flappy Bird and the challenges he faced following the game’s sudden success. He encountered psychological pressures and high expectations that deeply impacted his personal and professional life.",
-      "category": "general",
-      "processedAt": "2026-07-12T08:09:11.661Z"
-    },
-    {
       "id": "oIlPnumvgvE",
       "title": "Vigier Ciment: Autonomous Robot Inspection in a 150-Year-Old Cement Plant",
       "titleFa": "ویجیه سیمان: بازرسی خودکار ربات در یک کارخانه سیمان ۱۵۰ ساله",
@@ -3068,19 +3081,6 @@
       "captionEn": "In this video, Don Lincoln discusses the biggest mysteries in physics, including antimatter and dark energy. He also explores the Theory of Everything (ToE) and the challenges in gaining a deeper understanding of the universe.",
       "category": "science",
       "processedAt": "2026-07-12T08:08:24.463Z"
-    },
-    {
-      "id": "fy0HRViXZnE",
-      "title": "Coding Adventure: Rubik's Cube",
-      "titleFa": "ماجرای برنامه‌نویسی: مکعب روبیک",
-      "channelName": "Sebastian Lague",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fy0HRViXZnE/hqdefault.jpg",
-      "publishedAt": "2026-05-07T10:00:18.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fy0HRViXZnE",
-      "captionFa": "در این ویدیو، نویسنده به بررسی چالش‌های برنامه‌نویسی مکعب روبیک می‌پردازد و نشان می‌دهد که چگونه می‌توان فرایند حل این مکعب را با استفاده از الگوریتم‌ها و برنامه‌نویسی بهینه کرد. همچنین، نکات و ترفندهای جالبی برای تسریع در حل مکعب ارائه می‌شود.",
-      "captionEn": "This video explores the challenges of programming the Rubik's Cube and demonstrates how to optimize the solving process using algorithms and coding. It also presents interesting tips and tricks to speed up the cube-solving experience.",
-      "category": "software",
-      "processedAt": "2026-07-12T08:20:01.331Z"
     },
     {
       "id": "8wJVWRbssu8",
