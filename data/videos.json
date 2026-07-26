@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-07-26T02:11:24.125Z",
+  "generatedAt": "2026-07-26T15:02:38.403Z",
   "videos": [
+    {
+      "id": "OOAWkunNTio",
+      "title": "The Secret to Overcoming \"Completion Depression\"",
+      "titleFa": "راز غلبه بر \"افسردگی اتمام\"",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OOAWkunNTio/hqdefault.jpg",
+      "publishedAt": "2026-07-26T14:00:23.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OOAWkunNTio",
+      "captionFa": "این ویدیو به بررسی پدیده‌ای به نام \"افسردگی اتمام\" می‌پردازد که معمولاً پس از پایان یک پروژه یا فعالیت خلاقانه به وجود می‌آید. آدام ساویج نکات و تکنیک‌هایی را برای غلبه بر این احساس و پیدا کردن انگیزه دوباره در کارها بیان می‌کند.",
+      "captionEn": "This video explores the phenomenon known as \"Completion Depression,\" which often arises after finishing a project or creative activity. Adam Savage shares tips and techniques for overcoming this feeling and finding motivation again in your work.",
+      "category": "general",
+      "processedAt": "2026-07-26T15:02:32.489Z"
+    },
+    {
+      "id": "l-QPwk_f4eE",
+      "title": "Why AI Makes the Humanities More Important Than Ever",
+      "titleFa": "چرا هوش مصنوعی علوم انسانی را مهم‌تر از همیشه می‌کند",
+      "channelName": "IBM Technology",
+      "thumbnailUrl": "https://i.ytimg.com/vi/l-QPwk_f4eE/hqdefault.jpg",
+      "publishedAt": "2026-07-26T11:00:22.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=l-QPwk_f4eE",
+      "captionFa": "ویدیو درباره ارتباط هوش مصنوعی و علوم انسانی صحبت می‌کند و بر اهمیت علوم انسانی در عصر فناوری تأکید می‌کند. این اهمیت به دلیل تأثیرات مثبت هوش مصنوعی بر فرآیندهای انسانی و فرهنگی است.",
+      "captionEn": "The video discusses the connection between artificial intelligence and the humanities, emphasizing the importance of humanities in the tech era. This relevance stems from the positive impacts of AI on human and cultural processes.",
+      "category": "ai",
+      "processedAt": "2026-07-26T15:02:10.360Z"
+    },
+    {
+      "id": "F7Q5y1i6jcw",
+      "title": "Scaling Automation with GoFa™",
+      "titleFa": "گسترش اتوماسیون با GoFa™",
+      "channelName": "ABB Robotics",
+      "thumbnailUrl": "https://i.ytimg.com/vi/F7Q5y1i6jcw/hqdefault.jpg",
+      "publishedAt": "2026-07-26T08:22:38.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/F7Q5y1i6jcw",
+      "captionFa": "ویدیو به بررسی ربات‌های GoFa™ می‌پردازد که طراحی شده‌اند تا به سادگی در محیط‌های مختلف صنعتی و تجاری کاربرد داشته باشند. این ربات‌ها توانایی تعامل با انسان‌ها و انجام کارهای پیچیده را دارند، که می‌تواند به افزایش بهره‌وری در فرآیندهای تولید کمک کند.",
+      "captionEn": "The video explores the GoFa™ robots designed for easy integration into various industrial and commercial environments. These robots have the ability to interact with humans and perform complex tasks, potentially boosting efficiency in production processes.",
+      "category": "robotics",
+      "processedAt": "2026-07-26T15:02:26.245Z"
+    },
+    {
+      "id": "qitQiVZ66T8",
+      "title": "40°C (104°F) outside, 20°C (68°F) inside.",
+      "titleFa": "40 درجه سانتی‌گراد (104 درجه فارنهایت) در بیرون، 20 درجه سانتی‌گراد (68 درجه فارنهایت) در داخل",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qitQiVZ66T8/hqdefault.jpg",
+      "publishedAt": "2026-07-26T05:00:03.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/qitQiVZ66T8",
+      "captionFa": "این ویدیو به بررسی تفاوت دما در محیط بیرون و داخل می‌پردازد و به چالش‌های مربوط به حفظ دمای مناسب در فضاهای داخل ساختمان می‌پردازد. نکات و راهکارهایی برای بهبود شرایط آب و هوایی داخلی نیز ارائه می‌شود.",
+      "captionEn": "This video discusses the temperature differences between outside and inside environments and the challenges of maintaining optimal indoor climate. Tips and solutions for improving indoor climate conditions are also presented.",
+      "category": "general",
+      "processedAt": "2026-07-26T15:02:38.043Z"
+    },
     {
       "id": "wgyGVMN8Hxw",
       "title": "What Happened to Dropbox?",
@@ -2756,58 +2808,6 @@
       "captionEn": "This video explores how artificial intelligence functions and its inner thoughts. It provides insights into AI's thought processes and how they can mimic human understanding.",
       "category": "ai",
       "processedAt": "2026-07-12T08:08:37.360Z"
-    },
-    {
-      "id": "WHFLWrnFc1E",
-      "title": "Reddit cracks down on AI slop & the future of AI compute",
-      "titleFa": "محکومیت Reddit نسبت به محتوای بی‌کیفیت هوش مصنوعی و آینده محاسبات AI",
-      "channelName": "IBM Technology",
-      "thumbnailUrl": "https://i.ytimg.com/vi/WHFLWrnFc1E/hqdefault.jpg",
-      "publishedAt": "2026-07-10T14:52:54.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=WHFLWrnFc1E",
-      "captionFa": "این ویدیو به بررسی اقداماتی می‌پردازد که Reddit علیه محتوای نامناسب مرتبط با هوش مصنوعی انجام داده است. همچنین به آینده محاسبات هوش مصنوعی و چالش‌های پیش روی این صنعت نیز اشاره می‌کند.",
-      "captionEn": "This video discusses Reddit's measures against low-quality AI content and explores the future challenges in AI computing. It covers how the platform is responding to the growing concerns around AI-generated material.",
-      "category": "ai",
-      "processedAt": "2026-07-10T20:16:18.959Z"
-    },
-    {
-      "id": "EOCRtSnvNNE",
-      "title": "AI News: GPT-5.6 and the new Super App are a Massive Leap!",
-      "titleFa": "اخبار هوش مصنوعی: GPT-5.6 و اپ فوق‌العاده جدید یک جهش بزرگ هستند!",
-      "channelName": "Matt Wolfe",
-      "thumbnailUrl": "https://i.ytimg.com/vi/EOCRtSnvNNE/hqdefault.jpg",
-      "publishedAt": "2026-07-10T14:41:53.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=EOCRtSnvNNE",
-      "captionFa": "در این ویدیو به بررسی ویژگی‌های جدید GPT-5.6 و اپلیکیشن فوق‌العاده جدید پرداخته می‌شود. این پیشرفت‌ها نشان‌دهنده یک جهش بزرگ در دنیای هوش مصنوعی هستند و تأثیرات گسترده‌ای بر روی آینده فناوری خواهند داشت.",
-      "captionEn": "This video discusses the new features of GPT-5.6 and the new Super App, highlighting their significance as a major advancement in the field of artificial intelligence. These innovations are poised to have a wide-ranging impact on the future of technology.",
-      "category": "ai",
-      "processedAt": "2026-07-10T20:16:33.416Z"
-    },
-    {
-      "id": "xw2YCMslsnA",
-      "title": "1X has introduced its Neo humanoid robot hands",
-      "titleFa": "شرکت 1X ربات‌های دست انسان‌نما Neo را معرفی کرد",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/xw2YCMslsnA/hqdefault.jpg",
-      "publishedAt": "2026-07-10T14:00:16.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/xw2YCMslsnA",
-      "captionFa": "شرکت 1X به تازگی از ربات‌های دست انسان‌نما Neo خود رونمایی کرده است. این دست‌های رباتیک برای تعاملات ظریف و پیچیده طراحی شده‌اند و می‌توانند در توانمندسازی ربات‌ها برای انجام کارهای انسانی مؤثر باشند.",
-      "captionEn": "1X has recently unveiled its Neo humanoid robot hands. These robotic hands are designed for delicate and intricate interactions, potentially enhancing robots' capabilities to perform human-like tasks.",
-      "category": "robotics",
-      "processedAt": "2026-07-12T03:08:52.002Z"
-    },
-    {
-      "id": "qZmgbAbEZP4",
-      "title": "Let’s talk about Star Trek's Shuttlecraft designs",
-      "titleFa": "بیایید درباره طراحی شاتل‌ها در استار ترک صحبت کنیم",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qZmgbAbEZP4/hqdefault.jpg",
-      "publishedAt": "2026-07-10T14:00:09.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=qZmgbAbEZP4",
-      "captionFa": "این ویدیو به طراحی شاتل‌های موجود در دنیای استار ترک می‌پردازد. میزبان و میهمانان درباره جنبه‌های مختلف طراحی و تأثیر آن بر تجربه تماشاچیان بحث می‌کنند.",
-      "captionEn": "This video discusses the shuttlecraft designs in the Star Trek universe. The host and guests explore various aspects of the design and its impact on viewer experience.",
-      "category": "general",
-      "processedAt": "2026-07-10T20:17:05.848Z"
     },
     {
       "id": "q3nD5qD758o",
