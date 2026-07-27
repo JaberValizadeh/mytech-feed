@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-07-26T15:02:38.403Z",
+  "generatedAt": "2026-07-27T07:00:45.989Z",
   "videos": [
+    {
+      "id": "BkOmhCuKal4",
+      "title": "How CIA’s Hacking Tools Were Leaked",
+      "titleFa": "چگونه ابزارهای هک CIA افشا شدند",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BkOmhCuKal4/hqdefault.jpg",
+      "publishedAt": "2026-07-26T18:00:36.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BkOmhCuKal4",
+      "captionFa": "در این ویدیو به بررسی افشای ابزارهای هک سازمان CIA پرداخته می‌شود. افشاگری‌هایی که به انتشار جزئیات این ابزارها منجر شد، تبعات زیادی برای امنیت ملی و جهانی ایجاد کرده است.",
+      "captionEn": "This video explores the leak of CIA hacking tools and the significant implications it has had on national and global security. The revelations have raised serious discussions about cybersecurity.",
+      "category": "general",
+      "processedAt": "2026-07-27T07:00:43.810Z"
+    },
+    {
+      "id": "GJdyoJcZsuo",
+      "title": "He Thought His Internet was OK... IT'S NOT!",
+      "titleFa": "او فکر می‌کرد اینترنتش خوب است... اما اینطور نیست!",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/GJdyoJcZsuo/hqdefault.jpg",
+      "publishedAt": "2026-07-26T16:57:56.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=GJdyoJcZsuo",
+      "captionFa": "این ویدیو به بررسی مشکلات اینترنت خانگی یکی از افراد می‌پردازد که تصور می‌کرد سرویس اینترنتش مناسب است. اما بررسی‌های انجام شده نشان می‌دهد که این سرویس مشکلات جدی دارد و نیاز به بهبود دارد.",
+      "captionEn": "The video examines the internet issues faced by a user who believed their service was adequate. However, the findings reveal significant problems that need to be addressed.",
+      "category": "hardware",
+      "processedAt": "2026-07-27T07:00:39.613Z"
+    },
+    {
+      "id": "-P2dN1GSKz0",
+      "title": "PiZZa - Turn a Raspberry Pi into a High-Performance Microcontroller",
+      "titleFa": "PiZZa - تبدیل Raspberry Pi به یک میکروکنترلر با کارایی بالا",
+      "channelName": "DroneBot Workshop",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-P2dN1GSKz0/hqdefault.jpg",
+      "publishedAt": "2026-07-26T16:46:08.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=-P2dN1GSKz0",
+      "captionFa": "در این ویدیوی آموزشی، نحوه تبدیل Raspberry Pi به یک میکروکنترلر با کارایی بالا را یاد می‌گیرید. این روش به شما امکان می‌دهد تا پروژه‌های پیشرفته‌تری با استفاده از امکانات Raspberry Pi انجام دهید.",
+      "captionEn": "This tutorial shows how to transform a Raspberry Pi into a high-performance microcontroller. It enables you to undertake more advanced projects using the capabilities of Raspberry Pi.",
+      "category": "robotics",
+      "processedAt": "2026-07-27T07:00:35.865Z"
+    },
     {
       "id": "OOAWkunNTio",
       "title": "The Secret to Overcoming \"Completion Depression\"",
@@ -2771,32 +2810,6 @@
       "processedAt": "2026-07-10T20:16:35.665Z"
     },
     {
-      "id": "iXQFtjvXUK8",
-      "title": "Agent Context Carryover in Livekit Tutorial",
-      "titleFa": "انتقال زمینه ایجنت در آموزش Livekit",
-      "channelName": "AssemblyAI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/iXQFtjvXUK8/hqdefault.jpg",
-      "publishedAt": "2026-07-10T16:29:38.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=iXQFtjvXUK8",
-      "captionFa": "این ویدیو به بررسی روش‌های انتقال زمینه ایجنت در Livekit می‌پردازد. مطمئن شوید که دانش پایه‌ای در مورد AI و سیستم‌های تعاملی دارید تا بتوانید از این آموزش بیشترین بهره را ببرید.",
-      "captionEn": "This video explores methods of agent context carryover in Livekit. Make sure you have a foundational understanding of AI and interactive systems to gain the most from this tutorial.",
-      "category": "ai",
-      "processedAt": "2026-07-12T08:08:35.022Z"
-    },
-    {
-      "id": "zDjFEJc_Wko",
-      "title": "Meet our new Edge Piece Puzzle",
-      "titleFa": "آشنا شوید با پازل جدید Edge Piece ما",
-      "channelName": "Simone Giertz",
-      "thumbnailUrl": "https://i.ytimg.com/vi/zDjFEJc_Wko/hqdefault.jpg",
-      "publishedAt": "2026-07-10T16:00:26.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/zDjFEJc_Wko",
-      "captionFa": "در این ویدیو، Simone Giertz از پازل منحصر به فرد Edge Piece خود رونمایی می‌کند که شامل قطعات جالب و طراحی ابتکاری است. او تجربه‌های خود از طراحی و ساخت این پازل را به اشتراک می‌گذارد.",
-      "captionEn": "In this video, Simone Giertz unveils her unique Edge Piece puzzle, featuring interesting pieces and an innovative design. She shares her experiences in designing and creating this puzzle.",
-      "category": "robotics",
-      "processedAt": "2026-07-10T20:16:57.915Z"
-    },
-    {
       "id": "1DtMiRKg-cs",
       "title": "Understanding the inner thoughts of AI",
       "titleFa": "درک افکار درونی هوش مصنوعی",
@@ -3003,19 +3016,6 @@
       "captionEn": "The video showcases the Vigier robot designed for autonomous inspection in an old cement factory. It highlights the robot's ability to navigate complex industrial environments and gather precise data about equipment conditions.",
       "category": "robotics",
       "processedAt": "2026-07-12T08:08:43.648Z"
-    },
-    {
-      "id": "8m5M3ZIXlWw",
-      "title": "Upgrade Your ESP32 Projects Wirelessly | ESP32 OTA Tutorial",
-      "titleFa": "ارتقاء پروژه‌های ESP32 خود به طور بی‌سیم | آموزش OTA برای ESP32",
-      "channelName": "DroneBot Workshop",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8m5M3ZIXlWw/hqdefault.jpg",
-      "publishedAt": "2026-06-14T14:57:35.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8m5M3ZIXlWw",
-      "captionFa": "در این ویدیو، روش ارتقاء پروژه‌های ESP32 به صورت بی‌سیم با استفاده از فناوری OTA آموزش داده می‌شود. شما یاد می‌گیرید که چگونه بدون نیاز به اتصال فیزیکی، برنامه‌های خود را به‌روزرسانی کنید.",
-      "captionEn": "This video teaches you how to wirelessly upgrade your ESP32 projects using OTA technology. You will learn how to update your applications without the need for a physical connection.",
-      "category": "robotics",
-      "processedAt": "2026-07-12T08:09:01.579Z"
     },
     {
       "id": "wJpjTm775Q0",
