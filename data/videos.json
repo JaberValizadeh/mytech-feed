@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-07-31T22:57:52.930Z",
+  "generatedAt": "2026-08-01T11:15:03.195Z",
   "videos": [
+    {
+      "id": "0jdeMmQKMlg",
+      "title": "\"Thing\" from The Addams Family is becoming a reality.",
+      "titleFa": "واقعی شدن \"Thing\" از خانواده آدامز",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/0jdeMmQKMlg/hqdefault.jpg",
+      "publishedAt": "2026-08-01T05:00:32.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/0jdeMmQKMlg",
+      "captionFa": "در این ویدیو به بررسی این موضوع پرداخته می‌شود که چطور شخصیت \"Thing\" از خانواده آدامز به یک فناوری واقعی تبدیل می‌شود. توسعه‌دهندگان در حال کار بر روی ربات‌هایی هستند که ممکن است شبیه به این شخصیت معروف باشند.",
+      "captionEn": "This video explores how the character \"Thing\" from The Addams Family is turning into a real technology. Developers are working on robots that could resemble this iconic character.",
+      "category": "robotics",
+      "processedAt": "2026-08-01T11:15:03.123Z"
+    },
+    {
+      "id": "OX1yHmeLPy8",
+      "title": "The Kurzgesagt Situation is Insane",
+      "titleFa": "وضعیت Kurzgesagt دیوانه‌کننده است",
+      "channelName": "Real Engineering",
+      "thumbnailUrl": "https://i.ytimg.com/vi/OX1yHmeLPy8/hqdefault.jpg",
+      "publishedAt": "2026-08-01T02:02:04.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OX1yHmeLPy8",
+      "captionFa": "در این ویدیو به بررسی وضعیت خاص و پیچیده‌ای که در کانال Kurzgesagt وجود دارد پرداخته می‌شود. این موضوع شامل چالش‌ها و تأثیراتی است که محتوای این کانال بر روی جامعه علمی و تعاملی که ایجاد کرده، دارد.",
+      "captionEn": "This video explores the unique and complex situation surrounding the Kurzgesagt channel. It discusses the challenges and impacts that this channel's content has on the scientific community and the engagement it has fostered.",
+      "category": "science",
+      "processedAt": "2026-08-01T11:14:58.323Z"
+    },
+    {
+      "id": "3yiSb7gJYmU",
+      "title": "“Seems Like AI Slop”",
+      "titleFa": "به نظر می‌رسد هوش مصنوعی بی‌هدف است",
+      "channelName": "TechLinked",
+      "thumbnailUrl": "https://i.ytimg.com/vi/3yiSb7gJYmU/hqdefault.jpg",
+      "publishedAt": "2026-08-01T01:50:28.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=3yiSb7gJYmU",
+      "captionFa": "در این ویدیو به بررسی چالش‌ها و مشکلات فعلی هوش مصنوعی پرداخته می‌شود. به نظر می‌رسد که بسیاری از کاربردهای هوش مصنوعی هنوز به بلوغ کافی نرسیده‌اند و ممکن است نتایج غیرمنتظره‌ای ارائه دهند.",
+      "captionEn": "This video discusses the current challenges and issues surrounding artificial intelligence. Many AI applications appear to be underdeveloped and may yield unexpected results.",
+      "category": "ai",
+      "processedAt": "2026-08-01T11:15:03.191Z"
+    },
+    {
+      "id": "40pRi5wMBwA",
+      "title": "Full AI Escape Seems Possible",
+      "titleFa": "فرار کامل هوش مصنوعی به نظر ممکن می‌رسد",
+      "channelName": "Robert Miles AI Safety",
+      "thumbnailUrl": "https://i.ytimg.com/vi/40pRi5wMBwA/hqdefault.jpg",
+      "publishedAt": "2026-08-01T01:30:50.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/40pRi5wMBwA",
+      "captionFa": "این ویدیو به بررسی این موضوع می‌پردازد که آیا فرار کامل هوش مصنوعی از کنترل انسان ممکن است یا خیر. همچنین، خطرات و چالش‌هایی که با این پدیده همراه است، تحلیل می‌شوند.",
+      "captionEn": "This video explores the possibility of a full AI escape from human control. It also analyzes the risks and challenges associated with this phenomenon.",
+      "category": "ai",
+      "processedAt": "2026-08-01T11:14:42.316Z"
+    },
+    {
+      "id": "Z6z_feacXW8",
+      "title": "Galaxy Z Fold 8 Review: Honeymoon's Over",
+      "titleFa": "بررسی Galaxy Z Fold 8: دوران ماه عسل به پایان رسید",
+      "channelName": "MKBHD",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Z6z_feacXW8/hqdefault.jpg",
+      "publishedAt": "2026-08-01T00:05:00.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Z6z_feacXW8",
+      "captionFa": "این ویدیو به بررسی عمیق گوشی Galaxy Z Fold 8 می‌پردازد و نقاط قوت و ضعف آن را تحلیل می‌کند. با توجه به تجربه کاربری و قابلیت‌های جدید، این گوشی نشان می‌دهد که ممکن است دوران اوج آن به پایان برسد.",
+      "captionEn": "This video provides an in-depth review of the Galaxy Z Fold 8, analyzing its strengths and weaknesses. It suggests that the device may be nearing the end of its prime based on user experience and new features.",
+      "category": "hardware",
+      "processedAt": "2026-08-01T11:14:59.893Z"
+    },
     {
       "id": "fu5FVhBtcB4",
       "title": "Dassault Systèmes Accelerates Simulation with NVIDIA AI & GPUs",
@@ -104,6 +169,19 @@
       "captionEn": "In this video, we review and analyze the SpotOn Nova GPS fence. The pros and cons of this device as a potential best option for dog containment will be discussed.",
       "category": "general",
       "processedAt": "2026-07-31T22:57:51.684Z"
+    },
+    {
+      "id": "qXp5NHz0KSo",
+      "title": "How To Skip The Kimi K3 Waitlist",
+      "titleFa": "چگونه از لیست انتظار Kimi K3 عبور کنیم",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qXp5NHz0KSo/hqdefault.jpg",
+      "publishedAt": "2026-07-31T14:59:36.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/qXp5NHz0KSo",
+      "captionFa": "در این ویدیو نحوه عبور از لیست انتظار Kimi K3 توضیح داده می‌شود. بینندگان می‌توانند با رعایت نکات گفته شده، به راحتی به این فناوری دسترسی پیدا کنند.",
+      "captionEn": "This video explains how to bypass the waitlist for Kimi K3. Viewers can follow the tips provided to easily access this technology.",
+      "category": "ai",
+      "processedAt": "2026-08-01T11:14:42.698Z"
     },
     {
       "id": "sUmx-Yi6TwE",
@@ -2693,58 +2771,6 @@
       "processedAt": "2026-07-17T09:58:34.086Z"
     },
     {
-      "id": "930DlHopjws",
-      "title": "Build and Optimize Robotics and Edge AI with the New Jetson Thor T2000 and T3000",
-      "titleFa": "ساخت و بهینه‌سازی رباتیک و هوش مصنوعی لبه با Jetson Thor T2000 و T3000 جدید",
-      "channelName": "NVIDIA Developer",
-      "thumbnailUrl": "https://i.ytimg.com/vi/930DlHopjws/hqdefault.jpg",
-      "publishedAt": "2026-07-17T05:05:03.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=930DlHopjws",
-      "captionFa": "این ویدیو به بررسی قابلیت‌های جدید Jetson Thor T2000 و T3000 می‌پردازد و راه‌های بهینه‌سازی رباتیک و هوش مصنوعی لبه را معرفی می‌کند.",
-      "captionEn": "This video explores the new capabilities of the Jetson Thor T2000 and T3000, highlighting ways to optimize robotics and edge AI.",
-      "category": "robotics",
-      "processedAt": "2026-07-17T09:58:24.873Z"
-    },
-    {
-      "id": "mJhJLBBFBOs",
-      "title": "Useful Websites: AISafety.com",
-      "titleFa": "وب‌سایت‌های مفید: AISafety.com",
-      "channelName": "Robert Miles AI Safety",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mJhJLBBFBOs/hqdefault.jpg",
-      "publishedAt": "2026-07-17T03:43:20.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/mJhJLBBFBOs",
-      "captionFa": "این ویدیو به معرفی وب‌سایت AISafety.com می‌پردازد که منابع و ابزارهای مفیدی برای اطمینان از ایمنی در توسعه فناوری هوش مصنوعی ارائه می‌دهد. بینندگان می‌توانند از این وب‌سایت برای دسترسی به اطلاعات و مقالات مرتبط با ایمنی هوش مصنوعی بهره‌مند شوند.",
-      "captionEn": "This video introduces AISafety.com, a website that provides useful resources and tools for ensuring safety in AI development. Viewers can access information and relevant articles on AI safety from this site.",
-      "category": "ai",
-      "processedAt": "2026-07-17T09:58:08.813Z"
-    },
-    {
-      "id": "nt4eQU7MG9c",
-      "title": "My biggest Home Theater Upgrade is NOT Expensive",
-      "titleFa": "بزرگ‌ترین به‌روزرسانی سینمای خانگی من، گران نیست",
-      "channelName": "Linus Tech Tips",
-      "thumbnailUrl": "https://i.ytimg.com/vi/nt4eQU7MG9c/hqdefault.jpg",
-      "publishedAt": "2026-07-16T17:00:12.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=nt4eQU7MG9c",
-      "captionFa": "در این ویدیو، لینوس بهترین تغییرات احتمالی برای بهبود تجربه سینمای خانگی را معرفی می‌کند که نیازی به هزینه بالا ندارد. وی راهکارهای ساده و مؤثری را ارائه می‌دهد که به راحتی قابل انجام است.",
-      "captionEn": "In this video, Linus introduces the best possible upgrades to enhance the home theater experience that don't require high costs. He provides simple and effective solutions that are easy to implement.",
-      "category": "hardware",
-      "processedAt": "2026-07-16T19:08:45.424Z"
-    },
-    {
-      "id": "mCZU2N5cExs",
-      "title": "ChatGPT wrote a Python script in 10 seconds. Should you be worried? 😳👇",
-      "titleFa": "ChatGPT در ۱۰ ثانیه یک اسکریپت پایتون نوشت. آیا باید نگران باشید؟",
-      "channelName": "TechWorld with Nana",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mCZU2N5cExs/hqdefault.jpg",
-      "publishedAt": "2026-07-16T16:00:07.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/mCZU2N5cExs",
-      "captionFa": "در این ویدیو به این سوال پرداخته می‌شود که آیا توانایی ChatGPT در نوشتن کد پایتون در مدت زمان کوتاه، باید نگرانی‌هایی برای برنامه‌نویسان ایجاد کند یا خیر. بررسی‌های لازم پیرامون این تکنولوژی و تاثیرات آن بر صنعت نرم‌افزار انجام می‌شود.",
-      "captionEn": "This video discusses whether ChatGPT's ability to write a Python script in just 10 seconds should raise concerns for programmers. It explores the implications of this technology on the software industry.",
-      "category": "software",
-      "processedAt": "2026-07-16T19:08:48.471Z"
-    },
-    {
       "id": "axOcn--n_lM",
       "title": "The Dangerous Illusion of AI Coding Skills",
       "titleFa": "توهم خطرناک مهارت‌های برنامه‌نویسی هوش مصنوعی",
@@ -2756,19 +2782,6 @@
       "captionEn": "This video explores how the perception of AI's coding abilities can be misleading. It also discusses the serious implications such misconceptions can have on society and the tech industry.",
       "category": "ai",
       "processedAt": "2026-07-16T19:08:18.430Z"
-    },
-    {
-      "id": "FO5zsDIY6Yc",
-      "title": "Testing the 2 BIGGEST AI Website Builders",
-      "titleFa": "آزمایش دو بزرگ‌ترین سازنده وب‌سایت مبتنی بر هوش مصنوعی",
-      "channelName": "Matt Wolfe",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FO5zsDIY6Yc/hqdefault.jpg",
-      "publishedAt": "2026-07-16T14:40:45.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/FO5zsDIY6Yc",
-      "captionFa": "در این ویدیو، با دو برنامه‌ساز وب‌سایت مبتنی بر هوش مصنوعی آشنا می‌شویم و عملکرد آن‌ها را بررسی می‌کنیم. این ابزارها به کاربران کمک می‌کنند تا بدون نیاز به دانش کدنویسی، وب‌سایت‌هایی حرفه‌ای بسازند.",
-      "captionEn": "This video explores and tests two of the largest AI-based website builders available today. It highlights how these tools enable users to create professional websites without programming knowledge.",
-      "category": "ai",
-      "processedAt": "2026-07-16T19:08:24.558Z"
     },
     {
       "id": "GRbokvmv-2M",
@@ -2964,19 +2977,6 @@
       "captionEn": "This video explores the influential alloy that was banned during World War II due to its unique properties. It also discusses its history and potential applications at that time.",
       "category": "science",
       "processedAt": "2026-07-05T01:55:04.153Z"
-    },
-    {
-      "id": "znYh3kFZ2C4",
-      "title": "This isn’t the original Statue of Liberty",
-      "titleFa": "این مجسمه آزادی اصلی نیست",
-      "channelName": "Real Engineering",
-      "thumbnailUrl": "https://i.ytimg.com/vi/znYh3kFZ2C4/hqdefault.jpg",
-      "publishedAt": "2026-07-01T12:18:04.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/znYh3kFZ2C4",
-      "captionFa": "این ویدیو به بررسی تاریخچه و نسخه‌های مختلف مجسمه آزادی می‌پردازد و توضیح می‌دهد که نسخه‌ای که در نیویورک قرار دارد، در واقع تنها یکی از چندین مجسمه آزادی در سراسر جهان است.",
-      "captionEn": "This video explores the history and different versions of the Statue of Liberty, explaining that the one in New York is just one of several Statues of Liberty around the world.",
-      "category": "science",
-      "processedAt": "2026-07-05T01:55:04.556Z"
     },
     {
       "id": "pv1TUJSEM2k",
