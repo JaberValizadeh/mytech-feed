@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-08-01T22:50:53.200Z",
+  "generatedAt": "2026-08-02T09:53:40.046Z",
   "videos": [
+    {
+      "id": "TjUxBdiut1k",
+      "title": "OpenAI's \"ASTRA\" change science forever...",
+      "titleFa": "تغییرات همیشگی علم با \"ASTRA\" از OpenAI...",
+      "channelName": "Wes Roth",
+      "thumbnailUrl": "https://i.ytimg.com/vi/TjUxBdiut1k/hqdefault.jpg",
+      "publishedAt": "2026-08-02T08:10:05.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TjUxBdiut1k",
+      "captionFa": "در این ویدیو به بررسی تأثیر فناوری جدید \"ASTRA\" از OpenAI بر علم و تحقیقات می‌پردازیم. این ابزار می‌تواند روش‌های علمی را متحول کرده و به پیشرفت‌های چشمگیری در این حوزه منجر شود.",
+      "captionEn": "This video explores the groundbreaking impact of OpenAI's new technology, \"ASTRA,\" on science and research. This tool has the potential to revolutionize scientific methods and lead to significant advancements in the field.",
+      "category": "ai",
+      "processedAt": "2026-08-02T09:53:20.761Z"
+    },
+    {
+      "id": "COdVbJeqMhg",
+      "title": "System error: Motivation not found.",
+      "titleFa": "خطای سیستم: انگیزه پیدا نشد",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/COdVbJeqMhg/hqdefault.jpg",
+      "publishedAt": "2026-08-02T05:00:11.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/COdVbJeqMhg",
+      "captionFa": "این ویدیو به بررسی چالش‌ها و مشکلاتی می‌پردازد که در فرآیند به دست آوردن انگیزه برای کار و فعالیت به وجود می‌آید. به تحلیل عوامل مختلفی که می‌توانند بر انگیزه انسان تأثیر بگذارند، پرداخته می‌شود.",
+      "captionEn": "The video explores the challenges and difficulties of finding motivation for work and activities. It analyzes various factors that can affect human motivation.",
+      "category": "general",
+      "processedAt": "2026-08-02T09:53:40.042Z"
+    },
     {
       "id": "JCDjCkqhVsY",
       "title": "Can this invention solve my messy t-shirt pile?",
@@ -2743,32 +2769,6 @@
       "captionEn": "The video discusses the latest news in AI, including Claude's new web browser, AI features coming to Spotify, and new hardware from OpenAI.",
       "category": "ai",
       "processedAt": "2026-07-17T22:47:48.587Z"
-    },
-    {
-      "id": "tkcVYZ0nFTE",
-      "title": "Framer vs Squarespace vx Wix | Best website builder 2026 comparison",
-      "titleFa": "مقایسه Framer و Squarespace و Wix | بهترین سازنده وب‌سایت در سال 2026",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tkcVYZ0nFTE/hqdefault.jpg",
-      "publishedAt": "2026-07-17T14:00:33.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=tkcVYZ0nFTE",
-      "captionFa": "این ویدیو به مقایسه سه سازنده وب‌سایت به نام‌های Framer، Squarespace و Wix می‌پردازد. با مشاهده این ویدیو می‌توانید انتخاب بهتری برای ساخت وب‌سایت خود در سال 2026 داشته باشید.",
-      "captionEn": "This video compares three website builders: Framer, Squarespace, and Wix. It helps viewers make a better choice for building their websites in 2026.",
-      "category": "general",
-      "processedAt": "2026-07-17T22:48:09.178Z"
-    },
-    {
-      "id": "FJ6-bFv-ZP0",
-      "title": "Star Wars' Obscure Hand Props",
-      "titleFa": "ابزارهای دست‌ساز obscure در جنگ ستارگان",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/FJ6-bFv-ZP0/hqdefault.jpg",
-      "publishedAt": "2026-07-17T14:00:26.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=FJ6-bFv-ZP0",
-      "captionFa": "در این ویدیو به بررسی ابزارهای دستی غیرمتعارف و دست‌ساز در دنیای جنگ ستارگان پرداخته می‌شود. این وسایل نه‌تنها در فیلم‌ها استفاده شده، بلکه داستان‌های جذابی پشت هر کدام وجود دارد.",
-      "captionEn": "This video explores the obscure hand props used in the Star Wars universe. These items not only played a role in the films but also have intriguing backstories behind each one.",
-      "category": "general",
-      "processedAt": "2026-07-17T22:48:03.999Z"
     },
     {
       "id": "axOcn--n_lM",
