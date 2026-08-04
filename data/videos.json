@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-08-03T21:02:23.411Z",
+  "generatedAt": "2026-08-04T12:04:09.202Z",
   "videos": [
+    {
+      "id": "uU1EP9_4qBU",
+      "title": "What Are Large Database Models? AI for SQL Data",
+      "titleFa": "مدل‌های بزرگ پایگاه داده چیستند؟ هوش مصنوعی برای داده‌های SQL",
+      "channelName": "IBM Technology",
+      "thumbnailUrl": "https://i.ytimg.com/vi/uU1EP9_4qBU/hqdefault.jpg",
+      "publishedAt": "2026-08-04T11:00:12.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uU1EP9_4qBU",
+      "captionFa": "این ویدیو به بررسی مدل‌های بزرگ پایگاه داده و کاربردهای آنها در تحلیل داده‌های SQL می‌پردازد. همچنین نحوه بهره‌برداری از هوش مصنوعی برای بهینه‌سازی کار با این داده‌ها را بررسی می‌کند.",
+      "captionEn": "This video explores what large database models are and how they can be leveraged for SQL data analysis. It also discusses the use of AI to optimize interactions with these datasets.",
+      "category": "ai",
+      "processedAt": "2026-08-04T12:03:39.985Z"
+    },
+    {
+      "id": "dFSb3Ntc6CY",
+      "title": "Edward Warchocki - the 132 cm-tall Polish superstar is back, and this time, he's taking on an apiary",
+      "titleFa": "ادوارد وارچوکی - سوپرستاره لهستانی 132 سانتی‌متری دوباره برگشته و این بار به سراغ زنبورداری رفته است",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/dFSb3Ntc6CY/hqdefault.jpg",
+      "publishedAt": "2026-08-04T09:00:23.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/dFSb3Ntc6CY",
+      "captionFa": "این ویدیو به بازگشت ادوارد وارچوکی، سوپرستاره لهستانی 132 سانتی‌متری، می‌پردازد که در این بار به زنبورداری مشغول است. او با چالش‌های جدیدی در این زمینه روبرو می‌شود و توانایی‌های خود را در این عرصه به نمایش می‌گذارد.",
+      "captionEn": "The video highlights the return of Edward Warchocki, the 132 cm tall Polish superstar, who is now taking on the new challenge of beekeeping. He faces new challenges and showcases his skills in this field.",
+      "category": "general",
+      "processedAt": "2026-08-04T12:04:09.199Z"
+    },
+    {
+      "id": "I7kmmvMS4DA",
+      "title": "PoWa™ CRB 1910 How to define a tool",
+      "titleFa": "PoWa™ CRB 1910: چگونه یک ابزار را تعریف کنیم",
+      "channelName": "ABB Robotics",
+      "thumbnailUrl": "https://i.ytimg.com/vi/I7kmmvMS4DA/hqdefault.jpg",
+      "publishedAt": "2026-08-04T07:02:29.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=I7kmmvMS4DA",
+      "captionFa": "در این ویدیو، روش‌های تعریف و تنظیم ابزارها برای ربات PoWa™ CRB 1910 توضیح داده می‌شوند. بینندگان با مراحل لازم برای یکپارچه‌سازی ابزارها به ربات و کارکردهای مختلف آن آشنا می‌شوند.",
+      "captionEn": "This video explains the methods for defining and configuring tools for the PoWa™ CRB 1910 robot. Viewers will learn the necessary steps to integrate tools with the robot and its various functions.",
+      "category": "robotics",
+      "processedAt": "2026-08-04T12:03:57.018Z"
+    },
+    {
+      "id": "McHcwF-Es60",
+      "title": "Inside DEF CON - the world's largest gathering of hackers",
+      "titleFa": "درون DEF CON - بزرگ‌ترین گردهمایی هکرها در جهان",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/McHcwF-Es60/hqdefault.jpg",
+      "publishedAt": "2026-08-04T06:53:11.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/McHcwF-Es60",
+      "captionFa": "ویدیوی مورد نظر به بررسی کنفرانس DEF CON می‌پردازد که بزرگ‌ترین گردهمایی هکرها در سطح جهان است. این رویداد هر ساله با تجمعی از هکرها، امنیت‌نگران و علاقمندان به فناوری برگزار می‌شود.",
+      "captionEn": "The video explores DEF CON, the world's largest gathering of hackers, which brings together hackers, security experts, and tech enthusiasts annually.",
+      "category": "general",
+      "processedAt": "2026-08-04T12:04:09.109Z"
+    },
+    {
+      "id": "bjmbKdFOW_I",
+      "title": "QWEN just CRASHED the industry",
+      "titleFa": "QWEN صنعت را تحت تاثیر قرار داد",
+      "channelName": "Wes Roth",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bjmbKdFOW_I/hqdefault.jpg",
+      "publishedAt": "2026-08-04T03:45:44.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=bjmbKdFOW_I",
+      "captionFa": "در این ویدیو به بررسی تأثیر QWEN بر صنعت هوش مصنوعی پرداخته می‌شود. با معرفی ویژگی‌های منحصر به فرد این فناوری، چگونگی تغییر روند کار در این زمینه توضیح داده شده است.",
+      "captionEn": "This video discusses the impact of QWEN on the AI industry. It explores the unique features of this technology and how it's changing the way things are done in the field.",
+      "category": "ai",
+      "processedAt": "2026-08-04T12:03:43.265Z"
+    },
     {
       "id": "pb0kJXSy64E",
       "title": "Inside The Largest Hacker Gathering in the World",
@@ -2511,6 +2576,19 @@
       "processedAt": "2026-07-24T21:00:15.992Z"
     },
     {
+      "id": "90k2HRT8Ito",
+      "title": "Local AI 201: Inference Engines, Hardware Stack",
+      "titleFa": "هوش مصنوعی محلی ۲۰۱: موتورها، سخت‌افزار و پشته‌ها",
+      "channelName": "Hugging Face",
+      "thumbnailUrl": "https://i.ytimg.com/vi/90k2HRT8Ito/hqdefault.jpg",
+      "publishedAt": "2026-07-21T17:05:30.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=90k2HRT8Ito",
+      "captionFa": "در این ویدیو به بررسی موتورهای استنتاج و اجزای سخت‌افزاری مورد نیاز برای هوش مصنوعی محلی می‌پردازیم. همچنین، معماری‌های مختلف موجود برای اجرا و بهینه‌سازی الگوریتم‌ها را معرفی خواهیم کرد.",
+      "captionEn": "This video explores inference engines and the necessary hardware components for local AI. It also introduces different architectures available for running and optimizing algorithms.",
+      "category": "ai",
+      "processedAt": "2026-08-04T12:03:46.598Z"
+    },
+    {
       "id": "2_VB-oc_pmk",
       "title": "The Most Controversial Thought Experiment In Physics",
       "titleFa": "چالش‌برانگیزترین آزمایش فکری در فیزیک",
@@ -2680,45 +2758,6 @@
       "processedAt": "2026-07-24T21:00:01.918Z"
     },
     {
-      "id": "QAA7b1Av0jM",
-      "title": "This Upgrade is Dangerous - AMD $5,000 Ultimate Tech Upgrade",
-      "titleFa": "این ارتقاء خطرناک است - ارتقاء نهایی فناوری ۵۰۰۰ دلاری AMD",
-      "channelName": "Linus Tech Tips",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QAA7b1Av0jM/hqdefault.jpg",
-      "publishedAt": "2026-07-20T17:40:16.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=QAA7b1Av0jM",
-      "captionFa": "در این ویدیو، به بررسی ارتقاء جدید و قدرتمند AMD به ارزش ۵۰۰۰ دلار پرداخته می‌شود. این به‌روزرسانی به گونه‌ای طراحی شده است که می‌تواند عملکرد سخت‌افزار شما را به حد بالایی برساند و بسیاری از چالش‌ها و خطرات احتمالی آن را مورد بحث قرار می‌دهد.",
-      "captionEn": "This video explores AMD's new powerful $5,000 upgrade, designed to take your hardware performance to the next level. It discusses many of the potential challenges and dangers associated with the upgrade.",
-      "category": "hardware",
-      "processedAt": "2026-07-24T05:54:03.356Z"
-    },
-    {
-      "id": "M51asSwRLxA",
-      "title": "This $12 billion startup finally shipped something...",
-      "titleFa": "این استارتاپ ۱۲ میلیارد دلاری بالاخره چیزی عرضه کرد...",
-      "channelName": "Fireship",
-      "thumbnailUrl": "https://i.ytimg.com/vi/M51asSwRLxA/hqdefault.jpg",
-      "publishedAt": "2026-07-20T17:02:30.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=M51asSwRLxA",
-      "captionFa": "ویدیو به بررسی موفقیت یک استارتاپ بزرگ با ارزش ۱۲ میلیارد دلار می‌پردازد که پس از مدت‌ها انتظار، بالاخره محصولی را به بازار عرضه کرده است. این ویدیو نگاهی به چالش‌ها و مراحل توسعه این محصول جدید دارد.",
-      "captionEn": "The video discusses the success of a major startup valued at $12 billion that has finally released a product after a long wait. It looks at the challenges and development stages of this new product.",
-      "category": "software",
-      "processedAt": "2026-07-24T05:54:03.794Z"
-    },
-    {
-      "id": "r_GPHfEGYs8",
-      "title": "Behind the Scenes at Yetch.Studio",
-      "titleFa": "نگاهی Behind the Scenes در Yetch.Studio",
-      "channelName": "Simone Giertz",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r_GPHfEGYs8/hqdefault.jpg",
-      "publishedAt": "2026-07-20T16:00:32.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/r_GPHfEGYs8",
-      "captionFa": "در این ویدیو، Simone Giertz به پشت صحنه استودیو Yetch می‌برد و فرآیند خلاقیت و تولید ایده‌های جدید را به نمایش می‌گذارد. بینندگان فرصتی برای آشنایی با کار و چالش‌های این استودیو خواهند داشت.",
-      "captionEn": "In this video, Simone Giertz takes viewers behind the scenes at Yetch Studio, showcasing the creativity and production process behind new ideas. Viewers will get a glimpse into the work and challenges faced by the studio.",
-      "category": "robotics",
-      "processedAt": "2026-07-24T21:00:13.856Z"
-    },
-    {
       "id": "GkClGdrGViQ",
       "title": "You Can Just Download More Tokens/Sec",
       "titleFa": "شما می‌توانید فقط توکن‌های بیشتری در ثانیه دانلود کنید",
@@ -2730,45 +2769,6 @@
       "captionEn": "This video explores how you can enhance the performance of AI models by downloading more tokens per second. It also provides insights on token management and optimizing resource usage.",
       "category": "ai",
       "processedAt": "2026-07-24T21:00:02.014Z"
-    },
-    {
-      "id": "QPYFasJJfTY",
-      "title": "Dream daily driver 😎 #PrincessAuto #powerloader #engineering",
-      "titleFa": "خودروی رویایی روزانه 😎",
-      "channelName": "Hacksmith Industries",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QPYFasJJfTY/hqdefault.jpg",
-      "publishedAt": "2026-07-20T14:38:29.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/QPYFasJJfTY",
-      "captionFa": "در این ویدیو، Hacksmith Industries به ساخت یک خودروی رویایی می‌پردازد که می‌تواند به عنوان وسیله‌ای برای روزمره استفاده شود. این پروژه ترکیبی از مهندسی خلاقانه و تکنیک‌های پیشرفته است که به نمایش گذاشته شده است.",
-      "captionEn": "In this video, Hacksmith Industries explores the creation of a dream daily driver that can be used as an everyday vehicle. This project showcases a blend of creative engineering and advanced techniques on display.",
-      "category": "general",
-      "processedAt": "2026-07-24T05:54:00.614Z"
-    },
-    {
-      "id": "Cig94gm-3jc",
-      "title": "How Project Hail Mary's Props Were Painted!",
-      "titleFa": "چگونه وسایل پروژه Hail Mary رنگ‌آمیزی شدند؟",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Cig94gm-3jc/hqdefault.jpg",
-      "publishedAt": "2026-07-20T14:00:01.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Cig94gm-3jc",
-      "captionFa": "در این ویدیو فرآیند رنگ‌آمیزی وسایل مربوط به پروژه Hail Mary نمایش داده می‌شود. تکنیک‌ها و ابزارهای مورد استفاده برای ایجاد جزئیات و زیبایی‌های این وسایل بررسی می‌شود.",
-      "captionEn": "This video showcases the painting process of the props related to the Hail Mary project. The techniques and tools used to create the details and aesthetics of these props are explored.",
-      "category": "general",
-      "processedAt": "2026-07-24T05:54:01.542Z"
-    },
-    {
-      "id": "G4zrHUoKgjk",
-      "title": "Stop Building AI Agents-Start Building AI Teammates",
-      "titleFa": "دیگر ایجنت‌های هوش مصنوعی نسازید - شروع کنید به ساختن هم‌تیمی‌های هوش مصنوعی",
-      "channelName": "Krish Naik",
-      "thumbnailUrl": "https://i.ytimg.com/vi/G4zrHUoKgjk/hqdefault.jpg",
-      "publishedAt": "2026-07-20T11:23:20.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=G4zrHUoKgjk",
-      "captionFa": "در این ویدیو به ضرورت تغییر رویکرد در طراحی هوش مصنوعی تاکید می‌شود. به جای ساختن ایجنت‌های هوش مصنوعی که به تنهایی عمل می‌کنند، باید بر روی ایجاد هم‌تیمی‌های هوش مصنوعی تمرکز کنید که بتوانند به راحتی با انسان‌ها همکاری کنند.",
-      "captionEn": "The video emphasizes the need to shift the approach in AI design. Instead of creating standalone AI agents, the focus should be on building AI teammates that can easily collaborate with humans.",
-      "category": "ai",
-      "processedAt": "2026-07-24T21:00:08.031Z"
     },
     {
       "id": "IiNbFPOUrz8",
