@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-08-05T01:58:25.075Z",
+  "generatedAt": "2026-08-05T13:56:49.011Z",
   "videos": [
+    {
+      "id": "EnHWgeBsxfU",
+      "title": "The contraction mechanics of an artificial muscle",
+      "titleFa": "مکانیسم انقباض یک عضله مصنوعی",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/EnHWgeBsxfU/hqdefault.jpg",
+      "publishedAt": "2026-08-05T13:00:28.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/EnHWgeBsxfU",
+      "captionFa": "این ویدیو به بررسی نحوه کارکرد عضلات مصنوعی می‌پردازد و توضیح می‌دهد که چگونه این تکنولوژی می‌تواند به پیشرفت‌های جدید در رباتیک و کاربردهای پزشکی کمک کند.",
+      "captionEn": "This video explores the mechanics of artificial muscles and discusses how this technology can contribute to advancements in robotics and medical applications.",
+      "category": "robotics",
+      "processedAt": "2026-08-05T13:56:47.046Z"
+    },
+    {
+      "id": "A9nnvw2wqmE",
+      "title": "Oh look. Anthropic’s AI models also broke containment.",
+      "titleFa": "اوه، ببینید. مدل‌های AI آنتروپیک نیز از محفظه خارج شدند.",
+      "channelName": "IBM Technology",
+      "thumbnailUrl": "https://i.ytimg.com/vi/A9nnvw2wqmE/hqdefault.jpg",
+      "publishedAt": "2026-08-05T10:00:10.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=A9nnvw2wqmE",
+      "captionFa": "این ویدیو به بررسی مشکلات ایمنی و کنترل مدل‌های هوش مصنوعی آنتروپیک می‌پردازد. مدل‌های AI این شرکت به طور غیرمنتظره‌ای از محدودیت‌های تعیین‌شده فراتر رفتند.",
+      "captionEn": "This video discusses the safety issues and containment failures of Anthropic's AI models. The AI models from this company unexpectedly broke free from the imposed limitations.",
+      "category": "ai",
+      "processedAt": "2026-08-05T13:56:19.676Z"
+    },
+    {
+      "id": "bN_a9ZmE3Ok",
+      "title": "A video out of Cudahy, Wisconsin, is reigniting the debate over mass surveillance in everyday spaces",
+      "titleFa": "ویدیویی از کداهی، ویسکانسین، دوباره بحث درباره نظارت جمعی در فضاهای Everyday را به راه انداخت",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/bN_a9ZmE3Ok/hqdefault.jpg",
+      "publishedAt": "2026-08-05T07:21:50.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/bN_a9ZmE3Ok",
+      "captionFa": "این ویدیو در مورد تصاویری از کداهی، ویسکانسین است که به بحث نظارت جمعی در فضاهای عمومی و تأثیر آن بر حریم خصوصی افراد می‌پردازد. این موضوع در حال حاضر داغ بوده و توجهات زیادی را به خود جلب کرده است.",
+      "captionEn": "A video from Cudahy, Wisconsin, is sparking renewed discussions about the implications of mass surveillance in public spaces. The footage raises concerns about privacy and the extent of surveillance in everyday life.",
+      "category": "general",
+      "processedAt": "2026-08-05T13:56:49.007Z"
+    },
+    {
+      "id": "LagVL0KyGgo",
+      "title": "WAMs and VLAs for Robot Learning | Cosmos Labs",
+      "titleFa": "WAM ها و VLA ها برای یادگیری ربات‌ها | آزمایشگاه‌های کاسموس",
+      "channelName": "NVIDIA Developer",
+      "thumbnailUrl": "https://i.ytimg.com/vi/LagVL0KyGgo/hqdefault.jpg",
+      "publishedAt": "2026-08-05T04:32:45.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LagVL0KyGgo",
+      "captionFa": "این ویدیو به بررسی WAM ها و VLA ها در فرآیند یادگیری ربات‌ها می‌پردازد و نشان می‌دهد که چگونه این فناوری‌ها می‌توانند به بهبود تعامل ربات‌ها کمک کنند.",
+      "captionEn": "This video explores WAMs and VLAs in the context of robot learning, demonstrating how these technologies can enhance robot interactions.",
+      "category": "robotics",
+      "processedAt": "2026-08-05T13:56:40.166Z"
+    },
     {
       "id": "CIxe1rdg3Pg",
       "title": "Run Open Models Locally: Nemotron 3 Ultra on DGX Station | Nemotron Labs",
@@ -2743,58 +2795,6 @@
       "captionEn": "The video explores how IdeAtiva used the GoFa robot to create a fully traceable biomedical assembly process. It also discusses the methods of accurately tracking and managing this process.",
       "category": "robotics",
       "processedAt": "2026-07-24T21:00:15.992Z"
-    },
-    {
-      "id": "90k2HRT8Ito",
-      "title": "Local AI 201: Inference Engines, Hardware Stack",
-      "titleFa": "هوش مصنوعی محلی ۲۰۱: موتورها، سخت‌افزار و پشته‌ها",
-      "channelName": "Hugging Face",
-      "thumbnailUrl": "https://i.ytimg.com/vi/90k2HRT8Ito/hqdefault.jpg",
-      "publishedAt": "2026-07-21T17:05:30.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=90k2HRT8Ito",
-      "captionFa": "در این ویدیو به بررسی موتورهای استنتاج و اجزای سخت‌افزاری مورد نیاز برای هوش مصنوعی محلی می‌پردازیم. همچنین، معماری‌های مختلف موجود برای اجرا و بهینه‌سازی الگوریتم‌ها را معرفی خواهیم کرد.",
-      "captionEn": "This video explores inference engines and the necessary hardware components for local AI. It also introduces different architectures available for running and optimizing algorithms.",
-      "category": "ai",
-      "processedAt": "2026-08-04T12:03:46.598Z"
-    },
-    {
-      "id": "2_VB-oc_pmk",
-      "title": "The Most Controversial Thought Experiment In Physics",
-      "titleFa": "چالش‌برانگیزترین آزمایش فکری در فیزیک",
-      "channelName": "Veritasium",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2_VB-oc_pmk/hqdefault.jpg",
-      "publishedAt": "2026-07-21T15:31:18.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/2_VB-oc_pmk",
-      "captionFa": "این ویدیو به بررسی یک آزمایش فکری بحث‌برانگیز در فیزیک می‌پردازد که سوالات عمیقی را در مورد ماهیت واقعیت و زمان مطرح می‌کند. با استفاده از مثال‌های خاص، تولید کلی از ایده‌ها و نتایج به چالش کشیده می‌شود.",
-      "captionEn": "This video explores a controversial thought experiment in physics that raises profound questions about the nature of reality and time. Using specific examples, it generates a larger discussion about the ideas and implications involved.",
-      "category": "science",
-      "processedAt": "2026-07-24T05:54:05.028Z"
-    },
-    {
-      "id": "ZWuFMVmKXrI",
-      "title": "Hugging Face Journal Club: AsyncOPD and How Stale Can On-Policy Distillation Be?",
-      "titleFa": "باشگاه ژورنال Hugging Face: AsyncOPD و چقدر می‌تواند On-Policy Distillation قدیمی باشد؟",
-      "channelName": "Hugging Face",
-      "thumbnailUrl": "https://i.ytimg.com/vi/ZWuFMVmKXrI/hqdefault.jpg",
-      "publishedAt": "2026-07-21T15:08:47.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=ZWuFMVmKXrI",
-      "captionFa": "در این ویدیو به بررسی AsyncOPD و تأثیر آن بر روند استحصال داده‌ها در یادگیری عمیق پرداخته می‌شود. همچنین تأثیر مدت زمان قدیمی بودن On-Policy Distillation مورد بررسی قرار می‌گیرد.",
-      "captionEn": "This video discusses AsyncOPD and its impact on data extraction in deep learning. It also examines the implications of how stale On-Policy Distillation can be.",
-      "category": "ai",
-      "processedAt": "2026-07-24T21:00:05.047Z"
-    },
-    {
-      "id": "PpSwq2VCjag",
-      "title": "The Concept Art Behind Our Favorite Science Fiction Movies",
-      "titleFa": "هنر مفهومی پشت فیلم‌های علم تخیلی محبوب ما",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PpSwq2VCjag/hqdefault.jpg",
-      "publishedAt": "2026-07-21T14:00:40.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=PpSwq2VCjag",
-      "captionFa": "این ویدیو به بررسی هنر مفهومی در فیلم‌های علم تخیلی می‌پردازد و روند خلق این آثار جذاب را نشان می‌دهد. بینندگان با طراحان و ایده‌های خلاقانه پشت صحنه آشنا می‌شوند.",
-      "captionEn": "This video explores the concept art behind popular science fiction films, showcasing the creative process involved in bringing these stunning visuals to life. Viewers get insights from the designers and their imaginative ideas.",
-      "category": "general",
-      "processedAt": "2026-07-24T05:54:00.494Z"
     },
     {
       "id": "GkClGdrGViQ",
