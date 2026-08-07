@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-08-06T14:28:44.520Z",
+  "generatedAt": "2026-08-07T02:24:30.310Z",
   "videos": [
+    {
+      "id": "xGzseSSStnw",
+      "title": "AI is getting a little out of control",
+      "titleFa": "هوش مصنوعی کمی خارج از کنترل است",
+      "channelName": "AI Explained",
+      "thumbnailUrl": "https://i.ytimg.com/vi/xGzseSSStnw/hqdefault.jpg",
+      "publishedAt": "2026-08-06T15:02:06.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xGzseSSStnw",
+      "captionFa": "این ویدیو به بررسی وضعیت کنونی هوش مصنوعی و چالش‌های آن می‌پردازد. کارشناسان درباره خطرات احتمالی و آینده‌ای که هوش مصنوعی می‌تواند برای بشریت به ارمغان بیاورد، صحبت می‌کنند.",
+      "captionEn": "This video discusses the current state of artificial intelligence and the challenges it faces. Experts talk about the potential risks and the future that AI could bring for humanity.",
+      "category": "ai",
+      "processedAt": "2026-08-07T02:24:21.429Z"
+    },
     {
       "id": "9nTZTJHBCAs",
       "title": "Adam Savage Stunned by this Star Trek Enterprise Cross-Section!",
@@ -2925,19 +2938,6 @@
       "captionEn": "This video focuses on text-to-speech conversion using the ESP32 module. It utilizes Wit.ai and OpenAI TTS services to produce natural-sounding speech.",
       "category": "robotics",
       "processedAt": "2026-07-12T20:13:25.725Z"
-    },
-    {
-      "id": "mWlCituW7wo",
-      "title": "A Model Explosion: GPT 5.6 Sol, Grok 4.5 and Meta Muse Rewrite the Rules",
-      "titleFa": "انفجار مدل: GPT 5.6، Grok 4.5 و Meta Muse قوانین را بازنویسی می‌کنند",
-      "channelName": "AI Explained",
-      "thumbnailUrl": "https://i.ytimg.com/vi/mWlCituW7wo/hqdefault.jpg",
-      "publishedAt": "2026-07-10T12:40:15.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=mWlCituW7wo",
-      "captionFa": "در این ویدیو به معرفی مدل‌های جدید هوش مصنوعی مانند GPT 5.6، Grok 4.5 و Meta Muse پرداخته می‌شود که به گفته کارشناسان، می‌توانند شیوه‌های کنونی یادگیری ماشین را دچار تغییر و تحول کنند. این مدل‌ها بهبودهای چشمگیری در عملکرد و کارایی هوش مصنوعی ارائه می‌دهند.",
-      "captionEn": "This video introduces new AI models like GPT 5.6, Grok 4.5, and Meta Muse, which experts claim can revolutionize current machine learning practices. These models offer significant improvements in performance and efficacy of artificial intelligence.",
-      "category": "ai",
-      "processedAt": "2026-07-10T20:16:15.227Z"
     },
     {
       "id": "PzBuZaujA-4",
