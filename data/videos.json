@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-08-08T20:24:20.577Z",
+  "generatedAt": "2026-08-09T08:37:23.369Z",
   "videos": [
+    {
+      "id": "6X_hpga0IxY",
+      "title": "Ever wondered how concert tickets sell out in milliseconds? It’s not just software bots anymore.",
+      "titleFa": "آیا تا به حال فکر کرده‌اید که چگونه بلیت‌های کنسرت در کسری از ثانیه به فروش می‌رسند؟ این فقط به خاطر ربات‌های نرم‌افزاری نیست.",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/6X_hpga0IxY/hqdefault.jpg",
+      "publishedAt": "2026-08-09T06:00:00.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/6X_hpga0IxY",
+      "captionFa": "در این ویدیو به بررسی دلایل پدیده‌ای می‌پردازیم که بلیت‌های کنسرت در عرض چند میلی‌ثانیه فروخته می‌شوند. به جز ربات‌های نرم‌افزاری، مقامات و ویژگی‌های خاص بازار نیز نقش مهمی دارند.",
+      "captionEn": "This video explores the phenomenon of concert tickets selling out in milliseconds. It delves into the roles of bots, market dynamics, and other factors contributing to this rapid ticket sales process.",
+      "category": "general",
+      "processedAt": "2026-08-09T08:37:23.365Z"
+    },
     {
       "id": "H50xoAzNfB0",
       "title": "The Right Harness is All You Need - For local Frontier AI",
@@ -2704,19 +2717,6 @@
       "captionEn": "This tutorial shows how to transform a Raspberry Pi into a high-performance microcontroller. It enables you to undertake more advanced projects using the capabilities of Raspberry Pi.",
       "category": "robotics",
       "processedAt": "2026-07-27T07:00:35.865Z"
-    },
-    {
-      "id": "OOAWkunNTio",
-      "title": "The Secret to Overcoming \"Completion Depression\"",
-      "titleFa": "راز غلبه بر \"افسردگی اتمام\"",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/OOAWkunNTio/hqdefault.jpg",
-      "publishedAt": "2026-07-26T14:00:23.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=OOAWkunNTio",
-      "captionFa": "این ویدیو به بررسی پدیده‌ای به نام \"افسردگی اتمام\" می‌پردازد که معمولاً پس از پایان یک پروژه یا فعالیت خلاقانه به وجود می‌آید. آدام ساویج نکات و تکنیک‌هایی را برای غلبه بر این احساس و پیدا کردن انگیزه دوباره در کارها بیان می‌کند.",
-      "captionEn": "This video explores the phenomenon known as \"Completion Depression,\" which often arises after finishing a project or creative activity. Adam Savage shares tips and techniques for overcoming this feeling and finding motivation again in your work.",
-      "category": "general",
-      "processedAt": "2026-07-26T15:02:32.489Z"
     },
     {
       "id": "wgyGVMN8Hxw",
