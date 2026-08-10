@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-08-09T20:27:42.924Z",
+  "generatedAt": "2026-08-10T09:18:47.615Z",
   "videos": [
+    {
+      "id": "FxAscu4vQCY",
+      "title": "This robot was so done with its shift...",
+      "titleFa": "این ربات از کار خود خسته شده بود...",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/FxAscu4vQCY/hqdefault.jpg",
+      "publishedAt": "2026-08-10T07:40:34.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/FxAscu4vQCY",
+      "captionFa": "در این ویدیو شاهد رباتی خواهیم بود که به وضوح از شیفت کاری خود خسته شده و رفتارهای جالب و خنده‌داری از خود نشان می‌دهد. این ویدیو نگاهی سرگرم‌کننده به چالش‌ها و محدودیت‌های ربات‌ها در دنیای کار دارد.",
+      "captionEn": "This video showcases a robot that clearly appears tired from its work shift, exhibiting amusing and interesting behaviors. It provides an entertaining look at the challenges and limitations of robots in the workplace.",
+      "category": "robotics",
+      "processedAt": "2026-08-10T09:18:47.569Z"
+    },
+    {
+      "id": "SkM4k4SKvCM",
+      "title": "Prompt Caching Explained: Stop Overpaying for AI Agents",
+      "titleFa": "توضیحاتی درباره حافظه وضعیت ورودی: از پرداخت‌های اضافی برای ایجنت‌های هوش مصنوعی خودداری کنید",
+      "channelName": "Hugging Face",
+      "thumbnailUrl": "https://i.ytimg.com/vi/SkM4k4SKvCM/hqdefault.jpg",
+      "publishedAt": "2026-08-10T03:15:10.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=SkM4k4SKvCM",
+      "captionFa": "در این ویدیو، مفهوم حافظه وضعیت ورودی یا Prompt Caching توضیح داده می‌شود و نحوه کاهش هزینه‌های مرتبط با استفاده از ایجنت‌های هوش مصنوعی بررسی می‌شود. تکنیک‌های مختلفی برای بهینه‌سازی استفاده از این ایجنت‌ها و صرفه‌جویی در هزینه‌ها ارائه می‌شود.",
+      "captionEn": "This video explains the concept of Prompt Caching and how to avoid overpaying for AI agents. It discusses various techniques for optimizing the use of these agents and offers cost-saving strategies.",
+      "category": "ai",
+      "processedAt": "2026-08-10T09:18:23.209Z"
+    },
+    {
+      "id": "eAYaLTDZaLE",
+      "title": "The Most Human Humanoid Robots at China's Biggest Robot Expo",
+      "titleFa": "انسان‌نماهای شگفت‌انگیز در بزرگ‌ترین نمایشگاه ربات‌های چین",
+      "channelName": "PRO ROBOTS",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eAYaLTDZaLE/hqdefault.jpg",
+      "publishedAt": "2026-08-10T00:08:28.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=eAYaLTDZaLE",
+      "captionFa": "این ویدیو نگاهی به ربات‌های انسان‌نمای پیشرفته‌ای دارد که در بزرگ‌ترین نمایشگاه رباتیک چین به نمایش گذاشته شده‌اند. با بررسی طراحی‌ها و قابلیت‌های این ربات‌ها، درک بهتری از پیشرفت‌های تکنولوژیکی در این زمینه به دست می‌آوریم.",
+      "captionEn": "This video showcases the most advanced humanoid robots presented at China's largest robotics expo. It explores their designs and capabilities, providing insights into technological advancements in this field.",
+      "category": "robotics",
+      "processedAt": "2026-08-10T09:18:34.971Z"
+    },
     {
       "id": "xZgKHwfkq-c",
       "title": "Bitdefender Family Plans | Core security features fully reviewed!",
@@ -2680,32 +2719,6 @@
       "processedAt": "2026-07-27T19:23:06.792Z"
     },
     {
-      "id": "C62OihR6JAw",
-      "title": "Inside RoboParty's humanoid durability testing",
-      "titleFa": "آزمایش مقاومتی ربات انسان‌نمای RoboParty",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/C62OihR6JAw/hqdefault.jpg",
-      "publishedAt": "2026-07-27T12:00:22.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/C62OihR6JAw",
-      "captionFa": "در این ویدیو، آزمایش‌های مقاومتی ربات انسان‌نمای RoboParty بررسی می‌شوند. این آزمایش‌ها به منظور ارزیابی دوام و عملکرد ربات در شرایط مختلف انجام می‌شوند.",
-      "captionEn": "This video examines the durability testing processes that RoboParty's humanoid robot undergoes to assess its performance and resilience in various conditions.",
-      "category": "robotics",
-      "processedAt": "2026-07-27T19:23:10.130Z"
-    },
-    {
-      "id": "fWZylhIHF9w",
-      "title": "What Is an AI IDE? How AI Is Changing Developer & Coding Tools",
-      "titleFa": "IDE هوش مصنوعی چیست؟ چطور هوش مصنوعی ابزارهای توسعه‌دهنده و کدنویسی را تغییر می‌دهد",
-      "channelName": "IBM Technology",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fWZylhIHF9w/hqdefault.jpg",
-      "publishedAt": "2026-07-27T11:00:04.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fWZylhIHF9w",
-      "captionFa": "این ویدیو به بررسی مفهوم IDE هوش مصنوعی و تأثیر آن بر ابزارهای توسعه و کدنویسی می‌پردازد. همچنین نحوه تغییر الگوهای کار برنامه‌نویسان و بهینه‌سازی فرایندهای کدنویسی توسط هوش مصنوعی را توضیح می‌دهد.",
-      "captionEn": "The video explores the concept of AI IDEs and how they are changing developer tools and coding practices. It discusses the influence of AI on programming workflows and the optimization of coding processes.",
-      "category": "ai",
-      "processedAt": "2026-07-27T19:22:43.509Z"
-    },
-    {
       "id": "-P2dN1GSKz0",
       "title": "PiZZa - Turn a Raspberry Pi into a High-Performance Microcontroller",
       "titleFa": "PiZZa - تبدیل Raspberry Pi به یک میکروکنترلر با کارایی بالا",
@@ -2847,19 +2860,6 @@
       "captionEn": "This video explores real-time interactions between robots and their environments, demonstrating how multimodal methods can be used for whole-body mobile manipulation. Advanced techniques allow robots to operate effectively in diverse conditions.",
       "category": "robotics",
       "processedAt": "2026-07-24T21:00:08.798Z"
-    },
-    {
-      "id": "gkzxgJH2Wzc",
-      "title": "Why Chinese Humanoids Are Already Working in Japan",
-      "titleFa": "چرا ربات‌های انسان‌نما چینی در ژاپن مشغول به کار هستند",
-      "channelName": "PRO ROBOTS",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gkzxgJH2Wzc/hqdefault.jpg",
-      "publishedAt": "2026-07-19T18:35:51.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=gkzxgJH2Wzc",
-      "captionFa": "این ویدیو به بررسی دلایل موفقیت ربات‌های انسان‌نما چینی در بازار کار ژاپن می‌پردازد. همچنین تأثیر این فناوری بر صنعت و بازار کار را تحلیل می‌کند.",
-      "captionEn": "This video explores the reasons behind the success of Chinese humanoid robots in the Japanese job market. It also analyzes the impact of this technology on the industry and labor market.",
-      "category": "robotics",
-      "processedAt": "2026-07-19T22:49:41.772Z"
     },
     {
       "id": "GRbokvmv-2M",
