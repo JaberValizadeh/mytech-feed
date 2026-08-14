@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-08-13T20:40:01.808Z",
+  "generatedAt": "2026-08-14T09:07:35.598Z",
   "videos": [
+    {
+      "id": "QnGNF8k_uoc",
+      "title": "Claude AI Failed 650 Times…Then Beat The Human Record",
+      "titleFa": "هوش مصنوعی Claude 650 بار شکست خورد... سپس رکورد انسانی را شکست",
+      "channelName": "Two Minute Papers",
+      "thumbnailUrl": "https://i.ytimg.com/vi/QnGNF8k_uoc/hqdefault.jpg",
+      "publishedAt": "2026-08-14T08:42:07.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=QnGNF8k_uoc",
+      "captionFa": "در این ویدیو به بررسی اینکه چگونه هوش مصنوعی Claude در ابتدا بیش از 650 بار شکست خورد، می‌پردازیم و در ادامه موفقیت‌های آن در شکستن رکوردهای انسانی را بررسی می‌کنیم. این تحولات می‌تواند به تحولات آتی در زمینه هوش مصنوعی و توانمندی‌های آن اشاره کند.",
+      "captionEn": "This video discusses how Claude AI initially failed over 650 times, and then eventually succeeded in beating human records. It highlights the developments in AI capabilities and the potential future implications of these advancements.",
+      "category": "ai",
+      "processedAt": "2026-08-14T09:06:58.547Z"
+    },
+    {
+      "id": "c7vM4zRgqUc",
+      "title": "Kansas banned phones at school, but the logistics of enforcement brought a massive price tag",
+      "titleFa": "کانزاس استفاده از تلفن همراه در مدارس را ممنوع کرد، اما هزینه‌های اجرایی این تصمیم بسیار بالا بود",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/c7vM4zRgqUc/hqdefault.jpg",
+      "publishedAt": "2026-08-14T06:00:55.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/c7vM4zRgqUc",
+      "captionFa": "کانزاس تصمیم به ممنوعیت استفاده از تلفن همراه در مدارس گرفت، اما اجرای این قانون هزینه‌های زیادی را به همراه داشت. در این ویدیو، به ابعاد هزینه‌زا و چالش‌های اجرایی این تصمیم پرداخته می‌شود.",
+      "captionEn": "Kansas has decided to ban phone use in schools, but enforcing this law has come with substantial costs. This video explores the financial implications and logistical challenges of implementing this decision.",
+      "category": "general",
+      "processedAt": "2026-08-14T09:07:35.592Z"
+    },
+    {
+      "id": "lrH3WRSOd5g",
+      "title": "Auto infographic AMS Survey",
+      "titleFa": "اینفوگرافیک خودکار نظرسنجی AMS",
+      "channelName": "ABB Robotics",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lrH3WRSOd5g/hqdefault.jpg",
+      "publishedAt": "2026-08-14T02:30:25.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/lrH3WRSOd5g",
+      "captionFa": "در این ویدیو، فرآیند نظرسنجی AMS به طور خودکار و به صورت بصری به نمایش گذاشته می‌شود. این ابزار به شرکت‌ها کمک می‌کند تا به طور مؤثرتری داده‌ها را جمع‌آوری و تحلیل کنند.",
+      "captionEn": "This video showcases the automated AMS survey process visually. It helps companies collect and analyze data more effectively.",
+      "category": "robotics",
+      "processedAt": "2026-08-14T09:07:19.665Z"
+    },
+    {
+      "id": "VB39bHByHuU",
+      "title": "Grok 4.6 is Fable now",
+      "titleFa": "Grok 4.6 حالا Fable است",
+      "channelName": "Wes Roth",
+      "thumbnailUrl": "https://i.ytimg.com/vi/VB39bHByHuU/hqdefault.jpg",
+      "publishedAt": "2026-08-13T23:12:13.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=VB39bHByHuU",
+      "captionFa": "در این ویدیو به معرفی نسخه 4.6 نرم‌افزار Grok و ویژگی‌های جدید آن پرداخته می‌شود. این نسخه به طور قابل توجهی از قابلیت‌های قبلی خود ارتقاء یافته و به یک ابزار داستان‌سرایی تبدیل شده است.",
+      "captionEn": "This video introduces version 4.6 of the Grok software and its new features. This version has significantly upgraded from its previous capabilities and has become a storytelling tool.",
+      "category": "ai",
+      "processedAt": "2026-08-14T09:07:05.374Z"
+    },
     {
       "id": "4TXpQnqLvLE",
       "title": "How to Get Hired in DevOps WITHOUT a Tech Degree 💼🔥",
@@ -2626,58 +2678,6 @@
       "captionEn": "In this video, Linus discusses the need for a workshop in the tech house and talks about the equipment that might be necessary for future projects. He emphasizes the importance of having a suitable space for technical work and experiments.",
       "category": "hardware",
       "processedAt": "2026-07-31T10:36:24.146Z"
-    },
-    {
-      "id": "AAm5E3ZhXnE",
-      "title": "Build Bigger Than ‘Back to School’ With Jetson AGX Thor",
-      "titleFa": "ساخت چیزی بزرگ‌تر از 'به مدرسه برگشتن' با Jetson AGX Thor",
-      "channelName": "NVIDIA Developer",
-      "thumbnailUrl": "https://i.ytimg.com/vi/AAm5E3ZhXnE/hqdefault.jpg",
-      "publishedAt": "2026-07-30T16:59:52.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/AAm5E3ZhXnE",
-      "captionFa": "این ویدیو به ارائه قابلیت‌ها و امکانات Jetson AGX Thor می‌پردازد که می‌تواند پروژه‌های هوش مصنوعی بزرگ و پیچیده‌ای را به واقعیت تبدیل کند. علاوه بر این، به ویژگی‌های منحصربه‌فرد این سخت‌افزار در زمینه یادگیری ماشین و پردازش داده‌ها اشاره می‌شود.",
-      "captionEn": "This video showcases the capabilities of Jetson AGX Thor, which can turn large and complex AI projects into reality. It also highlights the unique features of this hardware in machine learning and data processing.",
-      "category": "ai",
-      "processedAt": "2026-07-31T10:36:21.343Z"
-    },
-    {
-      "id": "Q60VNdtyiAA",
-      "title": "The Most Capable Humanoid Robot Yet!",
-      "titleFa": "مستعدترین ربات انسان‌نما تا کنون!",
-      "channelName": "Matt Wolfe",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Q60VNdtyiAA/hqdefault.jpg",
-      "publishedAt": "2026-07-30T16:03:52.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/Q60VNdtyiAA",
-      "captionFa": "در این ویدیو، پیشرفت‌ها و قابلیت‌های جدیدترین ربات انسان‌نما مورد بررسی قرار گرفته است. این ربات با توانایی‌های بالای خود می‌تواند در زمینه‌های مختلفی مانند امدادرسانی و خدمات انسانی فعالیت کند.",
-      "captionEn": "This video explores the advancements and capabilities of the latest humanoid robot. With its high-level abilities, this robot can operate in various areas such as emergency assistance and human services.",
-      "category": "robotics",
-      "processedAt": "2026-07-31T10:36:03.383Z"
-    },
-    {
-      "id": "QzE9EFyelws",
-      "title": "Why DevOps Engineers are ACTUALLY getting hired in 2026 🚨",
-      "titleFa": "چرا مهندسان DevOps در سال ۲۰۲۶ واقعاً استخدام می‌شوند؟ 🚨",
-      "channelName": "TechWorld with Nana",
-      "thumbnailUrl": "https://i.ytimg.com/vi/QzE9EFyelws/hqdefault.jpg",
-      "publishedAt": "2026-07-30T16:00:17.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/QzE9EFyelws",
-      "captionFa": "این ویدیو به بررسی دلایل افزایش تقاضا برای مهندسان DevOps در سال ۲۰۲۶ می‌پردازد. با توجه به روندهای جدید در صنعت فناوری، نقش این مهندسان در بهبود فرایندهای توسعه و عملیات شرکت‌ها بسیار حیاتی است.",
-      "captionEn": "This video explores the reasons behind the increasing demand for DevOps engineers in 2026. It highlights the emerging trends in the tech industry that make their role critical in enhancing development and operational processes for companies.",
-      "category": "software",
-      "processedAt": "2026-07-31T10:36:25.715Z"
-    },
-    {
-      "id": "q-jEw0nAcM0",
-      "title": "Newest addition to my lab 😏 #cnc #3Ddesign #engineering",
-      "titleFa": "جدیدترین افزوده به آزمایشگاهم 😏 #cnc #طراحی_سه‌بعدی #مهندسی",
-      "channelName": "Hacksmith Industries",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q-jEw0nAcM0/hqdefault.jpg",
-      "publishedAt": "2026-07-30T15:08:25.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/q-jEw0nAcM0",
-      "captionFa": "در این ویدیو، سازنده به معرفی جدیدترین ابزار و تجهیزاتی که به آزمایشگاه خود اضافه کرده، می‌پردازد. او به جزئیات طراحی و ساخت این تجهیزات جدید اشاره کرده و تجربیات خود را در این زمینه به اشتراک می‌گذارد.",
-      "captionEn": "In this video, the creator showcases the latest tools and equipment added to their lab. They discuss the design and engineering aspects of these new additions and share their experiences in the process.",
-      "category": "general",
-      "processedAt": "2026-07-31T10:36:23.742Z"
     },
     {
       "id": "tJMqVauWsjk",
