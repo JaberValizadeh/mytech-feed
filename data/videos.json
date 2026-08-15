@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-08-14T22:20:02.351Z",
+  "generatedAt": "2026-08-15T12:28:26.016Z",
   "videos": [
+    {
+      "id": "qU3tC-dSQrA",
+      "title": "The Cobot Automation Summit 2026",
+      "titleFa": "اجلاس خودکارسازی کوبات ۲۰۲۶",
+      "channelName": "ABB Robotics",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qU3tC-dSQrA/hqdefault.jpg",
+      "publishedAt": "2026-08-15T06:00:39.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/qU3tC-dSQrA",
+      "captionFa": "در این ویدیو به بررسی اجلاسی در مورد ربات‌های کوبات و اتوماسیون می‌پردازیم. کارشناسان و تولیدکنندگان در مورد پیشرفت‌ها و چالش‌های موجود در این صنعت به بحث و تبادل نظر می‌پردازند.",
+      "captionEn": "This video covers a summit focused on cobots and automation. Experts and manufacturers discuss advancements and challenges in the industry.",
+      "category": "robotics",
+      "processedAt": "2026-08-15T12:28:14.259Z"
+    },
+    {
+      "id": "udW0flUXncs",
+      "title": "Are these workers training their own replacements?",
+      "titleFa": "آیا این کارگران در حال آموزش جایگزین‌های خود هستند؟",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/udW0flUXncs/hqdefault.jpg",
+      "publishedAt": "2026-08-15T05:00:21.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/udW0flUXncs",
+      "captionFa": "در این ویدیو به بررسی این موضوع پرداخته می‌شود که آیا کارگران در حال آموزش دادن به روبات‌ها و هوش مصنوعی به جای خود هستند. همچنین تأثیرات این فرایند بر روی بازار کار و آینده شغلی افراد مورد بررسی قرار می‌گیرد.",
+      "captionEn": "The video discusses whether workers are training robots and AI to replace themselves in the workforce. It also explores the implications of this trend on job markets and the future of employment.",
+      "category": "robotics",
+      "processedAt": "2026-08-15T12:28:26.012Z"
+    },
+    {
+      "id": "Y1SPfy9p_oE",
+      "title": "AMD Just Released the 2nm AI Chip NVIDIA Can’t Match",
+      "titleFa": "AMD به تازگی چیپ AI 2 نانومتری را معرفی کرد که NVIDIA قادر به رقابت با آن نیست",
+      "channelName": "PRO ROBOTS",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Y1SPfy9p_oE/hqdefault.jpg",
+      "publishedAt": "2026-08-15T01:09:08.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Y1SPfy9p_oE",
+      "captionFa": "این ویدیو به معرفی جدیدترین چیپ ۲ نانومتری AMD می‌پردازد که در دنیای هوش مصنوعی انقلابی ایجاد خواهد کرد. این پردازنده به لطف فناوری پیشرفته‌اش، عملکردی فراتر از رقبای خود، به‌ویژه NVIDIA، ارائه می‌دهد.",
+      "captionEn": "This video introduces AMD's latest 2nm AI chip, which is set to revolutionize the artificial intelligence sector. Its advanced technology promises performance beyond its competitors, especially NVIDIA.",
+      "category": "robotics",
+      "processedAt": "2026-08-15T12:28:13.983Z"
+    },
+    {
+      "id": "aszRSGI_Iwg",
+      "title": "3 New Ways To Use ChatGPT Codex",
+      "titleFa": "۳ روش جدید برای استفاده از ChatGPT Codex",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aszRSGI_Iwg/hqdefault.jpg",
+      "publishedAt": "2026-08-15T00:47:28.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/aszRSGI_Iwg",
+      "captionFa": "در این ویدیو، به بررسی سه روش نوین برای استفاده از ChatGPT Codex می‌پردازیم. این روش‌ها به کاربران کمک می‌کند تا از قابلیت‌های پیشرفته این ابزار بهره‌برداری بیشتری داشته باشند.",
+      "captionEn": "This video explores three innovative ways to utilize ChatGPT Codex. These methods help users take greater advantage of the advanced features of this tool.",
+      "category": "ai",
+      "processedAt": "2026-08-15T12:28:00.565Z"
+    },
+    {
+      "id": "Iz-9ISLo1Pg",
+      "title": "Firefox Will Save Us",
+      "titleFa": "فایرفاکس ما را نجات خواهد داد",
+      "channelName": "TechLinked",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Iz-9ISLo1Pg/hqdefault.jpg",
+      "publishedAt": "2026-08-15T00:44:59.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Iz-9ISLo1Pg",
+      "captionFa": "در این ویدیو به بررسی مزایای مرورگر فایرفاکس و نقش آن در حفاظت از اطلاعات کاربران پرداخته شده است. همچنین ویژگی‌های جدید این مرورگر و تأثیر آن بر تجربه کاربری به تفصیل شرح داده می‌شود.",
+      "captionEn": "This video explores the benefits of the Firefox browser and its role in protecting user data. It also details new features of the browser and their impact on user experience.",
+      "category": "general",
+      "processedAt": "2026-08-15T12:28:25.694Z"
+    },
     {
       "id": "w8Wz_neRPSg",
       "title": "ABB Robotics Value Provider Conference Americas",
@@ -2641,58 +2706,6 @@
       "processedAt": "2026-07-31T22:57:51.684Z"
     },
     {
-      "id": "qXp5NHz0KSo",
-      "title": "How To Skip The Kimi K3 Waitlist",
-      "titleFa": "چگونه از لیست انتظار Kimi K3 عبور کنیم",
-      "channelName": "Matt Wolfe",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qXp5NHz0KSo/hqdefault.jpg",
-      "publishedAt": "2026-07-31T14:59:36.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/qXp5NHz0KSo",
-      "captionFa": "در این ویدیو نحوه عبور از لیست انتظار Kimi K3 توضیح داده می‌شود. بینندگان می‌توانند با رعایت نکات گفته شده، به راحتی به این فناوری دسترسی پیدا کنند.",
-      "captionEn": "This video explains how to bypass the waitlist for Kimi K3. Viewers can follow the tips provided to easily access this technology.",
-      "category": "ai",
-      "processedAt": "2026-08-01T11:14:42.698Z"
-    },
-    {
-      "id": "sUmx-Yi6TwE",
-      "title": "AI News: Opus 5, the Slack Killer & Google Earth AI",
-      "titleFa": "اخبار هوش مصنوعی: Opus 5، قاتل Slack و هوش مصنوعی Google Earth",
-      "channelName": "Matt Wolfe",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sUmx-Yi6TwE/hqdefault.jpg",
-      "publishedAt": "2026-07-31T14:30:14.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=sUmx-Yi6TwE",
-      "captionFa": "در این ویدیو به بررسی جدیدترین اخبار در زمینه هوش مصنوعی پرداخته می‌شود. شامل معرفی Opus 5 که به عنوان قاتل Slack شناخته می‌شود و همچنین توسعه‌های جدید در هوش مصنوعی Google Earth است.",
-      "captionEn": "This video covers the latest updates in AI, including the introduction of Opus 5, dubbed as the Slack killer, and new advancements in Google Earth AI.",
-      "category": "ai",
-      "processedAt": "2026-07-31T22:57:27.945Z"
-    },
-    {
-      "id": "4EjahA798f0",
-      "title": "Star Trek Filming Sets Recreated in Miniature Dioramas!",
-      "titleFa": "بازسازی لوکیشن‌های فیلم‌برداری Star Trek در دیوراماهای مینیاتوری!",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4EjahA798f0/hqdefault.jpg",
-      "publishedAt": "2026-07-31T14:00:36.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=4EjahA798f0",
-      "captionFa": "در این ویدیو، آدم ساوانی و تیمش به بازسازی صحنه‌های معروف Star Trek در اندازه مینیاتوری می‌پردازند. این پروژه جالب نشان‌دهنده دقت و خلاقیت سازندگان است و بینندگان را به دنیای علمی تخیلی می‌برد.",
-      "captionEn": "In this video, Adam Savage and his team recreate famous Star Trek filming sets in miniature dioramas. This fascinating project showcases the skill and creativity of the builders while transporting viewers into the sci-fi world.",
-      "category": "general",
-      "processedAt": "2026-07-31T22:57:47.699Z"
-    },
-    {
-      "id": "4Odm4qqF1Vw",
-      "title": "The BEST Website Builder in 2026 | Hostinger vs Squarespace vs Bluehost",
-      "titleFa": "بهترین سازنده وب‌سایت در سال 2026 | مقایسه Hostinger با Squarespace و Bluehost",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/4Odm4qqF1Vw/hqdefault.jpg",
-      "publishedAt": "2026-07-31T14:00:00.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=4Odm4qqF1Vw",
-      "captionFa": "این ویدیو به مقایسه سه سازنده وب‌سایت معتبر در سال 2026، یعنی Hostinger، Squarespace و Bluehost می‌پردازد. تماشاگران با ویژگی‌ها و امکانات هر کدام آشنا شده و می‌توانند تصمیم بهتری برای ساخت وب‌سایت خود اتخاذ کنند.",
-      "captionEn": "This video compares three popular website builders in 2026, namely Hostinger, Squarespace, and Bluehost. Viewers will learn about the features and capabilities of each platform to make a better decision for building their website.",
-      "category": "general",
-      "processedAt": "2026-07-31T22:57:52.844Z"
-    },
-    {
       "id": "tJMqVauWsjk",
       "title": "ITS, Eliza & MiT's AI Lab - Computerphile",
       "titleFa": "هوش مصنوعی ITS، الیزا و آزمایشگاه MIT - Computerphile",
@@ -2756,19 +2769,6 @@
       "captionEn": "This video explores new methods for developing smarter voice agents. It discusses key insights in designing intelligent features to enhance interaction and accuracy of these agents.",
       "category": "ai",
       "processedAt": "2026-07-29T02:03:39.959Z"
-    },
-    {
-      "id": "q5A31ChRdII",
-      "title": "WAIC 2026 - Work Robot Exhibition in China",
-      "titleFa": "نمایشگاه ربات‌های کاری در چین - WAIC 2026",
-      "channelName": "PRO ROBOTS",
-      "thumbnailUrl": "https://i.ytimg.com/vi/q5A31ChRdII/hqdefault.jpg",
-      "publishedAt": "2026-07-28T15:46:57.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=q5A31ChRdII",
-      "captionFa": "این ویدیو به بررسی نمایشگاه ربات‌های کاری در چین در سال 2026 می‌پردازد. در این نمایشگاه آخرین نوآوری‌ها و فناوری‌های رباتیک به نمایش گذاشته می‌شود که هدف آن بهبود کارایی در صنایع مختلف است.",
-      "captionEn": "This video covers the WAIC 2026 Work Robot Exhibition in China, showcasing the latest innovations and robotic technologies aimed at improving efficiency across various industries.",
-      "category": "robotics",
-      "processedAt": "2026-07-29T02:03:50.166Z"
     },
     {
       "id": "-P2dN1GSKz0",
