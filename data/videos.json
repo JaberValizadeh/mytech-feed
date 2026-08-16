@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-08-15T12:28:26.016Z",
+  "generatedAt": "2026-08-16T00:58:40.077Z",
   "videos": [
+    {
+      "id": "ea3EvwkW_28",
+      "title": "Legends Never Die",
+      "titleFa": "افسانه‌ها هرگز نمی‌میرند",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ea3EvwkW_28/hqdefault.jpg",
+      "publishedAt": "2026-08-15T17:00:34.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ea3EvwkW_28",
+      "captionFa": "این ویدیو به معرفی و بررسی محصولاتی می‌پردازد که جزو بهترین‌های تاریخ فناوری محسوب می‌شوند. همچنین، به تأثیر این محصولات بر زندگی روزمره و دنیای فناوری اشاره می‌شود.",
+      "captionEn": "This video highlights iconic products in tech history that have left a lasting impact. It discusses how these products have influenced everyday life and the tech world.",
+      "category": "hardware",
+      "processedAt": "2026-08-16T00:58:34.141Z"
+    },
+    {
+      "id": "tsem-MKT9F0",
+      "title": "What We've Never Noticed about The Fifth Element's MultiPass",
+      "titleFa": "آنچه هرگز در مورد MultiPass فیلم Fifth Element متوجه نشده‌ایم",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/tsem-MKT9F0/hqdefault.jpg",
+      "publishedAt": "2026-08-15T14:00:24.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tsem-MKT9F0",
+      "captionFa": "در این ویدیو به بررسی جزئیات و نکات جالب توجه درباره MultiPass در فیلم Fifth Element پرداخته می‌شود.  این بررسی نکات خاصی را که ممکن است تا الان به آنها توجه نکرده باشید، روشن می‌کند.",
+      "captionEn": "This video explores the details and interesting aspects of the MultiPass from the film Fifth Element. It highlights specific points that you may not have noticed before.",
+      "category": "general",
+      "processedAt": "2026-08-16T00:58:34.700Z"
+    },
+    {
+      "id": "IvfdkZ6GnsA",
+      "title": "One Website builder to rule them ALL! | Hostinger website builder review",
+      "titleFa": "یک سازنده وب‌سایت برای سلطنت بر همه! | بررسی سازنده وب‌سایت Hostinger",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IvfdkZ6GnsA/hqdefault.jpg",
+      "publishedAt": "2026-08-15T14:00:24.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IvfdkZ6GnsA",
+      "captionFa": "این ویدیو به بررسی سازنده وب‌سایت Hostinger می‌پردازد که آیا واقعاً می‌تواند تمام نیازهای وب‌سایت‌سازی شما را برطرف کند. با امکانات و قابلیت‌های این ابزار، چگونگی طراحی و ساخت یک وب‌سایت آسان و کارآمد را کشف کنید.",
+      "captionEn": "This video reviews the Hostinger website builder to see if it truly can meet all your website-building needs. Discover how easy and efficient it is to design and create a website with this tool.",
+      "category": "general",
+      "processedAt": "2026-08-16T00:58:40.073Z"
+    },
+    {
+      "id": "ZePfpQ7lbcs",
+      "title": "Hank Green did nothing wrong",
+      "titleFa": "هناک گرین هیچ کار اشتباهی نکرد",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/ZePfpQ7lbcs/hqdefault.jpg",
+      "publishedAt": "2026-08-15T13:14:44.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/ZePfpQ7lbcs",
+      "captionFa": "در این ویدیو به بررسی واکنش‌ها و انتقاداتی که به هانک گرین وارد شده، پرداخته می‌شود. سازنده از دیدگاه خود دفاع می‌کند و به نقدها پاسخ می‌دهد.",
+      "captionEn": "This video discusses the reactions and criticisms directed at Hank Green. The creator defends him and addresses the critiques.",
+      "category": "general",
+      "processedAt": "2026-08-16T00:58:14.796Z"
+    },
+    {
+      "id": "UzIOjPZnaW4",
+      "title": "Automating #silicone application in window and insulated glass #manufacturing #shorts #robots #fanuc",
+      "titleFa": "اتوماسیون کاربرد سیلیکون در تولید شیشه‌های پنجره و عایق",
+      "channelName": "FANUC America",
+      "thumbnailUrl": "https://i.ytimg.com/vi/UzIOjPZnaW4/hqdefault.jpg",
+      "publishedAt": "2026-08-15T13:00:32.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/UzIOjPZnaW4",
+      "captionFa": "این ویدیو به بررسی اتوماسیون کاربرد سیلیکون در فرآیند تولید شیشه‌های پنجره و عایق می‌پردازد. با استفاده از ربات‌های FANUC، این فناوری به بهبود کارایی و دقت در مراحل تولید کمک می‌کند.",
+      "captionEn": "This video explores the automation of silicone application in the window and insulated glass manufacturing process. Using FANUC robots, this technology enhances efficiency and precision in production stages.",
+      "category": "robotics",
+      "processedAt": "2026-08-16T00:58:27.589Z"
+    },
     {
       "id": "qU3tC-dSQrA",
       "title": "The Cobot Automation Summit 2026",
@@ -2602,32 +2667,6 @@
       "processedAt": "2026-08-01T11:14:59.893Z"
     },
     {
-      "id": "fu5FVhBtcB4",
-      "title": "Dassault Systèmes Accelerates Simulation with NVIDIA AI & GPUs",
-      "titleFa": "شتاب‌گیری ش simulaٔ با NVIDIA AI و GPU ها در Dassault Systèmes",
-      "channelName": "NVIDIA Developer",
-      "thumbnailUrl": "https://i.ytimg.com/vi/fu5FVhBtcB4/hqdefault.jpg",
-      "publishedAt": "2026-07-31T21:07:01.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=fu5FVhBtcB4",
-      "captionFa": "این ویدیو به بررسی چگونگی به‌کارگیری هوش مصنوعی و GPU های NVIDIA در شتاب‌بخشی به شبیه‌سازی‌ها در شرکت Dassault Systèmes می‌پردازد. بهترین روش‌ها و تکنولوژی‌ها برای بهینه‌سازی شبیه‌سازی‌های پیچیده معرفی می‌شود.",
-      "captionEn": "The video explores how Dassault Systèmes utilizes NVIDIA AI and GPUs to accelerate simulations. It discusses best practices and technologies for optimizing complex simulations.",
-      "category": "ai",
-      "processedAt": "2026-07-31T22:57:45.080Z"
-    },
-    {
-      "id": "sHW1bWJUQcg",
-      "title": "How FX Artists Make #Zombie Puppets Look SO Real (and #Scary!)",
-      "titleFa": "چطور هنرمندان FX عروسک‌های زامبی را این‌قدر واقعی (و ترسناک) می‌سازند؟",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sHW1bWJUQcg/hqdefault.jpg",
-      "publishedAt": "2026-07-31T21:04:53.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/sHW1bWJUQcg",
-      "captionFa": "این ویدیو به بررسی شیوه‌های خلاقانه هنرمندان FX می‌پردازد که چگونه عروسک‌های زامبی را به گونه‌ای طراحی و اجرا می‌کنند که واقع‌گرایانه و ترسناک به نظر برسند. همچنین به ابزار و تکنیک‌هایی که در این فرایند به کار می‌رود، اشاره می‌شود.",
-      "captionEn": "This video explores the creative processes of FX artists in designing zombie puppets that appear both realistic and frightening. It also discusses the tools and techniques used in this process.",
-      "category": "general",
-      "processedAt": "2026-07-31T22:57:47.694Z"
-    },
-    {
       "id": "n1Qk8xbqF-M",
       "title": "How Researchers Test AI for Hidden Goals — Apollo Research",
       "titleFa": "چگونه محققان هوش مصنوعی را برای اهداف پنهان تست می‌کنند — تحقیق آپولو",
@@ -2654,32 +2693,6 @@
       "processedAt": "2026-07-31T22:57:31.294Z"
     },
     {
-      "id": "148_PxIQjZI",
-      "title": "Passkeys Stop Phishing Attacks🎣",
-      "titleFa": "کلیدهای عبور حملات فیشینگ را متوقف می‌کنند",
-      "channelName": "IBM Technology",
-      "thumbnailUrl": "https://i.ytimg.com/vi/148_PxIQjZI/hqdefault.jpg",
-      "publishedAt": "2026-07-31T16:00:22.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/148_PxIQjZI",
-      "captionFa": "این ویدیو به بررسی روش‌های استفاده از کلیدهای عبور برای جلوگیری از حملات فیشینگ می‌پردازد. همچنین توضیح می‌دهد که چگونه این فناوری می‌تواند امنیت بیشتری را برای کاربران فراهم آورد.",
-      "captionEn": "This video explores the use of passkeys to prevent phishing attacks. It explains how this technology can provide enhanced security for users.",
-      "category": "ai",
-      "processedAt": "2026-07-31T22:57:26.363Z"
-    },
-    {
-      "id": "bb0YRJWlyg4",
-      "title": "UV printing on a Smith Blade? @Morpho.Global #uvprinting #engineering",
-      "titleFa": "چاپ UV روی تیغه اسمیت؟",
-      "channelName": "Hacksmith Industries",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bb0YRJWlyg4/hqdefault.jpg",
-      "publishedAt": "2026-07-31T16:00:15.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/bb0YRJWlyg4",
-      "captionFa": "این ویدیو به بررسی فرآیند چاپ UV روی تیغه اسمیت می‌پردازد و نحوه اجرایی کردن این تکنیک مهندسی را نشان می‌دهد. همچنین، جزئیات و نکات فنی مربوط به این فرآیند معرفی می‌شود.",
-      "captionEn": "This video explores the UV printing process on a Smith Blade and demonstrates how to implement this engineering technique. It also discusses the technical details and tips related to the process.",
-      "category": "general",
-      "processedAt": "2026-07-31T22:57:47.143Z"
-    },
-    {
       "id": "cDKPbMaLTA4",
       "title": "Recreating ITS - Computerphile",
       "titleFa": "بازآفرینی ITS - Computerphile",
@@ -2691,19 +2704,6 @@
       "captionEn": "This video explores the process of recreating the ITS system, discussing the challenges and techniques involved. Throughout the video, the Computerphile team delves into the software trends and strategies needed to create this system.",
       "category": "software",
       "processedAt": "2026-07-31T22:57:49.625Z"
-    },
-    {
-      "id": "qKl27INAwCc",
-      "title": "SpotOn Nova Review 2026 | Is It the Best GPS Dog Fence?",
-      "titleFa": "بررسی SpotOn Nova 2026 | آیا بهترین حصار جی‌پی‌اس برای سگ‌هاست؟",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/qKl27INAwCc/hqdefault.jpg",
-      "publishedAt": "2026-07-31T15:00:09.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=qKl27INAwCc",
-      "captionFa": "در این ویدیو به بررسی و تحلیل حصار جی‌پی‌اس SpotOn Nova پرداخته می‌شود. نکات مثبت و منفی این دستگاه به‌عنوان بهترین گزینه برای نگهداری از سگ‌ها بررسی خواهد شد.",
-      "captionEn": "In this video, we review and analyze the SpotOn Nova GPS fence. The pros and cons of this device as a potential best option for dog containment will be discussed.",
-      "category": "general",
-      "processedAt": "2026-07-31T22:57:51.684Z"
     },
     {
       "id": "tJMqVauWsjk",
