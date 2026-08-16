@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-08-16T00:58:40.077Z",
+  "generatedAt": "2026-08-16T12:30:29.036Z",
   "videos": [
+    {
+      "id": "BHGTA6ZEls4",
+      "title": "5 Ways to Connect AI Agents to Tools: From APIs to MCP",
+      "titleFa": "۵ روش برای اتصال ایجنت‌های هوش مصنوعی به ابزارها: از APIها تا MCP",
+      "channelName": "IBM Technology",
+      "thumbnailUrl": "https://i.ytimg.com/vi/BHGTA6ZEls4/hqdefault.jpg",
+      "publishedAt": "2026-08-16T11:00:01.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=BHGTA6ZEls4",
+      "captionFa": "در این ویدیو به بررسی پنج روش مختلف برای اتصال ایجنت‌های هوش مصنوعی به ابزارهای مختلف پرداخته می‌شود. این روش‌ها شامل استفاده از APIها و MCP هستند و راهکارهایی را برای بهینه‌سازی عملکرد ایجنت‌ها ارائه می‌دهند.",
+      "captionEn": "This video explores five different methods for connecting AI agents to various tools. It includes the use of APIs and MCP, providing solutions to optimize agent performance.",
+      "category": "ai",
+      "processedAt": "2026-08-16T12:29:59.446Z"
+    },
+    {
+      "id": "Lu8gu74XImY",
+      "title": "Would you still visit your favorite coffee shop if you knew an AI was tracking you?",
+      "titleFa": "آیا هنوز هم به کافی‌شاپ محبوبتان می‌روید اگر بدانید که یک هوش مصنوعی شما را زیر نظر دارد؟",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Lu8gu74XImY/hqdefault.jpg",
+      "publishedAt": "2026-08-16T05:00:11.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/Lu8gu74XImY",
+      "captionFa": "این ویدیو به بررسی اثراتی می‌پردازد که نظارت اطلاعاتی هوش مصنوعی می‌تواند بر انتخاب‌های روزمره ما، مانند رفتن به کافی‌شاپ، داشته باشد. مخاطب با پرسش‌های چالشی مواجه می‌شود که آیا حریم شخصی در دنیای مدرن قابل حفظ است یا خیر.",
+      "captionEn": "The video explores the impact of AI tracking on our daily choices, like visiting a coffee shop, raising questions about privacy in the modern world. Viewers face challenging questions about whether personal privacy can be maintained in a data-driven society.",
+      "category": "ai",
+      "processedAt": "2026-08-16T12:30:29.032Z"
+    },
+    {
+      "id": "qZefjtkkvrY",
+      "title": "Anthropic just confirmed everyone's worst fear",
+      "titleFa": "انتشار تأییدیه‌ ای از طرف Anthropic که ترس همگان را تأیید کرد",
+      "channelName": "Wes Roth",
+      "thumbnailUrl": "https://i.ytimg.com/vi/qZefjtkkvrY/hqdefault.jpg",
+      "publishedAt": "2026-08-16T04:56:57.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=qZefjtkkvrY",
+      "captionFa": "در این ویدیو، به بررسی تأییدیه‌ جدیدی از طرف Anthropic پرداخته می‌شود که نشان‌دهنده نگران‌کننده‌ترین فرضیات در مورد هوش مصنوعی است. این تأییدیه می‌تواند تأثیر زیادی بر آینده فناوری‌های هوش مصنوعی داشته باشد.",
+      "captionEn": "In this video, the recent confirmation from Anthropic which supports people's worst fears about AI is discussed. This confirmation could have significant implications for the future of AI technologies.",
+      "category": "ai",
+      "processedAt": "2026-08-16T12:30:02.479Z"
+    },
     {
       "id": "ea3EvwkW_28",
       "title": "Legends Never Die",
@@ -2589,32 +2628,6 @@
       "processedAt": "2026-08-01T22:50:33.551Z"
     },
     {
-      "id": "yzvp3CBKYj8",
-      "title": "Automated engine cylinder liner palletizing and material handling system #shorts #automation #fanuc",
-      "titleFa": "سیستم خودکار جمع‌آوری و حمل‌ونقل سیلندرهای موتور",
-      "channelName": "FANUC America",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yzvp3CBKYj8/hqdefault.jpg",
-      "publishedAt": "2026-08-01T13:15:21.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/yzvp3CBKYj8",
-      "captionFa": "این ویدیو به معرفی یک سیستم خودکار برای جمع‌آوری و حمل‌ونقل سیلندرهای موتور می‌پردازد. با استفاده از فناوری‌های نوین، این سیستم می‌تواند به بهبود کارایی و سرعت در خطوط تولید کمک کند.",
-      "captionEn": "This video showcases an automated system for palletizing and material handling of engine cylinder liners. Utilizing advanced technologies, this system can enhance efficiency and speed in production lines.",
-      "category": "robotics",
-      "processedAt": "2026-08-01T22:50:44.189Z"
-    },
-    {
-      "id": "0jdeMmQKMlg",
-      "title": "\"Thing\" from The Addams Family is becoming a reality.",
-      "titleFa": "واقعی شدن \"Thing\" از خانواده آدامز",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/0jdeMmQKMlg/hqdefault.jpg",
-      "publishedAt": "2026-08-01T05:00:32.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/0jdeMmQKMlg",
-      "captionFa": "در این ویدیو به بررسی این موضوع پرداخته می‌شود که چطور شخصیت \"Thing\" از خانواده آدامز به یک فناوری واقعی تبدیل می‌شود. توسعه‌دهندگان در حال کار بر روی ربات‌هایی هستند که ممکن است شبیه به این شخصیت معروف باشند.",
-      "captionEn": "This video explores how the character \"Thing\" from The Addams Family is turning into a real technology. Developers are working on robots that could resemble this iconic character.",
-      "category": "robotics",
-      "processedAt": "2026-08-01T11:15:03.123Z"
-    },
-    {
       "id": "OX1yHmeLPy8",
       "title": "The Kurzgesagt Situation is Insane",
       "titleFa": "وضعیت Kurzgesagt دیوانه‌کننده است",
@@ -2626,19 +2639,6 @@
       "captionEn": "This video explores the unique and complex situation surrounding the Kurzgesagt channel. It discusses the challenges and impacts that this channel's content has on the scientific community and the engagement it has fostered.",
       "category": "science",
       "processedAt": "2026-08-01T11:14:58.323Z"
-    },
-    {
-      "id": "3yiSb7gJYmU",
-      "title": "“Seems Like AI Slop”",
-      "titleFa": "به نظر می‌رسد هوش مصنوعی بی‌هدف است",
-      "channelName": "TechLinked",
-      "thumbnailUrl": "https://i.ytimg.com/vi/3yiSb7gJYmU/hqdefault.jpg",
-      "publishedAt": "2026-08-01T01:50:28.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=3yiSb7gJYmU",
-      "captionFa": "در این ویدیو به بررسی چالش‌ها و مشکلات فعلی هوش مصنوعی پرداخته می‌شود. به نظر می‌رسد که بسیاری از کاربردهای هوش مصنوعی هنوز به بلوغ کافی نرسیده‌اند و ممکن است نتایج غیرمنتظره‌ای ارائه دهند.",
-      "captionEn": "This video discusses the current challenges and issues surrounding artificial intelligence. Many AI applications appear to be underdeveloped and may yield unexpected results.",
-      "category": "ai",
-      "processedAt": "2026-08-01T11:15:03.191Z"
     },
     {
       "id": "40pRi5wMBwA",
