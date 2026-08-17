@@ -1,6 +1,123 @@
 {
-  "generatedAt": "2026-08-17T04:38:23.338Z",
+  "generatedAt": "2026-08-17T16:26:23.807Z",
   "videos": [
+    {
+      "id": "pg7fntKLNak",
+      "title": "Quantum Simulation & Nature - Computerphile",
+      "titleFa": "شبیه‌سازی کوانتومی و طبیعت - Computerphile",
+      "channelName": "Computerphile",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pg7fntKLNak/hqdefault.jpg",
+      "publishedAt": "2026-08-17T15:18:03.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pg7fntKLNak",
+      "captionFa": "در این ویدیو به بررسی شبیه‌سازی کوانتومی و چگونگی ارتباط آن با طبیعت می‌پردازیم. توضیحات در مورد نحوه استفاده از شبیه‌سازی‌های کوانتومی در فهم بهتر پدیده‌های طبیعی و تحلیل داده‌های علمی ارائه می‌شود.",
+      "captionEn": "This video discusses quantum simulation and its relationship with nature. It covers how quantum simulations can enhance our understanding of natural phenomena and aid in scientific data analysis.",
+      "category": "science",
+      "processedAt": "2026-08-17T16:26:17.549Z"
+    },
+    {
+      "id": "J1WoNuemKOg",
+      "title": "Total Solar Eclipse From Space",
+      "titleFa": "خورشیدگرفتگی کامل از فضا",
+      "channelName": "Veritasium",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J1WoNuemKOg/hqdefault.jpg",
+      "publishedAt": "2026-08-17T14:30:16.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J1WoNuemKOg",
+      "captionFa": "در این ویدیو، مشاهده‌ای بی‌نظیر از خورشیدگرفتگی کامل از منظر فضا ارائه شده است. این پدیده شگفت‌انگیز نه تنها جذابیت‌های علمی دارد، بلکه همچنین زیبایی خیره‌کننده‌ای به تصویر می‌کشد.",
+      "captionEn": "This video provides a stunning view of a total solar eclipse from the perspective of space. This remarkable phenomenon not only holds scientific significance but also showcases breathtaking beauty.",
+      "category": "science",
+      "processedAt": "2026-08-17T16:26:21.073Z"
+    },
+    {
+      "id": "Rzp9LEks0mY",
+      "title": "Adam Savage Stunned by the Mechanics of these Bird Puppets!",
+      "titleFa": "آدام ساویج از مکانیک این عروسک‌های پرنده شگفت‌زده شد!",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/Rzp9LEks0mY/hqdefault.jpg",
+      "publishedAt": "2026-08-17T14:00:34.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Rzp9LEks0mY",
+      "captionFa": "در این ویدیو، آدام ساویج با مکانیک‌های جالب و خلاقانه عروسک‌های پرنده آشنا می‌شود. او به بررسی جزئیات و نحوه کار این عروسک‌ها می‌پردازد و از تکنیک‌های هنری و مکانیسم‌های جالب آنها شگفت‌زده می‌شود.",
+      "captionEn": "In this video, Adam Savage explores the fascinating mechanics of bird puppets. He delves into the details and workings of these puppets, amazed by their artistic techniques and interesting mechanisms.",
+      "category": "general",
+      "processedAt": "2026-08-17T16:26:15.908Z"
+    },
+    {
+      "id": "lzwxQGFqb-Q",
+      "title": "Hostinger coupon code | Grab the biggest Hostinger discount there is!",
+      "titleFa": "کد تخفیف Hostinger | بزرگ‌ترین تخفیف Hostinger را بگیرید!",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lzwxQGFqb-Q/hqdefault.jpg",
+      "publishedAt": "2026-08-17T13:49:26.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lzwxQGFqb-Q",
+      "captionFa": "در این ویدیو، کد تخفیف ویژه Hostinger معرفی شده است که کاربران می‌توانند از آن برای خرید خدمات وب‌ هاستینگ استفاده کنند. با استفاده از این کد، شما می‌توانید از تخفیفات ویژه این سرویس بهره‌مند شوید.",
+      "captionEn": "This video introduces a special discount code for Hostinger, allowing users to save on web hosting services. Viewers can take advantage of the highlighted savings with the provided code.",
+      "category": "general",
+      "processedAt": "2026-08-17T16:26:23.801Z"
+    },
+    {
+      "id": "9ZKeu_7k9ik",
+      "title": "Why AI Models Keep \"Breaking Containment\"",
+      "titleFa": "چرا مدل‌های هوش مصنوعی دائماً \"محدودیت‌ها را می‌شکنند\"",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9ZKeu_7k9ik/hqdefault.jpg",
+      "publishedAt": "2026-08-17T13:18:26.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/9ZKeu_7k9ik",
+      "captionFa": "در این ویدیو به بررسی دلایل بروز مشکلات در مدل‌های هوش مصنوعی پرداخته می‌شود. مدل‌های AI به طور مکرر از کنترل خارج می‌شوند و این موضوع چالش‌های جدی برای توسعه‌دهندگان ایجاد می‌کند.",
+      "captionEn": "This video explores the reasons behind why AI models frequently break containment. It discusses the challenges this poses for developers in maintaining control over AI systems.",
+      "category": "ai",
+      "processedAt": "2026-08-17T16:25:53.829Z"
+    },
+    {
+      "id": "KHrV5ecipLw",
+      "title": "Meet the new patrol robot recently deployed at the Shanghai Hongqiao Railway Station in China",
+      "titleFa": "آشنایی با ربات گشت‌زن جدید که به تازگی در ایستگاه راه‌آهن هنگ‌کنگو در شانگهای چین به کار گرفته شده است",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/KHrV5ecipLw/hqdefault.jpg",
+      "publishedAt": "2026-08-17T13:00:31.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/KHrV5ecipLw",
+      "captionFa": "در این ویدیو، به بررسی ربات گشت‌زنی جدیدی پرداخته می‌شود که به تازگی در ایستگاه راه‌آهن هنگ‌کنگو در شانگهای چین مستقر شده است. این ربات به منظور افزایش امنیت و نظارت در ایستگاه‌ها طراحی شده و قابلیت‌هایی مانند شناسایی افراد و جمع‌آوری اطلاعات را دارد.",
+      "captionEn": "This video showcases the new patrol robot deployed at the Hongqiao Railway Station in Shanghai, China. The robot is designed to enhance security and monitoring, equipped with abilities like identifying individuals and collecting data.",
+      "category": "robotics",
+      "processedAt": "2026-08-17T16:26:23.337Z"
+    },
+    {
+      "id": "J0zbWsutyA8",
+      "title": "What Is RAD? Why It Matters in the Age of AI Coding",
+      "titleFa": "RAD چیست؟ چرا در عصر کدنویسی هوش مصنوعی مهم است؟",
+      "channelName": "IBM Technology",
+      "thumbnailUrl": "https://i.ytimg.com/vi/J0zbWsutyA8/hqdefault.jpg",
+      "publishedAt": "2026-08-17T11:00:14.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=J0zbWsutyA8",
+      "captionFa": "این ویدیو به بررسی مفهوم RAD، یا Rapid Application Development، می‌پردازد و توضیح می‌دهد که چرا در دنیای کنونی کدنویسی هوش مصنوعی کاربرد و اهمیت بالایی دارد. اهمیت RAD به بهبود روند توسعه و افزایش کارایی در پروژه‌های هوش مصنوعی اشاره می‌کند.",
+      "captionEn": "This video explores the concept of RAD, or Rapid Application Development, and explains its significance in today's AI coding landscape. It highlights how RAD improves the development process and enhances efficiency in AI projects.",
+      "category": "ai",
+      "processedAt": "2026-08-17T16:25:50.771Z"
+    },
+    {
+      "id": "IiJrVbusoos",
+      "title": "Take a look at the first humanoid robot combat league",
+      "titleFa": "نگاهی به اولین لیگ مبارزات ربات‌های انسان‌نما",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IiJrVbusoos/hqdefault.jpg",
+      "publishedAt": "2026-08-17T08:04:46.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/IiJrVbusoos",
+      "captionFa": "این ویدیو به معرفی اولین لیگ مبارزات ربات‌های انسان‌نما می‌پردازد. در این لیگ، ربات‌های پیشرفته به طور واقعی در مسابقات مبارزه شرکت می‌کنند و توانایی‌های فنی و حرکتی آن‌ها به نمایش گذاشته می‌شود.",
+      "captionEn": "This video introduces the first humanoid robot combat league. In this league, advanced robots participate in real combat matches, showcasing their technical and movement capabilities.",
+      "category": "robotics",
+      "processedAt": "2026-08-17T16:26:22.913Z"
+    },
+    {
+      "id": "O7OkiZfIlS4",
+      "title": "Unitree New Robot Preview: “Superman” Breaking the Limits of Humanity",
+      "titleFa": "پیش‌نمایش ربات جدید Unitree: \"سوپرمن\"، شکستن محدودیت‌های بشریت",
+      "channelName": "Unitree Robotics",
+      "thumbnailUrl": "https://i.ytimg.com/vi/O7OkiZfIlS4/hqdefault.jpg",
+      "publishedAt": "2026-08-17T07:23:26.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=O7OkiZfIlS4",
+      "captionFa": "در این ویدیو، ربات جدید Unitree به نام \"سوپرمن\" معرفی می‌شود که قابلیت‌های منحصر به فردی دارد و می‌تواند مرزهای عملکردهای انسانی را جابجا کند. این ربات به نوعی جهشی در طراحی و کارایی ربات‌های پیشرفته به حساب می‌آید.",
+      "captionEn": "This video introduces Unitree's new robot called \"Superman\", which showcases unique capabilities and aims to push the limits of human performance. It represents a significant leap in the design and functionality of advanced robots.",
+      "category": "robotics",
+      "processedAt": "2026-08-17T16:26:01.264Z"
+    },
     {
       "id": "aYfZN8t6AQs",
       "title": "Agent Memory EXPLAINED - Complete Architecture",
@@ -2511,19 +2628,6 @@
       "processedAt": "2026-08-03T21:02:17.784Z"
     },
     {
-      "id": "8B05cy3UuSE",
-      "title": "NVIDIA's AI Learns Why Copying Humans Isn't Enough",
-      "titleFa": "هوش مصنوعی NVIDIA می‌آموزد که چرا تقلید از انسان‌ها کافی نیست",
-      "channelName": "Two Minute Papers",
-      "thumbnailUrl": "https://i.ytimg.com/vi/8B05cy3UuSE/hqdefault.jpg",
-      "publishedAt": "2026-08-02T15:01:10.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=8B05cy3UuSE",
-      "captionFa": "این ویدیو به بررسی این موضوع می‌پردازد که چگونه AI توسعه یافته توسط NVIDIA توانسته است فراتر از تقلید رفتارهای انسانی بیاموزد. این سیستم یادگیری با کنکاش در دلایل و روش‌های یادگیری، به دنبال بهبود کارایی و فهم عمیق‌تر است.",
-      "captionEn": "The video explores how NVIDIA's AI has learned to go beyond simply imitating human behavior. This learning system delves into the reasons and methods of learning, striving for improved efficiency and deeper understanding.",
-      "category": "ai",
-      "processedAt": "2026-08-03T21:01:46.212Z"
-    },
-    {
       "id": "UiPJbxryrkU",
       "title": "Why Sagrada Familia Took 144 Years to Complete",
       "titleFa": "چرا ساخت سگرادا فامیلیا 144 سال طول کشید",
@@ -2537,71 +2641,6 @@
       "processedAt": "2026-08-03T21:02:16.167Z"
     },
     {
-      "id": "oMnpatXgMzU",
-      "title": "The Truth About Turning Your Hobby Into a Job",
-      "titleFa": "واقعیت درباره تبدیل سرگرمی به شغل",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/oMnpatXgMzU/hqdefault.jpg",
-      "publishedAt": "2026-08-02T14:00:09.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=oMnpatXgMzU",
-      "captionFa": "این ویدیو به بررسی چالش‌ها و فرصت‌هایی می‌پردازد که هنگام تبدیل یک سرگرمی به شغل ممکن است با آن‌ها روبرو شوید. Adam Savage تجربیات شخصی خود را به اشتراک می‌گذارد و نکات مفیدی برای موفقیت در این مسیر ارائه می‌دهد.",
-      "captionEn": "This video explores the challenges and opportunities that arise when turning a hobby into a job. Adam Savage shares his personal experiences and offers valuable tips for succeeding in this transition.",
-      "category": "general",
-      "processedAt": "2026-08-03T21:02:16.355Z"
-    },
-    {
-      "id": "wt4p2oalmRY",
-      "title": "Is spider silk really stronger than steel?",
-      "titleFa": "آیا تارهای عنکبوت واقعاً از فولاد قوی‌تر هستند؟",
-      "channelName": "Veritasium",
-      "thumbnailUrl": "https://i.ytimg.com/vi/wt4p2oalmRY/hqdefault.jpg",
-      "publishedAt": "2026-08-02T13:21:11.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=wt4p2oalmRY",
-      "captionFa": "در این ویدیو به بررسی خصوصیات تارهای عنکبوت پرداخته می‌شود و سؤال می‌شود که آیا این تارها واقعاً قوی‌تر از فولاد هستند یا خیر. همچنین اثرات و کاربردهای ممکن تارهای عنکبوت در صنعت و علم نیز مورد بررسی قرار می‌گیرد.",
-      "captionEn": "This video explores the properties of spider silk and questions whether it is indeed stronger than steel. It also examines the potential applications and implications of spider silk in industry and science.",
-      "category": "science",
-      "processedAt": "2026-08-03T21:02:20.516Z"
-    },
-    {
-      "id": "bNRhppHct54",
-      "title": "Understanding AI Agent Hallucination in AI Systems",
-      "titleFa": "درک توهمات ایجنت‌های هوش مصنوعی در سیستم‌های هوش مصنوعی",
-      "channelName": "IBM Technology",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bNRhppHct54/hqdefault.jpg",
-      "publishedAt": "2026-08-02T11:00:16.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=bNRhppHct54",
-      "captionFa": "این ویدیو به بررسی پدیده توهمات ایجنت‌های هوش مصنوعی می‌پردازد و توضیح می‌دهد که چرا این ایجنت‌ها ممکن است اطلاعات نادرستی تولید کنند. همچنین، اهمیت این مشکل در کاربردهای عملی هوش مصنوعی مورد بحث قرار می‌گیرد.",
-      "captionEn": "This video explores the phenomenon of hallucinations in AI agents and explains why these agents may produce inaccurate information. It also discusses the significance of this issue in practical AI applications.",
-      "category": "ai",
-      "processedAt": "2026-08-03T21:01:49.776Z"
-    },
-    {
-      "id": "TjUxBdiut1k",
-      "title": "OpenAI's \"ASTRA\" change science forever...",
-      "titleFa": "تغییرات همیشگی علم با \"ASTRA\" از OpenAI...",
-      "channelName": "Wes Roth",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TjUxBdiut1k/hqdefault.jpg",
-      "publishedAt": "2026-08-02T08:10:05.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=TjUxBdiut1k",
-      "captionFa": "در این ویدیو به بررسی تأثیر فناوری جدید \"ASTRA\" از OpenAI بر علم و تحقیقات می‌پردازیم. این ابزار می‌تواند روش‌های علمی را متحول کرده و به پیشرفت‌های چشمگیری در این حوزه منجر شود.",
-      "captionEn": "This video explores the groundbreaking impact of OpenAI's new technology, \"ASTRA,\" on science and research. This tool has the potential to revolutionize scientific methods and lead to significant advancements in the field.",
-      "category": "ai",
-      "processedAt": "2026-08-02T09:53:20.761Z"
-    },
-    {
-      "id": "COdVbJeqMhg",
-      "title": "System error: Motivation not found.",
-      "titleFa": "خطای سیستم: انگیزه پیدا نشد",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/COdVbJeqMhg/hqdefault.jpg",
-      "publishedAt": "2026-08-02T05:00:11.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/COdVbJeqMhg",
-      "captionFa": "این ویدیو به بررسی چالش‌ها و مشکلاتی می‌پردازد که در فرآیند به دست آوردن انگیزه برای کار و فعالیت به وجود می‌آید. به تحلیل عوامل مختلفی که می‌توانند بر انگیزه انسان تأثیر بگذارند، پرداخته می‌شود.",
-      "captionEn": "The video explores the challenges and difficulties of finding motivation for work and activities. It analyzes various factors that can affect human motivation.",
-      "category": "general",
-      "processedAt": "2026-08-02T09:53:40.042Z"
-    },
-    {
       "id": "JCDjCkqhVsY",
       "title": "Can this invention solve my messy t-shirt pile?",
       "titleFa": "آیا این اختراع می‌تواند مشکل انباشت تیشرت‌های من را حل کند؟",
@@ -2613,19 +2652,6 @@
       "captionEn": "In this video, Simone Giertz explores an invention specifically designed to tackle the problem of messy t-shirt piles. She tests the functionality of the device and addresses its challenges.",
       "category": "robotics",
       "processedAt": "2026-08-01T22:50:42.239Z"
-    },
-    {
-      "id": "_uQ8JLm9Q0U",
-      "title": "Mario Kart Power-Ups on an Actual Go-Kart #mariokart #diy",
-      "titleFa": "قدرت‌های ماریو کارت در یک گودکارت واقعی",
-      "channelName": "Hacksmith Industries",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_uQ8JLm9Q0U/hqdefault.jpg",
-      "publishedAt": "2026-08-01T16:00:09.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/_uQ8JLm9Q0U",
-      "captionFa": "در این ویدیو، گروه Hacksmith Industries قدرت‌های مختلف بازی ماریو کارت را بر روی یک گودکارت واقعی پیاده‌سازی می‌کنند. آن‌ها به شکل خلاقانه‌ای از فناوری و طراحی برای بازآفرینی این قدرت‌ها استفاده می‌کنند و تجربه‌ای سرگرم‌کننده و هیجان‌انگیز خلق می‌کنند.",
-      "captionEn": "In this video, the Hacksmith Industries team implements various power-ups from Mario Kart on an actual go-kart. They creatively use technology and design to recreate these power-ups, resulting in an entertaining and exciting experience.",
-      "category": "general",
-      "processedAt": "2026-08-01T22:50:49.824Z"
     },
     {
       "id": "OX1yHmeLPy8",
@@ -2704,19 +2730,6 @@
       "captionEn": "This video explores the process of recreating the ITS system, discussing the challenges and techniques involved. Throughout the video, the Computerphile team delves into the software trends and strategies needed to create this system.",
       "category": "software",
       "processedAt": "2026-07-31T22:57:49.625Z"
-    },
-    {
-      "id": "tJMqVauWsjk",
-      "title": "ITS, Eliza & MiT's AI Lab - Computerphile",
-      "titleFa": "هوش مصنوعی ITS، الیزا و آزمایشگاه MIT - Computerphile",
-      "channelName": "Computerphile",
-      "thumbnailUrl": "https://i.ytimg.com/vi/tJMqVauWsjk/hqdefault.jpg",
-      "publishedAt": "2026-07-30T15:00:28.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=tJMqVauWsjk",
-      "captionFa": "در این ویدیو به بررسی هوش مصنوعی ITS و چت‌بات الیزا پرداخته می‌شود. همچنین نگاهی به تاریخچه و توسعه آزمایشگاه هوش مصنوعی در MIT خواهیم داشت.",
-      "captionEn": "This video discusses the ITS AI, the chatbot Eliza, and explores the history and development of MIT's AI Lab.",
-      "category": "ai",
-      "processedAt": "2026-07-31T10:36:24.011Z"
     },
     {
       "id": "vZwYTn3fW1w",
@@ -2886,19 +2899,6 @@
       "captionEn": "In this video, the Spot quadruped robot explores and works in the Mariana mines. With its advanced capabilities, the robot assists in data collection and performing tasks in challenging environments.",
       "category": "robotics",
       "processedAt": "2026-07-24T21:00:10.517Z"
-    },
-    {
-      "id": "IiNbFPOUrz8",
-      "title": "Real-Time Omni-Modal Interaction Driven Whole-Body Mobile Manipulation",
-      "titleFa": "تعامل چندمداله در زمان واقعی با کنترل کامل حرکت رباتیک",
-      "channelName": "Unitree Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IiNbFPOUrz8/hqdefault.jpg",
-      "publishedAt": "2026-07-20T09:00:48.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=IiNbFPOUrz8",
-      "captionFa": "این ویدیو به بررسی تعاملات در زمان واقعی بین ربات‌ها و محیط می‌پردازد و نشان می‌دهد که چگونه می‌توان از روش‌های چندمداله برای کنترل حرکت کامل بدن ربات استفاده کرد. تکنیک‌های پیشرفته به ربات‌ها امکان می‌دهد تا در شرایط متنوع به طور موثری عمل کنند.",
-      "captionEn": "This video explores real-time interactions between robots and their environments, demonstrating how multimodal methods can be used for whole-body mobile manipulation. Advanced techniques allow robots to operate effectively in diverse conditions.",
-      "category": "robotics",
-      "processedAt": "2026-07-24T21:00:08.798Z"
     },
     {
       "id": "GlYgs6v2YfU",
