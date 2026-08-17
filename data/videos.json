@@ -1,6 +1,45 @@
 {
-  "generatedAt": "2026-08-16T12:30:29.036Z",
+  "generatedAt": "2026-08-17T04:38:23.338Z",
   "videos": [
+    {
+      "id": "aYfZN8t6AQs",
+      "title": "Agent Memory EXPLAINED - Complete Architecture",
+      "titleFa": "توضیح کامل معماری حافظه ایجنت",
+      "channelName": "Hugging Face",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aYfZN8t6AQs/hqdefault.jpg",
+      "publishedAt": "2026-08-17T03:15:35.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aYfZN8t6AQs",
+      "captionFa": "در این ویدیو، به بررسی معماری حافظه ایجنت‌ها پرداخته می‌شود و چگونگی عملکرد آن‌ها به صورت جامع توضیح داده می‌شود. این معماری اهمیت زیادی در توسعه هوش مصنوعی و یادگیری ماشین دارد.",
+      "captionEn": "This video provides a comprehensive overview of agent memory architecture and explains how it operates. This architecture is crucial for the development of artificial intelligence and machine learning.",
+      "category": "ai",
+      "processedAt": "2026-08-17T04:38:00.429Z"
+    },
+    {
+      "id": "8UBv8pWH3Kw",
+      "title": "The Failed Experiment That Broke The Internet",
+      "titleFa": "آزمایش ناموفق که اینترنت را شکست",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/8UBv8pWH3Kw/hqdefault.jpg",
+      "publishedAt": "2026-08-16T18:00:20.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8UBv8pWH3Kw",
+      "captionFa": "این ویدیو به بررسی یک آزمایش ناموفق می‌پردازد که باعث به هم ریختن اینترنت شد. این حادثه نشان‌دهنده آسیب‌پذیری‌ها و چالش‌های فناوری اینترنت است.",
+      "captionEn": "This video explores a failed experiment that disrupted the internet. The incident highlights the vulnerabilities and challenges within internet technology.",
+      "category": "general",
+      "processedAt": "2026-08-17T04:38:23.333Z"
+    },
+    {
+      "id": "pCKmiXKAQVI",
+      "title": "The $1,000 Tool Adam Savage Never Uses",
+      "titleFa": "ابزاری به ارزش ۱۰۰۰ دلار که آدام ساویر هرگز از آن استفاده نمی‌کند",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/pCKmiXKAQVI/hqdefault.jpg",
+      "publishedAt": "2026-08-16T14:00:24.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pCKmiXKAQVI",
+      "captionFa": "در این ویدیو، آدام ساویر به معرفی ابزاری می‌پردازد که ارزش آن ۱۰۰۰ دلار است ولی هرگز از آن استفاده نکرده است. او در مورد دلایلش برای کنار گذاشتن این ابزار و بررسی آنچه که واقعاً در کار ساخت و ساز مفید است، صحبت می‌کند.",
+      "captionEn": "In this video, Adam Savage discusses a tool worth $1,000 that he never uses. He shares his reasons for abandoning the tool and reflects on what is genuinely useful in his construction work.",
+      "category": "general",
+      "processedAt": "2026-08-17T04:38:16.195Z"
+    },
     {
       "id": "BHGTA6ZEls4",
       "title": "5 Ways to Connect AI Agents to Tools: From APIs to MCP",
@@ -2587,45 +2626,6 @@
       "captionEn": "In this video, the Hacksmith Industries team implements various power-ups from Mario Kart on an actual go-kart. They creatively use technology and design to recreate these power-ups, resulting in an entertaining and exciting experience.",
       "category": "general",
       "processedAt": "2026-08-01T22:50:49.824Z"
-    },
-    {
-      "id": "yD5jWchlMJU",
-      "title": "Can this invention solve my messy t-shirt pile?",
-      "titleFa": "آیا این اختراع می‌تواند مشکل انبوه تیشرت‌های کثیف من را حل کند؟",
-      "channelName": "Simone Giertz",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yD5jWchlMJU/hqdefault.jpg",
-      "publishedAt": "2026-08-01T16:00:05.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=yD5jWchlMJU",
-      "captionFa": "در این ویدیو، سیمون گیرتز به بررسی اختراعی می‌پردازد که ممکن است کمک کند تا تیشرت‌های کثیف و نامرتب به راحتی مرتب شوند. او نگاهی به عملکرد این دستگاه و چگونگی کارکرد آن می‌اندازد.",
-      "captionEn": "In this video, Simone Giertz explores an invention that may help to easily manage messy piles of dirty t-shirts. She takes a look at how this device works and its potential effectiveness.",
-      "category": "robotics",
-      "processedAt": "2026-08-01T22:50:42.392Z"
-    },
-    {
-      "id": "5M47OjgHDHM",
-      "title": "Someone's Going to Steal Money From You",
-      "titleFa": "کسی در حال دزدیدن پول شماست",
-      "channelName": "Adam Savage’s Tested",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5M47OjgHDHM/hqdefault.jpg",
-      "publishedAt": "2026-08-01T14:00:24.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5M47OjgHDHM",
-      "captionFa": "این ویدیو به بررسی تهدیدات امنیت مالی و تکنولوژی‌هایی که ممکن است منجر به سرقت مالی شوند، پرداخته است. به بینندگان توصیه‌هایی برای محافظت از خودشان ارائه می‌شود.",
-      "captionEn": "This video explores the threats to financial security and the technologies that may lead to financial theft. Viewers are given tips on how to protect themselves.",
-      "category": "general",
-      "processedAt": "2026-08-01T22:50:49.718Z"
-    },
-    {
-      "id": "PaNIJ9l2NOE",
-      "title": "We’re getting closer to “Jarvis” everyday!",
-      "titleFa": "ما هر روز به \"جارویس\" نزدیک‌تر می‌شویم!",
-      "channelName": "Matt Wolfe",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PaNIJ9l2NOE/hqdefault.jpg",
-      "publishedAt": "2026-08-01T13:59:28.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/PaNIJ9l2NOE",
-      "captionFa": "در این ویدیو، به پیشرفت‌های روزافزون در حوزه هوش مصنوعی اشاره می‌شود و این که چگونه تکنولوژی به سمت ایجاد دستیاران هوشمند مانند جارویس در حال حرکت است. همچنین، نوآوری‌ها و چالش‌های موجود در این مسیر بررسی می‌شود.",
-      "captionEn": "This video discusses the advancements in artificial intelligence and how technology is moving closer to creating intelligent assistants like Jarvis. It also explores the innovations and challenges faced along the way.",
-      "category": "ai",
-      "processedAt": "2026-08-01T22:50:33.551Z"
     },
     {
       "id": "OX1yHmeLPy8",
