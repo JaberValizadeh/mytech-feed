@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T06:36:06.088Z",
+  "generatedAt": "2026-08-19T18:24:33.156Z",
   "articles": [
     {
       "id": "e5505f43de62a5b8",
@@ -543,7 +543,8 @@
       ],
       "readingMinutes": 3,
       "processedAt": "2026-08-19T06:35:57.978Z",
-      "sourceCount": 1
+      "sourceCount": 1,
+      "imageUrl": "https://images.fastcompany.com/image/upload/w_1280,q_auto,f_auto,fl_lossy/f_webp,q_auto,c_fit/wp-cms-2/2026/08/p-1-91591431-ai-generated-pitch-decks.jpg"
     },
     {
       "id": "55785a82cee6d7a8",
@@ -766,38 +767,6 @@
       "sourceCount": 1
     },
     {
-      "id": "0a4fe02c199d63be",
-      "sourceId": "techradar",
-      "sourceName": "TechRadar",
-      "title": "Sorry, Samsung — Google says its latest AI smartphone camera tool can measure bodies better than the Galaxy Watch's bioelectric sensors",
-      "link": "https://www.techradar.com/health-fitness/sorry-samsung-google-says-its-latest-ai-smartphone-camera-tool-can-measure-bodies-better-than-the-galaxy-watchs-bioelectric-sensors",
-      "content": "Google is building on its new Insulin Resistance Trends health feature with PhotoScan PhotoScan is 'an investigational deep learning framework' that can estimate body fat using a phone's camera with 'near DXA accuracy' It's not yet available to the public, but the research 'demonstrate[s] the feasibility' of such features As the Google Pixel Watch 5 launched last week alongside a slew of new Pixel phones, one of the most interesting new developments was the introduction of the Pixel Watch's new Health Guardian suite of tools, including Insulin Resistance Trends . Insulin Resistance Trends showcases a month-by-month breakdown containing estimations of how your body responded to blood sugar spikes — a crucial component in weight management and the development of Type-2 diabetes. Body composition — your ratio of different kinds of fat, skeletal muscle, and bone — is also an excellent marker of insulin resistance and metabolic health, so body scans are often used to help determine insulin resistance. Body comp is often measured with medical-grade 'DXA' scans, which use X-Rays, or commercially available devices at home. These home devices can be the best smart scales or even some smartwatches, such as the Samsung Galaxy Watch Ultra 2 . Without medical DXA scanners, they usually use a process called 'bioelectrical impedence analysis', or BIA. A low-level electric current is sent through the user's body, moving through fat, muscle, and bone at different speeds. The speed of the electrical current helps the device estimate the percentages of each material in the body: a useful thing to have on a health-monitoring device like a smartwatch. (Image credit: Google) However, Google is busy researching an even more accurate version of a body scan without using any specialist equipment or BIA kit — in fact, it's just a smartphone camera and an onboard AI model. This in-development feature is called PhotoScan, appropriately. According to its research blog , Google has been developing PhotoScan by matching smartphone photographs of subjects with medical-grade DXA scans, along with other subject information, then running it all through an AI model. The AI model eventually achieved 'strong DXA agreement' when estimating body fat percentage and other metrics, leading to 'near-DXA accuracy for predicting insulin resistance'. The researchers conclude that 'clinical DXA imaging delivers the most accurate body composition but lacks scalability, whereas wearable BIA sensors offer convenience but are limited to basic body fat percentage. 'Our PhotoScan approach offers a promising middle ground, estimating granular body composition from standard smartphone imagery with near-DXA accuracy.' Sorry, Samsung — it looks like we'll be pivoting away from BIA sensors and towards smartphone cameras for body fat percentage calculation in future. While the technology doesn't seem to be commercially available yet, it does 'demonstrate the feasibility of smartphone-based body composition estimation,' and I'd be surprised not to see it make its way to the best Pixel phones eventually.",
-      "author": " Matt Evans ",
-      "publishedAt": "2026-08-19T03:30:00.000Z",
-      "fingerprint": "better bioelectric bodies camera can galaxy google latest measure samsung says sensors smartphone sorry than tool watch",
-      "imageUrl": "https://cdn.mos.cms.futurecdn.net/AgUNwYV57X23xzkHdvUgQb-1280-80.jpg",
-      "titleFa": "گوگل ادعا می‌کند دوربین گوشی هوشمند بهتر از سنسورهای بیوالکتریکی Galaxy Watch تشخیص چربی بدن را انجام می‌دهد",
-      "summaryFa": "گوگل در حال توسعه فناوری PhotoScan است که با استفاده از دوربین گوشی، میزان چربی بدن را با دقت نزدیک به DXA برآورد می‌کند. این فناوری هنوز برای عموم عرضه نشده اما نشان‌دهنده قابلیت‌های آینده در اندازه‌گیری بدن با گوشی هوشمند است.",
-      "summaryEn": "Google is developing PhotoScan, a deep learning framework that estimates body fat using a phone's camera with near-DXA accuracy. Although not yet available to the public, it demonstrates the potential for smartphone-based body scanning.",
-      "insightsFa": [
-        "توسعه فناوری جدید برای اندازه‌گیری چربی بدن با گوشی هوشمند",
-        "استفاده از AI و یادگیری عمیق در سلامت دیجیتال",
-        "رقابت Google با سامسونگ در حوزه سلامت با گوشی‌های هوشمند"
-      ],
-      "whyItMattersFa": "این فناوری می‌تواند آینده سلامت دیجیتال را تغییر دهد و امکان اندازه‌گیری‌های پزشکی دقیق‌تر و در دسترس‌تر را فراهم آورد، بدون نیاز به تجهیزات تخصصی در منزل.",
-      "category": "ai",
-      "tagsFa": [
-        "هوش مصنوعی",
-        "سلامت دیجیتال",
-        "اندازه‌گیری بدن",
-        "PhotoScan",
-        "گوگل"
-      ],
-      "readingMinutes": 2,
-      "processedAt": "2026-08-19T06:35:53.633Z",
-      "sourceCount": 1
-    },
-    {
       "id": "c02572740f079244",
       "sourceId": "slashdot",
       "sourceName": "Slashdot",
@@ -828,6 +797,38 @@
       ],
       "readingMinutes": 2,
       "processedAt": "2026-08-19T06:35:55.175Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "0a4fe02c199d63be",
+      "sourceId": "techradar",
+      "sourceName": "TechRadar",
+      "title": "Sorry, Samsung — Google says its latest AI smartphone camera tool can measure bodies better than the Galaxy Watch's bioelectric sensors",
+      "link": "https://www.techradar.com/health-fitness/sorry-samsung-google-says-its-latest-ai-smartphone-camera-tool-can-measure-bodies-better-than-the-galaxy-watchs-bioelectric-sensors",
+      "content": "Google is building on its new Insulin Resistance Trends health feature with PhotoScan PhotoScan is 'an investigational deep learning framework' that can estimate body fat using a phone's camera with 'near DXA accuracy' It's not yet available to the public, but the research 'demonstrate[s] the feasibility' of such features As the Google Pixel Watch 5 launched last week alongside a slew of new Pixel phones, one of the most interesting new developments was the introduction of the Pixel Watch's new Health Guardian suite of tools, including Insulin Resistance Trends . Insulin Resistance Trends showcases a month-by-month breakdown containing estimations of how your body responded to blood sugar spikes — a crucial component in weight management and the development of Type-2 diabetes. Body composition — your ratio of different kinds of fat, skeletal muscle, and bone — is also an excellent marker of insulin resistance and metabolic health, so body scans are often used to help determine insulin resistance. Body comp is often measured with medical-grade 'DXA' scans, which use X-Rays, or commercially available devices at home. These home devices can be the best smart scales or even some smartwatches, such as the Samsung Galaxy Watch Ultra 2 . Without medical DXA scanners, they usually use a process called 'bioelectrical impedence analysis', or BIA. A low-level electric current is sent through the user's body, moving through fat, muscle, and bone at different speeds. The speed of the electrical current helps the device estimate the percentages of each material in the body: a useful thing to have on a health-monitoring device like a smartwatch. (Image credit: Google) However, Google is busy researching an even more accurate version of a body scan without using any specialist equipment or BIA kit — in fact, it's just a smartphone camera and an onboard AI model. This in-development feature is called PhotoScan, appropriately. According to its research blog , Google has been developing PhotoScan by matching smartphone photographs of subjects with medical-grade DXA scans, along with other subject information, then running it all through an AI model. The AI model eventually achieved 'strong DXA agreement' when estimating body fat percentage and other metrics, leading to 'near-DXA accuracy for predicting insulin resistance'. The researchers conclude that 'clinical DXA imaging delivers the most accurate body composition but lacks scalability, whereas wearable BIA sensors offer convenience but are limited to basic body fat percentage. 'Our PhotoScan approach offers a promising middle ground, estimating granular body composition from standard smartphone imagery with near-DXA accuracy.' Sorry, Samsung — it looks like we'll be pivoting away from BIA sensors and towards smartphone cameras for body fat percentage calculation in future. While the technology doesn't seem to be commercially available yet, it does 'demonstrate the feasibility of smartphone-based body composition estimation,' and I'd be surprised not to see it make its way to the best Pixel phones eventually.",
+      "author": " Matt Evans ",
+      "publishedAt": "2026-08-19T03:30:00.000Z",
+      "fingerprint": "better bioelectric bodies camera can galaxy google latest measure samsung says sensors smartphone sorry than tool watch",
+      "imageUrl": "https://cdn.mos.cms.futurecdn.net/AgUNwYV57X23xzkHdvUgQb-1280-80.jpg",
+      "titleFa": "گوگل ادعا می‌کند دوربین گوشی هوشمند بهتر از سنسورهای بیوالکتریکی Galaxy Watch تشخیص چربی بدن را انجام می‌دهد",
+      "summaryFa": "گوگل در حال توسعه فناوری PhotoScan است که با استفاده از دوربین گوشی، میزان چربی بدن را با دقت نزدیک به DXA برآورد می‌کند. این فناوری هنوز برای عموم عرضه نشده اما نشان‌دهنده قابلیت‌های آینده در اندازه‌گیری بدن با گوشی هوشمند است.",
+      "summaryEn": "Google is developing PhotoScan, a deep learning framework that estimates body fat using a phone's camera with near-DXA accuracy. Although not yet available to the public, it demonstrates the potential for smartphone-based body scanning.",
+      "insightsFa": [
+        "توسعه فناوری جدید برای اندازه‌گیری چربی بدن با گوشی هوشمند",
+        "استفاده از AI و یادگیری عمیق در سلامت دیجیتال",
+        "رقابت Google با سامسونگ در حوزه سلامت با گوشی‌های هوشمند"
+      ],
+      "whyItMattersFa": "این فناوری می‌تواند آینده سلامت دیجیتال را تغییر دهد و امکان اندازه‌گیری‌های پزشکی دقیق‌تر و در دسترس‌تر را فراهم آورد، بدون نیاز به تجهیزات تخصصی در منزل.",
+      "category": "ai",
+      "tagsFa": [
+        "هوش مصنوعی",
+        "سلامت دیجیتال",
+        "اندازه‌گیری بدن",
+        "PhotoScan",
+        "گوگل"
+      ],
+      "readingMinutes": 2,
+      "processedAt": "2026-08-19T06:35:53.633Z",
       "sourceCount": 1
     },
     {
@@ -1887,36 +1888,6 @@
       "sourceCount": 1
     },
     {
-      "id": "1fa6ecfb96859040",
-      "sourceId": "bloomberg-tech",
-      "sourceName": "Bloomberg Technology",
-      "title": "Unitree Robotics Surges 629% After $904 Million Shanghai IPO",
-      "link": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo",
-      "content": "Unitree Robotics shares opened 629% higher in their Shanghai trading debut after raising 6.1 billion yuan ($904 million) in an initial public offering that will make it the first publicly traded humanoid robot maker in mainland China.",
-      "author": "Bloomberg News",
-      "publishedAt": "2026-08-18T23:00:00.000Z",
-      "fingerprint": "629 904 after ipo million robotics shanghai surges unitree",
-      "titleFa": "راهنمای رشد سریع Unitree Robotics پس از عرضه اولیه در شانگهای",
-      "summaryFa": "Unitree Robotics پس از عرضه اولیه سهام در شانگهای، با افزایش ۶۲۹ درصدی در اولین روز معامله مواجه شد. این شرکت در مجموع ۶.۱ میلیارد یوان معادل ۹۰۴ میلیون دلار جمع‌آوری کرد و به اولین سازنده ربات humanoid است که در چین عمومی شده است.",
-      "summaryEn": "Units of Unitree Robotics surged 629% in their Shanghai stock market debut after raising 904 million dollars through an IPO. This makes it the first publicly traded humanoid robot manufacturer in mainland China.",
-      "insightsFa": [
-        "عرضه اولیه در شانگهای و جذب سرمایه 904 میلیون دلار",
-        "افزایش 629 درصدی در قیمت سهام در اولین روز معامله",
-        "اولین شرکت سازنده ربات humanoid در بازار چین"
-      ],
-      "whyItMattersFa": "این خبر اهمیت زیادی دارد زیرا نشان‌دهنده جذابیت بازار ربات‌های انسانی و توجه سرمایه‌گذاران به این صنعت در چین است و می‌تواند روند توسعه و سرمایه‌گذاری در این حوزه را تسریع کند.",
-      "category": "robotics",
-      "tagsFa": [
-        "روبات humanoid",
-        "عرضه‌ اولیه",
-        "سرمایه‌گذاری در چین",
-        "رشد سریع سهام"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-08-19T06:35:41.027Z",
-      "sourceCount": 1
-    },
-    {
       "id": "503508a1735f1705",
       "sourceId": "slashdot",
       "sourceName": "Slashdot",
@@ -1948,6 +1919,36 @@
       ],
       "readingMinutes": 2,
       "processedAt": "2026-08-19T06:35:42.277Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "1fa6ecfb96859040",
+      "sourceId": "bloomberg-tech",
+      "sourceName": "Bloomberg Technology",
+      "title": "Unitree Robotics Surges 629% After $904 Million Shanghai IPO",
+      "link": "https://www.bloomberg.com/news/articles/2026-08-18/unitree-robotics-set-to-debut-after-904-million-shanghai-ipo",
+      "content": "Unitree Robotics shares opened 629% higher in their Shanghai trading debut after raising 6.1 billion yuan ($904 million) in an initial public offering that will make it the first publicly traded humanoid robot maker in mainland China.",
+      "author": "Bloomberg News",
+      "publishedAt": "2026-08-18T23:00:00.000Z",
+      "fingerprint": "629 904 after ipo million robotics shanghai surges unitree",
+      "titleFa": "راهنمای رشد سریع Unitree Robotics پس از عرضه اولیه در شانگهای",
+      "summaryFa": "Unitree Robotics پس از عرضه اولیه سهام در شانگهای، با افزایش ۶۲۹ درصدی در اولین روز معامله مواجه شد. این شرکت در مجموع ۶.۱ میلیارد یوان معادل ۹۰۴ میلیون دلار جمع‌آوری کرد و به اولین سازنده ربات humanoid است که در چین عمومی شده است.",
+      "summaryEn": "Units of Unitree Robotics surged 629% in their Shanghai stock market debut after raising 904 million dollars through an IPO. This makes it the first publicly traded humanoid robot manufacturer in mainland China.",
+      "insightsFa": [
+        "عرضه اولیه در شانگهای و جذب سرمایه 904 میلیون دلار",
+        "افزایش 629 درصدی در قیمت سهام در اولین روز معامله",
+        "اولین شرکت سازنده ربات humanoid در بازار چین"
+      ],
+      "whyItMattersFa": "این خبر اهمیت زیادی دارد زیرا نشان‌دهنده جذابیت بازار ربات‌های انسانی و توجه سرمایه‌گذاران به این صنعت در چین است و می‌تواند روند توسعه و سرمایه‌گذاری در این حوزه را تسریع کند.",
+      "category": "robotics",
+      "tagsFa": [
+        "روبات humanoid",
+        "عرضه‌ اولیه",
+        "سرمایه‌گذاری در چین",
+        "رشد سریع سهام"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-08-19T06:35:41.027Z",
       "sourceCount": 1
     },
     {
@@ -5107,36 +5108,6 @@
       "sourceCount": 1
     },
     {
-      "id": "d8b7c8511a2cb182",
-      "sourceId": "techcrunch",
-      "sourceName": "TechCrunch",
-      "title": "OpenAI institutes new safeguards after Hugging Face breach",
-      "link": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
-      "content": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
-      "author": "Russell Brandom",
-      "publishedAt": "2026-08-18T18:00:00.000Z",
-      "fingerprint": "after breach face hugging institutes openai safeguards",
-      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
-      "titleFa": "OpenAI با اقدام‌های جدید، امنیت مدل‌ها پس از وردپرس هک هوجینگ فیس را تقویت می‌کند",
-      "summaryFa": "OpenAI پس از هک Hugging Face، مقررات و اقدامات حفاظتی جدیدی برای نظارت دقیق بر توسعه و امنیت مدل‌های هوش مصنوعی وضع کرده است. این تدابیر شامل پایش دقیق‌تر در حین توسعه و تمرکز بیشتر بر هماهنگی و ایمنی پس از آموزش است.",
-      "summaryEn": "OpenAI has introduced new safeguards following the Hugging Face breach, focusing on detailed monitoring during model development and increased emphasis on alignment and security after training. These measures aim to enhance the safety and robustness of AI models.",
-      "insightsFa": [
-        "افزایش نظارت بر مدل‌ها در حین توسعه",
-        "تاکید بر امنیت و هم‌راستایی پس از آموزش",
-        "مقابله با تهدیدهای امنیتی جدید در هوش مصنوعی"
-      ],
-      "whyItMattersFa": "این خبر اهمیت بالایی دارد چون با تشدید تهدیدات امنیتی، تقویت راهکارهای حفاظتی در توسعه مدل‌های هوش مصنوعی ضروری است تا از نفوذ و سوء‌استفاده‌های احتمالی جلوگیری شود.",
-      "category": "security",
-      "tagsFa": [
-        "حفاظت مدل‌های AI",
-        "امنیت هوش مصنوعی",
-        "مقررات جدید"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-08-19T06:34:56.508Z",
-      "sourceCount": 1
-    },
-    {
       "id": "32d87aeb1bb5b82e",
       "sourceId": "nvidia-developer",
       "sourceName": "NVIDIA Developer",
@@ -5166,6 +5137,36 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-08-19T06:34:57.179Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "d8b7c8511a2cb182",
+      "sourceId": "techcrunch",
+      "sourceName": "TechCrunch",
+      "title": "OpenAI institutes new safeguards after Hugging Face breach",
+      "link": "https://techcrunch.com/2026/08/18/openai-institutes-new-safeguards-after-hugging-face-breach/",
+      "content": "The new safeguards include more detailed monitoring of models during the development process, as well as greater emphasis on alignment and security during the post-training process.",
+      "author": "Russell Brandom",
+      "publishedAt": "2026-08-18T18:00:00.000Z",
+      "fingerprint": "after breach face hugging institutes openai safeguards",
+      "imageUrl": "https://techcrunch.com/wp-content/uploads/2026/07/OpenAI-logo-green.jpg?w=1024",
+      "titleFa": "OpenAI با اقدام‌های جدید، امنیت مدل‌ها پس از وردپرس هک هوجینگ فیس را تقویت می‌کند",
+      "summaryFa": "OpenAI پس از هک Hugging Face، مقررات و اقدامات حفاظتی جدیدی برای نظارت دقیق بر توسعه و امنیت مدل‌های هوش مصنوعی وضع کرده است. این تدابیر شامل پایش دقیق‌تر در حین توسعه و تمرکز بیشتر بر هماهنگی و ایمنی پس از آموزش است.",
+      "summaryEn": "OpenAI has introduced new safeguards following the Hugging Face breach, focusing on detailed monitoring during model development and increased emphasis on alignment and security after training. These measures aim to enhance the safety and robustness of AI models.",
+      "insightsFa": [
+        "افزایش نظارت بر مدل‌ها در حین توسعه",
+        "تاکید بر امنیت و هم‌راستایی پس از آموزش",
+        "مقابله با تهدیدهای امنیتی جدید در هوش مصنوعی"
+      ],
+      "whyItMattersFa": "این خبر اهمیت بالایی دارد چون با تشدید تهدیدات امنیتی، تقویت راهکارهای حفاظتی در توسعه مدل‌های هوش مصنوعی ضروری است تا از نفوذ و سوء‌استفاده‌های احتمالی جلوگیری شود.",
+      "category": "security",
+      "tagsFa": [
+        "حفاظت مدل‌های AI",
+        "امنیت هوش مصنوعی",
+        "مقررات جدید"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-08-19T06:34:56.508Z",
       "sourceCount": 1
     },
     {
