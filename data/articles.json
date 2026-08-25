@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-25T06:35:16.458Z",
+  "generatedAt": "2026-08-25T20:21:10.374Z",
   "articles": [
     {
       "id": "e5505f43de62a5b8",
@@ -2499,36 +2499,6 @@
       "sourceCount": 1
     },
     {
-      "id": "e4563871866d3a63",
-      "sourceId": "openai",
-      "sourceName": "OpenAI Blog",
-      "title": "ChatGPT Ads expands across Europe",
-      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
-      "content": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
-      "publishedAt": "2026-08-18T22:00:00.000Z",
-      "fingerprint": "across ads chatgpt europe expands",
-      "titleFa": "تبلیغات ChatGPT در حال گسترش در سرتاسر اروپا",
-      "summaryFa": "ChatGPT Ads اکنون در ۳۱ بازار اروپایی در دسترس است. این سرویس به تبلیغ‌کنندگان کمک می‌کند تا با کاربران در هنگام جستجو و مقایسه گزینه‌ها ارتباط برقرار کنند و تصمیم‌گیری‌ها را هدف قرار دهند.",
-      "summaryEn": "ChatGPT Ads is expanding to 31 European markets, enabling advertisers to reach users during their exploration, comparison, and decision-making processes. This move enhances targeted advertising opportunities across Europe.",
-      "insightsFa": [
-        "توسعه بازارهای اروپایی برای ChatGPT Ads",
-        "افزایش قابلیت‌های تبلیغاتی در حوزه فناوری هوش مصنوعی",
-        "پیشنهاد جدید برای تبلیغات در محیط‌های دیجیتال"
-      ],
-      "whyItMattersFa": "این خبر اهمیت بالایی دارد زیرا نشان می‌دهد که OpenAI در حال گسترش خدمات تبلیغاتی بر پایه هوش مصنوعی خود است، که می‌تواند تاثیر قابل توجهی بر تبلیغات دیجیتال و کسب‌وکارهای مرتبط با این حوزه داشته باشد.",
-      "category": "ai",
-      "tagsFa": [
-        "ChatGPT",
-        "تبلیغات هوشمند",
-        "بازاریابی دیجیتال",
-        "هوش مصنوعی",
-        "بازار اروپا"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-08-19T06:35:33.050Z",
-      "sourceCount": 1
-    },
-    {
       "id": "75b521df8a21aaaa",
       "sourceId": "databricks",
       "sourceName": "Databricks",
@@ -2556,6 +2526,36 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-08-19T06:35:33.495Z",
+      "sourceCount": 1
+    },
+    {
+      "id": "e4563871866d3a63",
+      "sourceId": "openai",
+      "sourceName": "OpenAI Blog",
+      "title": "ChatGPT Ads expands across Europe",
+      "link": "https://openai.com/index/chatgpt-ads-expands-across-europe",
+      "content": "ChatGPT Ads is expanding to 31 European markets. Learn how advertisers can reach people as they explore, compare options, and make decisions.",
+      "publishedAt": "2026-08-18T22:00:00.000Z",
+      "fingerprint": "across ads chatgpt europe expands",
+      "titleFa": "تبلیغات ChatGPT در حال گسترش در سرتاسر اروپا",
+      "summaryFa": "ChatGPT Ads اکنون در ۳۱ بازار اروپایی در دسترس است. این سرویس به تبلیغ‌کنندگان کمک می‌کند تا با کاربران در هنگام جستجو و مقایسه گزینه‌ها ارتباط برقرار کنند و تصمیم‌گیری‌ها را هدف قرار دهند.",
+      "summaryEn": "ChatGPT Ads is expanding to 31 European markets, enabling advertisers to reach users during their exploration, comparison, and decision-making processes. This move enhances targeted advertising opportunities across Europe.",
+      "insightsFa": [
+        "توسعه بازارهای اروپایی برای ChatGPT Ads",
+        "افزایش قابلیت‌های تبلیغاتی در حوزه فناوری هوش مصنوعی",
+        "پیشنهاد جدید برای تبلیغات در محیط‌های دیجیتال"
+      ],
+      "whyItMattersFa": "این خبر اهمیت بالایی دارد زیرا نشان می‌دهد که OpenAI در حال گسترش خدمات تبلیغاتی بر پایه هوش مصنوعی خود است، که می‌تواند تاثیر قابل توجهی بر تبلیغات دیجیتال و کسب‌وکارهای مرتبط با این حوزه داشته باشد.",
+      "category": "ai",
+      "tagsFa": [
+        "ChatGPT",
+        "تبلیغات هوشمند",
+        "بازاریابی دیجیتال",
+        "هوش مصنوعی",
+        "بازار اروپا"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-08-19T06:35:33.050Z",
       "sourceCount": 1
     },
     {
