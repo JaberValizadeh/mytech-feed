@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T14:05:43.004Z",
+  "generatedAt": "2026-09-11T08:28:49.583Z",
   "articles": [
     {
       "id": "e5505f43de62a5b8",
@@ -259,6 +259,39 @@
       "sourceCount": 1
     },
     {
+      "id": "a31c5a2f13ada331",
+      "sourceId": "wired",
+      "sourceName": "Wired",
+      "title": "50% Off DoorDash Promo Code | August 2026",
+      "link": "https://www.wired.com/story/doordash-promo-code/",
+      "content": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
+      "author": "Molly Higgins",
+      "publishedAt": "2026-08-19T05:00:00.000Z",
+      "fingerprint": "2026 august code doordash off promo",
+      "imageUrl": "https://media.wired.com/photos/66ea0770c0b39dc87b71207a/master/pass/WIRED-Coupons-10.jpg",
+      "titleFa": "کد تخفیف ۵۰٪ در DoorDash برای اوت ۲۰۲۶",
+      "summaryFa": "این خبر بهترین کدهای تخفیف DoorDash در اوت ۲۰۲۶ را برای کاربران ارائه می‌دهد که شامل ۲۵ دلار تخفیف اولین سفارش، تحویل رایگان و ۵۰٪ تخفیف روی DashPass برای دانش‌آموزان و کاربران منتخب است.",
+      "summaryEn": "This article shares the top DoorDash promo codes for August 2026, including $25 off the first order, free delivery, and 50% off DashPass for students and select users.",
+      "insightsFa": [
+        "کدهای تخفیف DoorDash برای اوت ۲۰۲۶",
+        "تخفیف ۲۵ دلار برای اولین سفارش",
+        "تخفیف ۵۰٪ برای DashPass دانش‌آموزان و کاربران منتخب",
+        "تحویل رایگان در DoorDash"
+      ],
+      "whyItMattersFa": "این خبر مهم است چون با ارائه کدهای تخفیف، فرصت صرفه‌جویی در خرید غذا و خدمات تحویل را برای کاربران فراهم می‌کند، و می‌تواند بازاریابی و جذب مشتری جدید برای DoorDash را تقویت کند.",
+      "category": "business",
+      "tagsFa": [
+        "تخفیف",
+        "درج آگهی",
+        "دورداش",
+        "کد تخفیف",
+        "تخفیف غذا"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-08-19T06:35:59.966Z",
+      "sourceCount": 1
+    },
+    {
       "id": "d4dbf5271551089a",
       "sourceId": "wired",
       "sourceName": "Wired",
@@ -320,39 +353,6 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-08-19T06:35:59.917Z",
-      "sourceCount": 1
-    },
-    {
-      "id": "a31c5a2f13ada331",
-      "sourceId": "wired",
-      "sourceName": "Wired",
-      "title": "50% Off DoorDash Promo Code | August 2026",
-      "link": "https://www.wired.com/story/doordash-promo-code/",
-      "content": "Explore today’s top DoorDash promo codes for $25 off your first order, free delivery, and 50% off DashPass for students and select users.",
-      "author": "Molly Higgins",
-      "publishedAt": "2026-08-19T05:00:00.000Z",
-      "fingerprint": "2026 august code doordash off promo",
-      "imageUrl": "https://media.wired.com/photos/66ea0770c0b39dc87b71207a/master/pass/WIRED-Coupons-10.jpg",
-      "titleFa": "کد تخفیف ۵۰٪ در DoorDash برای اوت ۲۰۲۶",
-      "summaryFa": "این خبر بهترین کدهای تخفیف DoorDash در اوت ۲۰۲۶ را برای کاربران ارائه می‌دهد که شامل ۲۵ دلار تخفیف اولین سفارش، تحویل رایگان و ۵۰٪ تخفیف روی DashPass برای دانش‌آموزان و کاربران منتخب است.",
-      "summaryEn": "This article shares the top DoorDash promo codes for August 2026, including $25 off the first order, free delivery, and 50% off DashPass for students and select users.",
-      "insightsFa": [
-        "کدهای تخفیف DoorDash برای اوت ۲۰۲۶",
-        "تخفیف ۲۵ دلار برای اولین سفارش",
-        "تخفیف ۵۰٪ برای DashPass دانش‌آموزان و کاربران منتخب",
-        "تحویل رایگان در DoorDash"
-      ],
-      "whyItMattersFa": "این خبر مهم است چون با ارائه کدهای تخفیف، فرصت صرفه‌جویی در خرید غذا و خدمات تحویل را برای کاربران فراهم می‌کند، و می‌تواند بازاریابی و جذب مشتری جدید برای DoorDash را تقویت کند.",
-      "category": "business",
-      "tagsFa": [
-        "تخفیف",
-        "درج آگهی",
-        "دورداش",
-        "کد تخفیف",
-        "تخفیف غذا"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-08-19T06:35:59.966Z",
       "sourceCount": 1
     },
     {
