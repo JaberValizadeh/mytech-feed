@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-23T19:23:42.229Z",
+  "generatedAt": "2026-09-24T08:55:42.631Z",
   "articles": [
     {
       "id": "e5505f43de62a5b8",
@@ -292,6 +292,39 @@
       "sourceCount": 1
     },
     {
+      "id": "4325c629f1e5bcb7",
+      "sourceId": "wired",
+      "sourceName": "Wired",
+      "title": "Wayfair Coupons: Up to 80% Off August 2026",
+      "link": "https://www.wired.com/story/wayfair-promo-code/",
+      "content": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+      "author": "Molly Higgins",
+      "publishedAt": "2026-08-19T05:00:00.000Z",
+      "fingerprint": "2026 august coupons off wayfair",
+      "imageUrl": "https://media.wired.com/photos/67b63b969468ebbf8f0cbc7d/master/pass/WIRED-Coupons-R2_5.png",
+      "titleFa": "کدهای تخفیف Wayfair: تا ۸۰ درصد تخفیف در آگوست ۲۰۲۶",
+      "summaryFa": "در این خبر، بهترین کوپن‌ها و کدهای تخفیف Wayfair در آگوست ۲۰۲۶ معرفی شده است که تا ۸۰ درصد تخفیف روی محصولات مختلف ارائه می‌دهند، از جمله ۱۰ درصد تخفیف با کدهای ویژه.",
+      "summaryEn": "This article highlights top Wayfair coupons for August 2026, offering discounts up to 80 percent on furniture and other products, including an additional 10 percent Off with promo codes.",
+      "insightsFa": [
+        "تخفیف‌های بزرگ در زمینه مبلمان و دکوراسیون داخلی",
+        "استفاده از کوپن‌های تخفیف می‌تواند به صرفه‌جویی قابل توجه کمک کند",
+        "زمان‌بندی مناسب برای خریدهای فصلی و تخفیف‌های فصلی",
+        "پیشنهاد ویژه برای کاربران آگوست ۲۰۲۶"
+      ],
+      "whyItMattersFa": "این خبر اهمیت دارد چون به مصرف‌کنندگان کمک می‌کند تا با بهترین قیمت کالاهای مورد نیاز خود را خریداری کنند و از فرصت‌های تخفیف بهره‌مند شوند.",
+      "category": "general",
+      "tagsFa": [
+        "تخفیف",
+        "کدتخفیف",
+        "فروشگاه آنلاین",
+        "مبلمان",
+        "کد دوره ای"
+      ],
+      "readingMinutes": 1,
+      "processedAt": "2026-08-19T06:36:00.072Z",
+      "sourceCount": 1
+    },
+    {
       "id": "d4dbf5271551089a",
       "sourceId": "wired",
       "sourceName": "Wired",
@@ -353,39 +386,6 @@
       ],
       "readingMinutes": 1,
       "processedAt": "2026-08-19T06:35:59.917Z",
-      "sourceCount": 1
-    },
-    {
-      "id": "4325c629f1e5bcb7",
-      "sourceId": "wired",
-      "sourceName": "Wired",
-      "title": "Wayfair Coupons: Up to 80% Off August 2026",
-      "link": "https://www.wired.com/story/wayfair-promo-code/",
-      "content": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
-      "author": "Molly Higgins",
-      "publishedAt": "2026-08-19T05:00:00.000Z",
-      "fingerprint": "2026 august coupons off wayfair",
-      "imageUrl": "https://media.wired.com/photos/67b63b969468ebbf8f0cbc7d/master/pass/WIRED-Coupons-R2_5.png",
-      "titleFa": "کدهای تخفیف Wayfair: تا ۸۰ درصد تخفیف در آگوست ۲۰۲۶",
-      "summaryFa": "در این خبر، بهترین کوپن‌ها و کدهای تخفیف Wayfair در آگوست ۲۰۲۶ معرفی شده است که تا ۸۰ درصد تخفیف روی محصولات مختلف ارائه می‌دهند، از جمله ۱۰ درصد تخفیف با کدهای ویژه.",
-      "summaryEn": "This article highlights top Wayfair coupons for August 2026, offering discounts up to 80 percent on furniture and other products, including an additional 10 percent Off with promo codes.",
-      "insightsFa": [
-        "تخفیف‌های بزرگ در زمینه مبلمان و دکوراسیون داخلی",
-        "استفاده از کوپن‌های تخفیف می‌تواند به صرفه‌جویی قابل توجه کمک کند",
-        "زمان‌بندی مناسب برای خریدهای فصلی و تخفیف‌های فصلی",
-        "پیشنهاد ویژه برای کاربران آگوست ۲۰۲۶"
-      ],
-      "whyItMattersFa": "این خبر اهمیت دارد چون به مصرف‌کنندگان کمک می‌کند تا با بهترین قیمت کالاهای مورد نیاز خود را خریداری کنند و از فرصت‌های تخفیف بهره‌مند شوند.",
-      "category": "general",
-      "tagsFa": [
-        "تخفیف",
-        "کدتخفیف",
-        "فروشگاه آنلاین",
-        "مبلمان",
-        "کد دوره ای"
-      ],
-      "readingMinutes": 1,
-      "processedAt": "2026-08-19T06:36:00.072Z",
       "sourceCount": 1
     },
     {
