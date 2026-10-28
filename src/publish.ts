@@ -116,7 +116,12 @@ async function main(): Promise<void> {
   );
 }
 
-main().catch((err) => {
-  console.error("publish failed:", err);
-  process.exit(1);
-});
+// Exit explicitly: a lingering socket (keep-alive / unfinished fetch) once kept
+// the process alive after publishing, hanging CI until the 90-min timeout.
+main().then(
+  () => process.exit(0),
+  (err) => {
+    console.error("publish failed:", err);
+    process.exit(1);
+  },
+);
