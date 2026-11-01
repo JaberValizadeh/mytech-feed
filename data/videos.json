@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-10-31T19:44:06.775Z",
+  "generatedAt": "2026-11-01T11:01:52.871Z",
   "videos": [
+    {
+      "id": "WhA2iNfzytY",
+      "title": "the BIGGEST HACK of all time just started...",
+      "titleFa": "بزرگترین هک تمام زمان‌ها آغاز شد...",
+      "channelName": "Wes Roth",
+      "thumbnailUrl": "https://i.ytimg.com/vi/WhA2iNfzytY/hqdefault.jpg",
+      "publishedAt": "2026-11-01T07:54:54.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WhA2iNfzytY",
+      "captionFa": "این ویدیو به بررسی یکی از بزرگ‌ترین هک‌های تاریخ می‌پردازد که به تازگی شروع شده است. ماجراها و نتایج این هک می‌تواند تاثیرات عمیقی بر دنیای فناوری و امنیت سایبری داشته باشد.",
+      "captionEn": "This video discusses one of the biggest hacks in history that has just started. The events and results of this hack could have profound impacts on the world of technology and cybersecurity.",
+      "category": "ai",
+      "processedAt": "2026-11-01T11:01:35.822Z"
+    },
+    {
+      "id": "5-lb1APv6mg",
+      "title": "AGIBOT X2 Obstacle Course Test",
+      "titleFa": "آزمایش دوره موانع AGIBOT X2",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/5-lb1APv6mg/hqdefault.jpg",
+      "publishedAt": "2026-11-01T07:00:01.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/5-lb1APv6mg",
+      "captionFa": "در این ویدیو، ربات AGIBOT X2 در یک دوره موانع قرار می‌گیرد تا توانایی‌های حرکتی و هوش آن مورد ارزیابی قرار گیرد. این آزمایش به بررسی عملکرد ربات در شرایط مختلف و چالش‌های فیزیکی می‌پردازد.",
+      "captionEn": "This video features the AGIBOT X2 navigating an obstacle course to test its mobility and intelligence. The test evaluates the robot's performance in various conditions and physical challenges.",
+      "category": "robotics",
+      "processedAt": "2026-11-01T11:01:52.699Z"
+    },
     {
       "id": "_9R7QOhJh-o",
       "title": "Glasses That Make You Telepathic",
@@ -2860,32 +2886,6 @@
       "captionEn": "This video showcases how the FANUC CRX-10iA/L robot is used for decapping medical containers. It highlights the robot's capabilities in improving efficiency within the medical field.",
       "category": "robotics",
       "processedAt": "2026-10-28T09:45:19.660Z"
-    },
-    {
-      "id": "D-AJEGsXxB0",
-      "title": "Automated Spark Plug Palletizing | DOBOT CR20A at Niterra",
-      "titleFa": "پالت گذاری خودکار شمع موتور | DOBOT CR20A در Niterra",
-      "channelName": "Dobot Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/D-AJEGsXxB0/hqdefault.jpg",
-      "publishedAt": "2026-10-09T09:30:05.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/D-AJEGsXxB0",
-      "captionFa": "این ویدیو به بررسی فرآیند پالت گذاری خودکار شمع‌های موتور توسط ربات DOBOT CR20A در کارخانه Niterra می‌پردازد. در این سیستم پیشرفته، کارایی و دقت در جمع‌آوری و بسته‌بندی شمع‌ها به نمایش گذاشته می‌شود.",
-      "captionEn": "This video showcases the automated palletizing of spark plugs by the DOBOT CR20A robot at the Niterra factory. It highlights the efficiency and precision in collecting and packaging the spark plugs.",
-      "category": "robotics",
-      "processedAt": "2026-10-28T09:45:20.254Z"
-    },
-    {
-      "id": "SoLWCYnc-Bs",
-      "title": "AI Keeps Pissing Off Mathematicians",
-      "titleFa": "هوش مصنوعی مدام ریاضی‌دان‌ها را عصبانی می‌کند",
-      "channelName": "ColdFusion",
-      "thumbnailUrl": "https://i.ytimg.com/vi/SoLWCYnc-Bs/hqdefault.jpg",
-      "publishedAt": "2026-10-08T17:05:21.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=SoLWCYnc-Bs",
-      "captionFa": "این ویدیو به بررسی چالش‌هایی می‌پردازد که هوش مصنوعی برای ریاضی‌دان‌ها ایجاد می‌کند و چگونگی تاثیر آن بر روی حوزه‌های مختلف ریاضی و محاسبات می‌باشد. همچنین، دلایل نارضایتی ریاضی‌دان‌ها نسبت به پیشرفت‌های این حوزه مورد بحث قرار می‌گیرد.",
-      "captionEn": "The video examines the challenges that AI poses for mathematicians and its impact on various fields of mathematics and computation. It discusses the reasons behind mathematicians' frustrations with advancements in this area.",
-      "category": "ai",
-      "processedAt": "2026-10-28T09:45:44.906Z"
     },
     {
       "id": "dGkJe3aIWT4",
