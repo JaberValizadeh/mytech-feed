@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-11-01T11:01:52.871Z",
+  "generatedAt": "2026-11-02T01:14:45.137Z",
   "videos": [
+    {
+      "id": "g9IOdTisQyM",
+      "title": "GTA 6 on PC May be Coming Sooner than We Thought",
+      "titleFa": "GTA 6 بر روی PC ممکن است زودتر از آنچه فکر می‌کردیم عرضه شود",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/g9IOdTisQyM/hqdefault.jpg",
+      "publishedAt": "2026-11-01T16:45:10.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=g9IOdTisQyM",
+      "captionFa": "ویدیو به بررسی احتمال انتشار بازی GTA 6 بر روی PC می‌پردازد و نشان می‌دهد که ممکن است این اتفاق بسیار زودتر از انتظارات رخ دهد. با توجه به جزئیات جدید، شایعات پیرامون این موضوع قوت گرفته است.",
+      "captionEn": "The video discusses the potential for GTA 6 to be released on PC sooner than expected, exploring recent details and rumors that suggest this possibility might become a reality soon.",
+      "category": "hardware",
+      "processedAt": "2026-11-02T01:14:44.883Z"
+    },
     {
       "id": "WhA2iNfzytY",
       "title": "the BIGGEST HACK of all time just started...",
@@ -2873,19 +2886,6 @@
       "captionEn": "In this video, Simone Giertz addresses one of the annoying issues in her workshop. She creatively showcases innovative techniques to tackle this problem, making the process entertaining.",
       "category": "robotics",
       "processedAt": "2026-10-28T09:45:13.885Z"
-    },
-    {
-      "id": "igj7PJzIS4A",
-      "title": "Decapping Medical Containers Featuring the FANUC CRX-10iA/L",
-      "titleFa": "باز کردن ظروف پزشکی با استفاده از FANUC CRX-10iA/L",
-      "channelName": "FANUC America",
-      "thumbnailUrl": "https://i.ytimg.com/vi/igj7PJzIS4A/hqdefault.jpg",
-      "publishedAt": "2026-10-09T13:30:29.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=igj7PJzIS4A",
-      "captionFa": "در این ویدیو، نحوه استفاده از ربات FANUC CRX-10iA/L برای باز کردن ظروف پزشکی به نمایش گذاشته می‌شود. این ربات قابلیت‌هایی را ارائه می‌دهد که می‌تواند به بهبود کارایی در حوزه پزشکی کمک کند.",
-      "captionEn": "This video showcases how the FANUC CRX-10iA/L robot is used for decapping medical containers. It highlights the robot's capabilities in improving efficiency within the medical field.",
-      "category": "robotics",
-      "processedAt": "2026-10-28T09:45:19.660Z"
     },
     {
       "id": "dGkJe3aIWT4",
