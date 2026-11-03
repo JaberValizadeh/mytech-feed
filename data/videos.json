@@ -1,6 +1,71 @@
 {
-  "generatedAt": "2026-11-02T20:01:57.476Z",
+  "generatedAt": "2026-11-03T09:05:38.188Z",
   "videos": [
+    {
+      "id": "H0WMXqTPwCI",
+      "title": "DOBOT Nova | Bringing Automation to Wall Painting",
+      "titleFa": "DOBOT Nova | معرفی اتوماسیون در نقاشی دیوار",
+      "channelName": "Dobot Robotics",
+      "thumbnailUrl": "https://i.ytimg.com/vi/H0WMXqTPwCI/hqdefault.jpg",
+      "publishedAt": "2026-11-03T09:00:33.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=H0WMXqTPwCI",
+      "captionFa": "این ویدیو به نحوه عملکرد DOBOT Nova می‌پردازد که یک ربات نقاشی دیوار است. این ربات با استفاده از تکنولوژی‌ نوین، فرایند نقاشی را به صورت اتوماتیک انجام می‌دهد و به کاربران امکان می‌دهد تا به راحتی و با دقت بالا پروژه‌های نقاشی خود را به انجام برسانند.",
+      "captionEn": "This video showcases the DOBOT Nova, a wall painting automation robot. It explores how this robot utilizes modern technology to automate the painting process, allowing users to easily and precisely complete their painting projects.",
+      "category": "robotics",
+      "processedAt": "2026-11-03T09:05:26.575Z"
+    },
+    {
+      "id": "-85wZvndA_s",
+      "title": "How Cities Are Using AI Agents and Digital Twins",
+      "titleFa": "چگونه شهرها از ایجنت‌های هوش مصنوعی و دوقلوی دیجیتال استفاده می‌کنند",
+      "channelName": "NVIDIA Developer",
+      "thumbnailUrl": "https://i.ytimg.com/vi/-85wZvndA_s/hqdefault.jpg",
+      "publishedAt": "2026-11-03T07:06:56.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/-85wZvndA_s",
+      "captionFa": "در این ویدیو، به بررسی نحوه استفاده شهرها از ایجنت‌های هوش مصنوعی و دوقلوی دیجیتال برای بهبود زیرساخت‌ها و مدیریت منابع پرداخته می‌شود. این فناوری‌ها به شهرها کمک می‌کنند تا تصمیمات بهتری بگیرند و کارایی بیشتری داشته باشند.",
+      "captionEn": "This video explores how cities are utilizing AI agents and digital twins to enhance infrastructure and resource management. These technologies assist cities in making better decisions and improving efficiency.",
+      "category": "ai",
+      "processedAt": "2026-11-03T09:05:30.782Z"
+    },
+    {
+      "id": "XtXqvoiwUZs",
+      "title": "Time for a Rebrand",
+      "titleFa": "زمانی برای تغییر برند",
+      "channelName": "TechLinked",
+      "thumbnailUrl": "https://i.ytimg.com/vi/XtXqvoiwUZs/hqdefault.jpg",
+      "publishedAt": "2026-11-03T00:35:11.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=XtXqvoiwUZs",
+      "captionFa": "این ویدیو به تغییرات و به‌روزرسانی‌های جدید برندها می‌پردازد. بررسی عواملی که موجب تغییر در شناخت برندها می‌شود و چگونگی تاثیر آن بر بازار و مصرف‌کنندگان.",
+      "captionEn": "This video discusses the changes and updates in brand identities. It explores the factors that lead to brand recognition shifts and how these affect the market and consumers.",
+      "category": "general",
+      "processedAt": "2026-11-03T09:05:37.155Z"
+    },
+    {
+      "id": "lZes3U_WIug",
+      "title": "Generate Worlds in Real-Time (Free & Open Source)",
+      "titleFa": "ساخت دنیای واقعی در زمان واقعی (رایگان و متن باز)",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/lZes3U_WIug/hqdefault.jpg",
+      "publishedAt": "2026-11-02T23:12:03.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/lZes3U_WIug",
+      "captionFa": "در این ویدیو، روشی برای ایجاد دنیای مجازی به صورت لحظه‌ای و با استفاده از نرم‌افزارهای رایگان و متن باز معرفی شده است. این تکنیک‌ها می‌توانند در بازی‌ها، شبیه‌سازی‌ها و پروژه‌های خلاقانه کاربرد داشته باشند.",
+      "captionEn": "This video explores techniques for generating virtual worlds in real-time using free and open-source software. These methods can be applied in games, simulations, and creative projects.",
+      "category": "ai",
+      "processedAt": "2026-11-03T09:05:11.878Z"
+    },
+    {
+      "id": "azu0N43FtVs",
+      "title": "Making Music With Pure Electricity ⚡#electrosaber #engineering #ad #music",
+      "titleFa": "ساخت موسیقی با الکتریسیته خالص ⚡",
+      "channelName": "Hacksmith Industries",
+      "thumbnailUrl": "https://i.ytimg.com/vi/azu0N43FtVs/hqdefault.jpg",
+      "publishedAt": "2026-11-02T20:40:21.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/azu0N43FtVs",
+      "captionFa": "در این ویدیو، Hacksmith Industries نشان می‌دهد که چگونه می‌توان با استفاده از الکتریسیته خالص موسیقی ساخت. آنها سلاح الکتریکی خاصی به نام Electrosaber را طراحی کرده‌اند که قادر به تولید صداهای موسیقیایی از طریق جریان الکتریکی است.",
+      "captionEn": "In this video, Hacksmith Industries showcases how to make music using pure electricity. They have designed a special electric weapon called the Electrosaber, which can produce musical sounds through electric current.",
+      "category": "general",
+      "processedAt": "2026-11-03T09:05:33.309Z"
+    },
     {
       "id": "vDmjw-c_R2k",
       "title": "My F-You To Sam Altman",
@@ -2771,45 +2836,6 @@
       "processedAt": "2026-10-28T09:45:31.584Z"
     },
     {
-      "id": "IMHwdxfl4ko",
-      "title": "Tesla Bot Gen 4: Elon Musk Reveals the Next Humanoid Robot",
-      "titleFa": "ربات انسان‌نما تسلا نسل ۴: ایلان ماسک نسل بعدی ربات را معرفی می‌کند",
-      "channelName": "PRO ROBOTS",
-      "thumbnailUrl": "https://i.ytimg.com/vi/IMHwdxfl4ko/hqdefault.jpg",
-      "publishedAt": "2026-10-18T11:33:37.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=IMHwdxfl4ko",
-      "captionFa": "در این ویدیو ایلان ماسک نسل چهارم ربات انسان‌نمای تسلا را معرفی می‌کند. این پیشرفت شامل ویژگی‌ها و قابلیت‌های جدیدی است که ربات‌ها را به مراتب عملکرد بهتری می‌بخشند.",
-      "captionEn": "In this video, Elon Musk introduces the fourth generation of Tesla's humanoid robot. The advancements include new features and capabilities that significantly enhance the robot's performance.",
-      "category": "robotics",
-      "processedAt": "2026-10-28T09:45:15.411Z"
-    },
-    {
-      "id": "gUs-_0TXt4E",
-      "title": "I made a new kind of puzzle",
-      "titleFa": "من یک نوع جدید پازل درست کردم",
-      "channelName": "Simone Giertz",
-      "thumbnailUrl": "https://i.ytimg.com/vi/gUs-_0TXt4E/hqdefault.jpg",
-      "publishedAt": "2026-10-17T16:00:09.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/gUs-_0TXt4E",
-      "captionFa": "در این ویدیو، سیمون گیرتز از خلاقیت خود برای ساخت یک پازل نوآورانه و سرگرم‌کننده استفاده می‌کند. او فرآیند ساخت و چالش‌هایی که در طول راه با آن مواجه بوده را به تصویر می‌کشد.",
-      "captionEn": "In this video, Simone Giertz showcases her creativity by making an innovative and entertaining puzzle. She documents the building process and the challenges she faced along the way.",
-      "category": "robotics",
-      "processedAt": "2026-10-28T09:45:13.406Z"
-    },
-    {
-      "id": "scwlR0QHGOk",
-      "title": "The NEW Tesla Roadster: My Honest Reaction",
-      "titleFa": "رودررو با تسلا رودستر جدید: واکنش صادقانه من",
-      "channelName": "MKBHD",
-      "thumbnailUrl": "https://i.ytimg.com/vi/scwlR0QHGOk/hqdefault.jpg",
-      "publishedAt": "2026-10-17T02:09:23.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=scwlR0QHGOk",
-      "captionFa": "در این ویدیو، MKBHD به بررسی تسلا رودستر جدید می‌پردازد و نظرات شخصی خود را درباره طراحی و ویژگی‌های این خودرو به اشتراک می‌گذارد. او به جزئیات فنی و عملکرد این ماشین می‌پردازد و تجربیات رانندگی‌اش را تحلیل می‌کند.",
-      "captionEn": "In this video, MKBHD shares his honest reaction to the new Tesla Roadster, discussing its design, features, and performance. He provides insights from his driving experience and technical details of the vehicle.",
-      "category": "hardware",
-      "processedAt": "2026-10-28T09:45:34.010Z"
-    },
-    {
       "id": "LKrwhjOI8Nc",
       "title": "There's never been a better time to go into math",
       "titleFa": "هرگز زمان بهتری برای ورود به ریاضیات وجود نداشته است",
@@ -2823,19 +2849,6 @@
       "processedAt": "2026-10-28T09:45:42.714Z"
     },
     {
-      "id": "TEQspZPfN1M",
-      "title": "Autonomous Sanitation System for Large-Scale Food Processing Facilities",
-      "titleFa": "سیستم بهداشت خودکار برای تأسیسات بزرگ-processing غذا",
-      "channelName": "FANUC America",
-      "thumbnailUrl": "https://i.ytimg.com/vi/TEQspZPfN1M/hqdefault.jpg",
-      "publishedAt": "2026-10-16T13:30:14.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=TEQspZPfN1M",
-      "captionFa": "این ویدیو به معرفی سیستم بهداشت خودکار پرداخته که برای تأسیساتProcessing غذا در مقیاس بزرگ طراحی شده است. این سیستم رباتیک به افزایش کارایی و بهبود شرایط بهداشتی در فرآیندهای غذایی کمک می‌کند.",
-      "captionEn": "This video introduces an autonomous sanitation system designed for large-scale food processing facilities. The robotics system enhances efficiency and improves hygiene conditions in food processing operations.",
-      "category": "robotics",
-      "processedAt": "2026-10-28T09:45:18.328Z"
-    },
-    {
       "id": "GQHx67tzVCo",
       "title": "Unitree Introducing: UniUni Intelligent Swarm Control System",
       "titleFa": "معرفی Unitree: سیستم کنترل هوشمند UniUni",
@@ -2847,19 +2860,6 @@
       "captionEn": "In this video, Unitree Robotics introduces its UniUni intelligent swarm control system. This system allows robots to operate in a coordinated and efficient manner, enhancing the capabilities in robotics and artificial intelligence.",
       "category": "robotics",
       "processedAt": "2026-10-28T09:45:05.014Z"
-    },
-    {
-      "id": "l3L_lETiSzc",
-      "title": "The runtime wars are over... and Node won",
-      "titleFa": "جنگ‌های زمان اجرا به پایان رسید... و Node پیروز شد",
-      "channelName": "Fireship",
-      "thumbnailUrl": "https://i.ytimg.com/vi/l3L_lETiSzc/hqdefault.jpg",
-      "publishedAt": "2026-10-15T17:35:15.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=l3L_lETiSzc",
-      "captionFa": "این ویدیو به تحلیل رقابت بین فناوری‌های مختلف زمان اجرا می‌پردازد و نشان می‌دهد که چگونه Node.js توانسته است بر رقبای خود غلبه کند. همچنین، درباره مزایا و ویژگی‌های برجسته Node نسبت به دیگر گزینه‌ها صحبت می‌شود.",
-      "captionEn": "This video analyzes the competition among different runtime technologies and shows how Node.js has emerged victorious over its competitors. It also discusses the advantages and key features of Node compared to other options.",
-      "category": "software",
-      "processedAt": "2026-10-28T09:45:37.256Z"
     },
     {
       "id": "FGCP2F_7rQk",
