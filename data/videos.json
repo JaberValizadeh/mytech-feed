@@ -1,6 +1,32 @@
 {
-  "generatedAt": "2026-11-08T21:42:05.102Z",
+  "generatedAt": "2026-11-09T09:02:53.456Z",
   "videos": [
+    {
+      "id": "R7V-ncfZxrk",
+      "title": "Nvidia CEO Jensen Huang sent a memo to employees acknowledging he was unfaithful to his wife.",
+      "titleFa": "مدیرعامل انویدیا، جنسن هوانگ، یادداشتی برای کارمندان ارسال کرد و به بی‌وفایی‌اش به همسرش اعتراف کرد.",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/R7V-ncfZxrk/hqdefault.jpg",
+      "publishedAt": "2026-11-09T08:29:02.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/R7V-ncfZxrk",
+      "captionFa": "مدیرعامل انویدیا، جنسن هوانگ، در نامه‌ای به کارکنان شرکت به اعتراف به مشکلات شخصی خود پرداخت. این نامه حاوی تأثیرات این موضوع بر فضای کاری و روابط او با تیم انویدیا است.",
+      "captionEn": "Nvidia CEO Jensen Huang sent a memo to employees acknowledging his unfaithfulness to his wife. The memo discusses the impact of his personal issues on the work environment and his relationships with the Nvidia team.",
+      "category": "general",
+      "processedAt": "2026-11-09T09:02:53.451Z"
+    },
+    {
+      "id": "9F9x3MufdMQ",
+      "title": "DeepSeek Harness (DSH) EXPLAINED | Everything Is a Plugin",
+      "titleFa": "توضیح در مورد DeepSeek Harness (DSH) | همه چیز یک پلاگین است",
+      "channelName": "Hugging Face",
+      "thumbnailUrl": "https://i.ytimg.com/vi/9F9x3MufdMQ/hqdefault.jpg",
+      "publishedAt": "2026-11-09T05:15:35.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=9F9x3MufdMQ",
+      "captionFa": "این ویدیو به بررسی DeepSeek Harness (DSH) می‌پردازد و نشان می‌دهد چگونه هر چیزی می‌تواند به عنوان یک پلاگین عمل کند. همچنین به توانایی‌های آن در زمینه هوش مصنوعی و برنامه‌نویسی اشاره می‌کند.",
+      "captionEn": "This video explains DeepSeek Harness (DSH) and how everything can operate as a plugin. It also discusses its capabilities in artificial intelligence and programming.",
+      "category": "ai",
+      "processedAt": "2026-11-09T09:02:18.346Z"
+    },
     {
       "id": "jKjir4-HmQI",
       "title": "This controls games characters AND robots",
@@ -2665,32 +2691,6 @@
       "captionEn": "This video discusses topics related to machine learning and examines how the quality of data may sometimes matter less than expected. Paul Lessard explores the challenges of this issue and its effects on machine learning outcomes.",
       "category": "ai",
       "processedAt": "2026-10-28T09:44:46.101Z"
-    },
-    {
-      "id": "r3EvmbmOuGc",
-      "title": "Anthropic IPO Reveals 7 Shocking AI Risks|Is AI Getting Out of Control",
-      "titleFa": "عرضه اولیه Anthropic و ۷ ریسک شگفت‌انگیز هوش مصنوعی | آیا هوش مصنوعی از کنترل خارج می‌شود؟",
-      "channelName": "Krish Naik",
-      "thumbnailUrl": "https://i.ytimg.com/vi/r3EvmbmOuGc/hqdefault.jpg",
-      "publishedAt": "2026-10-28T07:50:21.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=r3EvmbmOuGc",
-      "captionFa": "در این ویدیو به بررسی ریسک‌های جدی که با عرضه اولیه شرکت Anthropic به وجود آمده است، پرداخته می‌شود. آیا هوش مصنوعی در مسیر خطرناکی قرار دارد و باید نگران کنترل آن باشیم؟",
-      "captionEn": "The video explores the serious risks associated with Anthropic's IPO, questioning whether AI is heading down a dangerous path and if we should be concerned about its control.",
-      "category": "ai",
-      "processedAt": "2026-10-28T09:45:01.856Z"
-    },
-    {
-      "id": "6-sMVePCKS4",
-      "title": "AI builds EVERYTHING...",
-      "titleFa": "هوش مصنوعی همه چیز را می‌سازد...",
-      "channelName": "Wes Roth",
-      "thumbnailUrl": "https://i.ytimg.com/vi/6-sMVePCKS4/hqdefault.jpg",
-      "publishedAt": "2026-10-28T07:36:56.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=6-sMVePCKS4",
-      "captionFa": "در این ویدیو، به بررسی چگونگی قدرت هوش مصنوعی در ساخت محصولات و خلاقیت‌های مختلف پرداخته می‌شود. به نظر می‌رسد AI به طرز شگفت‌انگیزی قادر به تولید و ایجاد ایده‌های نو و مفاهیم جدید باشد.",
-      "captionEn": "This video explores the capabilities of AI in creating a variety of products and innovations. It shows how AI can surprisingly generate and conceive new ideas and concepts.",
-      "category": "ai",
-      "processedAt": "2026-10-28T09:44:50.152Z"
     },
     {
       "id": "sFfPkUJd_Jk",
