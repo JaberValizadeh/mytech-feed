@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-11-11T17:44:56.019Z",
+  "generatedAt": "2026-11-12T05:33:42.839Z",
   "videos": [
+    {
+      "id": "nDwhxbJiNEg",
+      "title": "WE ❤️ PETS HERE AT ASSEMBLYAI: Vet Mode transcription",
+      "titleFa": "ما در AssemblyAI عاشق حیوانات خانگی هستیم: حالت دامپزشک برای تبدیل گفتار به متن",
+      "channelName": "AssemblyAI",
+      "thumbnailUrl": "https://i.ytimg.com/vi/nDwhxbJiNEg/hqdefault.jpg",
+      "publishedAt": "2026-11-12T01:33:46.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/nDwhxbJiNEg",
+      "captionFa": "در این ویدیو، قابلیت حالت دامپزشک در AssemblyAI معرفی می‌شود که به متخصصان دامپزشکی کمک می‌کند تا گفتار و اطلاعات مربوط به حیوانات خانگی را به راحتی تبدیل به متن کنند. این ویژگی جدید به بهبود تعامل میان دامپزشکان و صاحبان حیوانات کمک می‌کند.",
+      "captionEn": "This video introduces the Vet Mode feature in AssemblyAI, which helps veterinary professionals easily transcribe speech and information related to pets. This new feature enhances interaction between veterinarians and pet owners.",
+      "category": "ai",
+      "processedAt": "2026-11-12T05:33:39.642Z"
+    },
     {
       "id": "jmRM7YN0T8c",
       "title": "The Best Local Model is DeepSeek v4.1F 1017 - Frontier at Home",
@@ -2730,19 +2743,6 @@
       "captionEn": "In this video, Hacksmith Industries showcases how they bring the amazing world of Minecraft to life using engineering and creativity. The team employs various technologies and tools to create an incredible real-world experience from the game environment.",
       "category": "general",
       "processedAt": "2026-10-30T20:29:25.411Z"
-    },
-    {
-      "id": "CWdTBLsbaQs",
-      "title": "OpenAI Claims It Just Did The Impossible",
-      "titleFa": "OpenAI ادعا می‌کند که کار غیرممکن را انجام داده است",
-      "channelName": "Two Minute Papers",
-      "thumbnailUrl": "https://i.ytimg.com/vi/CWdTBLsbaQs/hqdefault.jpg",
-      "publishedAt": "2026-10-30T15:57:16.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=CWdTBLsbaQs",
-      "captionFa": "در این ویدیو، OpenAI به تازگی ادعایی را مطرح کرده که نشان می‌دهد توانسته به کارهایی دست یابد که پیش از این غیرممکن تصور می‌شد. این پیشرفت می‌تواند تحولاتی بزرگ در دنیای هوش مصنوعی ایجاد کند.",
-      "captionEn": "In this video, OpenAI claims to have achieved what was previously thought to be impossible. This advancement could bring about significant changes in the field of artificial intelligence.",
-      "category": "ai",
-      "processedAt": "2026-10-30T20:29:09.856Z"
     },
     {
       "id": "NDgS__J1U-M",
