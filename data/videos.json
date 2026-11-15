@@ -1,6 +1,58 @@
 {
-  "generatedAt": "2026-11-14T16:23:30.861Z",
+  "generatedAt": "2026-11-15T08:48:41.223Z",
   "videos": [
+    {
+      "id": "X3r-mZtPfP8",
+      "title": "The Self-Driving Car With Balls",
+      "titleFa": "ماشین خودران با توپ‌ها",
+      "channelName": "Matt Wolfe",
+      "thumbnailUrl": "https://i.ytimg.com/vi/X3r-mZtPfP8/hqdefault.jpg",
+      "publishedAt": "2026-11-15T07:12:15.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/X3r-mZtPfP8",
+      "captionFa": "در این ویدیو به بررسی یک ماشین خودران منحصر به فرد پرداخته می‌شود که توپ‌های جالبی را به نمایش می‌گذارد. ما با عملکرد این ماشین و چگونگی تعامل آن با توپ‌ها آشنا می‌شویم.",
+      "captionEn": "This video explores a unique self-driving car that showcases interesting balls. We learn about its functionality and how it interacts with the balls.",
+      "category": "ai",
+      "processedAt": "2026-11-15T08:48:08.080Z"
+    },
+    {
+      "id": "DsvAYzKOfBU",
+      "title": "How to Download Apps on Linux",
+      "titleFa": "چگونه برنامه‌ها را در لینوکس دانلود کنیم",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/DsvAYzKOfBU/hqdefault.jpg",
+      "publishedAt": "2026-11-14T22:39:54.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/DsvAYzKOfBU",
+      "captionFa": "در این ویدیو، نحوه دانلود و نصب برنامه‌ها در سیستم‌عامل لینوکس به صورت گام به گام توضیح داده می‌شود. همچنین به معرفی برخی از ابزارها و روش‌های مفید برای مدیریت نرم‌افزار در لینوکس می‌پردازد.",
+      "captionEn": "This video guides viewers through the steps of downloading and installing applications on the Linux operating system, along with introducing some useful tools and methods for software management in Linux.",
+      "category": "software",
+      "processedAt": "2026-11-15T08:48:35.619Z"
+    },
+    {
+      "id": "eD1SJHhyeXs",
+      "title": "From AI Factories to Intelligent Cities",
+      "titleFa": "از کارخانه‌های هوش مصنوعی تا شهرهای هوشمند",
+      "channelName": "NVIDIA Developer",
+      "thumbnailUrl": "https://i.ytimg.com/vi/eD1SJHhyeXs/hqdefault.jpg",
+      "publishedAt": "2026-11-14T18:58:57.000Z",
+      "youtubeUrl": "https://www.youtube.com/shorts/eD1SJHhyeXs",
+      "captionFa": "این ویدیو به بررسی نحوه تبدیل کارخانه‌های هوش مصنوعی به شهرهای هوشمند می‌پردازد و به نقش فناوری‌های نوین در بهبود زیرساخت‌های شهری و زندگی روزمره می‌پردازد.",
+      "captionEn": "This video explores how AI factories can transform into intelligent cities, highlighting the role of innovative technologies in enhancing urban infrastructure and daily life.",
+      "category": "ai",
+      "processedAt": "2026-11-15T08:48:31.351Z"
+    },
+    {
+      "id": "u5UTIofKDGc",
+      "title": "My Datacenter Evicted Me",
+      "titleFa": "مرکز داده من مرا بیرون انداخت",
+      "channelName": "Linus Tech Tips",
+      "thumbnailUrl": "https://i.ytimg.com/vi/u5UTIofKDGc/hqdefault.jpg",
+      "publishedAt": "2026-11-14T17:13:06.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=u5UTIofKDGc",
+      "captionFa": "در این ویدیو، لینوس از تجربه‌ای جالب در مورد مرکز داده خود می‌گوید که به او اجازه استفاده از فضا را نمی‌دهد. او توضیح می‌دهد که چه مشکلاتی برایش پیش آمد و چگونه با آن‌ها مقابله کرده است.",
+      "captionEn": "In this video, Linus shares an interesting experience about his data center that no longer allows him to use the space. He explains the challenges he faced and how he dealt with them.",
+      "category": "hardware",
+      "processedAt": "2026-11-15T08:48:36.131Z"
+    },
     {
       "id": "opRXPRnSkxk",
       "title": "Serving GLM-5.3 Across Two NVIDIA DGX Stations with vLLM",
@@ -2717,58 +2769,6 @@
       "captionEn": "In this video, the Hacksmith Industries engineering team showcases their exciting journey to observe a unique crane. They demonstrate how their passion for engineering and technology inspires them to travel great distances.",
       "category": "general",
       "processedAt": "2026-11-03T22:52:31.706Z"
-    },
-    {
-      "id": "yxthX_mQebQ",
-      "title": "Great automation takes more than just a robot. It takes an ecosystem. 🤖",
-      "titleFa": "خودکاری بزرگ نیاز به چیزی بیشتر از یک ربات دارد. به یک اکوسیستم نیاز است.",
-      "channelName": "ABB Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/yxthX_mQebQ/hqdefault.jpg",
-      "publishedAt": "2026-11-03T14:41:39.000Z",
-      "youtubeUrl": "https://www.youtube.com/shorts/yxthX_mQebQ",
-      "captionFa": "این ویدیو به بررسی این موضوع می‌پردازد که علاوه بر وجود ربات، ایجاد یک اکوسیستم هوشمند و کارآمد برای اتوماسیون ضروری است. اهمیت هم‌ترازی و همکاری بین ربات‌ها، نرم‌افزارها و سیستم‌ها در تولیدات صنعتی مورد بحث قرار می‌گیرد.",
-      "captionEn": "This video explores the importance of having more than just a robot for automation, emphasizing the need for a smart and efficient ecosystem. It discusses the alignment and collaboration between robots, software, and systems in industrial production.",
-      "category": "robotics",
-      "processedAt": "2026-11-03T22:52:25.601Z"
-    },
-    {
-      "id": "5W6-EwLddmk",
-      "title": "BLACK FRIDAY Exclusive NordVPN coupon code | Lowest price possible!",
-      "titleFa": "کد تخفیف انحصاری نوردVPN در بلک فرایدی | ارزان‌ترین قیمت ممکن!",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/5W6-EwLddmk/hqdefault.jpg",
-      "publishedAt": "2026-11-03T14:09:45.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=5W6-EwLddmk",
-      "captionFa": "در این ویدیو، یک کد تخفیف انحصاری برای نوردVPN به مناسبت بلک فرایدی معرفی می‌شود. این کد به شما این امکان را می‌دهد که از پایین‌ترین قیمت ممکن برای اشتراک نوردVPN بهره‌مند شوید.",
-      "captionEn": "In this video, an exclusive coupon code for NordVPN is introduced for Black Friday. This code allows you to benefit from the lowest price possible for a NordVPN subscription.",
-      "category": "general",
-      "processedAt": "2026-11-03T22:52:36.592Z"
-    },
-    {
-      "id": "Ustc4Bf6QPs",
-      "title": "Hostinger coupon code (BLACK FRIDAY) | Grab the biggest Hostinger discount",
-      "titleFa": "کد تخفیف Hostinger (جمعه سیاه) | بهترین تخفیف Hostinger را بگیرید",
-      "channelName": "Cybernews",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Ustc4Bf6QPs/hqdefault.jpg",
-      "publishedAt": "2026-11-03T14:09:04.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Ustc4Bf6QPs",
-      "captionFa": "این ویدیو به معرفی کد تخفیف ویژه برای سرویس میزبانی Hostinger در روز جمعه سیاه می‌پردازد. شما می‌توانید با استفاده از این کد، از تخفیف‌های فوق‌العاده‌ای بهره‌مند شوید و هزینه‌های میزبانی خود را به صورت چشمگیری کاهش دهید.",
-      "captionEn": "This video introduces a special discount code for Hostinger hosting services during Black Friday. You can use this code to take advantage of incredible discounts and significantly reduce your hosting costs.",
-      "category": "general",
-      "processedAt": "2026-11-03T22:52:36.920Z"
-    },
-    {
-      "id": "g6Die8gVFn0",
-      "title": "OLED iPad Mini is The Most Apple Product They've Ever Appled",
-      "titleFa": "آیپد مینی OLED، محصولی بی‌نظیر از اپل",
-      "channelName": "MKBHD",
-      "thumbnailUrl": "https://i.ytimg.com/vi/g6Die8gVFn0/hqdefault.jpg",
-      "publishedAt": "2026-11-03T14:01:31.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=g6Die8gVFn0",
-      "captionFa": "در این ویدیو بررسی می‌شود که چطور آیپد مینی با صفحه نمایش OLED به یکی از بهترین محصولات اپل تبدیل می‌شود. همچنین، طراحی و ویژگی‌های منحصر به فرد این دستگاه بررسی می‌شود که آن را از سایر محصولات متمایز می‌کند.",
-      "captionEn": "This video discusses how the OLED iPad Mini becomes one of Apple's best products. It explores the unique design and features of this device that set it apart from other products.",
-      "category": "hardware",
-      "processedAt": "2026-11-03T22:52:32.220Z"
     },
     {
       "id": "H0WMXqTPwCI",
