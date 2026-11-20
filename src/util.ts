@@ -1,5 +1,5 @@
 import { createHash } from "node:crypto";
-import type { ProcessedArticle, Sponsor, Video } from "./types.js";
+import type { ProcessedArticle, RawArticle, Sponsor, Video } from "./types.js";
 
 /** Short, stable, URL-safe id from any string (e.g. an article link). */
 export function hashId(input: string): string {
@@ -63,7 +63,7 @@ export function similarity(a: string, b: string): number {
 // "chatbot". Persian «ربات» is intentionally excluded because it means both
 // "robot" and "bot"; only unambiguous Persian robotics terms are kept.
 const PHYSICAL_ROBOT_TERMS =
-  /robot|humanoid|cobot|quadruped|exoskeleton|\bdrone|automaton|رباتیک|پهپاد|انسان‌نما|بازوی رباتیک/i;
+  /robot(?!s\.txt)|humanoid|cobot|quadruped|exoskeleton|\bdrone|automaton|رباتیک|پهپاد|انسان‌نما|بازوی رباتیک/i;
 export function mentionsPhysicalRobot(text: string): boolean {
   return PHYSICAL_ROBOT_TERMS.test(text);
 }
@@ -125,10 +125,26 @@ export function sponsorBidi(s: Sponsor): Sponsor {
   };
 }
 
-/** Rough reading time in minutes for an English source text (~220 wpm). */
-export function readingMinutes(text: string): number {
-  const words = text.trim().split(/\s+/).filter(Boolean).length;
-  return Math.max(1, Math.round(words / 220));
+/** Below this, a feed gave us a snippet, which says nothing about article length. */
+const MIN_WORDS_FOR_READING_TIME = 150;
+
+/** Rough reading time in minutes (~220 wpm); undefined when only a snippet is known. */
+export function readingMinutes(wordCount: number): number | undefined {
+  if (wordCount < MIN_WORDS_FOR_READING_TIME) return undefined;
+  return Math.max(1, Math.round(wordCount / 220));
+}
+
+/**
+ * The fields worth storing and publishing. Source text is only needed during
+ * enrichment; keeping it would republish publishers' text from a public repo and
+ * add almost half the feed's size for fields the app never reads.
+ */
+export function toStoredArticle(article: ProcessedArticle): ProcessedArticle {
+  const { content, fingerprint, wordCount, ...stored } = article as ProcessedArticle &
+    Partial<Pick<RawArticle, "content" | "fingerprint" | "wordCount">>;
+  // Older stores can hold articles flagged as duplicates of themselves.
+  if (stored.duplicateOf === stored.id) delete stored.duplicateOf;
+  return stored;
 }
 
 /** Truncate text to a max length on a word boundary. */
@@ -157,9 +173,11 @@ const IMAGE_META_PATTERNS: RegExp[] = [
  * error or timeout (always safe to call).
  */
 export async function fetchOgImage(url: string): Promise<string | undefined> {
+  // The timer stays armed while the body is read: a server that sends headers and
+  // then stalls would otherwise hang the whole run.
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), 8000);
   try {
-    const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 8000);
     const res = await fetch(url, {
       signal: controller.signal,
       headers: {
@@ -170,11 +188,9 @@ export async function fetchOgImage(url: string): Promise<string | undefined> {
       },
       redirect: "follow",
     });
-    clearTimeout(timer);
     if (!res.ok) return undefined;
-    const text = await res.text();
     // <head> can be large; scan up to 200 KB (og:image is always in the head).
-    const head = text.slice(0, 200_000);
+    const head = await readHead(res, 200_000);
     for (const re of IMAGE_META_PATTERNS) {
       const imageUrl = head.match(re)?.[1]?.trim();
       if (imageUrl && !imageUrl.startsWith("data:")) {
@@ -188,7 +204,24 @@ export async function fetchOgImage(url: string): Promise<string | undefined> {
     return undefined;
   } catch {
     return undefined;
+  } finally {
+    clearTimeout(timer);
   }
+}
+
+/** Read at most maxChars of a response body, then stop downloading. */
+async function readHead(res: Response, maxChars: number): Promise<string> {
+  if (!res.body) return "";
+  const reader = res.body.getReader();
+  const decoder = new TextDecoder();
+  let text = "";
+  while (text.length < maxChars) {
+    const { done, value } = await reader.read();
+    if (done) break;
+    text += decoder.decode(value, { stream: true });
+  }
+  void reader.cancel().catch(() => undefined);
+  return text.slice(0, maxChars);
 }
 
 /** First usable <img> src from a chunk of article HTML (RSS content). */
@@ -208,4 +241,19 @@ export function firstImageInHtml(html: string | undefined, baseUrl: string): str
     }
   }
   return undefined;
+}
+
+let nextAiSlot = 0;
+
+/**
+ * Spaces out model requests by AI_MIN_INTERVAL_MS so a free tier's
+ * requests-per-minute cap is never hit. Shared across all workers; 0 disables.
+ */
+export async function paceAiRequest(): Promise<void> {
+  const gap = Number(process.env.AI_MIN_INTERVAL_MS ?? 0);
+  if (gap <= 0) return;
+  const now = Date.now();
+  const at = Math.max(now, nextAiSlot);
+  nextAiSlot = at + gap;
+  if (at > now) await new Promise((resolve) => setTimeout(resolve, at - now));
 }

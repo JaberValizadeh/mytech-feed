@@ -33,15 +33,22 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: npm
 
       - run: npm ci
       - run: npm run build
 
       - name: Aggregate + build static feed
+        id: publish
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Google Gemini free tier through its OpenAI-compatible endpoint (the
+          # OpenAI SDK reads OPENAI_BASE_URL), so the pipeline costs nothing.
+          OPENAI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          OPENAI_BASE_URL: https://generativelanguage.googleapis.com/v1beta/openai/
+          OPENAI_MODEL: gemini-3.5-flash-lite
+          # Free tier allows ~15 requests/min: one request every 4.5 s stays under.
+          AI_MIN_INTERVAL_MS: "4500"
           # data/ is committed, so this run reuses the enrichment cache and only
           # pays OpenAI for genuinely new articles.
           DATA_DIR: ${{ github.workspace }}/data
@@ -49,9 +56,9 @@ jobs:
           # 42 channels x 5 videos = 210 raw; the 150 default would silently
           # crowd whole channels out of the store.
           MAX_STORED_VIDEOS: "250"
-          # Default of 2 makes a large backlog crawl. The runner is not the
-          # bottleneck; OpenAI rate limits are, and the SDK backs off on 429.
-          AI_CONCURRENCY: "6"
+          # Throughput is set by AI_MIN_INTERVAL_MS; 2 workers just keep the
+          # pacer fed while a slow response is in flight.
+          AI_CONCURRENCY: "2"
         run: npm run publish
 
       - name: Commit refreshed cache
@@ -75,3 +82,11 @@ jobs:
           path: public
       - id: deploy
         uses: actions/deploy-pages@v4
+
+      # Everything usable is already published. Fail now so GitHub notifies the
+      # owner instead of a broken pipeline staying green (see public/status.json).
+      - name: Fail if the run was degraded
+        if: steps.publish.outputs.degraded == 'true'
+        run: |
+          echo "::error::Degraded refresh - see the Aggregate step log and status.json"
+          exit 1

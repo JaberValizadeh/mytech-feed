@@ -50,11 +50,16 @@ export function deduplicate(articles: RawArticle[]): DedupResult {
   const duplicateOf = new Map<string, string>();
   // Canonical id -> set of distinct source ids in its cluster.
   const clusterSources = new Map<string, Set<string>>();
+  const seenIds = new Set<string>();
 
   for (const article of sorted) {
+    // The same link listed in two feeds isn't independent coverage, and marking
+    // it duplicateOf itself would hide the only copy from the published feed.
+    if (seenIds.has(article.id)) continue;
+    seenIds.add(article.id);
+
     const match = unique.find(
       (kept) =>
-        kept.id === article.id ||
         similarity(kept.fingerprint, article.fingerprint) >= DUP_THRESHOLD ||
         similarity(contentFp(kept), contentFp(article)) >= DUP_THRESHOLD,
     );

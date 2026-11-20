@@ -226,7 +226,7 @@ app.delete("/admin/sponsors/:id", async (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`TechNews Persian API listening on http://localhost:${PORT}`);
+  console.log(`MyTech API listening on http://localhost:${PORT}`);
   console.log(`Feed:        http://localhost:${PORT}/feed`);
   console.log(`On a phone, use your machine's LAN IP instead of localhost.`);
   // Fetch fresh news on boot (if stale) and keep it refreshed on a schedule.

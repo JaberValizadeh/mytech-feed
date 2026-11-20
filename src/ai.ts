@@ -1,7 +1,7 @@
 import OpenAI from "openai";
 import type { CategoryId, ProcessedArticle, RawArticle } from "./types.js";
 import { CATEGORY_IDS } from "./types.js";
-import { readingMinutes, truncate } from "./util.js";
+import { paceAiRequest, readingMinutes, truncate } from "./util.js";
 
 const MODEL = process.env.OPENAI_MODEL ?? "gpt-4o-mini";
 
@@ -20,7 +20,7 @@ function client(): OpenAI {
 }
 
 /** True for the "insufficient_quota / billing" 429 — retrying it is pointless. */
-function isQuotaError(err: unknown): boolean {
+export function isQuotaError(err: unknown): boolean {
   const e = err as { status?: number; code?: string; message?: string } | undefined;
   if (!e) return false;
   if (e.code === "insufficient_quota") return true;
@@ -80,7 +80,7 @@ interface Enrichment {
   tagsFa: string[];
 }
 
-const SYSTEM_PROMPT = `تو سردبیر هوش مصنوعی یک سرویس خبری فناوری به نام «تک‌نیوز فارسی» هستی. مخاطب تو توسعه‌دهندگان نرم‌افزار، پژوهشگران هوش مصنوعی، بنیان‌گذاران استارتاپ و علاقه‌مندان حرفه‌ای فناوری فارسی‌زبان هستند.
+const SYSTEM_PROMPT = `تو سردبیر هوش مصنوعی یک سرویس خبری فناوری به نام «MyTech» هستی. مخاطب تو توسعه‌دهندگان نرم‌افزار، پژوهشگران هوش مصنوعی، بنیان‌گذاران استارتاپ و علاقه‌مندان حرفه‌ای فناوری فارسی‌زبان هستند.
 
 وظیفه تو فقط ترجمه نیست؛ باید خبر را بازآفرینی کنی:
 - عنوان را روان و طبیعی به فارسی برگردان (نه ترجمه تحت‌اللفظی).
@@ -102,8 +102,24 @@ const CATEGORY_GUIDE = `راهنمای دسته‌ها: ai=هوش مصنوعی �
 
 بسیار مهم درباره robotics: فقط زمانی robotics را انتخاب کن که خبر درباره یک ماشین یا ربات فیزیکی واقعی باشد. چت‌بات، بات نرم‌افزاری، ایجنت هوش مصنوعی، بات شبکه‌های اجتماعی، بات‌نت و «bot»های نرم‌افزاری هرگز robotics نیستند؛ آن‌ها را در ai یا security یا general قرار بده.`;
 
-/** Run the AI enrichment for a single article. */
+/** A Persian letter running straight into a Latin one: "کارflows", "معرفیApple". */
+const GLUED_WORD = /[\u0621-\u06CC][A-Za-z]/;
+
+function hasGluedWord(e: Enrichment): boolean {
+  return [e.titleFa, e.summaryFa, e.whyItMattersFa, ...e.insightsFa].some((s) =>
+    GLUED_WORD.test(s),
+  );
+}
+
+/** Enrich one article, retrying once if the Persian came back with glued words. */
 async function enrich(article: RawArticle): Promise<Enrichment> {
+  const first = await requestEnrichment(article);
+  if (!hasGluedWord(first)) return first;
+  return requestEnrichment(article);
+}
+
+/** Run the AI enrichment for a single article. */
+async function requestEnrichment(article: RawArticle): Promise<Enrichment> {
   const userContent = `${CATEGORY_GUIDE}
 
 منبع: ${article.sourceName}
@@ -112,6 +128,7 @@ async function enrich(article: RawArticle): Promise<Enrichment> {
 متن اصلی:
 ${truncate(article.content, 2000) || "(متن کامل در دسترس نیست؛ بر اساس عنوان کار کن.)"}`;
 
+  await paceAiRequest();
   const response = await client().chat.completions.create({
     model: MODEL,
     max_tokens: 1500,
@@ -143,7 +160,7 @@ export async function enrichAll(
   articles: RawArticle[],
   duplicateOf: Map<string, string>,
   concurrency = Number(process.env.AI_CONCURRENCY ?? 2),
-): Promise<ProcessedArticle[]> {
+): Promise<{ articles: ProcessedArticle[]; quotaExhausted: boolean }> {
   const out: ProcessedArticle[] = [];
   let index = 0;
   // When the account's quota is exhausted, stop hammering the API — every call
@@ -157,10 +174,11 @@ export async function enrichAll(
       const n = index;
       try {
         const e = await enrich(article);
+        const { content: _content, fingerprint: _fingerprint, wordCount, ...meta } = article;
         out.push({
-          ...article,
+          ...meta,
           ...e,
-          readingMinutes: readingMinutes(article.content || article.title),
+          readingMinutes: readingMinutes(wordCount),
           duplicateOf: duplicateOf.get(article.id),
           processedAt: new Date().toISOString(),
         });
@@ -187,5 +205,5 @@ export async function enrichAll(
 
   // Newest first.
   out.sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
-  return out;
+  return { articles: out, quotaExhausted };
 }

@@ -23,6 +23,8 @@ export interface Video {
   captionEn: string;
   category: VideoCategory;
   processedAt: string;
+  /** True when the caption was written from the real description, not just the title. */
+  captionFromDescription?: boolean;
 }
 
 /**
@@ -103,10 +105,13 @@ export interface RawArticle {
   fingerprint: string;
   /** Hero image URL — from RSS media fields or og:image scraping. */
   imageUrl?: string;
+  /** Words in the feed's text before truncation (used for reading time). */
+  wordCount: number;
 }
 
 /** The AI-enriched article served to the app. */
-export interface ProcessedArticle extends RawArticle {
+export interface ProcessedArticle
+  extends Omit<RawArticle, "content" | "fingerprint" | "wordCount"> {
   /** Fluent Persian translation of the headline. */
   titleFa: string;
   /** 2-3 sentence Persian summary. */
@@ -121,8 +126,8 @@ export interface ProcessedArticle extends RawArticle {
   category: CategoryId;
   /** Persian tags for discovery. */
   tagsFa: string[];
-  /** Estimated read time of the original, in minutes. */
-  readingMinutes: number;
+  /** Estimated read time, in minutes. Absent when the feed only had a snippet. */
+  readingMinutes?: number;
   /** ids of other articles judged to be the same story (deduplication). */
   duplicateOf?: string;
   /** Distinct sources that carried this story; >= 2 marks it as "hot news". */

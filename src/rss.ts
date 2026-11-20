@@ -2,6 +2,12 @@ import Parser from "rss-parser";
 import type { RawArticle, Source } from "./types.js";
 import { fetchOgImage, fingerprint, firstImageInHtml, hashId, stripHtml, truncate } from "./util.js";
 
+export interface FetchAllResult {
+  articles: RawArticle[];
+  /** Names of sources that could not be fetched or parsed this run. */
+  failedSources: string[];
+}
+
 type MediaItem = { $?: { url?: string } };
 type RssItem = Parser.Item & {
   mediaContent?: MediaItem | MediaItem[];
@@ -11,7 +17,7 @@ type RssItem = Parser.Item & {
 
 const parser = new Parser<Record<string, unknown>, RssItem>({
   timeout: 15000,
-  headers: { "User-Agent": "TechNewsPersian/1.0 (+aggregator)" },
+  headers: { "User-Agent": "MyTech/1.0 (+aggregator)" },
   customFields: {
     item: [
       ["media:content", "mediaContent"],
@@ -59,7 +65,8 @@ export async function fetchSource(
         item.summary ??
         "";
 
-      const content = truncate(stripHtml(rawContent), 4000);
+      const plainText = stripHtml(rawContent);
+      const content = truncate(plainText, 4000);
       const publishedAt = item.isoDate ?? new Date().toISOString();
 
       return {
@@ -69,6 +76,7 @@ export async function fetchSource(
         title,
         link,
         content,
+        wordCount: plainText.split(/\s+/).filter(Boolean).length,
         author: item.creator ?? (item as { author?: string }).author,
         publishedAt,
         fingerprint: fingerprint(title),
@@ -84,17 +92,19 @@ export async function fetchSource(
 export async function fetchAll(
   sources: Source[],
   maxItems: number,
-): Promise<RawArticle[]> {
+): Promise<FetchAllResult> {
   const results = await Promise.allSettled(
     sources.map((s) => fetchSource(s, maxItems)),
   );
 
   const articles: RawArticle[] = [];
+  const failedSources: string[] = [];
   results.forEach((result, i) => {
     if (result.status === "fulfilled") {
       articles.push(...result.value);
       console.log(`  ✓ ${sources[i].name}: ${result.value.length} items`);
     } else {
+      failedSources.push(sources[i].name);
       console.warn(`  ✗ ${sources[i].name}: ${String(result.reason).slice(0, 120)}`);
     }
   });
@@ -102,7 +112,7 @@ export async function fetchAll(
   // Fill in og:image for articles that had no RSS media field.
   await fillMissingImages(articles);
 
-  return articles;
+  return { articles, failedSources };
 }
 
 /**

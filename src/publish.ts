@@ -1,10 +1,10 @@
 import "dotenv/config";
-import { mkdir, writeFile } from "node:fs/promises";
+import { appendFile, mkdir, writeFile } from "node:fs/promises";
 import { join } from "node:path";
-import { runAggregation } from "./pipeline.js";
-import { runVideoAggregation } from "./videos.js";
+import { runAggregation, type AggregationResult } from "./pipeline.js";
+import { runVideoAggregation, type VideoAggregationResult } from "./videos.js";
 import { loadArticles, loadSponsors, loadVideos } from "./store.js";
-import { articleBidi, sponsorBidi, videoBidi } from "./util.js";
+import { articleBidi, sponsorBidi, toStoredArticle, videoBidi } from "./util.js";
 
 /**
  * Static-site build: run the full aggregation, then emit the JSON files the app
@@ -49,12 +49,49 @@ async function shouldRunNow(): Promise<boolean> {
   return ageHours >= MIN_AGE_HOURS;
 }
 
+/** Above this share of failures, a run counts as degraded even though it finished. */
+const MAX_FAILURE_RATE = 0.25;
+const MAX_SOURCE_FAILURE_RATE = 0.5;
+
+/** Why this run should be flagged, so a broken pipeline can't stay green. */
+function degradedReasons(
+  articles: AggregationResult | null,
+  videos: VideoAggregationResult | null,
+): string[] {
+  const reasons: string[] = [];
+  const tooMany = (failed: number, total: number, rate: number) =>
+    total > 0 && failed / total > rate;
+
+  if (articles) {
+    if (articles.quotaExhausted) reasons.push("OpenAI quota exhausted during article enrichment");
+    if (tooMany(articles.enrichFailed, articles.enrichAttempted, MAX_FAILURE_RATE)) {
+      reasons.push(`${articles.enrichFailed}/${articles.enrichAttempted} article enrichments failed`);
+    }
+    if (tooMany(articles.failedSources.length, articles.sourcesTotal, MAX_SOURCE_FAILURE_RATE)) {
+      reasons.push(`${articles.failedSources.length}/${articles.sourcesTotal} news sources failed`);
+    }
+  }
+  if (videos) {
+    if (videos.quotaExhausted) reasons.push("OpenAI quota exhausted during video enrichment");
+    if (tooMany(videos.enrichFailed, videos.enrichAttempted, MAX_FAILURE_RATE)) {
+      reasons.push(`${videos.enrichFailed}/${videos.enrichAttempted} video enrichments failed`);
+    }
+    if (tooMany(videos.failedChannels.length, videos.channelsTotal, MAX_SOURCE_FAILURE_RATE)) {
+      reasons.push(`${videos.failedChannels.length}/${videos.channelsTotal} YouTube channels failed`);
+    }
+  }
+  return reasons;
+}
+
 async function main(): Promise<void> {
+  let articleRun: AggregationResult | null = null;
+  let videoRun: VideoAggregationResult | null = null;
+
   // Gate only the expensive aggregation. The static files are always re-emitted
   // so the Pages deploy step has something to publish on every run.
   if (await shouldRunNow()) {
-    await runAggregation();
-    await runVideoAggregation();
+    articleRun = await runAggregation();
+    videoRun = await runVideoAggregation();
   } else {
     const now = new Date().toLocaleString("en-AU", { timeZone: TZ });
     console.log(`Feed still fresh (${now} Sydney). Re-publishing existing data.`);
@@ -69,7 +106,9 @@ async function main(): Promise<void> {
   // The app filters/paginates client-side, so ship the whole (deduped) feed.
   // Persian fields go through the bidi fixer (articleBidi) so headlines mixing
   // Persian and Latin names render RTL correctly; stored data stays raw.
-  const feed = articles.filter((a) => !a.duplicateOf).map(articleBidi);
+  const feed = articles
+    .filter((a) => !a.duplicateOf)
+    .map((a) => articleBidi(toStoredArticle(a)));
   await emit("feed.json", { generatedAt, count: feed.length, articles: feed });
 
   await emit("videos.json", {
@@ -110,6 +149,23 @@ async function main(): Promise<void> {
 </ul>`,
     "utf8",
   );
+
+  const reasons = degradedReasons(articleRun, videoRun);
+  await emit("status.json", {
+    generatedAt,
+    checkedAt: new Date().toISOString(),
+    refreshed: articleRun !== null,
+    degraded: reasons,
+    articles: articleRun,
+    videos: videoRun,
+  });
+  if (reasons.length > 0) {
+    console.error(`\nDEGRADED RUN:\n  - ${reasons.join("\n  - ")}`);
+    // The workflow publishes what we have, then fails the run so it gets noticed.
+    if (process.env.GITHUB_OUTPUT) {
+      await appendFile(process.env.GITHUB_OUTPUT, "degraded=true\n");
+    }
+  }
 
   console.log(
     `\nPublished: ${feed.length} articles, ${videos.length} videos, ${hot.length} hot, ${live.length} sponsors.`,

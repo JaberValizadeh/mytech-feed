@@ -29,9 +29,12 @@ export interface VideoStore {
 }
 
 /** Persist the processed feed to disk as JSON. */
-export async function saveArticles(articles: ProcessedArticle[]): Promise<void> {
+export async function saveArticles(
+  articles: ProcessedArticle[],
+  generatedAt = new Date().toISOString(),
+): Promise<void> {
   const store: ArticleStore = {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     articles,
   };
   await ensureDataDir();
@@ -48,9 +51,12 @@ export async function loadArticles(): Promise<ArticleStore> {
 }
 
 /** Persist the video feed to disk as JSON. */
-export async function saveVideos(videos: Video[]): Promise<void> {
+export async function saveVideos(
+  videos: Video[],
+  generatedAt = new Date().toISOString(),
+): Promise<void> {
   const store: VideoStore = {
-    generatedAt: new Date().toISOString(),
+    generatedAt,
     videos,
   };
   await ensureDataDir();
