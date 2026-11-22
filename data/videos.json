@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-11-21T22:52:56.843Z",
+  "generatedAt": "2026-11-22T14:03:20.186Z",
   "videos": [
+    {
+      "id": "69LqL2g9sr8",
+      "title": "Real-Time Sensor Data Analytics & AI Implementation with Tiger Cloud",
+      "titleFa": "تحلیل داده‌های حسگر به صورت بلادرنگ و پیاده‌سازی هوش مصنوعی با Tiger Cloud",
+      "channelName": "Krish Naik",
+      "thumbnailUrl": "https://i.ytimg.com/vi/69LqL2g9sr8/hqdefault.jpg",
+      "publishedAt": "2026-11-22T13:36:41.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=69LqL2g9sr8",
+      "captionFa": "در این ویدیو به بررسی نحوه مدیریت، تحلیل و پرس‌وجو از داده‌های سری زمانی حجیم با استفاده از Tiger Cloud پرداخته می‌شود. این ابزار با بهره‌گیری از PostgreSQL و افزونه TimeScale DB امکاناتی مانند تشخیص ناهنجاری خودکار، فشرده‌سازی داده‌ها و ساخت موتور جستجوی معنایی هیبریدی را فراهم می‌کند.",
+      "captionEn": "In this video, we explore how to manage, analyze, and query high-volume time-series data at scale using Tiger Cloud powered by PostgreSQL and TimeScale DB. We cover setting up a managed cloud database, querying IoT sensor data, implementing automated anomaly detection, and constructing a hybrid semantic search engine for AI applications.",
+      "category": "ai",
+      "processedAt": "2026-11-22T14:03:07.469Z",
+      "captionFromDescription": true
+    },
+    {
+      "id": "IYVqarjWO2g",
+      "title": "AI Accelerators vs. CPUs: Why They Think Differently",
+      "titleFa": "شتاب‌دهنده‌های AI در برابر CPUها: چرا آن‌ها به روشی متفاوت فکر می‌کنند؟",
+      "channelName": "IBM Technology",
+      "thumbnailUrl": "https://i.ytimg.com/vi/IYVqarjWO2g/hqdefault.jpg",
+      "publishedAt": "2026-11-22T12:00:34.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IYVqarjWO2g",
+      "captionFa": "در این ویدیو، Swagath Venkataramani به مقایسه CPUها، GPUها و شتاب‌دهنده‌های AI از طریق زمان‌بندی، موازی‌سازی و جابجایی داده‌ها می‌پردازد. یاد بگیرید که چگونه جریان کنترل، جریان داده، تاخیر و پهنای باند عملکرد سخت‌افزارهای هوش مصنوعی را شکل می‌دهند.",
+      "captionEn": "In this video, Swagath Venkataramani compares CPUs, GPUs, and AI accelerators through scheduling, parallelism, and data movement. Learn why control flow, dataflow, latency, and throughput shape performance across different AI hardware.",
+      "category": "ai",
+      "processedAt": "2026-11-22T14:03:08.173Z",
+      "captionFromDescription": true
+    },
+    {
+      "id": "zqzk43bSdDI",
+      "title": "Since last year, we asked: “What if AI solved the Riemann Hypothesis?”",
+      "titleFa": "از سال گذشته پرسیدیم: «چه می‌شود اگر AI فرضیه ریمان را حل کند؟»",
+      "channelName": "3Blue1Brown",
+      "thumbnailUrl": "https://i.ytimg.com/vi/zqzk43bSdDI/hqdefault.jpg",
+      "publishedAt": "2026-11-22T02:02:12.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zqzk43bSdDI",
+      "captionFa": "این ویدیو به بررسی فرضیه ریمان و ارزیابی نقش هوش مصنوعی در حل مسائل ریاضی می‌پردازد. این موضوع از طریق اطلاعیه‌های مربوط به اثبات‌های ریاضی و با استفاده از انیمیشن‌های تخصصی ریاضی توضیح داده شده است. این محتوا برای علاقه‌مندان به مباحث پیشرفته ریاضی و فناوری تهیه شده است.",
+      "captionEn": "This video explores the Riemann Hypothesis and evaluates the role of AI in solving mathematical problems. It discusses announcements regarding mathematical proofs using specialized math animations. The content is tailored for enthusiasts interested in advanced mathematics and technology.",
+      "category": "science",
+      "processedAt": "2026-11-22T14:03:20.185Z",
+      "captionFromDescription": true
+    },
     {
       "id": "RsvgtjYgWUI",
       "title": "Adam Savage on Modern Tools He Wishes He Had Earlier",
@@ -3289,20 +3331,6 @@
       "captionFromDescription": true
     },
     {
-      "id": "PzBuZaujA-4",
-      "title": "How many elastic bands to push me along?",
-      "titleFa": "چند باند کشی برای هل دادن من نیاز است؟",
-      "channelName": "James Bruton",
-      "thumbnailUrl": "https://i.ytimg.com/vi/PzBuZaujA-4/hqdefault.jpg",
-      "publishedAt": "2026-07-07T14:00:31.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=PzBuZaujA-4",
-      "captionFa": "در این ویدیو، جیمز براتون تلاش می‌کند یک ماشین بسازد که بتواند با استفاده از انرژی پتانسیل ذخیره‌شده در باندهای کشی حرکت کند و او را جابجا نماید. او این ایده را به عنوان قدمی برای ساخت وسایل نقلیه بزرگتر مبتنی بر انرژی کشسانی آزمایش می‌کند.",
-      "captionEn": "In this video, James Bruton attempts to build a rideable car driven solely by stored potential energy in elastic bands. He explores this concept as a step towards larger elastic band powered vehicles.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:35:45.965Z",
-      "captionFromDescription": true
-    },
-    {
       "id": "4ww0UqLBaLE",
       "title": "RoboCup 2027 Nuremberg, Germany - Trailer",
       "titleFa": "تریلر مسابقات RoboCup 2027 نورنبرگ، آلمان",
@@ -3314,34 +3342,6 @@
       "captionEn": "After 11 years, RoboCup is returning to Germany in 2027 for its 30th milestone event. The official trailer offers a first glimpse of the upcoming gathering, which will take place from June 15 to 21, 2027, at the Nuremberg Exhibition Center. Teams, researchers, and robotics enthusiasts from around the world are invited to join this special celebration.",
       "category": "robotics",
       "processedAt": "2026-11-20T02:38:23.595Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "XuEdf0fMAME",
-      "title": "While the World Watches Fifa World Cup, Robots Made History in RoboCup 2026",
-      "titleFa": "در حالی که جهان فوتبال جام جهانی را تماشا می‌کرد، ربات‌ها در RoboCup 2026 تاریخ‌سازی کردند",
-      "channelName": "RoboCup",
-      "thumbnailUrl": "https://i.ytimg.com/vi/XuEdf0fMAME/hqdefault.jpg",
-      "publishedAt": "2026-07-05T11:44:43.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=XuEdf0fMAME",
-      "captionFa": "برای نخستین بار، دو تیم کامل از ربات‌های انسان‌نما در یک مسابقه فوتبال ۱۱ نفره روی سخت‌افزار واقعی با یکدیگر به رقابت پرداختند. این رویداد تاریخی، یکی از بلندپروازانه‌ترین اهداف در حوزه رباتیک را به واقعیت نزدیک‌تر کرد. در این ویدیو می‌توانید هایلایت‌های مسابقه میان دو تیم B-Human و HTWK Robots را مشاهده کنید.",
-      "captionEn": "For the first time, two full teams of humanoid robots played an 11-vs-11 soccer match on hardware, bringing one of robotics’ most ambitious long-term visions closer to reality. Watch highlights from this milestone game played by B-Human and HTWK Robots on 5 July 2026.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:38:28.235Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "bbWUC995Iho",
-      "title": "RoboCup Live Stream - Finals",
-      "titleFa": "پخش زنده RoboCup - فینال",
-      "channelName": "RoboCup",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bbWUC995Iho/hqdefault.jpg",
-      "publishedAt": "2026-07-05T08:59:34.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=bbWUC995Iho",
-      "captionFa": "امروز روز فینال در Incheon کره جنوبی است و بهترین ربات‌های دنیا برای مسابقه گرد هم آمده‌اند. در این ویدیو می‌توانید عملکرد ربات‌های پیشرفته را تماشا کنید و در پایان نیز یک سورپرایز کوچک در انتظار شماست.",
-      "captionEn": "It is the day of the Finals in Incheon, South Korea, where the best robots worldwide come to play. Watch the exciting matches and stay until the end for a special surprise.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:38:32.567Z",
       "captionFromDescription": true
     },
     {
