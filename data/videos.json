@@ -1,6 +1,34 @@
 {
-  "generatedAt": "2026-11-22T14:03:20.186Z",
+  "generatedAt": "2026-11-23T02:17:41.778Z",
   "videos": [
+    {
+      "id": "hOZuuVVkz3Y",
+      "title": "This Myth Was SO Stressful to Film on MythBusters",
+      "titleFa": "این افسانه در MythBusters برای فیلمبرداری بسیار استرس‌زا بود",
+      "channelName": "Adam Savage’s Tested",
+      "thumbnailUrl": "https://i.ytimg.com/vi/hOZuuVVkz3Y/hqdefault.jpg",
+      "publishedAt": "2026-11-22T15:00:05.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=hOZuuVVkz3Y",
+      "captionFa": "در این گزیده از استریم زنده، Adam Savage به سوالات اعضای Tested درباره روزهای اولیه MythBusters و آمادگی تیم اصلی پاسخ می‌دهد. او درباره همکاری با Jamie Hyneman، مدیریت استرس و تمرکز بر روش‌شناسی صحبت می‌کند. علاوه بر این، او خاطرات پشت صحنه فیلمبرداری افسانه گله‌داری گربه‌ها را به اشتراک می‌گذارد.",
+      "captionEn": "In this live stream excerpt, Adam Savage answers Tested member questions about the early days of MythBusters and what made the original team uniquely prepared. He reflects on working with Jamie Hyneman, managing stress, and focusing strictly on methodology. Plus, Adam shares behind-the-scenes memories from filming the cat herding myth.",
+      "category": "general",
+      "processedAt": "2026-11-23T02:17:36.910Z",
+      "captionFromDescription": true
+    },
+    {
+      "id": "aR0Ch0w0znY",
+      "title": "Hostinger eCommerce review | Build a Store Without Coding!",
+      "titleFa": "بررسی Hostinger eCommerce | ساخت فروشگاه بدون نیاز به کدنویسی!",
+      "channelName": "Cybernews",
+      "thumbnailUrl": "https://i.ytimg.com/vi/aR0Ch0w0znY/hqdefault.jpg",
+      "publishedAt": "2026-11-22T14:00:25.000Z",
+      "youtubeUrl": "https://www.youtube.com/watch?v=aR0Ch0w0znY",
+      "captionFa": "در این ویدیو، پلتفرم Hostinger eCommerce به عنوان یک جایگزین برای Shopify بررسی شده و ابزارهای هوش مصنوعی و قیمت‌گذاری آن آزمایش می‌شوند. همچنین نحوه ساخت یک فروشگاه آنلاین از صفر، از جمله راه‌اندازی یک فروشگاه Dropshipping، به نمایش گذاشته می‌شود.",
+      "captionEn": "In this video, Hostinger eCommerce is tested as an alternative to Shopify, exploring its AI tools and pricing. It demonstrates how to build an online store from scratch, including setting up a Dropshipping store.",
+      "category": "software",
+      "processedAt": "2026-11-23T02:17:41.777Z",
+      "captionFromDescription": true
+    },
     {
       "id": "69LqL2g9sr8",
       "title": "Real-Time Sensor Data Analytics & AI Implementation with Tiger Cloud",
@@ -3300,34 +3328,6 @@
       "captionEn": "This video shows an attempt at writing a small graphics and compute library using Vulkan. Various steps including initialization, rendering, meshes, and shaders are explored. Finally, the progress is followed through to implementing 3D models and compute shaders.",
       "category": "software",
       "processedAt": "2026-11-20T02:42:04.322Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "GlYgs6v2YfU",
-      "title": "But what is cross-entropy? | Information theory, part 2",
-      "titleFa": "اما کراس انتروپی چیست؟ | تئوری اطلاعات، بخش ۲",
-      "channelName": "3Blue1Brown",
-      "thumbnailUrl": "https://i.ytimg.com/vi/GlYgs6v2YfU/hqdefault.jpg",
-      "publishedAt": "2026-07-16T11:56:04.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
-      "captionFa": "در این ویدیو بررسی می‌شود که تابع هزینه برای آموزش LLMها از کجا می‌آید. این موضوع بخشی از مباحث تئوری اطلاعات است.",
-      "captionEn": "This video explores where the loss function for training LLMs comes from as part of information theory.",
-      "category": "ai",
-      "processedAt": "2026-11-20T02:42:57.795Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "dNadDhVf-Kg",
-      "title": "Text to Speech on ESP32 - Wit.ai & OpenAI TTS",
-      "titleFa": "تبدیل متن به گفتار روی ESP32 با استفاده از Wit.ai و OpenAI TTS",
-      "channelName": "DroneBot Workshop",
-      "thumbnailUrl": "https://i.ytimg.com/vi/dNadDhVf-Kg/hqdefault.jpg",
-      "publishedAt": "2026-07-12T14:27:24.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=dNadDhVf-Kg",
-      "captionFa": "در این ویدیو یاد می‌گیرید چگونه با استفاده از یک بورد ESP32 و APIهای آنلاین، متن را به گفتار تبدیل کنید. ما سرویس‌های Wit.ai و OpenAI TTS را بررسی می‌کنیم تا به پروژه‌های خود صدای صحبت کردن ببخشید.",
-      "captionEn": "In this video, you will learn how to turn text into speech using an ESP32 and an online API. We explore both Wit.ai and OpenAI TTS to give your projects a voice.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:38:59.758Z",
       "captionFromDescription": true
     },
     {
