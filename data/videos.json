@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T14:22:39.781Z",
+  "generatedAt": "2026-11-24T01:50:11.340Z",
   "videos": [
     {
       "id": "1OOA_2gzRzc",
@@ -3051,62 +3051,6 @@
       "captionFromDescription": true
     },
     {
-      "id": "Xv9dnKHO8tg",
-      "title": "Kubernetes Simply Explained",
-      "titleFa": "توضیح ساده Kubernetes",
-      "channelName": "TechWorld with Nana",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Xv9dnKHO8tg/hqdefault.jpg",
-      "publishedAt": "2026-09-23T13:37:04.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Xv9dnKHO8tg",
-      "captionFa": "در این ویدیو مفهوم Kubernetes به زبان ساده و روان توضیح داده می‌شود تا در مدت کوتاهی بتوانید آن را به خوبی درک کنید. تمرکز اصلی روی معرفی مشکلات واقعی است که این ابزار برای حل آن‌ها طراحی شده است. این راهنما به شما کمک می‌کند تا با اجزای کلیدی و مفاهیم اصلی این سیستم مدیریت کانتینر آشنا شوید.",
-      "captionEn": "This video provides a simple and clear explanation of Kubernetes to help you understand it in just a few minutes. The focus is on explaining the real-world problems that this tool solves rather than just listing its components. It serves as a great introduction to the core concepts and architecture of container orchestration.",
-      "category": "software",
-      "processedAt": "2026-11-20T02:42:40.365Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "LAT2RIKjhTo",
-      "title": "Unitree Introducing: Unitree Dex5-S Dexterous Hand 22 Degrees of Freedom 1:1 Real-Hand Size",
-      "titleFa": "معرفی دست رباتیک پیشرفته Unitree Dex5-S با ۲۲ درجه آزادی و اندازه واقعی دست انسان",
-      "channelName": "Unitree Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/LAT2RIKjhTo/hqdefault.jpg",
-      "publishedAt": "2026-09-21T11:27:34.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=LAT2RIKjhTo",
-      "captionFa": "شرکت Unitree Robotics از دست رباتیک بیومیمتیک و دقیق Dex5-S با قیمت پایه ۶۵۰۰ دلار رونمایی کرد. این دست رباتیک دارای ۲۲ مفصل با قابلیت حرکت روان و سیستم محافظت در برابر گشتاور ضربه است. این محصول با اندازه واقعی دست انسان طراحی شده است.",
-      "captionEn": "Unitree Robotics introduces the Dex5-S precision biomimetic dexterous hand, featuring 22 degrees of freedom and a 1:1 real-hand size. Priced starting at $6.5K, all 22 joints support smooth backdrivability and are equipped with limit impact torque protection.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:34:11.512Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "_L1Rim7-IPo",
-      "title": "Last Cheater Standing Wins $10,000",
-      "titleFa": "آخرین تقلب‌کاره که برنده ۱۰,۰۰۰ دلار میشه",
-      "channelName": "Mark Rober",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_L1Rim7-IPo/hqdefault.jpg",
-      "publishedAt": "2026-09-19T13:00:35.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=_L1Rim7-IPo",
-      "captionFa": "در این ویدیو، شرکت‌کنندگان در یک چالش جذاب در CrunchLabs Casino برای جایزه ۱۰,۰۰۰ دلاری رقابت می‌کنند. این مسابقه نشان می‌دهد که چگونه تقلب کردن می‌تواند بخشی از بازی باشد، البته اگر به اندازه کافی در آن مهارت داشته باشید. این رویداد با حضور چهره‌های سرشناس و سازندگان محتوا برگزار شده است.",
-      "captionEn": "In this video, participants compete for a $10,000 prize in a fun challenge at the CrunchLabs Casino. The event features various creators and explores the theme of cheating skillfully within a game. Special guests and musicians also contributed to this entertaining gathering.",
-      "category": "science",
-      "processedAt": "2026-11-20T02:40:02.723Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "Nbwv5wHQoj0",
-      "title": "The last IMO problem AI could not solve",
-      "titleFa": "آخرین مسئله IMO که هوش مصنوعی نتواند حل کند",
-      "channelName": "3Blue1Brown",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Nbwv5wHQoj0/hqdefault.jpg",
-      "publishedAt": "2026-09-18T17:12:53.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Nbwv5wHQoj0",
-      "captionFa": "این ویدیو به بررسی یک پازل زیبا می‌پردازد که هوش مصنوعی نتوانده است آن را حل کند و شهودی را که برای حل آن لازم است، شرح می‌دهد. این مسئله ریاضی چالش‌برانگیز نکات مهمی را درباره توانایی‌ها و محدودیت‌های هوش مصنوعی در ریاضیات نمایان می‌کند.",
-      "captionEn": "This video explores a beautiful puzzle that eluded AI and the intuition required to solve it. It discusses this challenging math problem and highlights important aspects of AI's capabilities and limitations in mathematics.",
-      "category": "science",
-      "processedAt": "2026-11-20T02:42:53.720Z",
-      "captionFromDescription": true
-    },
-    {
       "id": "dGsISiyrSDE",
       "title": "I will build Your Project for You",
       "titleFa": "من پروژه شما را برای شما می‌سازم",
@@ -3121,34 +3065,6 @@
       "captionFromDescription": true
     },
     {
-      "id": "s7d2d8FhevU",
-      "title": "Psychiatry, Insane Asylums, Mental Illness, ECT, Lobotomies, Freud & Jung | Lex Fridman Podcast #502",
-      "titleFa": "روان‌پزشکی، تیمارستان‌ها، بیماری‌های روانی، ECT، لوبوتومی، Freud و Jung | پادکست Lex Fridman شماره ۵۰۲",
-      "channelName": "Lex Fridman",
-      "thumbnailUrl": "https://i.ytimg.com/vi/s7d2d8FhevU/hqdefault.jpg",
-      "publishedAt": "2026-09-17T00:34:47.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=s7d2d8FhevU",
-      "captionFa": "در این قسمت از پادکست، Andrew Scull که تاریخ‌دان روان‌پزشکی است، درباره موضوعاتی همچون تاریخچه روان‌پزشکی، تیمارستان‌های مجنونین، بیماری‌های روانی، درمان‌های شوک الکتریکی یا ECT، لوبوتومی و همچنین آراء Freud و Jung گفتگو می‌کند. این گفتگو به بررسی تحولات تاریخی در حوزه سلامت روان و درمان‌های آن می‌پردازد.",
-      "captionEn": "In this podcast episode, psychiatry historian Andrew Scull discusses the history of psychiatry, insane asylums, mental illness, ECT, lobotomies, and the theories of Freud and Jung. The conversation explores the historical evolution of mental healthcare and its various treatments.",
-      "category": "science",
-      "processedAt": "2026-11-20T02:28:47.996Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "sb7UXM1dktI",
-      "title": "VEX Robotics Competition World Championship 2027 Location Reveal",
-      "titleFa": "رونمایی از محل برگزاری مسابقات قهرمانی جهان VEX Robotics در سال ۲۰۲۷",
-      "channelName": "VEX Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/sb7UXM1dktI/hqdefault.jpg",
-      "publishedAt": "2026-09-16T18:29:45.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=sb7UXM1dktI",
-      "captionFa": "در این ویدیو، محل برگزاری مسابقات قهرمانی جهان VEX Robotics در سال ۲۰۲۷ اعلام می شود. مخاطبان می توانند برای اطلاعات بیشتر و خرید محصولات به وب سایت رسمی VEX مراجعه کنند. همچنین راه های ارتباطی کانال در شبکه های اجتماعی معرفی شده است.",
-      "captionEn": "This video reveals the location for the 2027 VEX Robotics Competition World Championship. Viewers are directed to the official VEX website for ordering and subscriptions. Social media links for VEX Robotics are also provided.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:38:05.454Z",
-      "captionFromDescription": true
-    },
-    {
       "id": "oyq9BOwK5XI",
       "title": "Introducing Digit 5",
       "titleFa": "معرفی ربات Digit 5",
@@ -3160,20 +3076,6 @@
       "captionEn": "Agility Robotics introduces Digit 5, their first humanoid robot engineered for cooperatively safe work at scale. It is designed to take on tedious, repetitive, and physically demanding tasks in industrial facilities close to people. This is a prototype and features are subject to change.",
       "category": "robotics",
       "processedAt": "2026-11-20T02:34:25.037Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "2dbyg67EtUA",
-      "title": "Agility Foundations: Functional Safety",
-      "titleFa": "پایه‌های Agility: ایمنی عملکردی",
-      "channelName": "Agility Robotics",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2dbyg67EtUA/hqdefault.jpg",
-      "publishedAt": "2026-09-15T10:39:18.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=2dbyg67EtUA",
-      "captionFa": "در این ویدیو با مبانی ایمنی عملکردی در ربات‌های ساخت شرکت Agility Robotics آشنا می‌شویم. ربات Digit برای انجام کارهای طاقت‌فرسا و تکراری در محیط‌های صنعتی طراحی شده است تا انسان‌ها روی کارهای مهم‌تر تمرکز کنند.",
-      "captionEn": "This video explores the fundamentals of functional safety in robots made by Agility Robotics. Digit takes on tedious and physically demanding tasks in industrial facilities so that people can focus on work requiring the human element.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:34:29.479Z",
       "captionFromDescription": true
     },
     {
