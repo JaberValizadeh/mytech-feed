@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T10:42:45.124Z",
+  "generatedAt": "2026-11-27T04:11:26.228Z",
   "videos": [
     {
       "id": "3OOEH3HR8aM",
@@ -2995,20 +2995,6 @@
       "captionFromDescription": true
     },
     {
-      "id": "NDgS__J1U-M",
-      "title": "The Private Key Mistake! (TLS Key set to \"4\") - Computerphile",
-      "titleFa": "اشتباه کلید خصوصی! (کلید TLS روی عدد ۴ تنظیم شده است) - Computerphile",
-      "channelName": "Computerphile",
-      "thumbnailUrl": "https://i.ytimg.com/vi/NDgS__J1U-M/hqdefault.jpg",
-      "publishedAt": "2026-10-30T15:47:25.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=NDgS__J1U-M",
-      "captionFa": "دکتر Tim Muller در این ویدیو بررسی می‌کند که چگونه انتخاب یک عدد ساده و غیرتصادفی مانند عدد ۴ برای کلید خصوصی می‌تواند مشکلات امنیتی بزرگی ایجاد کند. او چالش‌ها و خطرات اختصاص دادن چنین مقداری را به یک کلید ۱۲۰ رقمی توضیح می‌دهد.",
-      "captionEn": "Dr Tim Muller discusses the security problems that arise when a private key is incorrectly assigned a simple number like 4 instead of a truly random 120-digit number. He explains how such mistakes happen and why proper randomness is crucial in cryptography.",
-      "category": "software",
-      "processedAt": "2026-11-20T02:41:46.194Z",
-      "captionFromDescription": true
-    },
-    {
       "id": "y1KipwEoRBA",
       "title": "The Rise and Fall of the Concorde",
       "titleFa": "ظهور و سقوط Concorde",
@@ -3023,20 +3009,6 @@
       "captionFromDescription": true
     },
     {
-      "id": "bkxjTyy4TgM",
-      "title": "Automating End-of-Line Packaging from Inspection to Palletizing",
-      "titleFa": "اتوماسیون بسته‌بندی پایان خط از بازرسی تا پالت‌بندی",
-      "channelName": "FANUC America",
-      "thumbnailUrl": "https://i.ytimg.com/vi/bkxjTyy4TgM/hqdefault.jpg",
-      "publishedAt": "2026-10-30T14:00:26.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=bkxjTyy4TgM",
-      "captionFa": "شرکت FANUC یک سیستم رباتیک یکپارچه برای پالت‌بندی و بسته‌بندی پایان خط توسعه داده است. این سیستم فرآیندهایی مانند بازرسی محصول، تشکیل لایه، پالت‌بندی و لفاف‌پیچی را به صورت خودکار انجام می‌دهد. این راهکار به تولیدکنندگان مواد غذایی کمک می‌کند تا سرعت، کیفیت و کارایی حمل‌ونقل را افزایش دهند.",
-      "captionEn": "FANUC has developed a fully integrated robotic system for end-of-line packaging, combining product inspection, layer forming, palletizing, and stretch wrapping. This automated solution helps food manufacturers increase throughput, improve product quality, and reduce manual handling for various load configurations.",
-      "category": "robotics",
-      "processedAt": "2026-11-20T02:37:20.765Z",
-      "captionFromDescription": true
-    },
-    {
       "id": "94AMYAVnpsk",
       "title": "I Built a Neural Net for Competitive Robots",
       "titleFa": "من یک Neural Net برای ربات‌های مسابقه‌ای ساختم",
@@ -3048,90 +3020,6 @@
       "captionEn": "In this video, an artificial neural network is trained using reinforcement learning to make combat robots fight autonomously, and then they are built in real life. The machine learning model is created using Pygame, Gymnasium, Stable_Baselines3, and Pytorch.",
       "category": "robotics",
       "processedAt": "2026-11-20T02:35:32.564Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "_x1GskHtJxo",
-      "title": "Give me 5 minutes and I'll show you what really happens when you type a URL and press Enter",
-      "titleFa": "پنج دقیقه به من بدهید تا به شما نشان دهم وقتی URL را تایپ می‌کنید و Enter را می‌زنید واقعاً چه اتفاقی می‌افتد",
-      "channelName": "TechWorld with Nana",
-      "thumbnailUrl": "https://i.ytimg.com/vi/_x1GskHtJxo/hqdefault.jpg",
-      "publishedAt": "2026-10-29T14:11:03.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=_x1GskHtJxo",
-      "captionFa": "در این ویدیو بررسی می‌کنیم که وقتی یک آدرس را در مرورگر تایپ می‌کنید، درخواست شما چگونه به سرورها می‌رسد و برمی‌گردد. مفاهیمی مانند آدرس‌های IP، DNS، لود بالانسرها و CDN به زبان ساده توضیح داده می‌شوند. این ویدیو برای افرادی که تازه وارد دنیای IT شده‌اند بسیار مناسب است.",
-      "captionEn": "In this video, we follow a single request from your browser all the way to YouTube’s servers and back. You will learn step by step what happens in less than a second using simple examples, covering DNS, Load Balancers, and CDNs. This guide is designed for beginners who want to understand how the internet works.",
-      "category": "software",
-      "processedAt": "2026-11-20T02:42:26.822Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "2reQut8WNGc",
-      "title": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
-      "titleFa": "بررسی مک‌بوک پرو با نمایشگر PROLED XDR: گفتند این کار را نمی‌کنند!",
-      "channelName": "MKBHD",
-      "thumbnailUrl": "https://i.ytimg.com/vi/2reQut8WNGc/hqdefault.jpg",
-      "publishedAt": "2026-10-29T02:50:34.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=2reQut8WNGc",
-      "captionFa": "اولین مک با صفحه نمایش لمسی از راه رسیده است و نگاهی داریم به قابلیت‌ها و ویژگی‌های آن. در این ویدیو به بررسی اولیه این محصول جدید می‌پردازیم.",
-      "captionEn": "The first touchscreen Mac is here, and this video shares initial thoughts and impressions on the new device. We look at what makes this hardware release so surprising.",
-      "category": "hardware",
-      "processedAt": "2026-11-20T02:40:47.958Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "25ckBnzay8Y",
-      "title": "Why Everyone Stopped Buying GoPro",
-      "titleFa": "چرا همه خرید GoPro را متوقف کردند؟",
-      "channelName": "ColdFusion",
-      "thumbnailUrl": "https://i.ytimg.com/vi/25ckBnzay8Y/hqdefault.jpg",
-      "publishedAt": "2026-10-28T17:10:33.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=25ckBnzay8Y",
-      "captionFa": "در این قسمت، ظهور و سقوط شرکت GoPro و وضعیت فعلی آن را بررسی می‌کنیم. زمانی CEO شرکت، Nick Woodman، بالاترین حقوق را در آمریکا داشت اما اکنون شرایط تغییر کرده است. همچنین بررسی خواهیم کرد که YouTube و Markiplier چه ارتباطی با این ماجرا دارند.",
-      "captionEn": "In this episode, we explore the rise and fall of GoPro and what led to its current state. We look at how its CEO, Nick Woodman, was once the highest-paid CEO in the US, and examine the unexpected connection to YouTube and Markiplier.",
-      "category": "hardware",
-      "processedAt": "2026-11-20T02:43:42.902Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "cI8IquVEyVY",
-      "title": "?PHP Problem? - Computerphile",
-      "titleFa": "مشکل PHP؟ - Computerphile",
-      "channelName": "Computerphile",
-      "thumbnailUrl": "https://i.ytimg.com/vi/cI8IquVEyVY/hqdefault.jpg",
-      "publishedAt": "2026-10-28T16:23:55.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=cI8IquVEyVY",
-      "captionFa": "هفته گذشته دو آسیب‌پذیری در PHP خبرساز شدند. دکتر Steve Bagley در این ویدیو توضیح می‌دهد که این آسیب‌پذیری‌ها تا چه حد می‌توانند خطرناک باشند.",
-      "captionEn": "Two PHP Exploits hit the news last week. Dr Steve Bagley explains how dangerous they could be and discusses the details of these security issues.",
-      "category": "software",
-      "processedAt": "2026-11-20T02:41:50.528Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "p1jhV6LlbFY",
-      "title": "Join Andrew Ng at AI Dev NYC for two days of technical sessions and workshops.",
-      "titleFa": "به Andrew Ng در رویداد AI Dev NYC برای دو روز جلسات فنی و کارگاه‌ها بپیوندید.",
-      "channelName": "DeepLearningAI",
-      "thumbnailUrl": "https://i.ytimg.com/vi/p1jhV6LlbFY/hqdefault.jpg",
-      "publishedAt": "2026-10-28T15:00:09.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=p1jhV6LlbFY",
-      "captionFa": "در این ویدیو، Andrew Ng و دیگر متخصصان در رویداد AI Dev NYC درباره مهندسی AI، از جمله Knowledge graphs، حافظه Agent و مدل‌های استنتاج بحث می‌کنند. همچنین Andrew Ng با Yann LeCun درباره World models گفتگو می‌کند. این رویداد دو روزه شامل نشست‌های تخصصی برای ارتقای مهارت‌های هوش مصنوعی است.",
-      "captionEn": "Join Andrew Ng at AI Dev NYC for two days of technical sessions and workshops covering AI engineering skills such as Knowledge graphs, Agent memory, and inference. The event features an opening on the AI Engineering Skills Map and a fireside chat with Yann LeCun on world models. Participants can apply these advanced techniques directly to their own projects.",
-      "category": "ai",
-      "processedAt": "2026-11-20T02:31:20.587Z",
-      "captionFromDescription": true
-    },
-    {
-      "id": "Xl-yulnYZmI",
-      "title": "Support Vector Machines (SVM): Concepts and Code",
-      "titleFa": "ماشین‌های بردار پشتیبان (SVM): مفاهیم و کد",
-      "channelName": "StatQuest with Josh Starmer",
-      "thumbnailUrl": "https://i.ytimg.com/vi/Xl-yulnYZmI/hqdefault.jpg",
-      "publishedAt": "2026-10-28T12:13:51.000Z",
-      "youtubeUrl": "https://www.youtube.com/watch?v=Xl-yulnYZmI",
-      "captionFa": "این ویدیو به بررسی مفاهیم و کدهای مربوط به Support Vector Machines (SVM) می‌پردازد. شما می‌توانید در جلسات زنده رایگان ثبت‌نام کنید و به فایل‌های تمرینی در گیت‌هاب دسترسی داشته باشید. همچنین ثبت‌نام برای کارگاه یادگیری ماشین StatQuest باز است.",
-      "captionEn": "This video covers the concepts and code for Support Vector Machines (SVM). You can sign up for free live streams and access the code files on GitHub. Additionally, enrollment is now open for the StatQuest Machine Learning Workshop.",
-      "category": "ai",
-      "processedAt": "2026-11-20T02:31:43.038Z",
       "captionFromDescription": true
     },
     {
